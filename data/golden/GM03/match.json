@@ -1,0 +1,308 @@
+{
+ "match_id": "GM03",
+ "title": "Derby draw",
+ "story": "A fierce, high-pressing derby: both sides lead, 2-2, plenty of bookings.",
+ "seed": 30004,
+ "home": {
+  "id": "GRY",
+  "name": "Greyhaven Rovers",
+  "style": {
+   "press_intensity": 0.75,
+   "tempo": 0.6,
+   "directness": 0.5,
+   "width": 0.55,
+   "quality": 0.56
+  },
+  "players": [
+   {
+    "id": "GRY-01",
+    "name": "Bastian Guliva",
+    "number": 1,
+    "pos": "GK"
+   },
+   {
+    "id": "GRY-02",
+    "name": "Leon Selley",
+    "number": 2,
+    "pos": "DF"
+   },
+   {
+    "id": "GRY-03",
+    "name": "Leon Selbrook",
+    "number": 3,
+    "pos": "DF"
+   },
+   {
+    "id": "GRY-04",
+    "name": "Arin Drayvane",
+    "number": 4,
+    "pos": "DF"
+   },
+   {
+    "id": "GRY-05",
+    "name": "Iker Norstone",
+    "number": 5,
+    "pos": "DF"
+   },
+   {
+    "id": "GRY-06",
+    "name": "Ilan Selby",
+    "number": 6,
+    "pos": "MF"
+   },
+   {
+    "id": "GRY-08",
+    "name": "Gael Quilbrook",
+    "number": 8,
+    "pos": "MF"
+   },
+   {
+    "id": "GRY-10",
+    "name": "Arjun Kelvane",
+    "number": 10,
+    "pos": "MF"
+   },
+   {
+    "id": "GRY-07",
+    "name": "Bastian Torley",
+    "number": 7,
+    "pos": "FW"
+   },
+   {
+    "id": "GRY-09",
+    "name": "Mateo Gulholt",
+    "number": 9,
+    "pos": "FW"
+   },
+   {
+    "id": "GRY-11",
+    "name": "Femi Wynvale",
+    "number": 11,
+    "pos": "FW"
+   },
+   {
+    "id": "GRY-13",
+    "name": "Aleks Calbrook",
+    "number": 13,
+    "pos": "GK"
+   },
+   {
+    "id": "GRY-14",
+    "name": "Otto Corssen",
+    "number": 14,
+    "pos": "DF"
+   },
+   {
+    "id": "GRY-15",
+    "name": "Zane Selden",
+    "number": 15,
+    "pos": "DF"
+   },
+   {
+    "id": "GRY-16",
+    "name": "Teo Dunwick",
+    "number": 16,
+    "pos": "MF"
+   },
+   {
+    "id": "GRY-17",
+    "name": "Idris Penier",
+    "number": 17,
+    "pos": "MF"
+   },
+   {
+    "id": "GRY-18",
+    "name": "Diego Gulbrook",
+    "number": 18,
+    "pos": "FW"
+   },
+   {
+    "id": "GRY-19",
+    "name": "Milan Osworth",
+    "number": 19,
+    "pos": "FW"
+   }
+  ]
+ },
+ "away": {
+  "id": "THV",
+  "name": "Thornvale City",
+  "style": {
+   "press_intensity": 0.55,
+   "tempo": 0.55,
+   "directness": 0.45,
+   "width": 0.5,
+   "quality": 0.57
+  },
+  "players": [
+   {
+    "id": "THV-01",
+    "name": "Dario Kelenko",
+    "number": 1,
+    "pos": "GK"
+   },
+   {
+    "id": "THV-02",
+    "name": "Milan Kelholt",
+    "number": 2,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-03",
+    "name": "Emre Falden",
+    "number": 3,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-04",
+    "name": "Luca Drayando",
+    "number": 4,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-05",
+    "name": "Soren Normere",
+    "number": 5,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-06",
+    "name": "Iker Garcroft",
+    "number": 6,
+    "pos": "MF"
+   },
+   {
+    "id": "THV-08",
+    "name": "Dario Holvale",
+    "number": 8,
+    "pos": "MF"
+   },
+   {
+    "id": "THV-10",
+    "name": "Cyril Evaro",
+    "number": 10,
+    "pos": "MF"
+   },
+   {
+    "id": "THV-07",
+    "name": "Arin Halbrook",
+    "number": 7,
+    "pos": "FW"
+   },
+   {
+    "id": "THV-09",
+    "name": "Diego Wynvane",
+    "number": 9,
+    "pos": "FW"
+   },
+   {
+    "id": "THV-11",
+    "name": "Wen Brommere",
+    "number": 11,
+    "pos": "FW"
+   },
+   {
+    "id": "THV-13",
+    "name": "Soren Penridge",
+    "number": 13,
+    "pos": "GK"
+   },
+   {
+    "id": "THV-14",
+    "name": "Remi Evaro",
+    "number": 14,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-15",
+    "name": "Otto Brenando",
+    "number": 15,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-16",
+    "name": "Luca Bromwick",
+    "number": 16,
+    "pos": "MF"
+   },
+   {
+    "id": "THV-17",
+    "name": "Otto Garmere",
+    "number": 17,
+    "pos": "MF"
+   },
+   {
+    "id": "THV-18",
+    "name": "Jari Kelcroft",
+    "number": 18,
+    "pos": "FW"
+   },
+   {
+    "id": "THV-19",
+    "name": "Rafa Wynenko",
+    "number": 19,
+    "pos": "FW"
+   }
+  ]
+ },
+ "beats": [
+  {
+   "minute": 0,
+   "side": "home",
+   "kind": "style",
+   "off": null,
+   "on": null,
+   "style": {
+    "press_intensity": 0.9
+   },
+   "note": "Derby intensity"
+  },
+  {
+   "minute": 0,
+   "side": "away",
+   "kind": "style",
+   "off": null,
+   "on": null,
+   "style": {
+    "press_intensity": 0.85
+   },
+   "note": "Derby intensity"
+  }
+ ],
+ "score": {
+  "home": 2,
+  "away": 2
+ },
+ "goals": [
+  {
+   "t": 204.0,
+   "minute": 3,
+   "team": "THV",
+   "player_id": "THV-11",
+   "set_piece": false
+  },
+  {
+   "t": 1348.3,
+   "minute": 22,
+   "team": "GRY",
+   "player_id": "GRY-11",
+   "set_piece": false
+  },
+  {
+   "t": 3884.7,
+   "minute": 62,
+   "team": "GRY",
+   "player_id": "GRY-09",
+   "set_piece": false
+  },
+  {
+   "t": 4112.9,
+   "minute": 66,
+   "team": "THV",
+   "player_id": "THV-17",
+   "set_piece": false
+  }
+ ],
+ "duration": 5741.5,
+ "n_events": 1277
+}

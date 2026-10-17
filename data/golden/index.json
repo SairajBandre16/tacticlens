@@ -1,0 +1,50 @@
+[
+ {
+  "match_id": "GM01",
+  "title": "Late comeback",
+  "story": "Northbridge trail at 70', a tactical sub and a higher press turn it to 3-2.",
+  "home": "NBU",
+  "away": "KES",
+  "score": "3-2"
+ },
+ {
+  "match_id": "GM02",
+  "title": "Ten men",
+  "story": "Redmere lose a defender to a red card on 34'; Harbor break through 1-0.",
+  "home": "HAR",
+  "away": "RED",
+  "score": "1-0"
+ },
+ {
+  "match_id": "GM03",
+  "title": "Derby draw",
+  "story": "A fierce, high-pressing derby: both sides lead, 2-2, plenty of bookings.",
+  "home": "GRY",
+  "away": "THV",
+  "score": "2-2"
+ },
+ {
+  "match_id": "GM04",
+  "title": "Press collapse",
+  "story": "Kestrel press high and lead, then their press collapses after 58' and Harbor win 1-2.",
+  "home": "KES",
+  "away": "HAR",
+  "score": "1-2"
+ },
+ {
+  "match_id": "GM05",
+  "title": "The rout",
+  "story": "Northbridge dominate a struggling Elmstead side 4-0.",
+  "home": "NBU",
+  "away": "ELM",
+  "score": "4-0"
+ },
+ {
+  "match_id": "GM06",
+  "title": "Set-piece special",
+  "story": "A tight game settled by a single set-piece goal, 1-0.",
+  "home": "RED",
+  "away": "THV",
+  "score": "1-0"
+ }
+]

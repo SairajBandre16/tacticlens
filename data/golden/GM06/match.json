@@ -1,0 +1,264 @@
+{
+ "match_id": "GM06",
+ "title": "Set-piece special",
+ "story": "A tight game settled by a single set-piece goal, 1-0.",
+ "seed": 60074,
+ "home": {
+  "id": "RED",
+  "name": "Redmere FC",
+  "style": {
+   "press_intensity": 0.4,
+   "tempo": 0.4,
+   "directness": 0.7,
+   "width": 0.45,
+   "quality": 0.52
+  },
+  "players": [
+   {
+    "id": "RED-01",
+    "name": "Sami Calenko",
+    "number": 1,
+    "pos": "GK"
+   },
+   {
+    "id": "RED-02",
+    "name": "Leon Corridge",
+    "number": 2,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-03",
+    "name": "Ilan Bromridge",
+    "number": 3,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-04",
+    "name": "Milan Morton",
+    "number": 4,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-05",
+    "name": "Sami Gulholt",
+    "number": 5,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-06",
+    "name": "Niko Gulton",
+    "number": 6,
+    "pos": "MF"
+   },
+   {
+    "id": "RED-08",
+    "name": "Bruno Ravden",
+    "number": 8,
+    "pos": "MF"
+   },
+   {
+    "id": "RED-10",
+    "name": "Soren Dunden",
+    "number": 10,
+    "pos": "MF"
+   },
+   {
+    "id": "RED-07",
+    "name": "Bruno Calvale",
+    "number": 7,
+    "pos": "FW"
+   },
+   {
+    "id": "RED-09",
+    "name": "Omar Dunando",
+    "number": 9,
+    "pos": "FW"
+   },
+   {
+    "id": "RED-11",
+    "name": "Rohan Kelmore",
+    "number": 11,
+    "pos": "FW"
+   },
+   {
+    "id": "RED-13",
+    "name": "Hugo Ferraro",
+    "number": 13,
+    "pos": "GK"
+   },
+   {
+    "id": "RED-14",
+    "name": "Iker Holmere",
+    "number": 14,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-15",
+    "name": "Hugo Dunden",
+    "number": 15,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-16",
+    "name": "Emre Holssen",
+    "number": 16,
+    "pos": "MF"
+   },
+   {
+    "id": "RED-17",
+    "name": "Tomas Quilmere",
+    "number": 17,
+    "pos": "MF"
+   },
+   {
+    "id": "RED-18",
+    "name": "Aleks Corholt",
+    "number": 18,
+    "pos": "FW"
+   },
+   {
+    "id": "RED-19",
+    "name": "Omar Gulbrook",
+    "number": 19,
+    "pos": "FW"
+   }
+  ]
+ },
+ "away": {
+  "id": "THV",
+  "name": "Thornvale City",
+  "style": {
+   "press_intensity": 0.55,
+   "tempo": 0.55,
+   "directness": 0.45,
+   "width": 0.5,
+   "quality": 0.57
+  },
+  "players": [
+   {
+    "id": "THV-01",
+    "name": "Dario Kelenko",
+    "number": 1,
+    "pos": "GK"
+   },
+   {
+    "id": "THV-02",
+    "name": "Milan Kelholt",
+    "number": 2,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-03",
+    "name": "Emre Falden",
+    "number": 3,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-04",
+    "name": "Luca Drayando",
+    "number": 4,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-05",
+    "name": "Soren Normere",
+    "number": 5,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-06",
+    "name": "Iker Garcroft",
+    "number": 6,
+    "pos": "MF"
+   },
+   {
+    "id": "THV-08",
+    "name": "Dario Holvale",
+    "number": 8,
+    "pos": "MF"
+   },
+   {
+    "id": "THV-10",
+    "name": "Cyril Evaro",
+    "number": 10,
+    "pos": "MF"
+   },
+   {
+    "id": "THV-07",
+    "name": "Arin Halbrook",
+    "number": 7,
+    "pos": "FW"
+   },
+   {
+    "id": "THV-09",
+    "name": "Diego Wynvane",
+    "number": 9,
+    "pos": "FW"
+   },
+   {
+    "id": "THV-11",
+    "name": "Wen Brommere",
+    "number": 11,
+    "pos": "FW"
+   },
+   {
+    "id": "THV-13",
+    "name": "Soren Penridge",
+    "number": 13,
+    "pos": "GK"
+   },
+   {
+    "id": "THV-14",
+    "name": "Remi Evaro",
+    "number": 14,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-15",
+    "name": "Otto Brenando",
+    "number": 15,
+    "pos": "DF"
+   },
+   {
+    "id": "THV-16",
+    "name": "Luca Bromwick",
+    "number": 16,
+    "pos": "MF"
+   },
+   {
+    "id": "THV-17",
+    "name": "Otto Garmere",
+    "number": 17,
+    "pos": "MF"
+   },
+   {
+    "id": "THV-18",
+    "name": "Jari Kelcroft",
+    "number": 18,
+    "pos": "FW"
+   },
+   {
+    "id": "THV-19",
+    "name": "Rafa Wynenko",
+    "number": 19,
+    "pos": "FW"
+   }
+  ]
+ },
+ "beats": [],
+ "score": {
+  "home": 1,
+  "away": 0
+ },
+ "goals": [
+  {
+   "t": 614.4,
+   "minute": 10,
+   "team": "RED",
+   "player_id": "RED-09",
+   "set_piece": true
+  }
+ ],
+ "duration": 5892.6,
+ "n_events": 1383
+}

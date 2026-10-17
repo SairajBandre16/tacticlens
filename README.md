@@ -15,6 +15,11 @@ pip install -e .[dev]
 pytest -q
 ```
 
+Regenerate the 6 golden matches and the realism report (`docs/realism.md`):
+```
+python -m tacticlens.sim all
+```
+
 Contracts live in `contracts/*.schema.json`; pydantic models in `src/tacticlens/contracts.py` mirror them.
 
 License: MIT.

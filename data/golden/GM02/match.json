@@ -1,0 +1,274 @@
+{
+ "match_id": "GM02",
+ "title": "Ten men",
+ "story": "Redmere lose a defender to a red card on 34'; Harbor break through 1-0.",
+ "seed": 20054,
+ "home": {
+  "id": "HAR",
+  "name": "Harbor Athletic",
+  "style": {
+   "press_intensity": 0.45,
+   "tempo": 0.5,
+   "directness": 0.6,
+   "width": 0.7,
+   "quality": 0.55
+  },
+  "players": [
+   {
+    "id": "HAR-01",
+    "name": "Wen Torenko",
+    "number": 1,
+    "pos": "GK"
+   },
+   {
+    "id": "HAR-02",
+    "name": "Otto Wynmore",
+    "number": 2,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-03",
+    "name": "Joon Linholt",
+    "number": 3,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-04",
+    "name": "Iker Morton",
+    "number": 4,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-05",
+    "name": "Arin Morenko",
+    "number": 5,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-06",
+    "name": "Pavel Seliva",
+    "number": 6,
+    "pos": "MF"
+   },
+   {
+    "id": "HAR-08",
+    "name": "Gael Haliva",
+    "number": 8,
+    "pos": "MF"
+   },
+   {
+    "id": "HAR-10",
+    "name": "Otto Ferrmore",
+    "number": 10,
+    "pos": "MF"
+   },
+   {
+    "id": "HAR-07",
+    "name": "Arjun Linstone",
+    "number": 7,
+    "pos": "FW"
+   },
+   {
+    "id": "HAR-09",
+    "name": "Milan Duncroft",
+    "number": 9,
+    "pos": "FW"
+   },
+   {
+    "id": "HAR-11",
+    "name": "Femi Calenko",
+    "number": 11,
+    "pos": "FW"
+   },
+   {
+    "id": "HAR-13",
+    "name": "Dev Wynden",
+    "number": 13,
+    "pos": "GK"
+   },
+   {
+    "id": "HAR-14",
+    "name": "Dev Morbrook",
+    "number": 14,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-15",
+    "name": "Felix Kelaro",
+    "number": 15,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-16",
+    "name": "Emre Brenmere",
+    "number": 16,
+    "pos": "MF"
+   },
+   {
+    "id": "HAR-17",
+    "name": "Rafa Ferrley",
+    "number": 17,
+    "pos": "MF"
+   },
+   {
+    "id": "HAR-18",
+    "name": "Gael Kelvale",
+    "number": 18,
+    "pos": "FW"
+   },
+   {
+    "id": "HAR-19",
+    "name": "Zane Corcroft",
+    "number": 19,
+    "pos": "FW"
+   }
+  ]
+ },
+ "away": {
+  "id": "RED",
+  "name": "Redmere FC",
+  "style": {
+   "press_intensity": 0.4,
+   "tempo": 0.4,
+   "directness": 0.7,
+   "width": 0.45,
+   "quality": 0.52
+  },
+  "players": [
+   {
+    "id": "RED-01",
+    "name": "Sami Calenko",
+    "number": 1,
+    "pos": "GK"
+   },
+   {
+    "id": "RED-02",
+    "name": "Leon Corridge",
+    "number": 2,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-03",
+    "name": "Ilan Bromridge",
+    "number": 3,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-04",
+    "name": "Milan Morton",
+    "number": 4,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-05",
+    "name": "Sami Gulholt",
+    "number": 5,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-06",
+    "name": "Niko Gulton",
+    "number": 6,
+    "pos": "MF"
+   },
+   {
+    "id": "RED-08",
+    "name": "Bruno Ravden",
+    "number": 8,
+    "pos": "MF"
+   },
+   {
+    "id": "RED-10",
+    "name": "Soren Dunden",
+    "number": 10,
+    "pos": "MF"
+   },
+   {
+    "id": "RED-07",
+    "name": "Bruno Calvale",
+    "number": 7,
+    "pos": "FW"
+   },
+   {
+    "id": "RED-09",
+    "name": "Omar Dunando",
+    "number": 9,
+    "pos": "FW"
+   },
+   {
+    "id": "RED-11",
+    "name": "Rohan Kelmore",
+    "number": 11,
+    "pos": "FW"
+   },
+   {
+    "id": "RED-13",
+    "name": "Hugo Ferraro",
+    "number": 13,
+    "pos": "GK"
+   },
+   {
+    "id": "RED-14",
+    "name": "Iker Holmere",
+    "number": 14,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-15",
+    "name": "Hugo Dunden",
+    "number": 15,
+    "pos": "DF"
+   },
+   {
+    "id": "RED-16",
+    "name": "Emre Holssen",
+    "number": 16,
+    "pos": "MF"
+   },
+   {
+    "id": "RED-17",
+    "name": "Tomas Quilmere",
+    "number": 17,
+    "pos": "MF"
+   },
+   {
+    "id": "RED-18",
+    "name": "Aleks Corholt",
+    "number": 18,
+    "pos": "FW"
+   },
+   {
+    "id": "RED-19",
+    "name": "Omar Gulbrook",
+    "number": 19,
+    "pos": "FW"
+   }
+  ]
+ },
+ "beats": [
+  {
+   "minute": 34,
+   "side": "away",
+   "kind": "red_card",
+   "off": null,
+   "on": null,
+   "style": {},
+   "note": "Straight red for a last-man foul"
+  }
+ ],
+ "score": {
+  "home": 1,
+  "away": 0
+ },
+ "goals": [
+  {
+   "t": 2422.6,
+   "minute": 40,
+   "team": "HAR",
+   "player_id": "HAR-04",
+   "set_piece": true
+  }
+ ],
+ "duration": 5893.5,
+ "n_events": 1347
+}

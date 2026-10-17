@@ -1,0 +1,302 @@
+{
+ "match_id": "GM04",
+ "title": "Press collapse",
+ "story": "Kestrel press high and lead, then their press collapses after 58' and Harbor win 1-2.",
+ "seed": 40482,
+ "home": {
+  "id": "KES",
+  "name": "Kestrel Town",
+  "style": {
+   "press_intensity": 0.8,
+   "tempo": 0.7,
+   "directness": 0.55,
+   "width": 0.5,
+   "quality": 0.58
+  },
+  "players": [
+   {
+    "id": "KES-01",
+    "name": "Ilan Brommere",
+    "number": 1,
+    "pos": "GK"
+   },
+   {
+    "id": "KES-02",
+    "name": "Viktor Drayton",
+    "number": 2,
+    "pos": "DF"
+   },
+   {
+    "id": "KES-03",
+    "name": "Tomas Wynton",
+    "number": 3,
+    "pos": "DF"
+   },
+   {
+    "id": "KES-04",
+    "name": "Leon Bromby",
+    "number": 4,
+    "pos": "DF"
+   },
+   {
+    "id": "KES-05",
+    "name": "Jari Moriva",
+    "number": 5,
+    "pos": "DF"
+   },
+   {
+    "id": "KES-06",
+    "name": "Idris Torbrook",
+    "number": 6,
+    "pos": "MF"
+   },
+   {
+    "id": "KES-08",
+    "name": "Felix Norton",
+    "number": 8,
+    "pos": "MF"
+   },
+   {
+    "id": "KES-10",
+    "name": "Zane Holby",
+    "number": 10,
+    "pos": "MF"
+   },
+   {
+    "id": "KES-07",
+    "name": "Rohan Kelholt",
+    "number": 7,
+    "pos": "FW"
+   },
+   {
+    "id": "KES-09",
+    "name": "Wen Morby",
+    "number": 9,
+    "pos": "FW"
+   },
+   {
+    "id": "KES-11",
+    "name": "Sami Garmore",
+    "number": 11,
+    "pos": "FW"
+   },
+   {
+    "id": "KES-13",
+    "name": "Mateo Torworth",
+    "number": 13,
+    "pos": "GK"
+   },
+   {
+    "id": "KES-14",
+    "name": "Otto Garmore",
+    "number": 14,
+    "pos": "DF"
+   },
+   {
+    "id": "KES-15",
+    "name": "Soren Holwick",
+    "number": 15,
+    "pos": "DF"
+   },
+   {
+    "id": "KES-16",
+    "name": "Felix Torridge",
+    "number": 16,
+    "pos": "MF"
+   },
+   {
+    "id": "KES-17",
+    "name": "Diego Drayworth",
+    "number": 17,
+    "pos": "MF"
+   },
+   {
+    "id": "KES-18",
+    "name": "Arin Gulbrook",
+    "number": 18,
+    "pos": "FW"
+   },
+   {
+    "id": "KES-19",
+    "name": "Ilan Toriva",
+    "number": 19,
+    "pos": "FW"
+   }
+  ]
+ },
+ "away": {
+  "id": "HAR",
+  "name": "Harbor Athletic",
+  "style": {
+   "press_intensity": 0.45,
+   "tempo": 0.5,
+   "directness": 0.6,
+   "width": 0.7,
+   "quality": 0.55
+  },
+  "players": [
+   {
+    "id": "HAR-01",
+    "name": "Wen Torenko",
+    "number": 1,
+    "pos": "GK"
+   },
+   {
+    "id": "HAR-02",
+    "name": "Otto Wynmore",
+    "number": 2,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-03",
+    "name": "Joon Linholt",
+    "number": 3,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-04",
+    "name": "Iker Morton",
+    "number": 4,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-05",
+    "name": "Arin Morenko",
+    "number": 5,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-06",
+    "name": "Pavel Seliva",
+    "number": 6,
+    "pos": "MF"
+   },
+   {
+    "id": "HAR-08",
+    "name": "Gael Haliva",
+    "number": 8,
+    "pos": "MF"
+   },
+   {
+    "id": "HAR-10",
+    "name": "Otto Ferrmore",
+    "number": 10,
+    "pos": "MF"
+   },
+   {
+    "id": "HAR-07",
+    "name": "Arjun Linstone",
+    "number": 7,
+    "pos": "FW"
+   },
+   {
+    "id": "HAR-09",
+    "name": "Milan Duncroft",
+    "number": 9,
+    "pos": "FW"
+   },
+   {
+    "id": "HAR-11",
+    "name": "Femi Calenko",
+    "number": 11,
+    "pos": "FW"
+   },
+   {
+    "id": "HAR-13",
+    "name": "Dev Wynden",
+    "number": 13,
+    "pos": "GK"
+   },
+   {
+    "id": "HAR-14",
+    "name": "Dev Morbrook",
+    "number": 14,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-15",
+    "name": "Felix Kelaro",
+    "number": 15,
+    "pos": "DF"
+   },
+   {
+    "id": "HAR-16",
+    "name": "Emre Brenmere",
+    "number": 16,
+    "pos": "MF"
+   },
+   {
+    "id": "HAR-17",
+    "name": "Rafa Ferrley",
+    "number": 17,
+    "pos": "MF"
+   },
+   {
+    "id": "HAR-18",
+    "name": "Gael Kelvale",
+    "number": 18,
+    "pos": "FW"
+   },
+   {
+    "id": "HAR-19",
+    "name": "Zane Corcroft",
+    "number": 19,
+    "pos": "FW"
+   }
+  ]
+ },
+ "beats": [
+  {
+   "minute": 0,
+   "side": "home",
+   "kind": "style",
+   "off": null,
+   "on": null,
+   "style": {
+    "press_intensity": 0.95
+   },
+   "note": "Ultra-high press"
+  },
+  {
+   "minute": 58,
+   "side": "home",
+   "kind": "style",
+   "off": null,
+   "on": null,
+   "style": {
+    "press_intensity": 0.15,
+    "tempo": 0.35
+   },
+   "note": "Press collapses"
+  }
+ ],
+ "score": {
+  "home": 1,
+  "away": 2
+ },
+ "goals": [
+  {
+   "t": 2520.2,
+   "minute": 42,
+   "team": "KES",
+   "player_id": "KES-09",
+   "set_piece": false
+  },
+  {
+   "t": 5456.6,
+   "minute": 87,
+   "team": "HAR",
+   "player_id": "HAR-02",
+   "set_piece": true
+  },
+  {
+   "t": 5734.6,
+   "minute": 91,
+   "team": "HAR",
+   "player_id": "HAR-16",
+   "set_piece": true
+  }
+ ],
+ "duration": 5955.2,
+ "n_events": 1364
+}
