@@ -1,0 +1,5 @@
+[
+  {"mode": "analyst", "lang": "en", "stats_density": 2},
+  {"mode": "casual", "lang": "hi", "fav_club": "NBU", "fav_player": "NBU-10", "analogy": "cricket", "tone": 2, "stats_density": 0},
+  {"mode": "audio", "lang": "es", "fav_club": null, "fav_player": null, "analogy": "none", "tone": 0, "stats_density": 1}
+]

@@ -1,0 +1,20 @@
+[
+  {"id": "M001-MO03", "match_id": "M001", "t_start": 1962.0, "t_end": 1990.0, "kind": "goal",
+   "importance": 0.82,
+   "wp_before": {"home": 0.46, "draw": 0.29, "away": 0.25},
+   "wp_after": {"home": 0.27, "draw": 0.28, "away": 0.45},
+   "evidence": [
+     {"id": "ev1", "label": "Shot xG", "value": 0.21, "unit": "xG", "event_ids": ["M001-E0412"]},
+     {"id": "ev2", "label": "Away win probability swing", "value": 20, "unit": "pp", "event_ids": ["M001-E0412"]},
+     {"id": "ev3", "label": "Scorer", "value": "KES-09", "unit": null, "event_ids": ["M001-E0413"]}
+   ],
+   "counterfactuals": [
+     {"id": "M001-MO03-CF1", "change": "remove_event", "description": "Shot is saved instead of scored",
+      "n_rollouts": 200, "seed": 1234, "wp_delta_mean": 0.17, "wp_delta_p10": 0.11, "wp_delta_p90": 0.23}
+   ]},
+  {"id": "M001-MO05", "match_id": "M001", "t_start": 3600.0, "t_end": 4200.0, "kind": "momentum_shift",
+   "importance": 0.41,
+   "wp_before": {"home": 0.27, "draw": 0.30, "away": 0.43},
+   "wp_after": {"home": 0.33, "draw": 0.31, "away": 0.36},
+   "evidence": [{"id": "ev1", "label": "NBU xT added (10 min)", "value": 0.38}]}
+]

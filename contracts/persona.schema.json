@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tacticlens.dev/contracts/persona.schema.json",
+  "title": "Persona",
+  "description": "Viewer profile that drives explanation style, language and accessibility.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["mode", "lang"],
+  "properties": {
+    "mode": {"enum": ["analyst", "casual", "beginner", "audio"]},
+    "lang": {"enum": ["en", "hi", "es", "ar", "ja"]},
+    "fav_club": {"type": ["string", "null"]},
+    "fav_player": {"type": ["string", "null"]},
+    "analogy": {"enum": ["none", "cricket"], "default": "none"},
+    "tone": {"type": "integer", "minimum": 0, "maximum": 2, "default": 1},
+    "stats_density": {"type": "integer", "minimum": 0, "maximum": 2, "default": 1}
+  }
+}

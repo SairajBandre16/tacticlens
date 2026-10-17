@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tacticlens.dev/contracts/explanation.schema.json",
+  "title": "Explanation",
+  "description": "Grounded explanation of a moment for one persona and language. Every sentence cites evidence ids.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["moment_id", "persona_key", "lang", "sentences", "verified", "degraded"],
+  "properties": {
+    "moment_id": {"type": "string", "minLength": 1},
+    "persona_key": {"type": "string", "minLength": 1},
+    "lang": {"enum": ["en", "hi", "es", "ar", "ja"]},
+    "sentences": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/Sentence"}},
+    "verified": {"type": "boolean"},
+    "verifier_notes": {"type": "array", "items": {"type": "string"}, "default": []},
+    "degraded": {"type": "boolean", "description": "True when the template fallback produced this explanation."}
+  },
+  "$defs": {
+    "Sentence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "evidence_ids"],
+      "properties": {
+        "text": {"type": "string", "minLength": 1},
+        "evidence_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "en_text": {"type": ["string", "null"], "description": "English source or back-translation shown beside non-English text."}
+      }
+    }
+  }
+}

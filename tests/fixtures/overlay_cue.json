@@ -1,0 +1,7 @@
+[
+  {"cue_id": "M001-MO03-C1", "match_id": "M001", "in_t": 1986.0, "out_t": 1994.0, "template": "wp_swing",
+   "persona_key": "analyst.en.none.t1.d2.-.-", "lang": "en",
+   "payload": {"team": "KES", "from": 0.25, "to": 0.45, "evidence_ids": ["ev2"]},
+   "a11y": {"aria_label": "Kestrel Town win probability up from 25% to 45%",
+            "speech_text": "Kestrel Town's chances of winning jump from 25 to 45 percent."}}
+]

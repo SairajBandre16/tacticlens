@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tacticlens.dev/contracts/moment.schema.json",
+  "title": "Moment",
+  "description": "A detected key moment with its evidence pack and precomputed counterfactuals.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "match_id", "t_start", "t_end", "kind", "importance", "wp_before", "wp_after", "evidence"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "match_id": {"type": "string", "minLength": 1},
+    "t_start": {"type": "number", "minimum": 0},
+    "t_end": {"type": "number", "minimum": 0},
+    "kind": {"enum": ["goal", "big_chance", "red_card", "momentum_shift", "press_collapse", "sub_effect"]},
+    "importance": {"type": "number", "minimum": 0, "maximum": 1},
+    "wp_before": {"$ref": "#/$defs/WinProb"},
+    "wp_after": {"$ref": "#/$defs/WinProb"},
+    "evidence": {"type": "array", "items": {"$ref": "#/$defs/Evidence"}},
+    "counterfactuals": {"type": "array", "items": {"$ref": "#/$defs/Counterfactual"}, "default": []}
+  },
+  "$defs": {
+    "WinProb": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["home", "draw", "away"],
+      "properties": {
+        "home": {"type": "number", "minimum": 0, "maximum": 1},
+        "draw": {"type": "number", "minimum": 0, "maximum": 1},
+        "away": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "Evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "value"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "label": {"type": "string", "minLength": 1},
+        "value": {"type": ["number", "string"]},
+        "unit": {"type": ["string", "null"]},
+        "event_ids": {"type": "array", "items": {"type": "string"}, "default": []}
+      }
+    },
+    "Counterfactual": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "change", "description", "n_rollouts", "seed", "wp_delta_mean", "wp_delta_p10", "wp_delta_p90"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "change": {"enum": ["remove_event", "press_intensity", "undo_sub"]},
+        "description": {"type": "string"},
+        "n_rollouts": {"type": "integer", "minimum": 1},
+        "seed": {"type": "integer"},
+        "wp_delta_mean": {"type": "number", "minimum": -1, "maximum": 1, "description": "Mean change in home win probability vs the factual rollouts."},
+        "wp_delta_p10": {"type": "number", "minimum": -1, "maximum": 1},
+        "wp_delta_p90": {"type": "number", "minimum": -1, "maximum": 1}
+      }
+    }
+  }
+}

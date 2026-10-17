@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tacticlens.dev/contracts/event.schema.json",
+  "title": "Event",
+  "description": "One on-ball or match event from the synthetic simulator. Pitch coordinates are 0-100 on both axes; the team in possession attacks towards x=100.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "match_id", "t", "period", "minute", "team", "type", "x", "y", "under_pressure"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "match_id": {"type": "string", "minLength": 1},
+    "t": {"type": "number", "minimum": 0, "description": "Seconds since kick-off of the match (continuous across periods)."},
+    "period": {"type": "integer", "minimum": 1, "maximum": 4},
+    "minute": {"type": "integer", "minimum": 0, "maximum": 130},
+    "team": {"type": "string", "minLength": 1, "description": "Team id, e.g. NBU."},
+    "player_id": {"type": ["string", "null"]},
+    "related_player_id": {"type": ["string", "null"], "description": "Pass receiver, player coming on (sub), or player fouled."},
+    "type": {
+      "enum": ["pass", "shot", "tackle", "interception", "dribble", "foul", "card", "sub",
+               "clearance", "corner", "free_kick", "goal", "pressure"]
+    },
+    "x": {"type": "number", "minimum": 0, "maximum": 100},
+    "y": {"type": "number", "minimum": 0, "maximum": 100},
+    "end_x": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+    "end_y": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+    "outcome": {
+      "enum": ["success", "fail", "goal", "saved", "off_target", "blocked", "post",
+               "yellow", "second_yellow", "red", null]
+    },
+    "under_pressure": {"type": "boolean"},
+    "body_part": {"enum": ["foot", "head", "other", null]},
+    "xg": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "description": "Filled by metrics for shots."}
+  }
+}
