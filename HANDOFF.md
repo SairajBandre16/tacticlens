@@ -6,4 +6,4 @@
 - Gotcha: home folder is also a git repo; TacticLens has its own (branch `main`, no remote). Use `.venv\Scripts\python` (3.11).
 - Contract notes: added Event.related_player_id, Sentence.en_text, WinProb{home,draw,away}. Event coords are per acting team (attacks to x=100); defensive events mirrored. No penalties modelled.
 - Open: GM04 press-collapse goals are both set pieces (fine, but M2 press_collapse detector should key on PPDA/pressures drop after 58').
-- Usage: not measured (run `/usage`, record here).
+- Usage after M0+M1 (Oct 17): session 53% (resets 18:29 London), week 13% (resets Oct 24 06:59). M0+M1 cost ~53% of one 5h window.
