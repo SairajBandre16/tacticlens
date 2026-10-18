@@ -85,11 +85,12 @@ class MatchResult:
     goals: list[GoalRec]
     shots: list[ShotRec]
     cards: list[tuple[int, Side, str, str]]  # minute, side, player_id, outcome
-    reds: list[tuple[int, Side]]
+    reds: list[tuple[int, Side, float]]  # minute, side, t
     subs: list[tuple[int, Side, str, str]]  # minute, side, off, on
     counters: dict[str, list[int]]  # per side [home, away]
     duration: float
     events: list[dict] | None = None
+    half_time: float = 0.0  # t at the end of the first half
 
     def score_at(self, minute: int) -> tuple[int, int]:
         h = sum(1 for g in self.goals if g.side == "home" and g.minute < minute)
@@ -285,9 +286,11 @@ class MatchSim:
             while self.t < end:
                 self._apply_due()
                 self._step()
+            if period == 1:
+                half_time = self.t
         return MatchResult(self.match_id, self.home, self.away, self.seed, tuple(self.score),
                            self.goals, self.shots, self.cards, self.reds, self.subs, self.counters,
-                           round(self.t, 1), None if self.fast else self.events)
+                           round(self.t, 1), None if self.fast else self.events, half_time)
 
     def _kickoff(self, side: int) -> None:
         self._set_ball(side, 5, 3 + int(self.rng.random() * 2), (50.0, 50.0))
@@ -452,7 +455,7 @@ class MatchSim:
             if card == "yellow":
                 D.yellows.add(pid)
             else:
-                self.reds.append((self.minute, self._side_name(d)))
+                self.reds.append((self.minute, self._side_name(d), round(self.t, 1)))
                 D.send_off(pid)
         self._dead(20, 40 if not card else 70)
         self._free_kick(a)

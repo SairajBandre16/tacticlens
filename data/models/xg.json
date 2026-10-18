@@ -1,0 +1,17 @@
+{
+ "features": [
+  "distance_m",
+  "angle_rad",
+  "header",
+  "under_pressure",
+  "set_piece"
+ ],
+ "coef": [
+  -0.157942,
+  0.648291,
+  -0.788226,
+  -0.376391,
+  -0.055102
+ ],
+ "intercept": -0.104407
+}
