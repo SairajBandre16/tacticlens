@@ -1,9 +1,10 @@
 # HANDOFF
-- Done: M0 scaffold; M1 simulator (`src/tacticlens/sim/`: teams, engine, golden, realism, CLI `python -m tacticlens.sim all`). Realism PASS on 300 matches (docs/realism.md). 6 golden matches in data/golden/GM01-06 (match.json + events.json + index.json). `pytest -q` = 41 passed.
-- Next: M2 interpret (xG logistic, xT value iteration, WP gradient boosting on ~3,000 fast-sim matches, momentum, PPDA, moment detector) + docs/evaluation.md.
-- For M2: `league_sample(n, fast=True)` gives MatchResult with goals/shots/cards/reds/subs/counters, no events (7.6 ms/match). `ShotRec.p_true` = hidden ground-truth scoring prob (compare xG calibration against it). Shots use main RNG for x,y so fast mode has shot coords.
-- Gotcha: any engine change shifts RNG streams; re-run `find_seed` per spec, re-pin seeds in golden.py, then `python -m tacticlens.sim all`. Test fails if golden files are stale.
-- Gotcha: home folder is also a git repo; TacticLens has its own (branch `main`, no remote). Use `.venv\Scripts\python` (3.11).
-- Contract notes: added Event.related_player_id, Sentence.en_text, WinProb{home,draw,away}. Event coords are per acting team (attacks to x=100); defensive events mirrored. No penalties modelled.
-- Open: GM04 press-collapse goals are both set pieces (fine, but M2 press_collapse detector should key on PPDA/pressures drop after 58').
-- Usage after M0+M1 (Oct 17): session 53% (resets 18:29 London), week 13% (resets Oct 24 06:59). M0+M1 cost ~53% of one 5h window.
+- Done: M0, M1, M2. M2 = `src/tacticlens/metrics/` (xg, xt, winprob, flow, clock, pipeline, report) + `moments/detector.py`. CLI `python -m tacticlens.metrics [train|golden|all]` (~1 min). Models in data/models/ (xg.json, xt.json, wp.pkl, eval.json). Golden outputs: data/golden/GMxx/{metrics.json, moments.json}. docs/evaluation.md + docs/img/calibration.svg. `pytest -q` = 67 passed.
+- Results: xG AUC 0.84, log loss 0.244 vs oracle 0.243 (coefficients match simulator). WP log loss 0.650 vs logreg 0.662 vs base rates 1.062. All 6 golden final WPs match the result; story moments detected (GM02 red 34', GM04 press collapse 60', GM01 sub effect 62').
+- Next: M3 counterfactual rollouts (N=200, remove_event / press_intensity / undo_sub) from a moment's state + full evidence packs (extend detector evidence; ids `<moment>.eN`).
+- Gotcha: sim `minute` overlaps in first-half stoppage (46'-47' then 2nd half restarts at 45'). Always use `metrics.clock.ev_clock(e)` / `rec_clock` for ordering and windows; metrics arrays are indexed by clock minute.
+- Gotcha: MatchResult now has `half_time` and `reds` = (minute, side, t). No RNG change, golden events unchanged.
+- Gotcha: wp.pkl is a pickled sklearn 1.9.1 model; if sklearn version changes, rerun `python -m tacticlens.metrics all`. Tests fail if metrics/moments files are stale.
+- For M3: rollouts need to restart MatchSim from a mid-match state (score, minute, players on, style); engine has no snapshot/restore yet, so add one (keep RNG streams untouched for normal runs).
+- Open: window moments (press_collapse, sub_effect, momentum_shift) are generic too; tune thresholds in detector.py constants if the demo shows noise.
+- Usage: start of M2 session 0% (5h window) / 16% week. End: fill in from `/usage`.
