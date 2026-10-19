@@ -82,6 +82,8 @@ Calibration of P(home win), held-out snapshots:
 
 Importance = kind base + effect size + win-probability swing (window moments get a small WP weight so goals inside their window do not dominate).
 
+Counterfactuals (top 5 moments per match, at most 3 of one kind): the match is replayed to the moment, then 200 rest-of-match rollouts run as played and 200 with one change, paired by seed. The interval is a bootstrap 80% interval of the mean paired difference. A near-zero effect is a real answer: in the simulator a substitution only matters when it changes team style.
+
 ### GM01 Late comeback: Northbridge United 3-2 Kestrel Town
 
 xG 1.677-1.188; final WP home/draw/away 0.92/0.07/0.00.
@@ -96,6 +98,16 @@ xG 1.677-1.188; final WP home/draw/away 0.92/0.07/0.00.
 | 62' | momentum_shift | Northbridge United | 0.46 | 0.04/0.38/0.58 | 0.02/0.24/0.73 |
 | 74' | goal | Northbridge United | 0.94 | 0.01/0.19/0.80 | 0.17/0.55/0.27 |
 | 88' | goal | Northbridge United | 1.00 | 0.11/0.75/0.15 | 0.92/0.07/0.00 |
+
+What-if rollouts (change in home win probability, mean and 80% interval):
+
+| min | kind | what if | rollouts | mean | 80% interval |
+|---|---|---|---|---|---|
+| 38' | goal | What if Felix Norton's goal for Kestrel Town had not gone in | 200 | +0.245 | +0.205 to +0.280 |
+| 62' | momentum_shift | What if Kestrel Town had pressed harder from this point | 200 | -0.020 | -0.050 to +0.010 |
+| 62' | sub_effect | What if Northbridge United had kept Caio Ferrmere, Yusuf Draycroft on instead of bringing on Felix Norier, Elio Morstone | 200 | +0.010 | -0.030 to +0.050 |
+| 74' | goal | What if Teo Morholt's goal for Northbridge United had not gone in | 200 | -0.250 | -0.290 to -0.210 |
+| 88' | goal | What if Felix Norier's goal for Northbridge United had not gone in | 200 | -0.865 | -0.895 to -0.835 |
 
 ### GM02 Ten men: Harbor Athletic 1-0 Redmere FC
 
@@ -112,6 +124,16 @@ xG 1.411-1.908; final WP home/draw/away 0.96/0.04/0.00.
 | 59' | sub_effect | Redmere FC | 0.47 | 0.85/0.13/0.02 | 0.92/0.07/0.01 |
 | 84' | sub_effect | Redmere FC | 0.41 | 0.95/0.05/0.00 | 0.96/0.04/0.00 |
 
+What-if rollouts (change in home win probability, mean and 80% interval):
+
+| min | kind | what if | rollouts | mean | 80% interval |
+|---|---|---|---|---|---|
+| 27' | momentum_shift | What if Redmere FC had pressed harder from this point | 200 | -0.150 | -0.215 to -0.090 |
+| 34' | red_card | What if Sami Gulholt had stayed on the pitch for Redmere FC | 200 | -0.205 | -0.270 to -0.140 |
+| 40' | goal | What if Iker Morton's goal for Harbor Athletic had not gone in | 200 | -0.310 | -0.350 to -0.265 |
+| 50' | momentum_shift | What if Harbor Athletic had pressed harder from this point | 200 | +0.030 | -0.015 to +0.075 |
+| 59' | sub_effect | What if Redmere FC had kept Bruno Calvale on instead of bringing on Aleks Corholt | 200 | +0.000 | -0.045 to +0.050 |
+
 ### GM03 Derby draw: Greyhaven Rovers 2-2 Thornvale City
 
 xG 2.186-0.931; final WP home/draw/away 0.06/0.92/0.03.
@@ -127,6 +149,16 @@ xG 2.186-0.931; final WP home/draw/away 0.06/0.92/0.03.
 | 65' | sub_effect | Thornvale City | 0.65 | 0.82/0.15/0.03 | 0.16/0.78/0.06 |
 | 66' | goal | Thornvale City | 1.00 | 0.84/0.14/0.02 | 0.23/0.62/0.14 |
 
+What-if rollouts (change in home win probability, mean and 80% interval):
+
+| min | kind | what if | rollouts | mean | 80% interval |
+|---|---|---|---|---|---|
+| 22' | goal | What if Femi Wynvale's goal for Greyhaven Rovers had not gone in | 200 | -0.205 | -0.240 to -0.170 |
+| 60' | sub_effect | What if Thornvale City had kept Iker Garcroft on instead of bringing on Otto Garmere | 200 | +0.035 | -0.020 to +0.090 |
+| 62' | goal | What if Mateo Gulholt's goal for Greyhaven Rovers had not gone in | 200 | -0.600 | -0.645 to -0.555 |
+| 65' | sub_effect | What if Thornvale City had kept Arin Halbrook on instead of bringing on Jari Kelcroft | 200 | -0.060 | -0.105 to -0.010 |
+| 66' | goal | What if Otto Garmere's goal for Thornvale City had not gone in | 200 | +0.630 | +0.585 to +0.670 |
+
 ### GM04 Press collapse: Kestrel Town 1-2 Harbor Athletic
 
 xG 1.192-1.115; final WP home/draw/away 0.01/0.09/0.91.
@@ -140,6 +172,16 @@ xG 1.192-1.115; final WP home/draw/away 0.01/0.09/0.91.
 | 62' | big_chance | Kestrel Town | 0.28 | 0.87/0.12/0.01 | 0.87/0.11/0.02 |
 | 87' | goal | Harbor Athletic | 1.00 | 0.94/0.06/0.00 | 0.12/0.78/0.10 |
 | 91' | goal | Harbor Athletic | 1.00 | 0.10/0.83/0.07 | 0.01/0.09/0.91 |
+
+What-if rollouts (change in home win probability, mean and 80% interval):
+
+| min | kind | what if | rollouts | mean | 80% interval |
+|---|---|---|---|---|---|
+| 41' | goal | What if Wen Morby's goal for Kestrel Town had not gone in | 200 | -0.375 | -0.420 to -0.330 |
+| 56' | momentum_shift | What if Harbor Athletic had pressed harder from this point | 200 | -0.005 | -0.056 to +0.050 |
+| 60' | press_collapse | What if Kestrel Town had kept pressing at their earlier intensity | 200 | +0.090 | +0.040 to +0.140 |
+| 87' | goal | What if Otto Wynmore's goal for Harbor Athletic had not gone in | 200 | +0.840 | +0.805 to +0.875 |
+| 91' | goal | What if Emre Brenmere's goal for Harbor Athletic had not gone in | 200 | +0.060 | +0.040 to +0.080 |
 
 ### GM05 The rout: Northbridge United 4-0 Elmstead Wanderers
 
@@ -156,6 +198,16 @@ xG 2.679-0.299; final WP home/draw/away 1.00/0.00/0.00.
 | 59' | goal | Northbridge United | 0.50 | 1.00/0.00/0.00 | 1.00/0.00/0.00 |
 | 88' | goal | Northbridge United | 0.60 | 1.00/0.00/0.00 | 1.00/0.00/0.00 |
 
+What-if rollouts (change in home win probability, mean and 80% interval):
+
+| min | kind | what if | rollouts | mean | 80% interval |
+|---|---|---|---|---|---|
+| 2' | goal | What if Cyril Penbrook's goal for Northbridge United had not gone in | 200 | -0.070 | -0.095 to -0.050 |
+| 27' | momentum_shift | What if Elmstead Wanderers had pressed harder from this point | 200 | +0.020 | -0.015 to +0.055 |
+| 45' | momentum_shift | What if Elmstead Wanderers had pressed harder from this point | 200 | -0.015 | -0.050 to +0.020 |
+| 46' | goal | What if Teo Morholt's goal for Northbridge United had not gone in | 200 | -0.030 | -0.045 to -0.015 |
+| 88' | goal | What if Teo Morholt's goal for Northbridge United had not gone in | 200 | +0.000 | +0.000 to +0.000 |
+
 ### GM06 Set-piece special: Redmere FC 1-0 Thornvale City
 
 xG 0.933-1.564; final WP home/draw/away 0.95/0.05/0.00.
@@ -169,3 +221,13 @@ xG 0.933-1.564; final WP home/draw/away 0.95/0.05/0.00.
 | 37' | big_chance | Redmere FC | 0.28 | 0.73/0.21/0.06 | 0.71/0.21/0.07 |
 | 66' | momentum_shift | Redmere FC | 0.42 | 0.78/0.20/0.02 | 0.83/0.16/0.01 |
 | 74' | press_collapse | Thornvale City | 0.56 | 0.83/0.16/0.01 | 0.95/0.05/0.00 |
+
+What-if rollouts (change in home win probability, mean and 80% interval):
+
+| min | kind | what if | rollouts | mean | 80% interval |
+|---|---|---|---|---|---|
+| 7' | big_chance | What if Arin Halbrook had scored this chance for Thornvale City | 200 | -0.175 | -0.210 to -0.140 |
+| 10' | goal | What if Omar Dunando's goal for Redmere FC had not gone in | 200 | -0.245 | -0.285 to -0.205 |
+| 14' | momentum_shift | What if Thornvale City had pressed harder from this point | 200 | -0.100 | -0.160 to -0.040 |
+| 66' | momentum_shift | What if Thornvale City had pressed harder from this point | 200 | -0.020 | -0.075 to +0.030 |
+| 74' | press_collapse | What if Thornvale City had kept pressing at their earlier intensity | 200 | -0.090 | -0.140 to -0.040 |

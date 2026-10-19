@@ -20,7 +20,7 @@ Outcome = Literal[
     "yellow", "second_yellow", "red",
 ]
 MomentKind = Literal["goal", "big_chance", "red_card", "momentum_shift", "press_collapse", "sub_effect"]
-CounterfactualChange = Literal["remove_event", "press_intensity", "undo_sub"]
+CounterfactualChange = Literal["remove_event", "convert_chance", "press_intensity", "undo_sub"]
 OverlayTemplate = Literal["lower_third", "stat_bug", "wp_swing", "pressing_map", "player_tag"]
 PersonaMode = Literal["analyst", "casual", "beginner", "audio"]
 Analogy = Literal["none", "cricket"]

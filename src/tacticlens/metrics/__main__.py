@@ -1,12 +1,13 @@
 """CLI: python -m tacticlens.metrics [train|golden|all]
 
 train  - train xG / xT / WP models into data/models/ (about a minute)
-golden - golden-match metrics.json + moments.json, and docs/evaluation.md
+golden - golden-match metrics.json + moments.json (with counterfactuals, ~1.5 min), docs/evaluation.md
 all    - both
 """
 import json
 import sys
 
+from ..counterfactual.rollouts import attach
 from ..moments.detector import detect
 from .pipeline import MODELS_DIR, ROOT, build_golden_metrics, load_golden, load_models, train_all
 from .report import evaluation_md, figure_svg
@@ -25,7 +26,7 @@ def main(argv: list[str]) -> None:
         golden = []
         for match_id, mm in build_golden_metrics(models).items():
             meta, events = load_golden(match_id)
-            moments = detect(meta, events, mm)
+            moments = attach(meta, events, detect(meta, events, mm))
             body = ",\n".join(m.model_dump_json() for m in moments)
             (ROOT / "data" / "golden" / match_id / "moments.json").write_text(f"[\n{body}\n]\n", encoding="utf-8")
             golden.append((meta, mm, moments))

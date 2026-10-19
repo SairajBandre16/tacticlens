@@ -12,7 +12,7 @@ from __future__ import annotations
 import math
 import random
 from dataclasses import dataclass, field
-from typing import Literal
+from typing import Callable, Literal
 
 from .teams import STYLE_KEYS, Player, Team
 
@@ -171,6 +171,8 @@ class MatchSim:
         self.t = 0.0
         self.period = 1
         self.p_start = 0.0
+        self.p_end: float | None = None
+        self.half_time = 0.0
         self.poss, self.col, self.row = 0, 5, 3
         self.bx, self.by = 50.0, 50.0
         self.n_actions = 0
@@ -276,21 +278,33 @@ class MatchSim:
 
     # ---------- main loop ----------
     def run(self) -> MatchResult:
-        r = self.rng.random
-        for period in (1, 2):
-            self.period = period
-            self.p_start = self.t
-            stoppage = 60 + 180 * r() if period == 1 else 120 + 300 * r()
-            end = self.p_start + HALF + stoppage
-            self._kickoff(0 if period == 1 else 1)
-            while self.t < end:
+        self.advance()
+        return self.result()
+
+    def advance(self, stop: Callable[["MatchSim"], bool] | None = None) -> bool:
+        """Play on until full time (returns True), or until `stop(self)` holds between two actions
+        (returns False). Resumable: counterfactual rollouts copy a paused sim and continue it."""
+        while self.period <= 2:
+            if self.p_end is None:
+                self.p_start = self.t
+                r = self.rng.random()
+                self.p_end = self.p_start + HALF + (60 + 180 * r if self.period == 1 else 120 + 300 * r)
+                self._kickoff(0 if self.period == 1 else 1)
+            while self.t < self.p_end:
+                if stop is not None and stop(self):
+                    return False
                 self._apply_due()
                 self._step()
-            if period == 1:
-                half_time = self.t
+            if self.period == 1:
+                self.half_time = self.t
+            self.period += 1
+            self.p_end = None
+        return True
+
+    def result(self) -> MatchResult:
         return MatchResult(self.match_id, self.home, self.away, self.seed, tuple(self.score),
                            self.goals, self.shots, self.cards, self.reds, self.subs, self.counters,
-                           round(self.t, 1), None if self.fast else self.events, half_time)
+                           round(self.t, 1), None if self.fast else self.events, self.half_time)
 
     def _kickoff(self, side: int) -> None:
         self._set_ball(side, 5, 3 + int(self.rng.random() * 2), (50.0, 50.0))

@@ -1,14 +1,15 @@
 """Key-moment detector and importance ranking over a golden match (events + computed metrics).
 
-Every moment carries a small evidence list built only from computed values; M3 extends these into
-full evidence packs and adds counterfactuals.
+Every moment carries an evidence pack built only from computed values (ids <moment>.eN). The first
+evidence item names what the moment is about (shooter / player sent off / subbed team with the event ids,
+or the club for window moments); counterfactual/rollouts.py relies on that and appends what-if evidence.
 """
 from __future__ import annotations
 
 from ..contracts import Evidence, Moment, WinProb
 from ..metrics.clock import ev_clock
 from ..metrics.flow import window_ppda
-from ..metrics.xg import set_piece_shots
+from ..metrics.xg import set_piece_shots, shot_geometry
 
 BIG_CHANCE_XG = 0.25
 BASE = {"goal": 0.5, "red_card": 0.45, "press_collapse": 0.4, "momentum_shift": 0.3, "sub_effect": 0.3,
@@ -67,11 +68,21 @@ class _Ctx:
             bonus: float = 0.0, team: str | None = None) -> None:
         swing_team = team or self.teams[0]
         side = "home" if swing_team == self.teams[0] else "away"
+        club = self.club[swing_team]
+        goals = [e["id"] for e in self.events if e["type"] == "goal" and e["t"] < t0]
         evidence = evidence + [("Minute", self.minute_of(t0), None, []),
-                               (f"Win probability change for {self.club[swing_team]}",
+                               ("Score at the start of the moment", self.score_at_t(t0), None, goals),
+                               (f"Win probability for {club} before", round(100 * before[side], 1), "%", []),
+                               (f"Win probability for {club} after", round(100 * after[side], 1), "%", []),
+                               (f"Win probability change for {club}",
                                 round(100 * (after[side] - before[side]), 1), "pp", [])]
         self.moments.append({"kind": kind, "t_start": t0, "t_end": t1, "before": before, "after": after,
                              "importance": _importance(kind, before, after, bonus), "evidence": evidence})
+
+    def score_at_t(self, t: float) -> str:
+        """Score before time t (goals strictly earlier)."""
+        n = sum(1 for e in self.events if e["t"] < t)
+        return self.score_at(n - 1) if n else "0-0"
 
     def minute_of(self, t: float) -> int:
         return max((ev_clock(e) for e in self.events if e["t"] <= t), default=0)
@@ -105,6 +116,9 @@ def _shots(ctx: _Ctx) -> None:
                  ("Team", ctx.club[e["team"]], None, [e["id"]]),
                  ("Shot xG", xg, "xG", [e["id"]]),
                  ("Shot outcome", e["outcome"], None, [e["id"]]),
+                 ("Distance to goal", round(shot_geometry(e["x"], e["y"])[0], 1), "m", [e["id"]]),
+                 ("Body part", e["body_part"], None, [e["id"]]),
+                 ("Under pressure", "yes" if e["under_pressure"] else "no", None, [e["id"]]),
                  ("Set piece", "yes" if e["id"] in sp else "no", None, [e["id"]]),
                  ("Actions in the move", len(chain), None, chain)]
         if goal:

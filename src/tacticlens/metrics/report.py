@@ -111,7 +111,11 @@ def evaluation_md(ev: dict, golden: list[tuple[dict, dict, list[Moment]]]) -> st
                 [[f"{b['lo']:.1f}-{b['hi']:.1f}", b["n"], b["pred"], b["obs"]] for b in wp["calibration_home"]])
     L += ["", "## Golden matches: final win probability and top-8 moments", "",
           "Importance = kind base + effect size + win-probability swing (window moments get a small WP weight so "
-          "goals inside their window do not dominate).", ""]
+          "goals inside their window do not dominate).", "",
+          "Counterfactuals (top 5 moments per match, at most 3 of one kind): the match is replayed to the moment, "
+          "then 200 rest-of-match rollouts run as played and 200 with one change, paired by seed. The interval is a "
+          "bootstrap 80% interval of the mean paired difference. A near-zero effect is a real answer: in the "
+          "simulator a substitution only matters when it changes team style.", ""]
     for meta, mm, moments in golden:
         last = mm["wp"][-1]
         L += [f"### {meta['match_id']} {meta['title']}: {meta['home']['name']} {meta['score']['home']}-"
@@ -126,4 +130,11 @@ def evaluation_md(ev: dict, golden: list[tuple[dict, dict, list[Moment]]]) -> st
                          f"{m.wp_before.home:.2f}/{m.wp_before.draw:.2f}/{m.wp_before.away:.2f}",
                          f"{m.wp_after.home:.2f}/{m.wp_after.draw:.2f}/{m.wp_after.away:.2f}"])
         L += _table(["min", "kind", "team", "importance", "WP before (H/D/A)", "WP after"], rows) + [""]
+        cfs = [(m, c) for m in moments for c in m.counterfactuals]
+        if cfs:
+            L += ["What-if rollouts (change in home win probability, mean and 80% interval):", ""]
+            L += _table(["min", "kind", "what if", "rollouts", "mean", "80% interval"], [
+                [f"{int(next(e.value for e in m.evidence if e.label == 'Minute'))}'", m.kind, c.description,
+                 c.n_rollouts, f"{c.wp_delta_mean:+.3f}", f"{c.wp_delta_p10:+.3f} to {c.wp_delta_p90:+.3f}"]
+                for m, c in cfs]) + [""]
     return "\n".join(L).rstrip() + "\n"

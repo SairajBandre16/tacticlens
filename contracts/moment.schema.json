@@ -47,7 +47,7 @@
       "required": ["id", "change", "description", "n_rollouts", "seed", "wp_delta_mean", "wp_delta_p10", "wp_delta_p90"],
       "properties": {
         "id": {"type": "string", "minLength": 1},
-        "change": {"enum": ["remove_event", "press_intensity", "undo_sub"]},
+        "change": {"enum": ["remove_event", "convert_chance", "press_intensity", "undo_sub"]},
         "description": {"type": "string"},
         "n_rollouts": {"type": "integer", "minimum": 1},
         "seed": {"type": "integer"},

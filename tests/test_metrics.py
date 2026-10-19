@@ -100,6 +100,10 @@ def test_golden_metrics_files_are_current(mid, golden):
     on_disk = json.loads((GOLDEN_DIR / mid / "metrics.json").read_text(encoding="utf-8"))
     assert on_disk == json.loads(json.dumps(mm)), "stale: run python -m tacticlens.metrics golden"
     saved = json.loads((GOLDEN_DIR / mid / "moments.json").read_text(encoding="utf-8"))
+    for m in saved:  # detector part only; counterfactual evidence is appended (tests/test_counterfactual.py)
+        if m["counterfactuals"]:
+            m["evidence"] = m["evidence"][:-8]
+        m["counterfactuals"] = []
     assert saved == [m.model_dump(mode="json") for m in moments], "stale: run python -m tacticlens.metrics golden"
 
 
