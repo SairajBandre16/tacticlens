@@ -6,4 +6,4 @@
 - Gotcha: wp_delta_* is HOME win chance only (schema); removing a late winner for the away side shows a small home delta because the result becomes a draw. Use the away/home win-chance evidence in explanations.
 - Gotcha: undo_sub effects are ~0 (players have no individual quality; only scripted style beats matter). That is an honest answer, not a bug.
 - Next: M4 agents workflow (start in plan mode per PLAN.md; check MS Agent Framework docs first).
-- Usage: fill in from `/usage`.
+- Usage: end of M3 session 5% (5h window) / 20% week (resets Oct 24 06:59 Dublin).
