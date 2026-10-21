@@ -7,6 +7,7 @@ all    - both
 import json
 import sys
 
+from ..agents.eval import keep_section
 from ..counterfactual.rollouts import attach
 from ..moments.detector import detect
 from .pipeline import MODELS_DIR, ROOT, build_golden_metrics, load_golden, load_models, train_all
@@ -33,7 +34,9 @@ def main(argv: list[str]) -> None:
             print(match_id, len(moments), "moments")
         (DOCS / "img").mkdir(parents=True, exist_ok=True)
         (DOCS / "img" / "calibration.svg").write_text(figure_svg(ev, models[1].grid.tolist()), encoding="utf-8")
-        (DOCS / "evaluation.md").write_text(evaluation_md(ev, golden), encoding="utf-8")
+        path = DOCS / "evaluation.md"
+        old = path.read_text(encoding="utf-8") if path.exists() else ""
+        path.write_text(keep_section(old, evaluation_md(ev, golden)), encoding="utf-8")
 
 
 if __name__ == "__main__":

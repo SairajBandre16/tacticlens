@@ -1,0 +1,2784 @@
+{
+ "backend": "offline",
+ "moments": {
+  "GM01-M01": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.32"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "9 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.32"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "9 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.32"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "9 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "2 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 2,
+      "cited_ok": 2,
+      "numbers": 3,
+      "numbers_ok": 3
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.32"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "9 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: cites no evidence",
+      "s1: number 3 not backed by cited evidence"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 2,
+      "numbers": 5,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  },
+  "GM01-M02": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "big_chance importance 0.33"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "14 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 7,
+      "numbers_ok": 7
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "big_chance importance 0.33"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "14 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 4,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "big_chance importance 0.33"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "14 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: unknown evidence ids ['GM01-M02.e99']"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 2,
+      "numbers": 4,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 4,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "big_chance importance 0.33"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "14 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 4,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  },
+  "GM01-M03": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.77"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "15 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 8,
+      "numbers_ok": 8
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.77"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "15 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.77"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "15 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: forbidden certainty/betting word 'guaranteed'"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.77"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "15 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  },
+  "GM01-M04": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.80"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "15 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 8,
+      "numbers_ok": 8
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.80"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "15 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.80"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "15 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: forbidden certainty/betting word 'guaranteed'"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.80"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "15 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  },
+  "GM01-M05": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.82"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "6 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 6,
+      "cited_ok": 6,
+      "numbers": 15,
+      "numbers_ok": 15
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.82"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s3: direction word ('down') contradicts cited change"
+     ],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 8,
+      "numbers_ok": 8
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 8,
+      "numbers_ok": 8
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.82"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: club 'Copperbay FC' is not in this match"
+     ],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 7,
+      "numbers_ok": 7
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 7,
+      "numbers_ok": 7
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.82"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: unknown evidence ids ['GM01-M05.e99']"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 2,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  },
+  "GM01-M06": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.46"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "9 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.46"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "9 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: number 46.3 not backed by cited evidence"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.46"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "9 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "2 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 2,
+      "cited_ok": 2,
+      "numbers": 3,
+      "numbers_ok": 3
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.46"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "9 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  },
+  "GM01-M07": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.46"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "17 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "5 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 5,
+      "cited_ok": 5,
+      "numbers": 13,
+      "numbers_ok": 13
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.46"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "17 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: number 69.3 not backed by cited evidence"
+     ],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 7,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 7,
+      "numbers_ok": 7
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.46"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "17 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: club 'Copperbay FC' is not in this match"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "momentum_shift importance 0.46"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "17 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  },
+  "GM01-M08": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "sub_effect importance 0.64"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "18 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "5 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 5,
+      "cited_ok": 5,
+      "numbers": 13,
+      "numbers_ok": 13
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "sub_effect importance 0.64"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "18 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 7,
+      "numbers_ok": 7
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "sub_effect importance 0.64"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "18 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "sub_effect importance 0.64"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "18 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  },
+  "GM01-M09": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.94"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "6 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 6,
+      "cited_ok": 6,
+      "numbers": 15,
+      "numbers_ok": 15
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.94"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 8,
+      "numbers_ok": 8
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.94"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 7,
+      "numbers_ok": 7
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 0.94"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: unknown evidence ids ['GM01-M09.e99']"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 2,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  },
+  "GM01-M10": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "big_chance importance 0.29"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "14 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 7,
+      "numbers_ok": 7
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "big_chance importance 0.29"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "14 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: forbidden certainty/betting word 'guaranteed'"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 4,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 2,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: club 'Copperbay FC' is not in this match"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 4,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 7,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 3,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 8,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 3,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 4,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 9,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 10,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 11,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "big_chance importance 0.29"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "14 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "rejected",
+     "attempt": 1,
+     "next": "explainer (regenerate)",
+     "notes": [
+      "s1: club 'Copperbay FC' is not in this match"
+     ],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 4,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 5,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 6,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 2,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 4,
+      "numbers_ok": 4
+     }
+    },
+    {
+     "step": 7,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 8,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 9,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "big_chance importance 0.29"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "14 evidence items (0 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 5,
+      "numbers_ok": 5
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  },
+  "GM01-M11": {
+   "analyst": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 1.00"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "6 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 6,
+      "cited_ok": 6,
+      "numbers": 15,
+      "numbers_ok": 15
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "casual": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 1.00"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 8,
+      "numbers_ok": 8
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "beginner": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 1.00"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "4 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 4,
+      "cited_ok": 4,
+      "numbers": 7,
+      "numbers_ok": 7
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "aria text = sentence text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ],
+   "audio": [
+    {
+     "step": 1,
+     "agent": "spotter",
+     "action": "selected",
+     "detail": "goal importance 1.00"
+    },
+    {
+     "step": 2,
+     "agent": "evidence_builder",
+     "action": "packed",
+     "detail": "23 evidence items (8 what-if)"
+    },
+    {
+     "step": 3,
+     "agent": "explainer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "offline",
+     "detail": "3 sentences"
+    },
+    {
+     "step": 4,
+     "agent": "verifier",
+     "action": "verified",
+     "attempt": 1,
+     "next": "localizer",
+     "notes": [],
+     "stats": {
+      "sentences": 3,
+      "cited_ok": 3,
+      "numbers": 6,
+      "numbers_ok": 6
+     }
+    },
+    {
+     "step": 5,
+     "agent": "localizer",
+     "action": "passthrough",
+     "lang": "en",
+     "detail": "English source; hi/es localization arrives in M5"
+    },
+    {
+     "step": 6,
+     "agent": "accessibility_describer",
+     "action": "passthrough",
+     "detail": "audio persona: sentences read as speech text"
+    },
+    {
+     "step": 7,
+     "agent": "safety_gate",
+     "action": "passed",
+     "engine": "offline blocklist"
+    }
+   ]
+  }
+ }
+}

@@ -17,10 +17,12 @@ dependencies = [
   "fastapi>=0.110",
   "uvicorn>=0.29",
   "jsonschema>=4.21",
+  "agent-framework-core>=1.22,<2",
 ]
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "httpx>=0.27"]
+azure = ["agent-framework-foundry>=1.15,<2", "azure-identity>=1.17"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

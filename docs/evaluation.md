@@ -231,3 +231,38 @@ What-if rollouts (change in home win probability, mean and 80% interval):
 | 14' | momentum_shift | What if Thornvale City had pressed harder from this point | 200 | -0.100 | -0.160 to -0.040 |
 | 66' | momentum_shift | What if Thornvale City had pressed harder from this point | 200 | -0.020 | -0.075 to +0.030 |
 | 74' | press_collapse | What if Thornvale City had kept pressing at their earlier intensity | 200 | -0.090 | -0.140 to -0.040 |
+
+<!-- agents-eval:start -->
+## Agents workflow: grounding and verifier (M4)
+
+Explainer backend: **offline**. The offline backend is a deterministic stand-in for the Foundry agent, with 20% simulated drift on first drafts (halving per retry) so the retry and fallback paths run. Live Foundry numbers replace this table in M7.
+
+| Metric | Value |
+|---|---|
+| Golden moments with a verified or template-fallback explanation | 100.0% (53/53) |
+| Explanations (moments x 4 personas, en) | 212 |
+| Shipped: sentences citing valid evidence (grounding rate) | 100.0% (763/763) |
+| Shipped: numbers backed by cited evidence (number accuracy) | 100.0% (1448/1448) |
+| Drafts: grounding rate before verification | 98.4% (925/940) |
+| Drafts: number accuracy before verification | 99.3% (1758/1771) |
+| First draft passed verifier | 77.8% (165/212) |
+| Mean Explainer attempts per explanation | 1.24 |
+| Template fallback rate | 0.0% (0/212) |
+| Kill switch (`TACTICLENS_KILL_EXPLAINER=1`): verified template fallbacks | 100.0% (44/44) |
+
+### Verifier catch rate on injected faults
+
+Each clean offline draft (every golden moment x persona) is corrupted with one known fault.
+
+| Fault | Caught |
+|---|---|
+| fabricated number | 100.0% (212/212) |
+| bad evidence id | 100.0% (212/212) |
+| missing citation | 100.0% (212/212) |
+| wrong direction | 100.0% (90/90) |
+| foreign club | 100.0% (212/212) |
+| real name | 100.0% (212/212) |
+| unhedged what if | 100.0% (90/90) |
+| certainty claim | 100.0% (212/212) |
+
+<!-- agents-eval:end -->

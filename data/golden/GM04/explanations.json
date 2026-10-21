@@ -1,0 +1,1131 @@
+[
+ {
+  "moment_id": "GM04-M01",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Kestrel Town took control of the game from minute 34.",
+    "evidence_ids": [
+     "GM04-M01.e1",
+     "GM04-M01.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.51 to 0.62.",
+    "evidence_ids": [
+     "GM04-M01.e2",
+     "GM04-M01.e3"
+    ]
+   },
+   {
+    "text": "Kestrel Town win probability rose by 12.7 pp, from 41.9% to 54.6%.",
+    "evidence_ids": [
+     "GM04-M01.e9",
+     "GM04-M01.e7",
+     "GM04-M01.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M01",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Kestrel Town took control of the game from minute 34.",
+    "evidence_ids": [
+     "GM04-M01.e1",
+     "GM04-M01.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.51 to 0.62.",
+    "evidence_ids": [
+     "GM04-M01.e2",
+     "GM04-M01.e3"
+    ]
+   },
+   {
+    "text": "Kestrel Town hopes rose by 13 points to 55%.",
+    "evidence_ids": [
+     "GM04-M01.e8",
+     "GM04-M01.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: real-world name 'Arsenal' is not allowed",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M01",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Kestrel Town took control of the game from minute 34.",
+    "evidence_ids": [
+     "GM04-M01.e1",
+     "GM04-M01.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Kestrel Town a 55% chance of winning, compared with 42% before.",
+    "evidence_ids": [
+     "GM04-M01.e7",
+     "GM04-M01.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M01",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Kestrel Town took control of the game from minute 34.",
+    "evidence_ids": [
+     "GM04-M01.e1",
+     "GM04-M01.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.51 to 0.62.",
+    "evidence_ids": [
+     "GM04-M01.e2",
+     "GM04-M01.e3"
+    ]
+   },
+   {
+    "text": "Kestrel Town now has a 55 per cent chance of winning, up from 42 per cent.",
+    "evidence_ids": [
+     "GM04-M01.e7",
+     "GM04-M01.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M02",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Wen Morby scored for Kestrel Town in minute 41, making it 1-0.",
+    "evidence_ids": [
+     "GM04-M02.e1",
+     "GM04-M02.e2",
+     "GM04-M02.e11",
+     "GM04-M02.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.25 xG from 8.4 metres.",
+    "evidence_ids": [
+     "GM04-M02.e3",
+     "GM04-M02.e5"
+    ]
+   },
+   {
+    "text": "The move had 3 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM04-M02.e9",
+     "GM04-M02.e7"
+    ]
+   },
+   {
+    "text": "Kestrel Town win probability rose by 28.3 pp, from 54.6% to 82.9%.",
+    "evidence_ids": [
+     "GM04-M02.e15",
+     "GM04-M02.e13",
+     "GM04-M02.e14"
+    ]
+   },
+   {
+    "text": "What if Wen Morby's goal for Kestrel Town had not gone in? Across 200 simulated rollouts, Kestrel Town win chance would be about 44% instead of 81%.",
+    "evidence_ids": [
+     "GM04-M02.e17",
+     "GM04-M02.e16",
+     "GM04-M02.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is -37.5 pp, with an 80% interval from -42.0 to -33.0 pp.",
+    "evidence_ids": [
+     "GM04-M02.e20",
+     "GM04-M02.e21",
+     "GM04-M02.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M02",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Wen Morby scored for Kestrel Town in minute 41, making it 1-0.",
+    "evidence_ids": [
+     "GM04-M02.e1",
+     "GM04-M02.e2",
+     "GM04-M02.e11",
+     "GM04-M02.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.25 xG from 8.4 metres.",
+    "evidence_ids": [
+     "GM04-M02.e3",
+     "GM04-M02.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town hopes rose by 28 points to 83%.",
+    "evidence_ids": [
+     "GM04-M02.e14",
+     "GM04-M02.e15"
+    ]
+   },
+   {
+    "text": "What if Wen Morby's goal for Kestrel Town had not gone in? Kestrel Town would be about 44% to win, not 81%.",
+    "evidence_ids": [
+     "GM04-M02.e17",
+     "GM04-M02.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M02",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Wen Morby scored for Kestrel Town in minute 41, making it 1-0.",
+    "evidence_ids": [
+     "GM04-M02.e1",
+     "GM04-M02.e2",
+     "GM04-M02.e11",
+     "GM04-M02.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.25, and higher means a better chance.",
+    "evidence_ids": [
+     "GM04-M02.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Kestrel Town a 83% chance of winning, compared with 55% before.",
+    "evidence_ids": [
+     "GM04-M02.e13",
+     "GM04-M02.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Kestrel Town would have about a 44% chance instead of 81%.",
+    "evidence_ids": [
+     "GM04-M02.e17",
+     "GM04-M02.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M02",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 41. Wen Morby scores for Kestrel Town, and the score is now 1-0.",
+    "evidence_ids": [
+     "GM04-M02.e11",
+     "GM04-M02.e1",
+     "GM04-M02.e2",
+     "GM04-M02.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.25 xG from 8.4 metres.",
+    "evidence_ids": [
+     "GM04-M02.e3",
+     "GM04-M02.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town now has a 83 per cent chance of winning, up from 55 per cent.",
+    "evidence_ids": [
+     "GM04-M02.e13",
+     "GM04-M02.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M03",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Kestrel Town took control of the game from minute 56.",
+    "evidence_ids": [
+     "GM04-M03.e1",
+     "GM04-M03.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.68 to 0.85.",
+    "evidence_ids": [
+     "GM04-M03.e2",
+     "GM04-M03.e3"
+    ]
+   },
+   {
+    "text": "Kestrel Town win probability rose by 16.9 pp, from 70.5% to 87.5%.",
+    "evidence_ids": [
+     "GM04-M03.e9",
+     "GM04-M03.e7",
+     "GM04-M03.e8"
+    ]
+   },
+   {
+    "text": "What if Harbor Athletic had pressed harder from this point? Across 200 simulated rollouts, Kestrel Town win chance would be about 72% instead of 72%.",
+    "evidence_ids": [
+     "GM04-M03.e11",
+     "GM04-M03.e10",
+     "GM04-M03.e17"
+    ]
+   },
+   {
+    "text": "The simulated change is -0.5 pp, with an 80% interval from -5.5 to 5.0 pp.",
+    "evidence_ids": [
+     "GM04-M03.e14",
+     "GM04-M03.e15",
+     "GM04-M03.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M03",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Kestrel Town took control of the game from minute 56.",
+    "evidence_ids": [
+     "GM04-M03.e1",
+     "GM04-M03.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.68 to 0.85.",
+    "evidence_ids": [
+     "GM04-M03.e2",
+     "GM04-M03.e3"
+    ]
+   },
+   {
+    "text": "Kestrel Town hopes rose by 17 points to 88%.",
+    "evidence_ids": [
+     "GM04-M03.e8",
+     "GM04-M03.e9"
+    ]
+   },
+   {
+    "text": "What if Harbor Athletic had pressed harder from this point? Kestrel Town would be about 72% to win, not 72%.",
+    "evidence_ids": [
+     "GM04-M03.e11",
+     "GM04-M03.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M03",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Kestrel Town took control of the game from minute 56.",
+    "evidence_ids": [
+     "GM04-M03.e1",
+     "GM04-M03.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Kestrel Town a 88% chance of winning, compared with 70% before.",
+    "evidence_ids": [
+     "GM04-M03.e7",
+     "GM04-M03.e8"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Kestrel Town would have about a 72% chance instead of 72%.",
+    "evidence_ids": [
+     "GM04-M03.e11",
+     "GM04-M03.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s3: What-if sentence must be hedged (would/about/simulated)",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M03",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Kestrel Town took control of the game from minute 56.",
+    "evidence_ids": [
+     "GM04-M03.e1",
+     "GM04-M03.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.68 to 0.85.",
+    "evidence_ids": [
+     "GM04-M03.e2",
+     "GM04-M03.e3"
+    ]
+   },
+   {
+    "text": "Kestrel Town now has a 88 per cent chance of winning, up from 70 per cent.",
+    "evidence_ids": [
+     "GM04-M03.e7",
+     "GM04-M03.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M04",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "The Kestrel Town press faded from minute 60.",
+    "evidence_ids": [
+     "GM04-M04.e1",
+     "GM04-M04.e8"
+    ]
+   },
+   {
+    "text": "Pressures per minute went from 2.3 to 0.4.",
+    "evidence_ids": [
+     "GM04-M04.e2",
+     "GM04-M04.e3"
+    ]
+   },
+   {
+    "text": "PPDA went from 5.6 to 7.0.",
+    "evidence_ids": [
+     "GM04-M04.e4",
+     "GM04-M04.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town win probability rose by 4.1 pp, from 84.7% to 88.8%.",
+    "evidence_ids": [
+     "GM04-M04.e12",
+     "GM04-M04.e10",
+     "GM04-M04.e11"
+    ]
+   },
+   {
+    "text": "What if Kestrel Town had kept pressing at their earlier intensity? Across 200 simulated rollouts, Kestrel Town win chance would be about 85% instead of 76%.",
+    "evidence_ids": [
+     "GM04-M04.e14",
+     "GM04-M04.e13",
+     "GM04-M04.e20"
+    ]
+   },
+   {
+    "text": "The simulated change is +9.0 pp, with an 80% interval from 4.0 to 14.0 pp.",
+    "evidence_ids": [
+     "GM04-M04.e17",
+     "GM04-M04.e18",
+     "GM04-M04.e19"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M04",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "The Kestrel Town press faded from minute 60.",
+    "evidence_ids": [
+     "GM04-M04.e1",
+     "GM04-M04.e8"
+    ]
+   },
+   {
+    "text": "Pressures per minute went from 2.3 to 0.4.",
+    "evidence_ids": [
+     "GM04-M04.e2",
+     "GM04-M04.e3"
+    ]
+   },
+   {
+    "text": "Kestrel Town win chance jumped to 89%, up 4 points.",
+    "evidence_ids": [
+     "GM04-M04.e11",
+     "GM04-M04.e12"
+    ]
+   },
+   {
+    "text": "What if Kestrel Town had kept pressing at their earlier intensity? Kestrel Town would be about 85% to win, not 76%.",
+    "evidence_ids": [
+     "GM04-M04.e14",
+     "GM04-M04.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M04",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "The Kestrel Town press faded from minute 60.",
+    "evidence_ids": [
+     "GM04-M04.e1",
+     "GM04-M04.e8"
+    ]
+   },
+   {
+    "text": "Our model now gives Kestrel Town a 89% chance of winning, compared with 85% before.",
+    "evidence_ids": [
+     "GM04-M04.e10",
+     "GM04-M04.e11"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Kestrel Town would have about a 85% chance instead of 76%.",
+    "evidence_ids": [
+     "GM04-M04.e14",
+     "GM04-M04.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M04",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "The Kestrel Town press faded from minute 60.",
+    "evidence_ids": [
+     "GM04-M04.e1",
+     "GM04-M04.e8"
+    ]
+   },
+   {
+    "text": "Pressures per minute went from 2.3 to 0.4.",
+    "evidence_ids": [
+     "GM04-M04.e2",
+     "GM04-M04.e3"
+    ]
+   },
+   {
+    "text": "Kestrel Town now has a 89 per cent chance of winning, up from 85 per cent.",
+    "evidence_ids": [
+     "GM04-M04.e10",
+     "GM04-M04.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M05",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+    "evidence_ids": [
+     "GM04-M05.e1",
+     "GM04-M05.e2",
+     "GM04-M05.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.37 xG from 6.0 metres.",
+    "evidence_ids": [
+     "GM04-M05.e3",
+     "GM04-M05.e5"
+    ]
+   },
+   {
+    "text": "The move had 7 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM04-M05.e9",
+     "GM04-M05.e7"
+    ]
+   },
+   {
+    "text": "Kestrel Town win probability rose by 0.3 pp, from 87.1% to 87.5%.",
+    "evidence_ids": [
+     "GM04-M05.e14",
+     "GM04-M05.e12",
+     "GM04-M05.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M05",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+    "evidence_ids": [
+     "GM04-M05.e1",
+     "GM04-M05.e2",
+     "GM04-M05.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.37 xG from 6.0 metres.",
+    "evidence_ids": [
+     "GM04-M05.e3",
+     "GM04-M05.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town win chance barely moved, staying near 88%.",
+    "evidence_ids": [
+     "GM04-M05.e13",
+     "GM04-M05.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M05",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+    "evidence_ids": [
+     "GM04-M05.e1",
+     "GM04-M05.e2",
+     "GM04-M05.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.37, and higher means a better chance.",
+    "evidence_ids": [
+     "GM04-M05.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Kestrel Town a 88% chance of winning, compared with 87% before.",
+    "evidence_ids": [
+     "GM04-M05.e12",
+     "GM04-M05.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: number 69.3 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M05",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+    "evidence_ids": [
+     "GM04-M05.e1",
+     "GM04-M05.e2",
+     "GM04-M05.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.37 xG from 6.0 metres.",
+    "evidence_ids": [
+     "GM04-M05.e3",
+     "GM04-M05.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town now has a 88 per cent chance of winning, up from 87 per cent.",
+    "evidence_ids": [
+     "GM04-M05.e12",
+     "GM04-M05.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M06",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Otto Wynmore scored for Harbor Athletic in minute 87, making it 1-1.",
+    "evidence_ids": [
+     "GM04-M06.e1",
+     "GM04-M06.e2",
+     "GM04-M06.e11",
+     "GM04-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.10 xG from 10.6 metres.",
+    "evidence_ids": [
+     "GM04-M06.e3",
+     "GM04-M06.e5"
+    ]
+   },
+   {
+    "text": "The move had 2 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM04-M06.e9",
+     "GM04-M06.e7"
+    ]
+   },
+   {
+    "text": "Harbor Athletic win probability rose by 9.3 pp, from 0.3% to 9.6%.",
+    "evidence_ids": [
+     "GM04-M06.e15",
+     "GM04-M06.e13",
+     "GM04-M06.e14"
+    ]
+   },
+   {
+    "text": "What if Otto Wynmore's goal for Harbor Athletic had not gone in? Across 200 simulated rollouts, Kestrel Town win chance would be about 94% instead of 10%.",
+    "evidence_ids": [
+     "GM04-M06.e17",
+     "GM04-M06.e16",
+     "GM04-M06.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is +84.0 pp, with an 80% interval from 80.5 to 87.5 pp.",
+    "evidence_ids": [
+     "GM04-M06.e20",
+     "GM04-M06.e21",
+     "GM04-M06.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M06",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Otto Wynmore scored for Harbor Athletic in minute 87, making it 1-1.",
+    "evidence_ids": [
+     "GM04-M06.e1",
+     "GM04-M06.e2",
+     "GM04-M06.e11",
+     "GM04-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.10 xG from 10.6 metres.",
+    "evidence_ids": [
+     "GM04-M06.e3",
+     "GM04-M06.e5"
+    ]
+   },
+   {
+    "text": "Harbor Athletic win chance jumped to 10%, up 9 points.",
+    "evidence_ids": [
+     "GM04-M06.e14",
+     "GM04-M06.e15"
+    ]
+   },
+   {
+    "text": "What if Otto Wynmore's goal for Harbor Athletic had not gone in? Kestrel Town would be about 94% to win, not 10%.",
+    "evidence_ids": [
+     "GM04-M06.e17",
+     "GM04-M06.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M06",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Otto Wynmore scored for Harbor Athletic in minute 87, making it 1-1.",
+    "evidence_ids": [
+     "GM04-M06.e1",
+     "GM04-M06.e2",
+     "GM04-M06.e11",
+     "GM04-M06.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.10, and higher means a better chance.",
+    "evidence_ids": [
+     "GM04-M06.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Harbor Athletic a 10% chance of winning, compared with 0% before.",
+    "evidence_ids": [
+     "GM04-M06.e13",
+     "GM04-M06.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Kestrel Town would have about a 94% chance instead of 10%.",
+    "evidence_ids": [
+     "GM04-M06.e17",
+     "GM04-M06.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M06",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 87. Otto Wynmore scores for Harbor Athletic, and the score is now 1-1.",
+    "evidence_ids": [
+     "GM04-M06.e11",
+     "GM04-M06.e1",
+     "GM04-M06.e2",
+     "GM04-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.10 xG from 10.6 metres.",
+    "evidence_ids": [
+     "GM04-M06.e3",
+     "GM04-M06.e5"
+    ]
+   },
+   {
+    "text": "Harbor Athletic now has a 10 per cent chance of winning, up from 0 per cent.",
+    "evidence_ids": [
+     "GM04-M06.e13",
+     "GM04-M06.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M07",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Emre Brenmere scored for Harbor Athletic in minute 91, making it 1-2.",
+    "evidence_ids": [
+     "GM04-M07.e1",
+     "GM04-M07.e2",
+     "GM04-M07.e11",
+     "GM04-M07.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.02 xG from 24.8 metres.",
+    "evidence_ids": [
+     "GM04-M07.e3",
+     "GM04-M07.e5"
+    ]
+   },
+   {
+    "text": "The move had 4 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM04-M07.e9",
+     "GM04-M07.e7"
+    ]
+   },
+   {
+    "text": "Harbor Athletic win probability rose by 84.3 pp, from 6.5% to 90.8%.",
+    "evidence_ids": [
+     "GM04-M07.e15",
+     "GM04-M07.e13",
+     "GM04-M07.e14"
+    ]
+   },
+   {
+    "text": "What if Emre Brenmere's goal for Harbor Athletic had not gone in? Across 200 simulated rollouts, Kestrel Town win chance would be about 6% instead of 0%.",
+    "evidence_ids": [
+     "GM04-M07.e17",
+     "GM04-M07.e16",
+     "GM04-M07.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is +6.0 pp, with an 80% interval from 4.0 to 8.0 pp.",
+    "evidence_ids": [
+     "GM04-M07.e20",
+     "GM04-M07.e21",
+     "GM04-M07.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: unknown evidence ids ['GM04-M07.e99']",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M07",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Emre Brenmere scored for Harbor Athletic in minute 91, making it 1-2.",
+    "evidence_ids": [
+     "GM04-M07.e1",
+     "GM04-M07.e2",
+     "GM04-M07.e11",
+     "GM04-M07.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.02 xG from 24.8 metres.",
+    "evidence_ids": [
+     "GM04-M07.e3",
+     "GM04-M07.e5"
+    ]
+   },
+   {
+    "text": "Harbor Athletic hopes rose by 84 points to 91%.",
+    "evidence_ids": [
+     "GM04-M07.e14",
+     "GM04-M07.e15"
+    ]
+   },
+   {
+    "text": "What if Emre Brenmere's goal for Harbor Athletic had not gone in? Kestrel Town would be about 6% to win, not 0%.",
+    "evidence_ids": [
+     "GM04-M07.e17",
+     "GM04-M07.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M07",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Emre Brenmere scored for Harbor Athletic in minute 91, making it 1-2.",
+    "evidence_ids": [
+     "GM04-M07.e1",
+     "GM04-M07.e2",
+     "GM04-M07.e11",
+     "GM04-M07.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.02, and higher means a better chance.",
+    "evidence_ids": [
+     "GM04-M07.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Harbor Athletic a 91% chance of winning, compared with 6% before.",
+    "evidence_ids": [
+     "GM04-M07.e13",
+     "GM04-M07.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Kestrel Town would have about a 6% chance instead of 0%.",
+    "evidence_ids": [
+     "GM04-M07.e17",
+     "GM04-M07.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: cites no evidence",
+   "attempt 1: s1: scoreline '1-2' not in cited evidence",
+   "attempt 1: s1: number 91 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM04-M07",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 91. Emre Brenmere scores for Harbor Athletic, and the score is now 1-2.",
+    "evidence_ids": [
+     "GM04-M07.e11",
+     "GM04-M07.e1",
+     "GM04-M07.e2",
+     "GM04-M07.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.02 xG from 24.8 metres.",
+    "evidence_ids": [
+     "GM04-M07.e3",
+     "GM04-M07.e5"
+    ]
+   },
+   {
+    "text": "Harbor Athletic now has a 91 per cent chance of winning, up from 6 per cent.",
+    "evidence_ids": [
+     "GM04-M07.e13",
+     "GM04-M07.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ }
+]

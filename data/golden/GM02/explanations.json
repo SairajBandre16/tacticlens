@@ -1,0 +1,1516 @@
+[
+ {
+  "moment_id": "GM02-M01",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC took control of the game from minute 4.",
+    "evidence_ids": [
+     "GM02-M01.e1",
+     "GM02-M01.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.30 to -0.55.",
+    "evidence_ids": [
+     "GM02-M01.e2",
+     "GM02-M01.e3"
+    ]
+   },
+   {
+    "text": "Redmere FC win probability fell by 2.2 pp, from 22.8% to 20.6%.",
+    "evidence_ids": [
+     "GM02-M01.e9",
+     "GM02-M01.e7",
+     "GM02-M01.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M01",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC took control of the game from minute 4.",
+    "evidence_ids": [
+     "GM02-M01.e1",
+     "GM02-M01.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.30 to -0.55.",
+    "evidence_ids": [
+     "GM02-M01.e2",
+     "GM02-M01.e3"
+    ]
+   },
+   {
+    "text": "Redmere FC win chance dropped to 21%, down 2 points.",
+    "evidence_ids": [
+     "GM02-M01.e8",
+     "GM02-M01.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M01",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC took control of the game from minute 4.",
+    "evidence_ids": [
+     "GM02-M01.e1",
+     "GM02-M01.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Redmere FC a 21% chance of winning, compared with 23% before.",
+    "evidence_ids": [
+     "GM02-M01.e7",
+     "GM02-M01.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M01",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC took control of the game from minute 4.",
+    "evidence_ids": [
+     "GM02-M01.e1",
+     "GM02-M01.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.30 to -0.55.",
+    "evidence_ids": [
+     "GM02-M01.e2",
+     "GM02-M01.e3"
+    ]
+   },
+   {
+    "text": "Redmere FC now has a 21 per cent chance of winning, down from 23 per cent.",
+    "evidence_ids": [
+     "GM02-M01.e7",
+     "GM02-M01.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M02",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+    "evidence_ids": [
+     "GM02-M02.e1",
+     "GM02-M02.e2",
+     "GM02-M02.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.50 xG from 4.5 metres.",
+    "evidence_ids": [
+     "GM02-M02.e3",
+     "GM02-M02.e5"
+    ]
+   },
+   {
+    "text": "The move had 3 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM02-M02.e9",
+     "GM02-M02.e7"
+    ]
+   },
+   {
+    "text": "Redmere FC win probability rose by 0.7 pp, from 19.9% to 20.6%.",
+    "evidence_ids": [
+     "GM02-M02.e14",
+     "GM02-M02.e12",
+     "GM02-M02.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: number 31.3 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M02",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+    "evidence_ids": [
+     "GM02-M02.e1",
+     "GM02-M02.e2",
+     "GM02-M02.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.50 xG from 4.5 metres.",
+    "evidence_ids": [
+     "GM02-M02.e3",
+     "GM02-M02.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC win chance barely moved, staying near 21%.",
+    "evidence_ids": [
+     "GM02-M02.e13",
+     "GM02-M02.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M02",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+    "evidence_ids": [
+     "GM02-M02.e1",
+     "GM02-M02.e2",
+     "GM02-M02.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.50, and higher means a better chance.",
+    "evidence_ids": [
+     "GM02-M02.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Redmere FC a 21% chance of winning, compared with 20% before.",
+    "evidence_ids": [
+     "GM02-M02.e12",
+     "GM02-M02.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M02",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+    "evidence_ids": [
+     "GM02-M02.e1",
+     "GM02-M02.e2",
+     "GM02-M02.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.50 xG from 4.5 metres.",
+    "evidence_ids": [
+     "GM02-M02.e3",
+     "GM02-M02.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC now has a 21 per cent chance of winning, up from 20 per cent.",
+    "evidence_ids": [
+     "GM02-M02.e12",
+     "GM02-M02.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M03",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Harbor Athletic took control of the game from minute 27.",
+    "evidence_ids": [
+     "GM02-M03.e1",
+     "GM02-M03.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.98 to 0.26.",
+    "evidence_ids": [
+     "GM02-M03.e2",
+     "GM02-M03.e3"
+    ]
+   },
+   {
+    "text": "Harbor Athletic win probability rose by 4.7 pp, from 34.1% to 38.8%.",
+    "evidence_ids": [
+     "GM02-M03.e9",
+     "GM02-M03.e7",
+     "GM02-M03.e8"
+    ]
+   },
+   {
+    "text": "What if Redmere FC had pressed harder from this point? Across 200 simulated rollouts, Harbor Athletic win chance would be about 48% instead of 64%.",
+    "evidence_ids": [
+     "GM02-M03.e11",
+     "GM02-M03.e10",
+     "GM02-M03.e17"
+    ]
+   },
+   {
+    "text": "The simulated change is -15.0 pp, with an 80% interval from -21.5 to -9.0 pp.",
+    "evidence_ids": [
+     "GM02-M03.e14",
+     "GM02-M03.e15",
+     "GM02-M03.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M03",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Harbor Athletic took control of the game from minute 27.",
+    "evidence_ids": [
+     "GM02-M03.e1",
+     "GM02-M03.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.98 to 0.26.",
+    "evidence_ids": [
+     "GM02-M03.e2",
+     "GM02-M03.e3"
+    ]
+   },
+   {
+    "text": "Harbor Athletic win chance jumped to 39%, up 5 points.",
+    "evidence_ids": [
+     "GM02-M03.e8",
+     "GM02-M03.e9"
+    ]
+   },
+   {
+    "text": "What if Redmere FC had pressed harder from this point? Harbor Athletic would be about 48% to win, not 64%.",
+    "evidence_ids": [
+     "GM02-M03.e11",
+     "GM02-M03.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: number 34.3 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M03",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Harbor Athletic took control of the game from minute 27.",
+    "evidence_ids": [
+     "GM02-M03.e1",
+     "GM02-M03.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Harbor Athletic a 39% chance of winning, compared with 34% before.",
+    "evidence_ids": [
+     "GM02-M03.e7",
+     "GM02-M03.e8"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 48% chance instead of 64%.",
+    "evidence_ids": [
+     "GM02-M03.e11",
+     "GM02-M03.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M03",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Harbor Athletic took control of the game from minute 27.",
+    "evidence_ids": [
+     "GM02-M03.e1",
+     "GM02-M03.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.98 to 0.26.",
+    "evidence_ids": [
+     "GM02-M03.e2",
+     "GM02-M03.e3"
+    ]
+   },
+   {
+    "text": "Harbor Athletic now has a 39 per cent chance of winning, up from 34 per cent.",
+    "evidence_ids": [
+     "GM02-M03.e7",
+     "GM02-M03.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: unknown evidence ids ['GM02-M03.e99']",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M04",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+    "evidence_ids": [
+     "GM02-M04.e1",
+     "GM02-M04.e2",
+     "GM02-M04.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.35 xG from 6.0 metres.",
+    "evidence_ids": [
+     "GM02-M04.e3",
+     "GM02-M04.e5"
+    ]
+   },
+   {
+    "text": "The move had 5 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM02-M04.e9",
+     "GM02-M04.e7"
+    ]
+   },
+   {
+    "text": "Redmere FC win probability rose by 3.6 pp, from 18.2% to 21.8%.",
+    "evidence_ids": [
+     "GM02-M04.e14",
+     "GM02-M04.e12",
+     "GM02-M04.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s4: direction word ('down') contradicts cited change",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M04",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+    "evidence_ids": [
+     "GM02-M04.e1",
+     "GM02-M04.e2",
+     "GM02-M04.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.35 xG from 6.0 metres.",
+    "evidence_ids": [
+     "GM02-M04.e3",
+     "GM02-M04.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC win chance jumped to 22%, up 4 points.",
+    "evidence_ids": [
+     "GM02-M04.e13",
+     "GM02-M04.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: number 34.3 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M04",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+    "evidence_ids": [
+     "GM02-M04.e1",
+     "GM02-M04.e2",
+     "GM02-M04.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.35, and higher means a better chance.",
+    "evidence_ids": [
+     "GM02-M04.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Redmere FC a 22% chance of winning, compared with 18% before.",
+    "evidence_ids": [
+     "GM02-M04.e12",
+     "GM02-M04.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M04",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+    "evidence_ids": [
+     "GM02-M04.e1",
+     "GM02-M04.e2",
+     "GM02-M04.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.35 xG from 6.0 metres.",
+    "evidence_ids": [
+     "GM02-M04.e3",
+     "GM02-M04.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC now has a 22 per cent chance of winning, up from 18 per cent.",
+    "evidence_ids": [
+     "GM02-M04.e12",
+     "GM02-M04.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M05",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+    "evidence_ids": [
+     "GM02-M05.e1",
+     "GM02-M05.e2",
+     "GM02-M05.e6"
+    ]
+   },
+   {
+    "text": "Redmere FC played the last 56 minutes with 10 players.",
+    "evidence_ids": [
+     "GM02-M05.e2",
+     "GM02-M05.e5",
+     "GM02-M05.e4"
+    ]
+   },
+   {
+    "text": "Redmere FC win probability rose by 3.4 pp, from 21.4% to 24.7%.",
+    "evidence_ids": [
+     "GM02-M05.e10",
+     "GM02-M05.e8",
+     "GM02-M05.e9"
+    ]
+   },
+   {
+    "text": "What if Sami Gulholt had stayed on the pitch for Redmere FC? Across 200 simulated rollouts, Harbor Athletic win chance would be about 33% instead of 54%.",
+    "evidence_ids": [
+     "GM02-M05.e12",
+     "GM02-M05.e11",
+     "GM02-M05.e18"
+    ]
+   },
+   {
+    "text": "The simulated change is -20.5 pp, with an 80% interval from -27.0 to -14.0 pp.",
+    "evidence_ids": [
+     "GM02-M05.e15",
+     "GM02-M05.e16",
+     "GM02-M05.e17"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M05",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+    "evidence_ids": [
+     "GM02-M05.e1",
+     "GM02-M05.e2",
+     "GM02-M05.e6"
+    ]
+   },
+   {
+    "text": "Redmere FC played the last 56 minutes with 10 players.",
+    "evidence_ids": [
+     "GM02-M05.e2",
+     "GM02-M05.e5",
+     "GM02-M05.e4"
+    ]
+   },
+   {
+    "text": "Redmere FC hopes rose by 3 points to 25%.",
+    "evidence_ids": [
+     "GM02-M05.e9",
+     "GM02-M05.e10"
+    ]
+   },
+   {
+    "text": "What if Sami Gulholt had stayed on the pitch for Redmere FC? Harbor Athletic would be about 33% to win, not 54%.",
+    "evidence_ids": [
+     "GM02-M05.e12",
+     "GM02-M05.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M05",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+    "evidence_ids": [
+     "GM02-M05.e1",
+     "GM02-M05.e2",
+     "GM02-M05.e6"
+    ]
+   },
+   {
+    "text": "Our model now gives Redmere FC a 25% chance of winning, compared with 21% before.",
+    "evidence_ids": [
+     "GM02-M05.e8",
+     "GM02-M05.e9"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 33% chance instead of 54%.",
+    "evidence_ids": [
+     "GM02-M05.e12",
+     "GM02-M05.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M05",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+    "evidence_ids": [
+     "GM02-M05.e1",
+     "GM02-M05.e2",
+     "GM02-M05.e6"
+    ]
+   },
+   {
+    "text": "Redmere FC played the last 56 minutes with 10 players.",
+    "evidence_ids": [
+     "GM02-M05.e2",
+     "GM02-M05.e5",
+     "GM02-M05.e4"
+    ]
+   },
+   {
+    "text": "Redmere FC now has a 25 per cent chance of winning, up from 21 per cent.",
+    "evidence_ids": [
+     "GM02-M05.e8",
+     "GM02-M05.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: unknown evidence ids ['GM02-M05.e99']",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M06",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Iker Morton scored for Harbor Athletic in minute 40, making it 1-0.",
+    "evidence_ids": [
+     "GM02-M06.e1",
+     "GM02-M06.e2",
+     "GM02-M06.e11",
+     "GM02-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.39 xG from 6.2 metres.",
+    "evidence_ids": [
+     "GM02-M06.e3",
+     "GM02-M06.e5"
+    ]
+   },
+   {
+    "text": "The move had 3 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM02-M06.e9",
+     "GM02-M06.e7"
+    ]
+   },
+   {
+    "text": "Harbor Athletic win probability rose by 43.3 pp, from 42.1% to 85.5%.",
+    "evidence_ids": [
+     "GM02-M06.e15",
+     "GM02-M06.e13",
+     "GM02-M06.e14"
+    ]
+   },
+   {
+    "text": "What if Iker Morton's goal for Harbor Athletic had not gone in? Across 200 simulated rollouts, Harbor Athletic win chance would be about 48% instead of 79%.",
+    "evidence_ids": [
+     "GM02-M06.e17",
+     "GM02-M06.e16",
+     "GM02-M06.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is -31.0 pp, with an 80% interval from -35.0 to -26.5 pp.",
+    "evidence_ids": [
+     "GM02-M06.e20",
+     "GM02-M06.e21",
+     "GM02-M06.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M06",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Iker Morton scored for Harbor Athletic in minute 40, making it 1-0.",
+    "evidence_ids": [
+     "GM02-M06.e1",
+     "GM02-M06.e2",
+     "GM02-M06.e11",
+     "GM02-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.39 xG from 6.2 metres.",
+    "evidence_ids": [
+     "GM02-M06.e3",
+     "GM02-M06.e5"
+    ]
+   },
+   {
+    "text": "Harbor Athletic hopes rose by 43 points to 86%.",
+    "evidence_ids": [
+     "GM02-M06.e14",
+     "GM02-M06.e15"
+    ]
+   },
+   {
+    "text": "What if Iker Morton's goal for Harbor Athletic had not gone in? Harbor Athletic would be about 48% to win, not 79%.",
+    "evidence_ids": [
+     "GM02-M06.e17",
+     "GM02-M06.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M06",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Iker Morton scored for Harbor Athletic in minute 40, making it 1-0.",
+    "evidence_ids": [
+     "GM02-M06.e1",
+     "GM02-M06.e2",
+     "GM02-M06.e11",
+     "GM02-M06.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.39, and higher means a better chance.",
+    "evidence_ids": [
+     "GM02-M06.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Harbor Athletic a 86% chance of winning, compared with 42% before.",
+    "evidence_ids": [
+     "GM02-M06.e13",
+     "GM02-M06.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 48% chance instead of 79%.",
+    "evidence_ids": [
+     "GM02-M06.e17",
+     "GM02-M06.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M06",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 40. Iker Morton scores for Harbor Athletic, and the score is now 1-0.",
+    "evidence_ids": [
+     "GM02-M06.e11",
+     "GM02-M06.e1",
+     "GM02-M06.e2",
+     "GM02-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.39 xG from 6.2 metres.",
+    "evidence_ids": [
+     "GM02-M06.e3",
+     "GM02-M06.e5"
+    ]
+   },
+   {
+    "text": "Harbor Athletic now has a 86 per cent chance of winning, up from 42 per cent.",
+    "evidence_ids": [
+     "GM02-M06.e13",
+     "GM02-M06.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M07",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC took control of the game from minute 50.",
+    "evidence_ids": [
+     "GM02-M07.e1",
+     "GM02-M07.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.44 to -0.94.",
+    "evidence_ids": [
+     "GM02-M07.e2",
+     "GM02-M07.e3"
+    ]
+   },
+   {
+    "text": "Redmere FC win probability fell by 1.1 pp, from 3.1% to 2.0%.",
+    "evidence_ids": [
+     "GM02-M07.e9",
+     "GM02-M07.e7",
+     "GM02-M07.e8"
+    ]
+   },
+   {
+    "text": "What if Harbor Athletic had pressed harder from this point? Across 200 simulated rollouts, Harbor Athletic win chance would be about 88% instead of 84%.",
+    "evidence_ids": [
+     "GM02-M07.e11",
+     "GM02-M07.e10",
+     "GM02-M07.e17"
+    ]
+   },
+   {
+    "text": "The simulated change is +3.0 pp, with an 80% interval from -1.5 to 7.5 pp.",
+    "evidence_ids": [
+     "GM02-M07.e14",
+     "GM02-M07.e15",
+     "GM02-M07.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s3: direction word ('up') contradicts cited change",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M07",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC took control of the game from minute 50.",
+    "evidence_ids": [
+     "GM02-M07.e1",
+     "GM02-M07.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.44 to -0.94.",
+    "evidence_ids": [
+     "GM02-M07.e2",
+     "GM02-M07.e3"
+    ]
+   },
+   {
+    "text": "Redmere FC win chance dropped to 2%, down 1 points.",
+    "evidence_ids": [
+     "GM02-M07.e8",
+     "GM02-M07.e9"
+    ]
+   },
+   {
+    "text": "What if Harbor Athletic had pressed harder from this point? Harbor Athletic would be about 88% to win, not 84%.",
+    "evidence_ids": [
+     "GM02-M07.e11",
+     "GM02-M07.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: unknown evidence ids ['GM02-M07.e99']",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M07",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC took control of the game from minute 50.",
+    "evidence_ids": [
+     "GM02-M07.e1",
+     "GM02-M07.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Redmere FC a 2% chance of winning, compared with 3% before.",
+    "evidence_ids": [
+     "GM02-M07.e7",
+     "GM02-M07.e8"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 88% chance instead of 84%.",
+    "evidence_ids": [
+     "GM02-M07.e11",
+     "GM02-M07.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M07",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC took control of the game from minute 50.",
+    "evidence_ids": [
+     "GM02-M07.e1",
+     "GM02-M07.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.44 to -0.94.",
+    "evidence_ids": [
+     "GM02-M07.e2",
+     "GM02-M07.e3"
+    ]
+   },
+   {
+    "text": "Redmere FC now has a 2 per cent chance of winning, down from 3 per cent.",
+    "evidence_ids": [
+     "GM02-M07.e7",
+     "GM02-M07.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M08",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+    "evidence_ids": [
+     "GM02-M08.e1",
+     "GM02-M08.e6",
+     "GM02-M08.e2",
+     "GM02-M08.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.034 to 0.060.",
+    "evidence_ids": [
+     "GM02-M08.e4",
+     "GM02-M08.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC win probability fell by 1.5 pp, from 2.4% to 0.9%.",
+    "evidence_ids": [
+     "GM02-M08.e10",
+     "GM02-M08.e8",
+     "GM02-M08.e9"
+    ]
+   },
+   {
+    "text": "What if Redmere FC had kept Bruno Calvale on instead of bringing on Aleks Corholt? Across 200 simulated rollouts, Harbor Athletic win chance would be about 84% instead of 84%.",
+    "evidence_ids": [
+     "GM02-M08.e12",
+     "GM02-M08.e11",
+     "GM02-M08.e18"
+    ]
+   },
+   {
+    "text": "The simulated change is +0.0 pp, with an 80% interval from -4.5 to 5.0 pp.",
+    "evidence_ids": [
+     "GM02-M08.e15",
+     "GM02-M08.e16",
+     "GM02-M08.e17"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M08",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+    "evidence_ids": [
+     "GM02-M08.e1",
+     "GM02-M08.e6",
+     "GM02-M08.e2",
+     "GM02-M08.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.034 to 0.060.",
+    "evidence_ids": [
+     "GM02-M08.e4",
+     "GM02-M08.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC hopes fell by 2 points to 1%.",
+    "evidence_ids": [
+     "GM02-M08.e9",
+     "GM02-M08.e10"
+    ]
+   },
+   {
+    "text": "What if Redmere FC had kept Bruno Calvale on instead of bringing on Aleks Corholt? Harbor Athletic would be about 84% to win, not 84%.",
+    "evidence_ids": [
+     "GM02-M08.e12",
+     "GM02-M08.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M08",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+    "evidence_ids": [
+     "GM02-M08.e1",
+     "GM02-M08.e6",
+     "GM02-M08.e2",
+     "GM02-M08.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Redmere FC a 1% chance of winning, compared with 2% before.",
+    "evidence_ids": [
+     "GM02-M08.e8",
+     "GM02-M08.e9"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 84% chance instead of 84%.",
+    "evidence_ids": [
+     "GM02-M08.e12",
+     "GM02-M08.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M08",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+    "evidence_ids": [
+     "GM02-M08.e1",
+     "GM02-M08.e6",
+     "GM02-M08.e2",
+     "GM02-M08.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.034 to 0.060.",
+    "evidence_ids": [
+     "GM02-M08.e4",
+     "GM02-M08.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC now has a 1 per cent chance of winning, down from 2 per cent.",
+    "evidence_ids": [
+     "GM02-M08.e8",
+     "GM02-M08.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M09",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+    "evidence_ids": [
+     "GM02-M09.e1",
+     "GM02-M09.e2",
+     "GM02-M09.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.47 xG from 4.2 metres.",
+    "evidence_ids": [
+     "GM02-M09.e3",
+     "GM02-M09.e5"
+    ]
+   },
+   {
+    "text": "The move had 5 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM02-M09.e9",
+     "GM02-M09.e7"
+    ]
+   },
+   {
+    "text": "Redmere FC win probability fell by 0.4 pp, from 2.4% to 2.0%.",
+    "evidence_ids": [
+     "GM02-M09.e14",
+     "GM02-M09.e12",
+     "GM02-M09.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M09",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+    "evidence_ids": [
+     "GM02-M09.e1",
+     "GM02-M09.e2",
+     "GM02-M09.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.47 xG from 4.2 metres.",
+    "evidence_ids": [
+     "GM02-M09.e3",
+     "GM02-M09.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC win chance barely moved, staying near 2%.",
+    "evidence_ids": [
+     "GM02-M09.e13",
+     "GM02-M09.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: unknown evidence ids ['GM02-M09.e99']",
+   "attempt 2: s1: unknown evidence ids ['GM02-M09.e99']",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M09",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+    "evidence_ids": [
+     "GM02-M09.e1",
+     "GM02-M09.e2",
+     "GM02-M09.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.47, and higher means a better chance.",
+    "evidence_ids": [
+     "GM02-M09.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Redmere FC a 2% chance of winning, compared with 2% before.",
+    "evidence_ids": [
+     "GM02-M09.e12",
+     "GM02-M09.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M09",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+    "evidence_ids": [
+     "GM02-M09.e1",
+     "GM02-M09.e2",
+     "GM02-M09.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.47 xG from 4.2 metres.",
+    "evidence_ids": [
+     "GM02-M09.e3",
+     "GM02-M09.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC still has a 2 per cent chance of winning.",
+    "evidence_ids": [
+     "GM02-M09.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M10",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+    "evidence_ids": [
+     "GM02-M10.e1",
+     "GM02-M10.e6",
+     "GM02-M10.e2",
+     "GM02-M10.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.008 to 0.026.",
+    "evidence_ids": [
+     "GM02-M10.e4",
+     "GM02-M10.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC win probability fell by 0.1 pp, from 0.3% to 0.3%.",
+    "evidence_ids": [
+     "GM02-M10.e10",
+     "GM02-M10.e8",
+     "GM02-M10.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M10",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+    "evidence_ids": [
+     "GM02-M10.e1",
+     "GM02-M10.e6",
+     "GM02-M10.e2",
+     "GM02-M10.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.008 to 0.026.",
+    "evidence_ids": [
+     "GM02-M10.e4",
+     "GM02-M10.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC win chance barely moved, staying near 0%.",
+    "evidence_ids": [
+     "GM02-M10.e9",
+     "GM02-M10.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M10",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+    "evidence_ids": [
+     "GM02-M10.e1",
+     "GM02-M10.e6",
+     "GM02-M10.e2",
+     "GM02-M10.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Redmere FC a 0% chance of winning, compared with 0% before.",
+    "evidence_ids": [
+     "GM02-M10.e8",
+     "GM02-M10.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM02-M10",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+    "evidence_ids": [
+     "GM02-M10.e1",
+     "GM02-M10.e6",
+     "GM02-M10.e2",
+     "GM02-M10.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.008 to 0.026.",
+    "evidence_ids": [
+     "GM02-M10.e4",
+     "GM02-M10.e5"
+    ]
+   },
+   {
+    "text": "Redmere FC still has a 0 per cent chance of winning.",
+    "evidence_ids": [
+     "GM02-M10.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ }
+]

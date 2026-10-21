@@ -1,0 +1,1699 @@
+[
+ {
+  "moment_id": "GM01-M01",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 3.",
+    "evidence_ids": [
+     "GM01-M01.e1",
+     "GM01-M01.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.07 to 0.91.",
+    "evidence_ids": [
+     "GM01-M01.e2",
+     "GM01-M01.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability fell by 2.9 pp, from 48.3% to 45.4%.",
+    "evidence_ids": [
+     "GM01-M01.e9",
+     "GM01-M01.e7",
+     "GM01-M01.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M01",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 3.",
+    "evidence_ids": [
+     "GM01-M01.e1",
+     "GM01-M01.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.07 to 0.91.",
+    "evidence_ids": [
+     "GM01-M01.e2",
+     "GM01-M01.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance dropped to 45%, down 3 points.",
+    "evidence_ids": [
+     "GM01-M01.e8",
+     "GM01-M01.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M01",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 3.",
+    "evidence_ids": [
+     "GM01-M01.e1",
+     "GM01-M01.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 45% chance of winning, compared with 48% before.",
+    "evidence_ids": [
+     "GM01-M01.e7",
+     "GM01-M01.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M01",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 3.",
+    "evidence_ids": [
+     "GM01-M01.e1",
+     "GM01-M01.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.07 to 0.91.",
+    "evidence_ids": [
+     "GM01-M01.e2",
+     "GM01-M01.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 45 per cent chance of winning, down from 48 per cent.",
+    "evidence_ids": [
+     "GM01-M01.e7",
+     "GM01-M01.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: cites no evidence",
+   "attempt 1: s1: number 3 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M02",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Rohan Kelholt had a big chance for Kestrel Town in minute 16.",
+    "evidence_ids": [
+     "GM01-M02.e1",
+     "GM01-M02.e2",
+     "GM01-M02.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.38 xG from 5.0 metres.",
+    "evidence_ids": [
+     "GM01-M02.e3",
+     "GM01-M02.e5"
+    ]
+   },
+   {
+    "text": "The move had 6 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM01-M02.e9",
+     "GM01-M02.e7"
+    ]
+   },
+   {
+    "text": "Kestrel Town win probability fell by 0.2 pp, from 19.1% to 19.0%.",
+    "evidence_ids": [
+     "GM01-M02.e14",
+     "GM01-M02.e12",
+     "GM01-M02.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M02",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Rohan Kelholt had a big chance for Kestrel Town in minute 16.",
+    "evidence_ids": [
+     "GM01-M02.e1",
+     "GM01-M02.e2",
+     "GM01-M02.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.38 xG from 5.0 metres.",
+    "evidence_ids": [
+     "GM01-M02.e3",
+     "GM01-M02.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town win chance barely moved, staying near 19%.",
+    "evidence_ids": [
+     "GM01-M02.e13",
+     "GM01-M02.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M02",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Rohan Kelholt had a big chance for Kestrel Town in minute 16.",
+    "evidence_ids": [
+     "GM01-M02.e1",
+     "GM01-M02.e2",
+     "GM01-M02.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.38, and higher means a better chance.",
+    "evidence_ids": [
+     "GM01-M02.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Kestrel Town a 19% chance of winning, compared with 19% before.",
+    "evidence_ids": [
+     "GM01-M02.e12",
+     "GM01-M02.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: unknown evidence ids ['GM01-M02.e99']",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M02",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Rohan Kelholt had a big chance for Kestrel Town in minute 16.",
+    "evidence_ids": [
+     "GM01-M02.e1",
+     "GM01-M02.e2",
+     "GM01-M02.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.38 xG from 5.0 metres.",
+    "evidence_ids": [
+     "GM01-M02.e3",
+     "GM01-M02.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town still has a 19 per cent chance of winning.",
+    "evidence_ids": [
+     "GM01-M02.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M03",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 20, making it 1-0.",
+    "evidence_ids": [
+     "GM01-M03.e1",
+     "GM01-M03.e2",
+     "GM01-M03.e11",
+     "GM01-M03.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.18 xG from 9.5 metres.",
+    "evidence_ids": [
+     "GM01-M03.e3",
+     "GM01-M03.e5"
+    ]
+   },
+   {
+    "text": "The move had 8 actions, and the shooter was under pressure: yes.",
+    "evidence_ids": [
+     "GM01-M03.e9",
+     "GM01-M03.e7"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 32.6 pp, from 44.3% to 76.9%.",
+    "evidence_ids": [
+     "GM01-M03.e15",
+     "GM01-M03.e13",
+     "GM01-M03.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M03",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 20, making it 1-0.",
+    "evidence_ids": [
+     "GM01-M03.e1",
+     "GM01-M03.e2",
+     "GM01-M03.e11",
+     "GM01-M03.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.18 xG from 9.5 metres.",
+    "evidence_ids": [
+     "GM01-M03.e3",
+     "GM01-M03.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance jumped to 77%, up 33 points.",
+    "evidence_ids": [
+     "GM01-M03.e14",
+     "GM01-M03.e15"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M03",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 20, making it 1-0.",
+    "evidence_ids": [
+     "GM01-M03.e1",
+     "GM01-M03.e2",
+     "GM01-M03.e11",
+     "GM01-M03.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.18, and higher means a better chance.",
+    "evidence_ids": [
+     "GM01-M03.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 77% chance of winning, compared with 44% before.",
+    "evidence_ids": [
+     "GM01-M03.e13",
+     "GM01-M03.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M03",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 20. Teo Morholt scores for Northbridge United, and the score is now 1-0.",
+    "evidence_ids": [
+     "GM01-M03.e11",
+     "GM01-M03.e1",
+     "GM01-M03.e2",
+     "GM01-M03.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.18 xG from 9.5 metres.",
+    "evidence_ids": [
+     "GM01-M03.e3",
+     "GM01-M03.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 77 per cent chance of winning, up from 44 per cent.",
+    "evidence_ids": [
+     "GM01-M03.e13",
+     "GM01-M03.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M04",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Rohan Kelholt scored for Kestrel Town in minute 22, making it 1-1.",
+    "evidence_ids": [
+     "GM01-M04.e1",
+     "GM01-M04.e2",
+     "GM01-M04.e11",
+     "GM01-M04.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.08 xG from 11.8 metres.",
+    "evidence_ids": [
+     "GM01-M04.e3",
+     "GM01-M04.e5"
+    ]
+   },
+   {
+    "text": "The move had 7 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM01-M04.e9",
+     "GM01-M04.e7"
+    ]
+   },
+   {
+    "text": "Kestrel Town win probability rose by 16.3 pp, from 7.7% to 24.0%.",
+    "evidence_ids": [
+     "GM01-M04.e15",
+     "GM01-M04.e13",
+     "GM01-M04.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M04",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Rohan Kelholt scored for Kestrel Town in minute 22, making it 1-1.",
+    "evidence_ids": [
+     "GM01-M04.e1",
+     "GM01-M04.e2",
+     "GM01-M04.e11",
+     "GM01-M04.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.08 xG from 11.8 metres.",
+    "evidence_ids": [
+     "GM01-M04.e3",
+     "GM01-M04.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town win chance jumped to 24%, up 16 points.",
+    "evidence_ids": [
+     "GM01-M04.e14",
+     "GM01-M04.e15"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M04",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Rohan Kelholt scored for Kestrel Town in minute 22, making it 1-1.",
+    "evidence_ids": [
+     "GM01-M04.e1",
+     "GM01-M04.e2",
+     "GM01-M04.e11",
+     "GM01-M04.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.08, and higher means a better chance.",
+    "evidence_ids": [
+     "GM01-M04.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Kestrel Town a 24% chance of winning, compared with 8% before.",
+    "evidence_ids": [
+     "GM01-M04.e13",
+     "GM01-M04.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M04",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 22. Rohan Kelholt scores for Kestrel Town, and the score is now 1-1.",
+    "evidence_ids": [
+     "GM01-M04.e11",
+     "GM01-M04.e1",
+     "GM01-M04.e2",
+     "GM01-M04.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.08 xG from 11.8 metres.",
+    "evidence_ids": [
+     "GM01-M04.e3",
+     "GM01-M04.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town now has a 24 per cent chance of winning, up from 8 per cent.",
+    "evidence_ids": [
+     "GM01-M04.e13",
+     "GM01-M04.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M05",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Felix Norton scored for Kestrel Town in minute 38, making it 1-2.",
+    "evidence_ids": [
+     "GM01-M05.e1",
+     "GM01-M05.e2",
+     "GM01-M05.e11",
+     "GM01-M05.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.08 xG from 15.7 metres.",
+    "evidence_ids": [
+     "GM01-M05.e3",
+     "GM01-M05.e5"
+    ]
+   },
+   {
+    "text": "The move had 8 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM01-M05.e9",
+     "GM01-M05.e7"
+    ]
+   },
+   {
+    "text": "Kestrel Town win probability rose by 38.1 pp, from 23.2% to 61.2%.",
+    "evidence_ids": [
+     "GM01-M05.e15",
+     "GM01-M05.e13",
+     "GM01-M05.e14"
+    ]
+   },
+   {
+    "text": "What if Felix Norton's goal for Kestrel Town had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 40% instead of 16%.",
+    "evidence_ids": [
+     "GM01-M05.e17",
+     "GM01-M05.e16",
+     "GM01-M05.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is +24.5 pp, with an 80% interval from 20.5 to 28.0 pp.",
+    "evidence_ids": [
+     "GM01-M05.e20",
+     "GM01-M05.e21",
+     "GM01-M05.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M05",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Felix Norton scored for Kestrel Town in minute 38, making it 1-2.",
+    "evidence_ids": [
+     "GM01-M05.e1",
+     "GM01-M05.e2",
+     "GM01-M05.e11",
+     "GM01-M05.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.08 xG from 15.7 metres.",
+    "evidence_ids": [
+     "GM01-M05.e3",
+     "GM01-M05.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town hopes rose by 38 points to 61%.",
+    "evidence_ids": [
+     "GM01-M05.e14",
+     "GM01-M05.e15"
+    ]
+   },
+   {
+    "text": "What if Felix Norton's goal for Kestrel Town had not gone in? Northbridge United would be about 40% to win, not 16%.",
+    "evidence_ids": [
+     "GM01-M05.e17",
+     "GM01-M05.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s3: direction word ('down') contradicts cited change",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M05",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Felix Norton scored for Kestrel Town in minute 38, making it 1-2.",
+    "evidence_ids": [
+     "GM01-M05.e1",
+     "GM01-M05.e2",
+     "GM01-M05.e11",
+     "GM01-M05.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.08, and higher means a better chance.",
+    "evidence_ids": [
+     "GM01-M05.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Kestrel Town a 61% chance of winning, compared with 23% before.",
+    "evidence_ids": [
+     "GM01-M05.e13",
+     "GM01-M05.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Northbridge United would have about a 40% chance instead of 16%.",
+    "evidence_ids": [
+     "GM01-M05.e17",
+     "GM01-M05.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M05",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 38. Felix Norton scores for Kestrel Town, and the score is now 1-2.",
+    "evidence_ids": [
+     "GM01-M05.e11",
+     "GM01-M05.e1",
+     "GM01-M05.e2",
+     "GM01-M05.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.08 xG from 15.7 metres.",
+    "evidence_ids": [
+     "GM01-M05.e3",
+     "GM01-M05.e5"
+    ]
+   },
+   {
+    "text": "Kestrel Town now has a 61 per cent chance of winning, up from 23 per cent.",
+    "evidence_ids": [
+     "GM01-M05.e13",
+     "GM01-M05.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: unknown evidence ids ['GM01-M05.e99']",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M06",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 39.",
+    "evidence_ids": [
+     "GM01-M06.e1",
+     "GM01-M06.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.43 to 0.54.",
+    "evidence_ids": [
+     "GM01-M06.e2",
+     "GM01-M06.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability fell by 28.4 pp, from 36.4% to 7.9%.",
+    "evidence_ids": [
+     "GM01-M06.e9",
+     "GM01-M06.e7",
+     "GM01-M06.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M06",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 39.",
+    "evidence_ids": [
+     "GM01-M06.e1",
+     "GM01-M06.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.43 to 0.54.",
+    "evidence_ids": [
+     "GM01-M06.e2",
+     "GM01-M06.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance dropped to 8%, down 28 points.",
+    "evidence_ids": [
+     "GM01-M06.e8",
+     "GM01-M06.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: number 46.3 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M06",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 39.",
+    "evidence_ids": [
+     "GM01-M06.e1",
+     "GM01-M06.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 8% chance of winning, compared with 36% before.",
+    "evidence_ids": [
+     "GM01-M06.e7",
+     "GM01-M06.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M06",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 39.",
+    "evidence_ids": [
+     "GM01-M06.e1",
+     "GM01-M06.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.43 to 0.54.",
+    "evidence_ids": [
+     "GM01-M06.e2",
+     "GM01-M06.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 8 per cent chance of winning, down from 36 per cent.",
+    "evidence_ids": [
+     "GM01-M06.e7",
+     "GM01-M06.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M07",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 62.",
+    "evidence_ids": [
+     "GM01-M07.e1",
+     "GM01-M07.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.41 to 0.76.",
+    "evidence_ids": [
+     "GM01-M07.e2",
+     "GM01-M07.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability fell by 1.4 pp, from 3.9% to 2.5%.",
+    "evidence_ids": [
+     "GM01-M07.e9",
+     "GM01-M07.e7",
+     "GM01-M07.e8"
+    ]
+   },
+   {
+    "text": "What if Kestrel Town had pressed harder from this point? Across 200 simulated rollouts, Northbridge United win chance would be about 8% instead of 10%.",
+    "evidence_ids": [
+     "GM01-M07.e11",
+     "GM01-M07.e10",
+     "GM01-M07.e17"
+    ]
+   },
+   {
+    "text": "The simulated change is -2.0 pp, with an 80% interval from -5.0 to 1.0 pp.",
+    "evidence_ids": [
+     "GM01-M07.e14",
+     "GM01-M07.e15",
+     "GM01-M07.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M07",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 62.",
+    "evidence_ids": [
+     "GM01-M07.e1",
+     "GM01-M07.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.41 to 0.76.",
+    "evidence_ids": [
+     "GM01-M07.e2",
+     "GM01-M07.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance dropped to 2%, down 1 points.",
+    "evidence_ids": [
+     "GM01-M07.e8",
+     "GM01-M07.e9"
+    ]
+   },
+   {
+    "text": "What if Kestrel Town had pressed harder from this point? Northbridge United would be about 8% to win, not 10%.",
+    "evidence_ids": [
+     "GM01-M07.e11",
+     "GM01-M07.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: number 69.3 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M07",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 62.",
+    "evidence_ids": [
+     "GM01-M07.e1",
+     "GM01-M07.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 2% chance of winning, compared with 4% before.",
+    "evidence_ids": [
+     "GM01-M07.e7",
+     "GM01-M07.e8"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Northbridge United would have about a 8% chance instead of 10%.",
+    "evidence_ids": [
+     "GM01-M07.e11",
+     "GM01-M07.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M07",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 62.",
+    "evidence_ids": [
+     "GM01-M07.e1",
+     "GM01-M07.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.41 to 0.76.",
+    "evidence_ids": [
+     "GM01-M07.e2",
+     "GM01-M07.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 2 per cent chance of winning, down from 4 per cent.",
+    "evidence_ids": [
+     "GM01-M07.e7",
+     "GM01-M07.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M08",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United made a change in minute 62: Felix Norier, Elio Morstone on for Caio Ferrmere, Yusuf Draycroft.",
+    "evidence_ids": [
+     "GM01-M08.e1",
+     "GM01-M08.e6",
+     "GM01-M08.e2",
+     "GM01-M08.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.025 to 0.068.",
+    "evidence_ids": [
+     "GM01-M08.e4",
+     "GM01-M08.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 12.9 pp, from 3.9% to 16.7%.",
+    "evidence_ids": [
+     "GM01-M08.e10",
+     "GM01-M08.e8",
+     "GM01-M08.e9"
+    ]
+   },
+   {
+    "text": "What if Northbridge United had kept Caio Ferrmere, Yusuf Draycroft on instead of bringing on Felix Norier, Elio Morstone? Across 200 simulated rollouts, Northbridge United win chance would be about 13% instead of 12%.",
+    "evidence_ids": [
+     "GM01-M08.e12",
+     "GM01-M08.e11",
+     "GM01-M08.e18"
+    ]
+   },
+   {
+    "text": "The simulated change is +1.0 pp, with an 80% interval from -3.0 to 5.0 pp.",
+    "evidence_ids": [
+     "GM01-M08.e15",
+     "GM01-M08.e16",
+     "GM01-M08.e17"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M08",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United made a change in minute 62: Felix Norier, Elio Morstone on for Caio Ferrmere, Yusuf Draycroft.",
+    "evidence_ids": [
+     "GM01-M08.e1",
+     "GM01-M08.e6",
+     "GM01-M08.e2",
+     "GM01-M08.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.025 to 0.068.",
+    "evidence_ids": [
+     "GM01-M08.e4",
+     "GM01-M08.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance jumped to 17%, up 13 points.",
+    "evidence_ids": [
+     "GM01-M08.e9",
+     "GM01-M08.e10"
+    ]
+   },
+   {
+    "text": "What if Northbridge United had kept Caio Ferrmere, Yusuf Draycroft on instead of bringing on Felix Norier, Elio Morstone? Northbridge United would be about 13% to win, not 12%.",
+    "evidence_ids": [
+     "GM01-M08.e12",
+     "GM01-M08.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M08",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United made a change in minute 62: Felix Norier, Elio Morstone on for Caio Ferrmere, Yusuf Draycroft.",
+    "evidence_ids": [
+     "GM01-M08.e1",
+     "GM01-M08.e6",
+     "GM01-M08.e2",
+     "GM01-M08.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 17% chance of winning, compared with 4% before.",
+    "evidence_ids": [
+     "GM01-M08.e8",
+     "GM01-M08.e9"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Northbridge United would have about a 13% chance instead of 12%.",
+    "evidence_ids": [
+     "GM01-M08.e12",
+     "GM01-M08.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M08",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United made a change in minute 62: Felix Norier, Elio Morstone on for Caio Ferrmere, Yusuf Draycroft.",
+    "evidence_ids": [
+     "GM01-M08.e1",
+     "GM01-M08.e6",
+     "GM01-M08.e2",
+     "GM01-M08.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.025 to 0.068.",
+    "evidence_ids": [
+     "GM01-M08.e4",
+     "GM01-M08.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 17 per cent chance of winning, up from 4 per cent.",
+    "evidence_ids": [
+     "GM01-M08.e8",
+     "GM01-M08.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M09",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 74, making it 2-2.",
+    "evidence_ids": [
+     "GM01-M09.e1",
+     "GM01-M09.e2",
+     "GM01-M09.e11",
+     "GM01-M09.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.19 xG from 7.7 metres.",
+    "evidence_ids": [
+     "GM01-M09.e3",
+     "GM01-M09.e5"
+    ]
+   },
+   {
+    "text": "The move had 8 actions, and the shooter was under pressure: yes.",
+    "evidence_ids": [
+     "GM01-M09.e9",
+     "GM01-M09.e7"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 16.1 pp, from 1.4% to 17.5%.",
+    "evidence_ids": [
+     "GM01-M09.e15",
+     "GM01-M09.e13",
+     "GM01-M09.e14"
+    ]
+   },
+   {
+    "text": "What if Teo Morholt's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 3% instead of 28%.",
+    "evidence_ids": [
+     "GM01-M09.e17",
+     "GM01-M09.e16",
+     "GM01-M09.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is -25.0 pp, with an 80% interval from -29.0 to -21.0 pp.",
+    "evidence_ids": [
+     "GM01-M09.e20",
+     "GM01-M09.e21",
+     "GM01-M09.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M09",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 74, making it 2-2.",
+    "evidence_ids": [
+     "GM01-M09.e1",
+     "GM01-M09.e2",
+     "GM01-M09.e11",
+     "GM01-M09.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.19 xG from 7.7 metres.",
+    "evidence_ids": [
+     "GM01-M09.e3",
+     "GM01-M09.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United hopes rose by 16 points to 18%.",
+    "evidence_ids": [
+     "GM01-M09.e14",
+     "GM01-M09.e15"
+    ]
+   },
+   {
+    "text": "What if Teo Morholt's goal for Northbridge United had not gone in? Northbridge United would be about 3% to win, not 28%.",
+    "evidence_ids": [
+     "GM01-M09.e17",
+     "GM01-M09.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M09",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 74, making it 2-2.",
+    "evidence_ids": [
+     "GM01-M09.e1",
+     "GM01-M09.e2",
+     "GM01-M09.e11",
+     "GM01-M09.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.19, and higher means a better chance.",
+    "evidence_ids": [
+     "GM01-M09.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 18% chance of winning, compared with 1% before.",
+    "evidence_ids": [
+     "GM01-M09.e13",
+     "GM01-M09.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Northbridge United would have about a 3% chance instead of 28%.",
+    "evidence_ids": [
+     "GM01-M09.e17",
+     "GM01-M09.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M09",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 74. Teo Morholt scores for Northbridge United, and the score is now 2-2.",
+    "evidence_ids": [
+     "GM01-M09.e11",
+     "GM01-M09.e1",
+     "GM01-M09.e2",
+     "GM01-M09.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.19 xG from 7.7 metres.",
+    "evidence_ids": [
+     "GM01-M09.e3",
+     "GM01-M09.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 18 per cent chance of winning, up from 1 per cent.",
+    "evidence_ids": [
+     "GM01-M09.e13",
+     "GM01-M09.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: unknown evidence ids ['GM01-M09.e99']",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M10",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt had a big chance for Northbridge United in minute 79.",
+    "evidence_ids": [
+     "GM01-M10.e1",
+     "GM01-M10.e2",
+     "GM01-M10.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.26 xG from 6.9 metres.",
+    "evidence_ids": [
+     "GM01-M10.e3",
+     "GM01-M10.e5"
+    ]
+   },
+   {
+    "text": "The move had 5 actions, and the shooter was under pressure: yes.",
+    "evidence_ids": [
+     "GM01-M10.e9",
+     "GM01-M10.e7"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 0.7 pp, from 14.5% to 15.2%.",
+    "evidence_ids": [
+     "GM01-M10.e14",
+     "GM01-M10.e12",
+     "GM01-M10.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M10",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt had a big chance for Northbridge United in minute 79.",
+    "evidence_ids": [
+     "GM01-M10.e1",
+     "GM01-M10.e2",
+     "GM01-M10.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.26 xG from 6.9 metres.",
+    "evidence_ids": [
+     "GM01-M10.e3",
+     "GM01-M10.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance barely moved, staying near 15%.",
+    "evidence_ids": [
+     "GM01-M10.e13",
+     "GM01-M10.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+   "attempt 2: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M10",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt had a big chance for Northbridge United in minute 79.",
+    "evidence_ids": [
+     "GM01-M10.e1",
+     "GM01-M10.e2",
+     "GM01-M10.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.26, and higher means a better chance.",
+    "evidence_ids": [
+     "GM01-M10.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 15% chance of winning, compared with 14% before.",
+    "evidence_ids": [
+     "GM01-M10.e12",
+     "GM01-M10.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M10",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt had a big chance for Northbridge United in minute 79.",
+    "evidence_ids": [
+     "GM01-M10.e1",
+     "GM01-M10.e2",
+     "GM01-M10.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.26 xG from 6.9 metres.",
+    "evidence_ids": [
+     "GM01-M10.e3",
+     "GM01-M10.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 15 per cent chance of winning, up from 14 per cent.",
+    "evidence_ids": [
+     "GM01-M10.e12",
+     "GM01-M10.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M11",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Felix Norier scored for Northbridge United in minute 88, making it 3-2.",
+    "evidence_ids": [
+     "GM01-M11.e1",
+     "GM01-M11.e2",
+     "GM01-M11.e11",
+     "GM01-M11.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.07 xG from 16.3 metres.",
+    "evidence_ids": [
+     "GM01-M11.e3",
+     "GM01-M11.e5"
+    ]
+   },
+   {
+    "text": "The move had 5 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM01-M11.e9",
+     "GM01-M11.e7"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 81.9 pp, from 10.6% to 92.5%.",
+    "evidence_ids": [
+     "GM01-M11.e15",
+     "GM01-M11.e13",
+     "GM01-M11.e14"
+    ]
+   },
+   {
+    "text": "What if Felix Norier's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 8% instead of 94%.",
+    "evidence_ids": [
+     "GM01-M11.e17",
+     "GM01-M11.e16",
+     "GM01-M11.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is -86.5 pp, with an 80% interval from -89.5 to -83.5 pp.",
+    "evidence_ids": [
+     "GM01-M11.e20",
+     "GM01-M11.e21",
+     "GM01-M11.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M11",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Felix Norier scored for Northbridge United in minute 88, making it 3-2.",
+    "evidence_ids": [
+     "GM01-M11.e1",
+     "GM01-M11.e2",
+     "GM01-M11.e11",
+     "GM01-M11.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.07 xG from 16.3 metres.",
+    "evidence_ids": [
+     "GM01-M11.e3",
+     "GM01-M11.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United hopes rose by 82 points to 92%.",
+    "evidence_ids": [
+     "GM01-M11.e14",
+     "GM01-M11.e15"
+    ]
+   },
+   {
+    "text": "What if Felix Norier's goal for Northbridge United had not gone in? Northbridge United would be about 8% to win, not 94%.",
+    "evidence_ids": [
+     "GM01-M11.e17",
+     "GM01-M11.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M11",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Felix Norier scored for Northbridge United in minute 88, making it 3-2.",
+    "evidence_ids": [
+     "GM01-M11.e1",
+     "GM01-M11.e2",
+     "GM01-M11.e11",
+     "GM01-M11.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.07, and higher means a better chance.",
+    "evidence_ids": [
+     "GM01-M11.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 92% chance of winning, compared with 11% before.",
+    "evidence_ids": [
+     "GM01-M11.e13",
+     "GM01-M11.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Northbridge United would have about a 8% chance instead of 94%.",
+    "evidence_ids": [
+     "GM01-M11.e17",
+     "GM01-M11.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM01-M11",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 88. Felix Norier scores for Northbridge United, and the score is now 3-2.",
+    "evidence_ids": [
+     "GM01-M11.e11",
+     "GM01-M11.e1",
+     "GM01-M11.e2",
+     "GM01-M11.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.07 xG from 16.3 metres.",
+    "evidence_ids": [
+     "GM01-M11.e3",
+     "GM01-M11.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 92 per cent chance of winning, up from 11 per cent.",
+    "evidence_ids": [
+     "GM01-M11.e13",
+     "GM01-M11.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ }
+]

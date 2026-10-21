@@ -1,0 +1,1285 @@
+[
+ {
+  "moment_id": "GM05-M01",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Cyril Penbrook scored for Northbridge United in minute 2, making it 1-0.",
+    "evidence_ids": [
+     "GM05-M01.e1",
+     "GM05-M01.e2",
+     "GM05-M01.e11",
+     "GM05-M01.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.14 xG from 8.6 metres.",
+    "evidence_ids": [
+     "GM05-M01.e3",
+     "GM05-M01.e5"
+    ]
+   },
+   {
+    "text": "The move had 7 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM05-M01.e9",
+     "GM05-M01.e7"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 7.3 pp, from 91.3% to 98.6%.",
+    "evidence_ids": [
+     "GM05-M01.e15",
+     "GM05-M01.e13",
+     "GM05-M01.e14"
+    ]
+   },
+   {
+    "text": "What if Cyril Penbrook's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 92% instead of 98%.",
+    "evidence_ids": [
+     "GM05-M01.e17",
+     "GM05-M01.e16",
+     "GM05-M01.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is -7.0 pp, with an 80% interval from -9.5 to -5.0 pp.",
+    "evidence_ids": [
+     "GM05-M01.e20",
+     "GM05-M01.e21",
+     "GM05-M01.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M01",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Cyril Penbrook scored for Northbridge United in minute 2, making it 1-0.",
+    "evidence_ids": [
+     "GM05-M01.e1",
+     "GM05-M01.e2",
+     "GM05-M01.e11",
+     "GM05-M01.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.14 xG from 8.6 metres.",
+    "evidence_ids": [
+     "GM05-M01.e3",
+     "GM05-M01.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United hopes rose by 7 points to 99%.",
+    "evidence_ids": [
+     "GM05-M01.e14",
+     "GM05-M01.e15"
+    ]
+   },
+   {
+    "text": "What if Cyril Penbrook's goal for Northbridge United had not gone in? Northbridge United would be about 92% to win, not 98%.",
+    "evidence_ids": [
+     "GM05-M01.e17",
+     "GM05-M01.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M01",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Cyril Penbrook scored for Northbridge United in minute 2, making it 1-0.",
+    "evidence_ids": [
+     "GM05-M01.e1",
+     "GM05-M01.e2",
+     "GM05-M01.e11",
+     "GM05-M01.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.14, and higher means a better chance.",
+    "evidence_ids": [
+     "GM05-M01.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 99% chance of winning, compared with 91% before.",
+    "evidence_ids": [
+     "GM05-M01.e13",
+     "GM05-M01.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Northbridge United would have about a 92% chance instead of 98%.",
+    "evidence_ids": [
+     "GM05-M01.e17",
+     "GM05-M01.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M01",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 2. Cyril Penbrook scores for Northbridge United, and the score is now 1-0.",
+    "evidence_ids": [
+     "GM05-M01.e11",
+     "GM05-M01.e1",
+     "GM05-M01.e2",
+     "GM05-M01.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.14 xG from 8.6 metres.",
+    "evidence_ids": [
+     "GM05-M01.e3",
+     "GM05-M01.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 99 per cent chance of winning, up from 91 per cent.",
+    "evidence_ids": [
+     "GM05-M01.e13",
+     "GM05-M01.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: cites no evidence",
+   "attempt 1: s1: scoreline '1-0' not in cited evidence",
+   "attempt 1: s1: number 2 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M02",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 27.",
+    "evidence_ids": [
+     "GM05-M02.e1",
+     "GM05-M02.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.09 to 0.90.",
+    "evidence_ids": [
+     "GM05-M02.e2",
+     "GM05-M02.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability fell by 1.7 pp, from 98.7% to 97.0%.",
+    "evidence_ids": [
+     "GM05-M02.e9",
+     "GM05-M02.e7",
+     "GM05-M02.e8"
+    ]
+   },
+   {
+    "text": "What if Elmstead Wanderers had pressed harder from this point? Across 200 simulated rollouts, Northbridge United win chance would be about 94% instead of 92%.",
+    "evidence_ids": [
+     "GM05-M02.e11",
+     "GM05-M02.e10",
+     "GM05-M02.e17"
+    ]
+   },
+   {
+    "text": "The simulated change is +2.0 pp, with an 80% interval from -1.5 to 5.5 pp.",
+    "evidence_ids": [
+     "GM05-M02.e14",
+     "GM05-M02.e15",
+     "GM05-M02.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s4: What-if sentence must be hedged (would/about/simulated)",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M02",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 27.",
+    "evidence_ids": [
+     "GM05-M02.e1",
+     "GM05-M02.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.09 to 0.90.",
+    "evidence_ids": [
+     "GM05-M02.e2",
+     "GM05-M02.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance dropped to 97%, down 2 points.",
+    "evidence_ids": [
+     "GM05-M02.e8",
+     "GM05-M02.e9"
+    ]
+   },
+   {
+    "text": "What if Elmstead Wanderers had pressed harder from this point? Northbridge United would be about 94% to win, not 92%.",
+    "evidence_ids": [
+     "GM05-M02.e11",
+     "GM05-M02.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M02",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 27.",
+    "evidence_ids": [
+     "GM05-M02.e1",
+     "GM05-M02.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 97% chance of winning, compared with 99% before.",
+    "evidence_ids": [
+     "GM05-M02.e7",
+     "GM05-M02.e8"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Northbridge United would have about a 94% chance instead of 92%.",
+    "evidence_ids": [
+     "GM05-M02.e11",
+     "GM05-M02.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M02",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 27.",
+    "evidence_ids": [
+     "GM05-M02.e1",
+     "GM05-M02.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.09 to 0.90.",
+    "evidence_ids": [
+     "GM05-M02.e2",
+     "GM05-M02.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 97 per cent chance of winning, down from 99 per cent.",
+    "evidence_ids": [
+     "GM05-M02.e7",
+     "GM05-M02.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M03",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+    "evidence_ids": [
+     "GM05-M03.e1",
+     "GM05-M03.e2",
+     "GM05-M03.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.32 xG from 4.7 metres.",
+    "evidence_ids": [
+     "GM05-M03.e3",
+     "GM05-M03.e5"
+    ]
+   },
+   {
+    "text": "The move had 7 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM05-M03.e9",
+     "GM05-M03.e7"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 1.6 pp, from 97.0% to 98.5%.",
+    "evidence_ids": [
+     "GM05-M03.e14",
+     "GM05-M03.e12",
+     "GM05-M03.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M03",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+    "evidence_ids": [
+     "GM05-M03.e1",
+     "GM05-M03.e2",
+     "GM05-M03.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.32 xG from 4.7 metres.",
+    "evidence_ids": [
+     "GM05-M03.e3",
+     "GM05-M03.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United hopes rose by 2 points to 98%.",
+    "evidence_ids": [
+     "GM05-M03.e13",
+     "GM05-M03.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M03",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+    "evidence_ids": [
+     "GM05-M03.e1",
+     "GM05-M03.e2",
+     "GM05-M03.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.32, and higher means a better chance.",
+    "evidence_ids": [
+     "GM05-M03.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 98% chance of winning, compared with 97% before.",
+    "evidence_ids": [
+     "GM05-M03.e12",
+     "GM05-M03.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M03",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+    "evidence_ids": [
+     "GM05-M03.e1",
+     "GM05-M03.e2",
+     "GM05-M03.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.32 xG from 4.7 metres.",
+    "evidence_ids": [
+     "GM05-M03.e3",
+     "GM05-M03.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 98 per cent chance of winning, up from 97 per cent.",
+    "evidence_ids": [
+     "GM05-M03.e12",
+     "GM05-M03.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: unknown evidence ids ['GM05-M03.e99']",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M04",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 45.",
+    "evidence_ids": [
+     "GM05-M04.e1",
+     "GM05-M04.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.09 to 0.98.",
+    "evidence_ids": [
+     "GM05-M04.e2",
+     "GM05-M04.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 0.8 pp, from 99.0% to 99.8%.",
+    "evidence_ids": [
+     "GM05-M04.e9",
+     "GM05-M04.e7",
+     "GM05-M04.e8"
+    ]
+   },
+   {
+    "text": "What if Elmstead Wanderers had pressed harder from this point? Across 200 simulated rollouts, Northbridge United win chance would be about 92% instead of 94%.",
+    "evidence_ids": [
+     "GM05-M04.e11",
+     "GM05-M04.e10",
+     "GM05-M04.e17"
+    ]
+   },
+   {
+    "text": "The simulated change is -1.5 pp, with an 80% interval from -5.0 to 2.0 pp.",
+    "evidence_ids": [
+     "GM05-M04.e14",
+     "GM05-M04.e15",
+     "GM05-M04.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M04",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 45.",
+    "evidence_ids": [
+     "GM05-M04.e1",
+     "GM05-M04.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.09 to 0.98.",
+    "evidence_ids": [
+     "GM05-M04.e2",
+     "GM05-M04.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance barely moved, staying near 100%.",
+    "evidence_ids": [
+     "GM05-M04.e8",
+     "GM05-M04.e9"
+    ]
+   },
+   {
+    "text": "What if Elmstead Wanderers had pressed harder from this point? Northbridge United would be about 92% to win, not 94%.",
+    "evidence_ids": [
+     "GM05-M04.e11",
+     "GM05-M04.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M04",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 45.",
+    "evidence_ids": [
+     "GM05-M04.e1",
+     "GM05-M04.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 100% chance of winning, compared with 99% before.",
+    "evidence_ids": [
+     "GM05-M04.e7",
+     "GM05-M04.e8"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Northbridge United would have about a 92% chance instead of 94%.",
+    "evidence_ids": [
+     "GM05-M04.e11",
+     "GM05-M04.e10"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M04",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Northbridge United took control of the game from minute 45.",
+    "evidence_ids": [
+     "GM05-M04.e1",
+     "GM05-M04.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.09 to 0.98.",
+    "evidence_ids": [
+     "GM05-M04.e2",
+     "GM05-M04.e3"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 100 per cent chance of winning, up from 99 per cent.",
+    "evidence_ids": [
+     "GM05-M04.e7",
+     "GM05-M04.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M05",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 46, making it 2-0.",
+    "evidence_ids": [
+     "GM05-M05.e1",
+     "GM05-M05.e2",
+     "GM05-M05.e11",
+     "GM05-M05.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.12 xG from 9.4 metres.",
+    "evidence_ids": [
+     "GM05-M05.e3",
+     "GM05-M05.e5"
+    ]
+   },
+   {
+    "text": "The move had 4 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM05-M05.e9",
+     "GM05-M05.e7"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 1.0 pp, from 98.5% to 99.5%.",
+    "evidence_ids": [
+     "GM05-M05.e15",
+     "GM05-M05.e13",
+     "GM05-M05.e14"
+    ]
+   },
+   {
+    "text": "What if Teo Morholt's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 96% instead of 100%.",
+    "evidence_ids": [
+     "GM05-M05.e17",
+     "GM05-M05.e16",
+     "GM05-M05.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is -3.0 pp, with an 80% interval from -4.5 to -1.5 pp.",
+    "evidence_ids": [
+     "GM05-M05.e20",
+     "GM05-M05.e21",
+     "GM05-M05.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M05",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 46, making it 2-0.",
+    "evidence_ids": [
+     "GM05-M05.e1",
+     "GM05-M05.e2",
+     "GM05-M05.e11",
+     "GM05-M05.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.12 xG from 9.4 metres.",
+    "evidence_ids": [
+     "GM05-M05.e3",
+     "GM05-M05.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United hopes rose by 1 points to 100%.",
+    "evidence_ids": [
+     "GM05-M05.e14",
+     "GM05-M05.e15"
+    ]
+   },
+   {
+    "text": "What if Teo Morholt's goal for Northbridge United had not gone in? Northbridge United would be about 96% to win, not 100%.",
+    "evidence_ids": [
+     "GM05-M05.e17",
+     "GM05-M05.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M05",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 46, making it 2-0.",
+    "evidence_ids": [
+     "GM05-M05.e1",
+     "GM05-M05.e2",
+     "GM05-M05.e11",
+     "GM05-M05.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.12, and higher means a better chance.",
+    "evidence_ids": [
+     "GM05-M05.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 100% chance of winning, compared with 98% before.",
+    "evidence_ids": [
+     "GM05-M05.e13",
+     "GM05-M05.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Northbridge United would have about a 96% chance instead of 100%.",
+    "evidence_ids": [
+     "GM05-M05.e17",
+     "GM05-M05.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M05",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 46. Teo Morholt scores for Northbridge United, and the score is now 2-0.",
+    "evidence_ids": [
+     "GM05-M05.e11",
+     "GM05-M05.e1",
+     "GM05-M05.e2",
+     "GM05-M05.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.12 xG from 9.4 metres.",
+    "evidence_ids": [
+     "GM05-M05.e3",
+     "GM05-M05.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United now has a 100 per cent chance of winning, up from 98 per cent.",
+    "evidence_ids": [
+     "GM05-M05.e13",
+     "GM05-M05.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M06",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+    "evidence_ids": [
+     "GM05-M06.e1",
+     "GM05-M06.e2",
+     "GM05-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.49 xG from 4.9 metres.",
+    "evidence_ids": [
+     "GM05-M06.e3",
+     "GM05-M06.e5"
+    ]
+   },
+   {
+    "text": "The move had 8 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM05-M06.e9",
+     "GM05-M06.e7"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 0.3 pp, from 99.5% to 99.8%.",
+    "evidence_ids": [
+     "GM05-M06.e14",
+     "GM05-M06.e12",
+     "GM05-M06.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M06",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+    "evidence_ids": [
+     "GM05-M06.e1",
+     "GM05-M06.e2",
+     "GM05-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.49 xG from 4.9 metres.",
+    "evidence_ids": [
+     "GM05-M06.e3",
+     "GM05-M06.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance barely moved, staying near 100%.",
+    "evidence_ids": [
+     "GM05-M06.e13",
+     "GM05-M06.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M06",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+    "evidence_ids": [
+     "GM05-M06.e1",
+     "GM05-M06.e2",
+     "GM05-M06.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.49, and higher means a better chance.",
+    "evidence_ids": [
+     "GM05-M06.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 100% chance of winning, compared with 100% before.",
+    "evidence_ids": [
+     "GM05-M06.e12",
+     "GM05-M06.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M06",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+    "evidence_ids": [
+     "GM05-M06.e1",
+     "GM05-M06.e2",
+     "GM05-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.49 xG from 4.9 metres.",
+    "evidence_ids": [
+     "GM05-M06.e3",
+     "GM05-M06.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United still has a 100 per cent chance of winning.",
+    "evidence_ids": [
+     "GM05-M06.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M07",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Caio Ferrmere scored for Northbridge United in minute 59, making it 3-0.",
+    "evidence_ids": [
+     "GM05-M07.e1",
+     "GM05-M07.e2",
+     "GM05-M07.e11",
+     "GM05-M07.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.11 xG from 10.1 metres.",
+    "evidence_ids": [
+     "GM05-M07.e3",
+     "GM05-M07.e5"
+    ]
+   },
+   {
+    "text": "The move had 7 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM05-M07.e9",
+     "GM05-M07.e7"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability rose by 0.2 pp, from 99.8% to 100.0%.",
+    "evidence_ids": [
+     "GM05-M07.e15",
+     "GM05-M07.e13",
+     "GM05-M07.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M07",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Caio Ferrmere scored for Northbridge United in minute 59, making it 3-0.",
+    "evidence_ids": [
+     "GM05-M07.e1",
+     "GM05-M07.e2",
+     "GM05-M07.e11",
+     "GM05-M07.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.11 xG from 10.1 metres.",
+    "evidence_ids": [
+     "GM05-M07.e3",
+     "GM05-M07.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance barely moved, staying near 100%.",
+    "evidence_ids": [
+     "GM05-M07.e14",
+     "GM05-M07.e15"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M07",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Caio Ferrmere scored for Northbridge United in minute 59, making it 3-0.",
+    "evidence_ids": [
+     "GM05-M07.e1",
+     "GM05-M07.e2",
+     "GM05-M07.e11",
+     "GM05-M07.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.11, and higher means a better chance.",
+    "evidence_ids": [
+     "GM05-M07.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 100% chance of winning, compared with 100% before.",
+    "evidence_ids": [
+     "GM05-M07.e13",
+     "GM05-M07.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M07",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 59. Caio Ferrmere scores for Northbridge United, and the score is now 3-0.",
+    "evidence_ids": [
+     "GM05-M07.e11",
+     "GM05-M07.e1",
+     "GM05-M07.e2",
+     "GM05-M07.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.11 xG from 10.1 metres.",
+    "evidence_ids": [
+     "GM05-M07.e3",
+     "GM05-M07.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United still has a 100 per cent chance of winning.",
+    "evidence_ids": [
+     "GM05-M07.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M08",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 88, making it 4-0.",
+    "evidence_ids": [
+     "GM05-M08.e1",
+     "GM05-M08.e2",
+     "GM05-M08.e11",
+     "GM05-M08.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.28 xG from 6.9 metres.",
+    "evidence_ids": [
+     "GM05-M08.e3",
+     "GM05-M08.e5"
+    ]
+   },
+   {
+    "text": "The move had 7 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM05-M08.e9",
+     "GM05-M08.e7"
+    ]
+   },
+   {
+    "text": "Northbridge United win probability held at 100.0%.",
+    "evidence_ids": [
+     "GM05-M08.e15",
+     "GM05-M08.e14"
+    ]
+   },
+   {
+    "text": "What if Teo Morholt's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 100% instead of 100%.",
+    "evidence_ids": [
+     "GM05-M08.e17",
+     "GM05-M08.e16",
+     "GM05-M08.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is +0.0 pp, with an 80% interval from 0.0 to 0.0 pp.",
+    "evidence_ids": [
+     "GM05-M08.e20",
+     "GM05-M08.e21",
+     "GM05-M08.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M08",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 88, making it 4-0.",
+    "evidence_ids": [
+     "GM05-M08.e1",
+     "GM05-M08.e2",
+     "GM05-M08.e11",
+     "GM05-M08.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.28 xG from 6.9 metres.",
+    "evidence_ids": [
+     "GM05-M08.e3",
+     "GM05-M08.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United win chance barely moved, staying near 100%.",
+    "evidence_ids": [
+     "GM05-M08.e14",
+     "GM05-M08.e15"
+    ]
+   },
+   {
+    "text": "What if Teo Morholt's goal for Northbridge United had not gone in? Northbridge United would be about 100% to win, not 100%.",
+    "evidence_ids": [
+     "GM05-M08.e17",
+     "GM05-M08.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M08",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Teo Morholt scored for Northbridge United in minute 88, making it 4-0.",
+    "evidence_ids": [
+     "GM05-M08.e1",
+     "GM05-M08.e2",
+     "GM05-M08.e11",
+     "GM05-M08.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.28, and higher means a better chance.",
+    "evidence_ids": [
+     "GM05-M08.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Northbridge United a 100% chance of winning, compared with 100% before.",
+    "evidence_ids": [
+     "GM05-M08.e13",
+     "GM05-M08.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Northbridge United would have about a 100% chance instead of 100%.",
+    "evidence_ids": [
+     "GM05-M08.e17",
+     "GM05-M08.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM05-M08",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 88. Teo Morholt scores for Northbridge United, and the score is now 4-0.",
+    "evidence_ids": [
+     "GM05-M08.e11",
+     "GM05-M08.e1",
+     "GM05-M08.e2",
+     "GM05-M08.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.28 xG from 6.9 metres.",
+    "evidence_ids": [
+     "GM05-M08.e3",
+     "GM05-M08.e5"
+    ]
+   },
+   {
+    "text": "Northbridge United still has a 100 per cent chance of winning.",
+    "evidence_ids": [
+     "GM05-M08.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+   "attempt 2: s1: club 'Copperbay FC' is not in this match",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ }
+]

@@ -1,0 +1,1537 @@
+[
+ {
+  "moment_id": "GM03-M01",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Wen Brommere scored for Thornvale City in minute 3, making it 0-1.",
+    "evidence_ids": [
+     "GM03-M01.e1",
+     "GM03-M01.e2",
+     "GM03-M01.e11",
+     "GM03-M01.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.30 xG from 6.8 metres.",
+    "evidence_ids": [
+     "GM03-M01.e3",
+     "GM03-M01.e5"
+    ]
+   },
+   {
+    "text": "The move had 8 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM03-M01.e9",
+     "GM03-M01.e7"
+    ]
+   },
+   {
+    "text": "Thornvale City win probability rose by 24.2 pp, from 30.2% to 54.4%.",
+    "evidence_ids": [
+     "GM03-M01.e15",
+     "GM03-M01.e13",
+     "GM03-M01.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M01",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Wen Brommere scored for Thornvale City in minute 3, making it 0-1.",
+    "evidence_ids": [
+     "GM03-M01.e1",
+     "GM03-M01.e2",
+     "GM03-M01.e11",
+     "GM03-M01.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.30 xG from 6.8 metres.",
+    "evidence_ids": [
+     "GM03-M01.e3",
+     "GM03-M01.e5"
+    ]
+   },
+   {
+    "text": "Thornvale City hopes rose by 24 points to 54%.",
+    "evidence_ids": [
+     "GM03-M01.e14",
+     "GM03-M01.e15"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M01",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Wen Brommere scored for Thornvale City in minute 3, making it 0-1.",
+    "evidence_ids": [
+     "GM03-M01.e1",
+     "GM03-M01.e2",
+     "GM03-M01.e11",
+     "GM03-M01.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.30, and higher means a better chance.",
+    "evidence_ids": [
+     "GM03-M01.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Thornvale City a 54% chance of winning, compared with 30% before.",
+    "evidence_ids": [
+     "GM03-M01.e13",
+     "GM03-M01.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M01",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 3. Wen Brommere scores for Thornvale City, and the score is now 0-1.",
+    "evidence_ids": [
+     "GM03-M01.e11",
+     "GM03-M01.e1",
+     "GM03-M01.e2",
+     "GM03-M01.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.30 xG from 6.8 metres.",
+    "evidence_ids": [
+     "GM03-M01.e3",
+     "GM03-M01.e5"
+    ]
+   },
+   {
+    "text": "Thornvale City now has a 54 per cent chance of winning, up from 30 per cent.",
+    "evidence_ids": [
+     "GM03-M01.e13",
+     "GM03-M01.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M02",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Greyhaven Rovers took control of the game from minute 3.",
+    "evidence_ids": [
+     "GM03-M02.e1",
+     "GM03-M02.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.66 to 0.16.",
+    "evidence_ids": [
+     "GM03-M02.e2",
+     "GM03-M02.e3"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers win probability fell by 22.9 pp, from 47.3% to 24.4%.",
+    "evidence_ids": [
+     "GM03-M02.e9",
+     "GM03-M02.e7",
+     "GM03-M02.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M02",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Greyhaven Rovers took control of the game from minute 3.",
+    "evidence_ids": [
+     "GM03-M02.e1",
+     "GM03-M02.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.66 to 0.16.",
+    "evidence_ids": [
+     "GM03-M02.e2",
+     "GM03-M02.e3"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers hopes fell by 23 points to 24%.",
+    "evidence_ids": [
+     "GM03-M02.e8",
+     "GM03-M02.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M02",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Greyhaven Rovers took control of the game from minute 3.",
+    "evidence_ids": [
+     "GM03-M02.e1",
+     "GM03-M02.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Greyhaven Rovers a 24% chance of winning, compared with 47% before.",
+    "evidence_ids": [
+     "GM03-M02.e7",
+     "GM03-M02.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+   "attempt 2: s1: cites no evidence",
+   "attempt 2: s1: number 3 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M02",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Greyhaven Rovers took control of the game from minute 3.",
+    "evidence_ids": [
+     "GM03-M02.e1",
+     "GM03-M02.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.66 to 0.16.",
+    "evidence_ids": [
+     "GM03-M02.e2",
+     "GM03-M02.e3"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers now has a 24 per cent chance of winning, down from 47 per cent.",
+    "evidence_ids": [
+     "GM03-M02.e7",
+     "GM03-M02.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M03",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Femi Wynvale scored for Greyhaven Rovers in minute 22, making it 1-1.",
+    "evidence_ids": [
+     "GM03-M03.e1",
+     "GM03-M03.e2",
+     "GM03-M03.e11",
+     "GM03-M03.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.61 xG from 3.3 metres.",
+    "evidence_ids": [
+     "GM03-M03.e3",
+     "GM03-M03.e5"
+    ]
+   },
+   {
+    "text": "The move had 5 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM03-M03.e9",
+     "GM03-M03.e7"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers win probability rose by 12.0 pp, from 35.6% to 47.7%.",
+    "evidence_ids": [
+     "GM03-M03.e15",
+     "GM03-M03.e13",
+     "GM03-M03.e14"
+    ]
+   },
+   {
+    "text": "What if Femi Wynvale's goal for Greyhaven Rovers had not gone in? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 12% instead of 32%.",
+    "evidence_ids": [
+     "GM03-M03.e17",
+     "GM03-M03.e16",
+     "GM03-M03.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is -20.5 pp, with an 80% interval from -24.0 to -17.0 pp.",
+    "evidence_ids": [
+     "GM03-M03.e20",
+     "GM03-M03.e21",
+     "GM03-M03.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: number 29.3 not backed by cited evidence",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M03",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Femi Wynvale scored for Greyhaven Rovers in minute 22, making it 1-1.",
+    "evidence_ids": [
+     "GM03-M03.e1",
+     "GM03-M03.e2",
+     "GM03-M03.e11",
+     "GM03-M03.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.61 xG from 3.3 metres.",
+    "evidence_ids": [
+     "GM03-M03.e3",
+     "GM03-M03.e5"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers hopes rose by 12 points to 48%.",
+    "evidence_ids": [
+     "GM03-M03.e14",
+     "GM03-M03.e15"
+    ]
+   },
+   {
+    "text": "What if Femi Wynvale's goal for Greyhaven Rovers had not gone in? Greyhaven Rovers would be about 12% to win, not 32%.",
+    "evidence_ids": [
+     "GM03-M03.e17",
+     "GM03-M03.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M03",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Femi Wynvale scored for Greyhaven Rovers in minute 22, making it 1-1.",
+    "evidence_ids": [
+     "GM03-M03.e1",
+     "GM03-M03.e2",
+     "GM03-M03.e11",
+     "GM03-M03.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.61, and higher means a better chance.",
+    "evidence_ids": [
+     "GM03-M03.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Greyhaven Rovers a 48% chance of winning, compared with 36% before.",
+    "evidence_ids": [
+     "GM03-M03.e13",
+     "GM03-M03.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 12% chance instead of 32%.",
+    "evidence_ids": [
+     "GM03-M03.e17",
+     "GM03-M03.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M03",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 22. Femi Wynvale scores for Greyhaven Rovers, and the score is now 1-1.",
+    "evidence_ids": [
+     "GM03-M03.e11",
+     "GM03-M03.e1",
+     "GM03-M03.e2",
+     "GM03-M03.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.61 xG from 3.3 metres.",
+    "evidence_ids": [
+     "GM03-M03.e3",
+     "GM03-M03.e5"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers now has a 48 per cent chance of winning, up from 36 per cent.",
+    "evidence_ids": [
+     "GM03-M03.e13",
+     "GM03-M03.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M04",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Greyhaven Rovers took control of the game from minute 45.",
+    "evidence_ids": [
+     "GM03-M04.e1",
+     "GM03-M04.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.17 to 0.76.",
+    "evidence_ids": [
+     "GM03-M04.e2",
+     "GM03-M04.e3"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers win probability rose by 0.9 pp, from 38.8% to 39.6%.",
+    "evidence_ids": [
+     "GM03-M04.e9",
+     "GM03-M04.e7",
+     "GM03-M04.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M04",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Greyhaven Rovers took control of the game from minute 45.",
+    "evidence_ids": [
+     "GM03-M04.e1",
+     "GM03-M04.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.17 to 0.76.",
+    "evidence_ids": [
+     "GM03-M04.e2",
+     "GM03-M04.e3"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers win chance barely moved, staying near 40%.",
+    "evidence_ids": [
+     "GM03-M04.e8",
+     "GM03-M04.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M04",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Greyhaven Rovers took control of the game from minute 45.",
+    "evidence_ids": [
+     "GM03-M04.e1",
+     "GM03-M04.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Greyhaven Rovers a 40% chance of winning, compared with 39% before.",
+    "evidence_ids": [
+     "GM03-M04.e7",
+     "GM03-M04.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M04",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Greyhaven Rovers took control of the game from minute 45.",
+    "evidence_ids": [
+     "GM03-M04.e1",
+     "GM03-M04.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from -0.17 to 0.76.",
+    "evidence_ids": [
+     "GM03-M04.e2",
+     "GM03-M04.e3"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers now has a 40 per cent chance of winning, up from 39 per cent.",
+    "evidence_ids": [
+     "GM03-M04.e7",
+     "GM03-M04.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M05",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+    "evidence_ids": [
+     "GM03-M05.e1",
+     "GM03-M05.e6",
+     "GM03-M05.e2",
+     "GM03-M05.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.016 to 0.035.",
+    "evidence_ids": [
+     "GM03-M05.e4",
+     "GM03-M05.e5"
+    ]
+   },
+   {
+    "text": "Thornvale City win probability fell by 17.4 pp, from 23.8% to 6.5%.",
+    "evidence_ids": [
+     "GM03-M05.e10",
+     "GM03-M05.e8",
+     "GM03-M05.e9"
+    ]
+   },
+   {
+    "text": "What if Thornvale City had kept Iker Garcroft on instead of bringing on Otto Garmere? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 24% instead of 20%.",
+    "evidence_ids": [
+     "GM03-M05.e12",
+     "GM03-M05.e11",
+     "GM03-M05.e18"
+    ]
+   },
+   {
+    "text": "The simulated change is +3.5 pp, with an 80% interval from -2.0 to 9.0 pp.",
+    "evidence_ids": [
+     "GM03-M05.e15",
+     "GM03-M05.e16",
+     "GM03-M05.e17"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M05",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+    "evidence_ids": [
+     "GM03-M05.e1",
+     "GM03-M05.e6",
+     "GM03-M05.e2",
+     "GM03-M05.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.016 to 0.035.",
+    "evidence_ids": [
+     "GM03-M05.e4",
+     "GM03-M05.e5"
+    ]
+   },
+   {
+    "text": "Thornvale City win chance dropped to 6%, down 17 points.",
+    "evidence_ids": [
+     "GM03-M05.e9",
+     "GM03-M05.e10"
+    ]
+   },
+   {
+    "text": "What if Thornvale City had kept Iker Garcroft on instead of bringing on Otto Garmere? Greyhaven Rovers would be about 24% to win, not 20%.",
+    "evidence_ids": [
+     "GM03-M05.e12",
+     "GM03-M05.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M05",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+    "evidence_ids": [
+     "GM03-M05.e1",
+     "GM03-M05.e6",
+     "GM03-M05.e2",
+     "GM03-M05.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Thornvale City a 6% chance of winning, compared with 24% before.",
+    "evidence_ids": [
+     "GM03-M05.e8",
+     "GM03-M05.e9"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 24% chance instead of 20%.",
+    "evidence_ids": [
+     "GM03-M05.e12",
+     "GM03-M05.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M05",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+    "evidence_ids": [
+     "GM03-M05.e1",
+     "GM03-M05.e6",
+     "GM03-M05.e2",
+     "GM03-M05.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.016 to 0.035.",
+    "evidence_ids": [
+     "GM03-M05.e4",
+     "GM03-M05.e5"
+    ]
+   },
+   {
+    "text": "Thornvale City now has a 6 per cent chance of winning, down from 24 per cent.",
+    "evidence_ids": [
+     "GM03-M05.e8",
+     "GM03-M05.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M06",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Mateo Gulholt scored for Greyhaven Rovers in minute 62, making it 2-1.",
+    "evidence_ids": [
+     "GM03-M06.e1",
+     "GM03-M06.e2",
+     "GM03-M06.e11",
+     "GM03-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.40 xG from 6.3 metres.",
+    "evidence_ids": [
+     "GM03-M06.e3",
+     "GM03-M06.e5"
+    ]
+   },
+   {
+    "text": "The move had 6 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM03-M06.e9",
+     "GM03-M06.e7"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers win probability rose by 40.4 pp, from 41.5% to 82.0%.",
+    "evidence_ids": [
+     "GM03-M06.e15",
+     "GM03-M06.e13",
+     "GM03-M06.e14"
+    ]
+   },
+   {
+    "text": "What if Mateo Gulholt's goal for Greyhaven Rovers had not gone in? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 25% instead of 85%.",
+    "evidence_ids": [
+     "GM03-M06.e17",
+     "GM03-M06.e16",
+     "GM03-M06.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is -60.0 pp, with an 80% interval from -64.5 to -55.5 pp.",
+    "evidence_ids": [
+     "GM03-M06.e20",
+     "GM03-M06.e21",
+     "GM03-M06.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M06",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Mateo Gulholt scored for Greyhaven Rovers in minute 62, making it 2-1.",
+    "evidence_ids": [
+     "GM03-M06.e1",
+     "GM03-M06.e2",
+     "GM03-M06.e11",
+     "GM03-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.40 xG from 6.3 metres.",
+    "evidence_ids": [
+     "GM03-M06.e3",
+     "GM03-M06.e5"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers hopes rose by 40 points to 82%.",
+    "evidence_ids": [
+     "GM03-M06.e14",
+     "GM03-M06.e15"
+    ]
+   },
+   {
+    "text": "What if Mateo Gulholt's goal for Greyhaven Rovers had not gone in? Greyhaven Rovers would be about 25% to win, not 85%.",
+    "evidence_ids": [
+     "GM03-M06.e17",
+     "GM03-M06.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M06",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Mateo Gulholt scored for Greyhaven Rovers in minute 62, making it 2-1.",
+    "evidence_ids": [
+     "GM03-M06.e1",
+     "GM03-M06.e2",
+     "GM03-M06.e11",
+     "GM03-M06.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.40, and higher means a better chance.",
+    "evidence_ids": [
+     "GM03-M06.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Greyhaven Rovers a 82% chance of winning, compared with 42% before.",
+    "evidence_ids": [
+     "GM03-M06.e13",
+     "GM03-M06.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 25% chance instead of 85%.",
+    "evidence_ids": [
+     "GM03-M06.e17",
+     "GM03-M06.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M06",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 62. Mateo Gulholt scores for Greyhaven Rovers, and the score is now 2-1.",
+    "evidence_ids": [
+     "GM03-M06.e11",
+     "GM03-M06.e1",
+     "GM03-M06.e2",
+     "GM03-M06.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.40 xG from 6.3 metres.",
+    "evidence_ids": [
+     "GM03-M06.e3",
+     "GM03-M06.e5"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers now has a 82 per cent chance of winning, up from 42 per cent.",
+    "evidence_ids": [
+     "GM03-M06.e13",
+     "GM03-M06.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M07",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+    "evidence_ids": [
+     "GM03-M07.e1",
+     "GM03-M07.e6",
+     "GM03-M07.e2",
+     "GM03-M07.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.005 to 0.038.",
+    "evidence_ids": [
+     "GM03-M07.e4",
+     "GM03-M07.e5"
+    ]
+   },
+   {
+    "text": "Thornvale City win probability rose by 3.0 pp, from 2.7% to 5.7%.",
+    "evidence_ids": [
+     "GM03-M07.e10",
+     "GM03-M07.e8",
+     "GM03-M07.e9"
+    ]
+   },
+   {
+    "text": "What if Thornvale City had kept Arin Halbrook on instead of bringing on Jari Kelcroft? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 78% instead of 84%.",
+    "evidence_ids": [
+     "GM03-M07.e12",
+     "GM03-M07.e11",
+     "GM03-M07.e18"
+    ]
+   },
+   {
+    "text": "The simulated change is -6.0 pp, with an 80% interval from -10.5 to -1.0 pp.",
+    "evidence_ids": [
+     "GM03-M07.e15",
+     "GM03-M07.e16",
+     "GM03-M07.e17"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: unknown evidence ids ['GM03-M07.e99']",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M07",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+    "evidence_ids": [
+     "GM03-M07.e1",
+     "GM03-M07.e6",
+     "GM03-M07.e2",
+     "GM03-M07.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.005 to 0.038.",
+    "evidence_ids": [
+     "GM03-M07.e4",
+     "GM03-M07.e5"
+    ]
+   },
+   {
+    "text": "Thornvale City win chance jumped to 6%, up 3 points.",
+    "evidence_ids": [
+     "GM03-M07.e9",
+     "GM03-M07.e10"
+    ]
+   },
+   {
+    "text": "What if Thornvale City had kept Arin Halbrook on instead of bringing on Jari Kelcroft? Greyhaven Rovers would be about 78% to win, not 84%.",
+    "evidence_ids": [
+     "GM03-M07.e12",
+     "GM03-M07.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M07",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+    "evidence_ids": [
+     "GM03-M07.e1",
+     "GM03-M07.e6",
+     "GM03-M07.e2",
+     "GM03-M07.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Thornvale City a 6% chance of winning, compared with 3% before.",
+    "evidence_ids": [
+     "GM03-M07.e8",
+     "GM03-M07.e9"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 78% chance instead of 84%.",
+    "evidence_ids": [
+     "GM03-M07.e12",
+     "GM03-M07.e11"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M07",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+    "evidence_ids": [
+     "GM03-M07.e1",
+     "GM03-M07.e6",
+     "GM03-M07.e2",
+     "GM03-M07.e3"
+    ]
+   },
+   {
+    "text": "Threat per minute went from 0.005 to 0.038.",
+    "evidence_ids": [
+     "GM03-M07.e4",
+     "GM03-M07.e5"
+    ]
+   },
+   {
+    "text": "Thornvale City now has a 6 per cent chance of winning, up from 3 per cent.",
+    "evidence_ids": [
+     "GM03-M07.e8",
+     "GM03-M07.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M08",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Otto Garmere scored for Thornvale City in minute 66, making it 2-2.",
+    "evidence_ids": [
+     "GM03-M08.e1",
+     "GM03-M08.e2",
+     "GM03-M08.e11",
+     "GM03-M08.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.37 xG from 5.6 metres.",
+    "evidence_ids": [
+     "GM03-M08.e3",
+     "GM03-M08.e5"
+    ]
+   },
+   {
+    "text": "The move had 7 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM03-M08.e9",
+     "GM03-M08.e7"
+    ]
+   },
+   {
+    "text": "Thornvale City win probability rose by 12.1 pp, from 2.1% to 14.1%.",
+    "evidence_ids": [
+     "GM03-M08.e15",
+     "GM03-M08.e13",
+     "GM03-M08.e14"
+    ]
+   },
+   {
+    "text": "What if Otto Garmere's goal for Thornvale City had not gone in? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 85% instead of 22%.",
+    "evidence_ids": [
+     "GM03-M08.e17",
+     "GM03-M08.e16",
+     "GM03-M08.e23"
+    ]
+   },
+   {
+    "text": "The simulated change is +63.0 pp, with an 80% interval from 58.5 to 67.0 pp.",
+    "evidence_ids": [
+     "GM03-M08.e20",
+     "GM03-M08.e21",
+     "GM03-M08.e22"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M08",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Otto Garmere scored for Thornvale City in minute 66, making it 2-2.",
+    "evidence_ids": [
+     "GM03-M08.e1",
+     "GM03-M08.e2",
+     "GM03-M08.e11",
+     "GM03-M08.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.37 xG from 5.6 metres.",
+    "evidence_ids": [
+     "GM03-M08.e3",
+     "GM03-M08.e5"
+    ]
+   },
+   {
+    "text": "Thornvale City hopes rose by 12 points to 14%.",
+    "evidence_ids": [
+     "GM03-M08.e14",
+     "GM03-M08.e15"
+    ]
+   },
+   {
+    "text": "What if Otto Garmere's goal for Thornvale City had not gone in? Greyhaven Rovers would be about 85% to win, not 22%.",
+    "evidence_ids": [
+     "GM03-M08.e17",
+     "GM03-M08.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M08",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Otto Garmere scored for Thornvale City in minute 66, making it 2-2.",
+    "evidence_ids": [
+     "GM03-M08.e1",
+     "GM03-M08.e2",
+     "GM03-M08.e11",
+     "GM03-M08.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.37, and higher means a better chance.",
+    "evidence_ids": [
+     "GM03-M08.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Thornvale City a 14% chance of winning, compared with 2% before.",
+    "evidence_ids": [
+     "GM03-M08.e13",
+     "GM03-M08.e14"
+    ]
+   },
+   {
+    "text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 85% chance instead of 22%.",
+    "evidence_ids": [
+     "GM03-M08.e17",
+     "GM03-M08.e16"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M08",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Minute 66. Otto Garmere scores for Thornvale City, and the score is now 2-2.",
+    "evidence_ids": [
+     "GM03-M08.e11",
+     "GM03-M08.e1",
+     "GM03-M08.e2",
+     "GM03-M08.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.37 xG from 5.6 metres.",
+    "evidence_ids": [
+     "GM03-M08.e3",
+     "GM03-M08.e5"
+    ]
+   },
+   {
+    "text": "Thornvale City now has a 14 per cent chance of winning, up from 2 per cent.",
+    "evidence_ids": [
+     "GM03-M08.e13",
+     "GM03-M08.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M09",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+    "evidence_ids": [
+     "GM03-M09.e1",
+     "GM03-M09.e2",
+     "GM03-M09.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.28 xG from 6.9 metres.",
+    "evidence_ids": [
+     "GM03-M09.e3",
+     "GM03-M09.e5"
+    ]
+   },
+   {
+    "text": "The move had 7 actions, and the shooter was under pressure: no.",
+    "evidence_ids": [
+     "GM03-M09.e9",
+     "GM03-M09.e7"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers win probability fell by 1.9 pp, from 22.7% to 20.8%.",
+    "evidence_ids": [
+     "GM03-M09.e14",
+     "GM03-M09.e12",
+     "GM03-M09.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s4: direction word ('up') contradicts cited change",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M09",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+    "evidence_ids": [
+     "GM03-M09.e1",
+     "GM03-M09.e2",
+     "GM03-M09.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.28 xG from 6.9 metres.",
+    "evidence_ids": [
+     "GM03-M09.e3",
+     "GM03-M09.e5"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers win chance dropped to 21%, down 2 points.",
+    "evidence_ids": [
+     "GM03-M09.e13",
+     "GM03-M09.e14"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M09",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+    "evidence_ids": [
+     "GM03-M09.e1",
+     "GM03-M09.e2",
+     "GM03-M09.e10"
+    ]
+   },
+   {
+    "text": "xG measures chance quality; this one was 0.28, and higher means a better chance.",
+    "evidence_ids": [
+     "GM03-M09.e3"
+    ]
+   },
+   {
+    "text": "Our model now gives Greyhaven Rovers a 21% chance of winning, compared with 23% before.",
+    "evidence_ids": [
+     "GM03-M09.e12",
+     "GM03-M09.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M09",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+    "evidence_ids": [
+     "GM03-M09.e1",
+     "GM03-M09.e2",
+     "GM03-M09.e10"
+    ]
+   },
+   {
+    "text": "The shot was worth 0.28 xG from 6.9 metres.",
+    "evidence_ids": [
+     "GM03-M09.e3",
+     "GM03-M09.e5"
+    ]
+   },
+   {
+    "text": "Greyhaven Rovers now has a 21 per cent chance of winning, down from 23 per cent.",
+    "evidence_ids": [
+     "GM03-M09.e12",
+     "GM03-M09.e13"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M10",
+  "persona_key": "analyst",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City took control of the game from minute 81.",
+    "evidence_ids": [
+     "GM03-M10.e1",
+     "GM03-M10.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.54 to -0.29.",
+    "evidence_ids": [
+     "GM03-M10.e2",
+     "GM03-M10.e3"
+    ]
+   },
+   {
+    "text": "Thornvale City win probability fell by 3.0 pp, from 5.7% to 2.7%.",
+    "evidence_ids": [
+     "GM03-M10.e9",
+     "GM03-M10.e7",
+     "GM03-M10.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M10",
+  "persona_key": "casual",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City took control of the game from minute 81.",
+    "evidence_ids": [
+     "GM03-M10.e1",
+     "GM03-M10.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.54 to -0.29.",
+    "evidence_ids": [
+     "GM03-M10.e2",
+     "GM03-M10.e3"
+    ]
+   },
+   {
+    "text": "Thornvale City win chance dropped to 3%, down 3 points.",
+    "evidence_ids": [
+     "GM03-M10.e8",
+     "GM03-M10.e9"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M10",
+  "persona_key": "beginner",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City took control of the game from minute 81.",
+    "evidence_ids": [
+     "GM03-M10.e1",
+     "GM03-M10.e5"
+    ]
+   },
+   {
+    "text": "Our model now gives Thornvale City a 3% chance of winning, compared with 6% before.",
+    "evidence_ids": [
+     "GM03-M10.e7",
+     "GM03-M10.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ },
+ {
+  "moment_id": "GM03-M10",
+  "persona_key": "audio",
+  "lang": "en",
+  "sentences": [
+   {
+    "text": "Thornvale City took control of the game from minute 81.",
+    "evidence_ids": [
+     "GM03-M10.e1",
+     "GM03-M10.e5"
+    ]
+   },
+   {
+    "text": "The momentum index went from 0.54 to -0.29.",
+    "evidence_ids": [
+     "GM03-M10.e2",
+     "GM03-M10.e3"
+    ]
+   },
+   {
+    "text": "Thornvale City now has a 3 per cent chance of winning, down from 6 per cent.",
+    "evidence_ids": [
+     "GM03-M10.e7",
+     "GM03-M10.e8"
+    ]
+   }
+  ],
+  "verified": true,
+  "verifier_notes": [
+   "llm judge skipped (offline backend); deterministic checks passed"
+  ],
+  "degraded": false
+ }
+]
