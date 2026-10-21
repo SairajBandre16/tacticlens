@@ -5,6 +5,6 @@
 - Gotcha: FoundryExplainer is untested live (no Foundry yet). It parses JSON from `response.text`; first live run may need prompt/parse tweaks. Kill switch for the demo: `TACTICLENS_KILL_EXPLAINER=1` -> 3 failed attempts -> verified template fallback.
 - Verifier: schema/length, evidence ids, every number (score, %, pp, minutes, number words) vs *cited* items, direction words vs delta sign (zero delta = no direction word), foreign/real names, hedged what-ifs, no certainty/betting words. 1452/1452 injected faults caught.
 - Localizer/AccessibilityDescriber are en passthrough stubs; SafetyGate is an offline blocklist (Content Safety in M7). Personas: analyst/casual/beginner/audio in `agents/state.py`.
-- Next: M5 personalize (hi/es localizer with numeral/entity checks + en back-translation, cricket pack, audio mode, TTS cache). Hook into Localizer/AccessibilityDescriber executors.
+- Next: finish Azure setup (#1) — budget form `tacticlens-monthly` (20/month, alerts 50/80/100% actual) filled in Chrome but NOT created: pick alert email, click Create. Then install az CLI + azd (winget), create Foundry resource/project/gpt-5-mini, roles, .env, smoke test (steps in session notes / issue #1). Then M5.
 - Usage: M4 used 8% session / 1% week (start 0%/34%, end 8%/35%; week resets Oct 24 07:00 London).
 - Repo: github.com/SairajBandre16/tacticlens (public, MIT, CI green). Issues: #1 Azure setup (manual), #2-4 Copilot infra, #5-9 M5-M8. Non-Claude queue = #1-4.
