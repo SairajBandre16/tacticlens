@@ -7,3 +7,4 @@
 - Localizer/AccessibilityDescriber are en passthrough stubs; SafetyGate is an offline blocklist (Content Safety in M7). Personas: analyst/casual/beginner/audio in `agents/state.py`.
 - Next: M5 personalize (hi/es localizer with numeral/entity checks + en back-translation, cricket pack, audio mode, TTS cache). Hook into Localizer/AccessibilityDescriber executors.
 - Usage: M4 used 8% session / 1% week (start 0%/34%, end 8%/35%; week resets Oct 24 07:00 London).
+- Repo: github.com/SairajBandre16/tacticlens (public, MIT, CI green). Issues: #1 Azure setup (manual), #2-4 Copilot infra, #5-9 M5-M8. Non-Claude queue = #1-4.
