@@ -216,8 +216,8 @@ class FoundryExplainer:
         from agent_framework.foundry import FoundryChatClient  # optional extra: pip install .[azure]
         from azure.identity import DefaultAzureCredential
 
-        self.model = model or os.environ["FOUNDRY_MODEL"]
-        client = FoundryChatClient(project_endpoint=endpoint or os.environ["FOUNDRY_PROJECT_ENDPOINT"],
+        self.model = model or os.environ["AZURE_AI_MODEL_DEPLOYMENT"]
+        client = FoundryChatClient(project_endpoint=endpoint or os.environ["AZURE_AI_PROJECT_ENDPOINT"],
                                    model=self.model, credential=DefaultAzureCredential())
         self.explainer = client.as_agent(name="Explainer", instructions=INSTRUCTIONS)
         self.judge_agent = client.as_agent(name="VerifierJudge", instructions=JUDGE_INSTRUCTIONS)

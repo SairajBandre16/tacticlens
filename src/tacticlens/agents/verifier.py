@@ -122,7 +122,7 @@ def _check_direction(text: str, cited: list[dict], rep: Report, i: int) -> None:
 
 def _check_entities(text: str, pack: EvidencePack, rep: Report, i: int) -> None:
     if m := REAL_RE.search(text):
-        rep.fail(f"s{i}: real-world name '{m.group(0)}' is not allowed")
+        rep.fail(f"s{i}: real-world club or player name is not allowed")
     for club in pack.foreign_clubs:
         if re.search(rf"\b{re.escape(club.split()[0])}\b", text):
             rep.fail(f"s{i}: club '{club}' is not in this match")

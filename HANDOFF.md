@@ -1,9 +1,9 @@
 # HANDOFF
 - Done: M0-M4. M4 = `agents/` on MS Agent Framework (`agent-framework-core` 1.22, graph API): Spotter -> EvidenceBuilder -> per persona Explainer <-> Verifier (max 3 attempts) -> TemplateFallback -> Localizer -> AccessibilityDescriber -> SafetyGate. `pytest -q` = 91 passed.
 - Regenerate: `python -m tacticlens.agents golden` (~2 s) writes `data/golden/GMxx/explanations.json` + `trace.json` (Agent-trace panel data) and the agents section of docs/evaluation.md (between `agents-eval` markers; metrics CLI keeps it).
-- Explainer backends: `OfflineExplainer` (deterministic stand-in, 20% simulated drift so retries show) and `FoundryExplainer` (`FoundryChatClient(...).as_agent`, disk cache `data/cache/llm/`, LLM judge in Verifier). Live: `pip install -e .[azure]`, set FOUNDRY_PROJECT_ENDPOINT + FOUNDRY_MODEL, `az login`, `python -m tacticlens.agents golden --live`.
+- Explainer backends: `OfflineExplainer` (deterministic stand-in, 20% simulated drift so retries show) and `FoundryExplainer` (`FoundryChatClient(...).as_agent`, disk cache `data/cache/llm/`, LLM judge in Verifier). Live: `pip install -e .[azure]`, set AZURE_AI_PROJECT_ENDPOINT + AZURE_AI_MODEL_DEPLOYMENT, `az login`, `python -m tacticlens.agents golden --live`.
 - Gotcha: FoundryExplainer is untested live (no Foundry yet). It parses JSON from `response.text`; first live run may need prompt/parse tweaks. Kill switch for the demo: `TACTICLENS_KILL_EXPLAINER=1` -> 3 failed attempts -> verified template fallback.
 - Verifier: schema/length, evidence ids, every number (score, %, pp, minutes, number words) vs *cited* items, direction words vs delta sign (zero delta = no direction word), foreign/real names, hedged what-ifs, no certainty/betting words. 1452/1452 injected faults caught.
 - Localizer/AccessibilityDescriber are en passthrough stubs; SafetyGate is an offline blocklist (Content Safety in M7). Personas: analyst/casual/beginner/audio in `agents/state.py`.
 - Next: M5 personalize (hi/es localizer with numeral/entity checks + en back-translation, cricket pack, audio mode, TTS cache). Hook into Localizer/AccessibilityDescriber executors.
-- Usage: start of M4 0% session / 34% week. End of M4: fill from `/usage`.
+- Usage: M4 used 8% session / 1% week (start 0%/34%, end 8%/35%; week resets Oct 24 07:00 London).

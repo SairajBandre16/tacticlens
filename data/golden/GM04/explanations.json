@@ -62,7 +62,7 @@
   ],
   "verified": true,
   "verifier_notes": [
-   "attempt 1: s1: real-world name 'Arsenal' is not allowed",
+   "attempt 1: s1: real-world club or player name is not allowed",
    "llm judge skipped (offline backend); deterministic checks passed"
   ],
   "degraded": false

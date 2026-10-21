@@ -2,7 +2,7 @@
 
 golden - run the explanation workflow on every golden match: explanations.json + trace.json, then eval
 eval   - re-score the committed golden explanations into docs/evaluation.md
---live - use the Foundry Explainer (needs FOUNDRY_PROJECT_ENDPOINT, FOUNDRY_MODEL, az login, pip install .[azure])
+--live - use the Foundry Explainer (needs AZURE_AI_PROJECT_ENDPOINT, AZURE_AI_MODEL_DEPLOYMENT, az login, pip install .[azure])
 """
 import json
 import sys

@@ -85,7 +85,7 @@
      "attempt": 1,
      "next": "explainer (regenerate)",
      "notes": [
-      "s1: real-world name 'Arsenal' is not allowed"
+      "s1: real-world club or player name is not allowed"
      ],
      "stats": {
       "sentences": 3,
