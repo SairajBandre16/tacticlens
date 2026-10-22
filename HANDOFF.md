@@ -5,4 +5,4 @@
 - Gotcha: system `python` is 3.10 without deps; always use `.venv/Scripts/python.exe`.
 - Next: M7 cloud (Container Apps via azd, managed identity, Cosmos store, live mode). Dockerfile/CI can go to Copilot; CI must install the e2e extra to run the smoke test.
 - Open: UI strings are English only (Translator for UI strings not wired); `tone` persona field has no effect yet; close issues #1, #5 (and M6 issue) on GitHub.
-- Usage (Oct 22, M6 session): fill in from `/usage`.
+- Usage (Oct 22, M6 session): weekly 41% -> 48% (past the 45% lean-mode line in PLAN.md); session 12%.
