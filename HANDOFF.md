@@ -7,4 +7,4 @@
 - Gotcha: TTS hit one WinError 10060 timeout; `_post` now retries 3x. Live localize takes ~10 min (106 agent calls, concurrency 6).
 - Next: M6 Web Match Center (Fri 23). API must load localized.json/audio.json and call `personalize.persona.personalize()` per request.
 - Open: close issue #1 (Azure setup) and #5 (M5) on GitHub.
-- Usage: weekly 40% at session start (Oct 22); run `/usage` and record end %.
+- Usage (Oct 22, M5 session): weekly 40% -> 41%; session 7%.
