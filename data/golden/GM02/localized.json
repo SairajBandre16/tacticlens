@@ -1,0 +1,4176 @@
+{
+ "backend": "foundry",
+ "explanations": [
+  {
+   "moment_id": "GM02-M01",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने मैच में 4 मिनट से नियंत्रण संभाल लिया।",
+     "evidence_ids": [
+      "GM02-M01.e1",
+      "GM02-M01.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 4.",
+     "back_translation": "Redmere FC took control 4 minutes into the match."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.30 से -0.55 तक गया।",
+     "evidence_ids": [
+      "GM02-M01.e2",
+      "GM02-M01.e3"
+     ],
+     "en_text": "The momentum index went from 0.30 to -0.55.",
+     "back_translation": "The momentum index went from 0.30 to -0.55."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 2.2 प्रतिशत अंक गिरकर 22.8% से 20.6% हो गई।",
+     "evidence_ids": [
+      "GM02-M01.e9",
+      "GM02-M01.e7",
+      "GM02-M01.e8"
+     ],
+     "en_text": "Redmere FC win probability fell by 2.2 pp, from 22.8% to 20.6%.",
+     "back_translation": "Redmere FC's chances of winning fell by 2.2 percentage points, from 22.8% to 20.6%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M01",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने मैच में 4 मिनट से कब्ज़ा कर लिया।",
+     "evidence_ids": [
+      "GM02-M01.e1",
+      "GM02-M01.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 4.",
+     "back_translation": "Redmere FC took control of the match 4 minutes into the game."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.30 से -0.55 तक उतर गया।",
+     "evidence_ids": [
+      "GM02-M01.e2",
+      "GM02-M01.e3"
+     ],
+     "en_text": "The momentum index went from 0.30 to -0.55.",
+     "back_translation": "The momentum index went down from 0.30 to -0.55."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 21% पर आ गई, 2 प्रतिशत अंक कम।",
+     "evidence_ids": [
+      "GM02-M01.e8",
+      "GM02-M01.e9"
+     ],
+     "en_text": "Redmere FC win chance dropped to 21%, down 2 points.",
+     "back_translation": "Redmire FC's chances of winning came down to 21%, down 2 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M01",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने 4 मिनट से मैच पर नियंत्रण ले लिया।",
+     "evidence_ids": [
+      "GM02-M01.e1",
+      "GM02-M01.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 4.",
+     "back_translation": "Redmeier FC took control of the match from 4 minutes."
+    },
+    {
+     "text": "हमारा मॉडल अब रेडमियर एफ़सी को 21% जीत की संभावना देता है, जबकि पहले यह 23% था।",
+     "evidence_ids": [
+      "GM02-M01.e7",
+      "GM02-M01.e8"
+     ],
+     "en_text": "Our model now gives Redmere FC a 21% chance of winning, compared with 23% before.",
+     "back_translation": "Our model now gives Redmeier FC a 21% chance of winning, compared to 23% previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M01",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी 4 मिनट से मैच पर काबू पाता है।",
+     "evidence_ids": [
+      "GM02-M01.e1",
+      "GM02-M01.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 4.",
+     "back_translation": "Redmire FC takes control of the match from 4 minutes."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.30 से -0.55 तक जाता है।",
+     "evidence_ids": [
+      "GM02-M01.e2",
+      "GM02-M01.e3"
+     ],
+     "en_text": "The momentum index went from 0.30 to -0.55.",
+     "back_translation": "The momentum index goes from 0.30 to -0.55."
+    },
+    {
+     "text": "रेडमियर एफ़सी के पास अब जीत की 21 प्रतिशत संभावना है, पहले यह 23 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M01.e7",
+      "GM02-M01.e8"
+     ],
+     "en_text": "Redmere FC now has a 21 per cent chance of winning, down from 23 per cent.",
+     "back_translation": "Redmeier FC now has a 21 percent chance of winning, previously it was 23 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M01",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC tomó el control del partido desde el minuto 4.",
+     "evidence_ids": [
+      "GM02-M01.e1",
+      "GM02-M01.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 4.",
+     "back_translation": "Redmere FC took control of the game from the 4th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de 0.30 a -0.55.",
+     "evidence_ids": [
+      "GM02-M01.e2",
+      "GM02-M01.e3"
+     ],
+     "en_text": "The momentum index went from 0.30 to -0.55.",
+     "back_translation": "The momentum index went from 0.30 to -0.55."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC cayó en 2.2 pp, de 22.8 por ciento a 20.6 por ciento.",
+     "evidence_ids": [
+      "GM02-M01.e9",
+      "GM02-M01.e7",
+      "GM02-M01.e8"
+     ],
+     "en_text": "Redmere FC win probability fell by 2.2 pp, from 22.8% to 20.6%.",
+     "back_translation": "Redmere FC's probability of victory fell by 2.2 pp, from 22.8 percent to 20.6 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M01",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC se hizo con el control del partido desde el minuto 4.",
+     "evidence_ids": [
+      "GM02-M01.e1",
+      "GM02-M01.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 4.",
+     "back_translation": "Redmere FC took control of the game from the 4th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de 0.30 a -0.55.",
+     "evidence_ids": [
+      "GM02-M01.e2",
+      "GM02-M01.e3"
+     ],
+     "en_text": "The momentum index went from 0.30 to -0.55.",
+     "back_translation": "The momentum index went from 0.30 to -0.55."
+    },
+    {
+     "text": "La probabilidad de ganar de Redmere FC bajó a 21 por ciento, 2 puntos menos.",
+     "evidence_ids": [
+      "GM02-M01.e8",
+      "GM02-M01.e9"
+     ],
+     "en_text": "Redmere FC win chance dropped to 21%, down 2 points.",
+     "back_translation": "Redmere FC's chance of winning dropped to 21 percent, down 2 points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M01",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC tomó el control del partido desde el minuto 4.",
+     "evidence_ids": [
+      "GM02-M01.e1",
+      "GM02-M01.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 4.",
+     "back_translation": "Redmere FC took control of the game from the 4th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC una probabilidad de ganar del 21 por ciento, frente al 23 por ciento anterior.",
+     "evidence_ids": [
+      "GM02-M01.e7",
+      "GM02-M01.e8"
+     ],
+     "en_text": "Our model now gives Redmere FC a 21% chance of winning, compared with 23% before.",
+     "back_translation": "Our model now gives Redmere FC a 21 per cent chance of winning, up from 23 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M01",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC toma el control del partido desde el minuto 4.",
+     "evidence_ids": [
+      "GM02-M01.e1",
+      "GM02-M01.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 4.",
+     "back_translation": "Redmere FC takes control of the match from the 4th minute."
+    },
+    {
+     "text": "El índice de impulso pasa de 0.30 a -0.55.",
+     "evidence_ids": [
+      "GM02-M01.e2",
+      "GM02-M01.e3"
+     ],
+     "en_text": "The momentum index went from 0.30 to -0.55.",
+     "back_translation": "The momentum index goes from 0.30 to -0.55."
+    },
+    {
+     "text": "Redmere FC ahora tiene una probabilidad de ganar del 21 por ciento, frente al 23 por ciento.",
+     "evidence_ids": [
+      "GM02-M01.e7",
+      "GM02-M01.e8"
+     ],
+     "en_text": "Redmere FC now has a 21 per cent chance of winning, down from 23 per cent.",
+     "back_translation": "Redmere FC now have a 21 per cent chance of winning, up from 23 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M02",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "लियोन कॉररिज के पास मिनट 24 में रेडमियर एफ़सी के लिए एक बड़ा मौक़ा था।",
+     "evidence_ids": [
+      "GM02-M02.e1",
+      "GM02-M02.e2",
+      "GM02-M02.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+     "back_translation": "Leon Corridge had a big chance for Redmere FC in minute 24."
+    },
+    {
+     "text": "शॉट का मान 0.50 xG (अपेक्षित गोल) था और यह 4.5 मीटर से लिया गया था।",
+     "evidence_ids": [
+      "GM02-M02.e3",
+      "GM02-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.50 xG from 4.5 metres.",
+     "back_translation": "The value of the shot was 0.50 xG (expected rounds) and it was taken from 4.5 meters."
+    },
+    {
+     "text": "यह चाल 3 क्रियाओं की थी, और शूटर दबाव में नहीं था।",
+     "evidence_ids": [
+      "GM02-M02.e9",
+      "GM02-M02.e7"
+     ],
+     "en_text": "The move had 3 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move was of 3 actions, and the shooter was not under pressure."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 0.7 प्रतिशत अंक बढ़ी, 19.9 प्रतिशत से 20.6 प्रतिशत हुई।",
+     "evidence_ids": [
+      "GM02-M02.e14",
+      "GM02-M02.e12",
+      "GM02-M02.e13"
+     ],
+     "en_text": "Redmere FC win probability rose by 0.7 pp, from 19.9% to 20.6%.",
+     "back_translation": "Redmere FC's chances of winning increased by 0.7 percentage points, from 19.9 percent to 20.6 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: number 31.3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M02",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "लियोन कॉररिज के पास मिनट 24 में रेडमियर एफ़सी के लिए एक बड़ा मौक़ा था।",
+     "evidence_ids": [
+      "GM02-M02.e1",
+      "GM02-M02.e2",
+      "GM02-M02.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+     "back_translation": "Leon Corridge had a big chance for Redmere FC in minute 24."
+    },
+    {
+     "text": "यह शॉट 0.50 xG (अपेक्षित गोल) का था और दूरी 4.5 मीटर थी।",
+     "evidence_ids": [
+      "GM02-M02.e3",
+      "GM02-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.50 xG from 4.5 metres.",
+     "back_translation": "The shot was 0.50 xG (expected goals) and the distance was 4.5 meters."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना लगभग नहीं बदली और करीब 21 प्रतिशत पर बनी रही।",
+     "evidence_ids": [
+      "GM02-M02.e13",
+      "GM02-M02.e14"
+     ],
+     "en_text": "Redmere FC win chance barely moved, staying near 21%.",
+     "back_translation": "Redmeier FC's chances of victory almost didn't change and remained at around 21 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M02",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "लियोन कॉररिज के पास मिनट 24 में रेडमियर एफ़सी के लिए एक बड़ा मौक़ा था।",
+     "evidence_ids": [
+      "GM02-M02.e1",
+      "GM02-M02.e2",
+      "GM02-M02.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+     "back_translation": "Leon Corridge had a big chance for Redmere FC in minute 24."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता मापता है; यह 0.50 था और अधिक का मतलब बेहतर मौका है।",
+     "evidence_ids": [
+      "GM02-M02.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.50, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; It was 0.50 and more means better chances."
+    },
+    {
+     "text": "हमारा मॉडल अब रेडमियर एफ़सी को 21 प्रतिशत जीत की संभावना देता है, जबकि पहले यह 20 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M02.e12",
+      "GM02-M02.e13"
+     ],
+     "en_text": "Our model now gives Redmere FC a 21% chance of winning, compared with 20% before.",
+     "back_translation": "Our model now gives Redmeier FC a 21 percent chance of winning, compared to 20 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M02",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "लियोन कॉररिज के पास मिनट 24 में रेडमियर एफ़सी के लिए एक बड़ा मौक़ा है।",
+     "evidence_ids": [
+      "GM02-M02.e1",
+      "GM02-M02.e2",
+      "GM02-M02.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+     "back_translation": "Leon Corridge has a big chance for Redmire FC in minute 24."
+    },
+    {
+     "text": "यह शॉट 0.50 xG अपेक्षित गोल का है और 4.5 मीटर से लिया गया है।",
+     "evidence_ids": [
+      "GM02-M02.e3",
+      "GM02-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.50 xG from 4.5 metres.",
+     "back_translation": "This shot is of 0.50 xG expected goal and is taken from 4.5 meters."
+    },
+    {
+     "text": "रेडमियर एफ़सी के पास अब 21 प्रतिशत जीत की संभावना है, जो पहले 20 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M02.e12",
+      "GM02-M02.e13"
+     ],
+     "en_text": "Redmere FC now has a 21 per cent chance of winning, up from 20 per cent.",
+     "back_translation": "Redmeier FC now has a 21 percent win chance, up from 20 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M02",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Leon Corridge tuvo una ocasión clara para Redmere FC en el minuto 24.",
+     "evidence_ids": [
+      "GM02-M02.e1",
+      "GM02-M02.e2",
+      "GM02-M02.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+     "back_translation": "Leon Corridge had a clear chance for Redmere FC in the 24th minute."
+    },
+    {
+     "text": "El remate valía 0.50 xG (goles esperados) desde 4.5 metros.",
+     "evidence_ids": [
+      "GM02-M02.e3",
+      "GM02-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.50 xG from 4.5 metres.",
+     "back_translation": "The shot was worth 0.50 xG (expected goals) from 4.5 meters."
+    },
+    {
+     "text": "La jugada tuvo 3 acciones y el tirador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM02-M02.e9",
+      "GM02-M02.e7"
+     ],
+     "en_text": "The move had 3 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 3 actions and the shooter was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC aumentó 0.7 pp, de 19.9% a 20.6%.",
+     "evidence_ids": [
+      "GM02-M02.e14",
+      "GM02-M02.e12",
+      "GM02-M02.e13"
+     ],
+     "en_text": "Redmere FC win probability rose by 0.7 pp, from 19.9% to 20.6%.",
+     "back_translation": "Redmere FC's probability of victory increased 0.7 pp, from 19.9% to 20.6%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: number 31.3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M02",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Leon Corridge tuvo una ocasión clara para Redmere FC en el minuto 24.",
+     "evidence_ids": [
+      "GM02-M02.e1",
+      "GM02-M02.e2",
+      "GM02-M02.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+     "back_translation": "Leon Corridge had a clear chance for Redmere FC in the 24th minute."
+    },
+    {
+     "text": "El disparo valía 0.50 xG (goles esperados) desde 4.5 metros.",
+     "evidence_ids": [
+      "GM02-M02.e3",
+      "GM02-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.50 xG from 4.5 metres.",
+     "back_translation": "The shot was worth 0.50 xG (expected goals) from 4.5 meters."
+    },
+    {
+     "text": "La probabilidad de ganar de Redmere FC apenas se movió, manteniéndose cerca del 21%.",
+     "evidence_ids": [
+      "GM02-M02.e13",
+      "GM02-M02.e14"
+     ],
+     "en_text": "Redmere FC win chance barely moved, staying near 21%.",
+     "back_translation": "Redmere FC's chance of winning barely budged, remaining close to 21%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M02",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Leon Corridge tuvo una ocasión clara para Redmere FC en el minuto 24.",
+     "evidence_ids": [
+      "GM02-M02.e1",
+      "GM02-M02.e2",
+      "GM02-M02.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+     "back_translation": "Leon Corridge had a clear chance for Redmere FC in the 24th minute."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de la ocasión; esta fue 0.50 y un valor más alto indica una mejor ocasión.",
+     "evidence_ids": [
+      "GM02-M02.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.50, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; this was 0.50 and a higher value indicates a better chance."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC un 21% de probabilidad de ganar, frente al 20% anterior.",
+     "evidence_ids": [
+      "GM02-M02.e12",
+      "GM02-M02.e13"
+     ],
+     "en_text": "Our model now gives Redmere FC a 21% chance of winning, compared with 20% before.",
+     "back_translation": "Our model now gives Redmere FC a 21% chance of winning, up from 20% previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M02",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Leon Corridge tiene una ocasión clara para Redmere FC en el minuto 24.",
+     "evidence_ids": [
+      "GM02-M02.e1",
+      "GM02-M02.e2",
+      "GM02-M02.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 24.",
+     "back_translation": "Leon Corridge has a clear chance for Redmere FC in the 24th minute."
+    },
+    {
+     "text": "El disparo vale 0.50 xG, goles esperados, desde 4.5 metros.",
+     "evidence_ids": [
+      "GM02-M02.e3",
+      "GM02-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.50 xG from 4.5 metres.",
+     "back_translation": "The shot is worth 0.50 xG, expected goals, from 4.5 meters."
+    },
+    {
+     "text": "Redmere FC ahora tiene un 21 por ciento de probabilidad de victoria, frente al 20 por ciento.",
+     "evidence_ids": [
+      "GM02-M02.e12",
+      "GM02-M02.e13"
+     ],
+     "en_text": "Redmere FC now has a 21 per cent chance of winning, up from 20 per cent.",
+     "back_translation": "Redmere FC now have a 21 per cent chance of winning, up from 20 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M03",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "हार्बर एथलेटिक ने 27 मिनट से मैच पर नियंत्रण ले लिया।",
+     "evidence_ids": [
+      "GM02-M03.e1",
+      "GM02-M03.e5"
+     ],
+     "en_text": "Harbor Athletic took control of the game from minute 27.",
+     "back_translation": "Harbour Athletic took control of the match on 27 minutes."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.98 से 0.26 पर गया।",
+     "evidence_ids": [
+      "GM02-M03.e2",
+      "GM02-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.98 to 0.26.",
+     "back_translation": "The Momentum Index went from -0.98 to 0.26."
+    },
+    {
+     "text": "हार्बर एथलेटिक की जीत की संभावना 4.7 प्रतिशत अंक बढ़ी, 34.1% से 38.8% तक।",
+     "evidence_ids": [
+      "GM02-M03.e9",
+      "GM02-M03.e7",
+      "GM02-M03.e8"
+     ],
+     "en_text": "Harbor Athletic win probability rose by 4.7 pp, from 34.1% to 38.8%.",
+     "back_translation": "Harbor Athletic's chances of winning increased by 4.7 percentage points, from 34.1% to 38.8%."
+    },
+    {
+     "text": "यदि रेडमियर एफ़सी ने इस बिंदु से अधिक प्रेसिंग की होती, तो 200 सिम्युलेशन में हार्बर एथलेटिक की जीत की संभावना लगभग 48% होती, न कि 64%।",
+     "evidence_ids": [
+      "GM02-M03.e11",
+      "GM02-M03.e10",
+      "GM02-M03.e17"
+     ],
+     "en_text": "What if Redmere FC had pressed harder from this point? Across 200 simulated rollouts, Harbor Athletic win chance would be about 48% instead of 64%.",
+     "back_translation": "If Redmere FC had done more pressing than this point, Harbour Athletic's chances of winning in the 200 simulation would have been about 48%, not 64%."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -15.0 प्रतिशत अंक है, 80% अंतराल -21.5 से -9.0 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM02-M03.e14",
+      "GM02-M03.e15",
+      "GM02-M03.e16"
+     ],
+     "en_text": "The simulated change is -15.0 pp, with an 80% interval from -21.5 to -9.0 pp.",
+     "back_translation": "The simulated change is -15.0 percentage points, with an 80% interval ranging from -21.5 to -9.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M03",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "हार्बर एथलेटिक ने 27 मिनट से खेल का काबू संभाल लिया।",
+     "evidence_ids": [
+      "GM02-M03.e1",
+      "GM02-M03.e5"
+     ],
+     "en_text": "Harbor Athletic took control of the game from minute 27.",
+     "back_translation": "Harbour Athletic took control of the game with 27 minutes to go."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.98 से 0.26 तक चला गया।",
+     "evidence_ids": [
+      "GM02-M03.e2",
+      "GM02-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.98 to 0.26.",
+     "back_translation": "The momentum index moved from -0.98 to 0.26."
+    },
+    {
+     "text": "हार्बर एथलेटिक की जीत की संभावना 39% पर कूद गई, 5 प्रतिशत अंक ऊपर।",
+     "evidence_ids": [
+      "GM02-M03.e8",
+      "GM02-M03.e9"
+     ],
+     "en_text": "Harbor Athletic win chance jumped to 39%, up 5 points.",
+     "back_translation": "Harbor Athletic's chances of winning jumped to 39%, up 5 percentage points."
+    },
+    {
+     "text": "अगर रेडमियर एफ़सी ने इस बिंदु से ज़्यादा प्रेसिंग की होती तो हार्बर एथलेटिक की जीत की संभावना करीब 48% होती, 64% नहीं।",
+     "evidence_ids": [
+      "GM02-M03.e11",
+      "GM02-M03.e10"
+     ],
+     "en_text": "What if Redmere FC had pressed harder from this point? Harbor Athletic would be about 48% to win, not 64%.",
+     "back_translation": "If Redmere FC had pressed more than this point, Harbour Athletic's chances of winning would have been around 48%, not 64%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: number 34.3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M03",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "हार्बर एथलेटिक ने 27 मिनट से खेल पर नियंत्रण ले लिया।",
+     "evidence_ids": [
+      "GM02-M03.e1",
+      "GM02-M03.e5"
+     ],
+     "en_text": "Harbor Athletic took control of the game from minute 27.",
+     "back_translation": "Harbour Athletic took control of the game on 27 minutes."
+    },
+    {
+     "text": "हमारा मॉडल अब हार्बर एथलेटिक को 39% की जीत की संभावना देता है, पहले यह 34% थी।",
+     "evidence_ids": [
+      "GM02-M03.e7",
+      "GM02-M03.e8"
+     ],
+     "en_text": "Our model now gives Harbor Athletic a 39% chance of winning, compared with 34% before.",
+     "back_translation": "Our model now gives Harbor Athletic a 39% chance of winning, previously it was 34%."
+    },
+    {
+     "text": "यदि ऐसा नहीं हुआ होता, हमारे सिम्युलेशन बताते हैं कि हार्बर एथलेटिक की जीत की संभावना लगभग 48% होती, 64% के बजाय।",
+     "evidence_ids": [
+      "GM02-M03.e11",
+      "GM02-M03.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 48% chance instead of 64%.",
+     "back_translation": "If that hadn't happened, our simulations show that Harbor Athletic's chances of winning would have been around 48%, instead of 64%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M03",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "हार्बर एथलेटिक 27 मिनट से खेल पर काबू पा रहा है।",
+     "evidence_ids": [
+      "GM02-M03.e1",
+      "GM02-M03.e5"
+     ],
+     "en_text": "Harbor Athletic took control of the game from minute 27.",
+     "back_translation": "Harbour Athletic controlled the game for 27 minutes."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.98 से 0.26 पर जाता है।",
+     "evidence_ids": [
+      "GM02-M03.e2",
+      "GM02-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.98 to 0.26.",
+     "back_translation": "The momentum index goes from -0.98 to 0.26."
+    },
+    {
+     "text": "अब हार्बर एथलेटिक की जीत की संभावना 39 प्रतिशत है, पहले यह 34 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M03.e7",
+      "GM02-M03.e8"
+     ],
+     "en_text": "Harbor Athletic now has a 39 per cent chance of winning, up from 34 per cent.",
+     "back_translation": "Now Harbor Athletic's chances of winning are 39 percent, previously it was 34 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM02-M03.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M03",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Harbor Athletic se hizo con el control del partido desde el minuto 27.",
+     "evidence_ids": [
+      "GM02-M03.e1",
+      "GM02-M03.e5"
+     ],
+     "en_text": "Harbor Athletic took control of the game from minute 27.",
+     "back_translation": "Harbor Athletic took control of the match from the 27th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.98 a 0.26.",
+     "evidence_ids": [
+      "GM02-M03.e2",
+      "GM02-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.98 to 0.26.",
+     "back_translation": "The momentum index went from -0.98 to 0.26."
+    },
+    {
+     "text": "La probabilidad de victoria de Harbor Athletic aumentó 4.7 pp, de 34.1 por ciento a 38.8 por ciento.",
+     "evidence_ids": [
+      "GM02-M03.e9",
+      "GM02-M03.e7",
+      "GM02-M03.e8"
+     ],
+     "en_text": "Harbor Athletic win probability rose by 4.7 pp, from 34.1% to 38.8%.",
+     "back_translation": "Harbor Athletic's probability of victory increased 4.7 pp, from 34.1 percent to 38.8 percent."
+    },
+    {
+     "text": "Si Redmere FC hubiera presionado más desde ese momento, en 200 simulaciones la probabilidad de ganar de Harbor Athletic sería de aproximadamente 48 por ciento en lugar de 64 por ciento.",
+     "evidence_ids": [
+      "GM02-M03.e11",
+      "GM02-M03.e10",
+      "GM02-M03.e17"
+     ],
+     "en_text": "What if Redmere FC had pressed harder from this point? Across 200 simulated rollouts, Harbor Athletic win chance would be about 48% instead of 64%.",
+     "back_translation": "If Redmere FC had pushed harder from that point on, in 200 simulations Harbor Athletic's probability of winning would be about 48 percent instead of 64 percent."
+    },
+    {
+     "text": "El cambio simulado es -15.0 pp, con un intervalo del 80% de -21.5 a -9.0 pp.",
+     "evidence_ids": [
+      "GM02-M03.e14",
+      "GM02-M03.e15",
+      "GM02-M03.e16"
+     ],
+     "en_text": "The simulated change is -15.0 pp, with an 80% interval from -21.5 to -9.0 pp.",
+     "back_translation": "The simulated change is -15.0 pp, with an 80% range of -21.5 to -9.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M03",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Harbor Athletic tomó el control del partido desde el minuto 27.",
+     "evidence_ids": [
+      "GM02-M03.e1",
+      "GM02-M03.e5"
+     ],
+     "en_text": "Harbor Athletic took control of the game from minute 27.",
+     "back_translation": "Harbor Athletic took control of the match from the 27th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.98 a 0.26.",
+     "evidence_ids": [
+      "GM02-M03.e2",
+      "GM02-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.98 to 0.26.",
+     "back_translation": "The momentum index went from -0.98 to 0.26."
+    },
+    {
+     "text": "La probabilidad de ganar de Harbor Athletic se disparó a 39 por ciento, subiendo 5 puntos porcentuales.",
+     "evidence_ids": [
+      "GM02-M03.e8",
+      "GM02-M03.e9"
+     ],
+     "en_text": "Harbor Athletic win chance jumped to 39%, up 5 points.",
+     "back_translation": "Harbor Athletic's chance of winning soared to 39 percent, up 5 percentage points."
+    },
+    {
+     "text": "Si Redmere FC hubiese presionado más desde ese momento, Harbor Athletic tendría alrededor de 48 por ciento de probabilidad de ganar, no 64 por ciento.",
+     "evidence_ids": [
+      "GM02-M03.e11",
+      "GM02-M03.e10"
+     ],
+     "en_text": "What if Redmere FC had pressed harder from this point? Harbor Athletic would be about 48% to win, not 64%.",
+     "back_translation": "Had Redmere FC pushed harder from that point on, Harbor Athletic would have about a 48 percent chance of winning, not 64 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: number 34.3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M03",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Harbor Athletic tomó el control del partido desde el minuto 27.",
+     "evidence_ids": [
+      "GM02-M03.e1",
+      "GM02-M03.e5"
+     ],
+     "en_text": "Harbor Athletic took control of the game from minute 27.",
+     "back_translation": "Harbor Athletic took control of the match from the 27th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Harbor Athletic un 39 por ciento de probabilidad de ganar, frente al 34 por ciento anterior.",
+     "evidence_ids": [
+      "GM02-M03.e7",
+      "GM02-M03.e8"
+     ],
+     "en_text": "Our model now gives Harbor Athletic a 39% chance of winning, compared with 34% before.",
+     "back_translation": "Our model now gives Harbor Athletic a 39 percent chance of winning, up from 34 percent previously."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Harbor Athletic tendría alrededor de 48 por ciento de probabilidad en lugar de 64 por ciento.",
+     "evidence_ids": [
+      "GM02-M03.e11",
+      "GM02-M03.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 48% chance instead of 64%.",
+     "back_translation": "If that hadn't happened, our simulations suggest Harbor Athletic would have about a 48 percent chance instead of 64 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M03",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Harbor Athletic toma el control del partido desde el minuto 27.",
+     "evidence_ids": [
+      "GM02-M03.e1",
+      "GM02-M03.e5"
+     ],
+     "en_text": "Harbor Athletic took control of the game from minute 27.",
+     "back_translation": "Harbor Athletic takes control of the match from the 27th minute."
+    },
+    {
+     "text": "El índice de impulso pasa de -0.98 a 0.26.",
+     "evidence_ids": [
+      "GM02-M03.e2",
+      "GM02-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.98 to 0.26.",
+     "back_translation": "The momentum index goes from -0.98 to 0.26."
+    },
+    {
+     "text": "Harbor Athletic ahora tiene un 39 por ciento de probabilidad de ganar, frente al 34 por ciento.",
+     "evidence_ids": [
+      "GM02-M03.e7",
+      "GM02-M03.e8"
+     ],
+     "en_text": "Harbor Athletic now has a 39 per cent chance of winning, up from 34 per cent.",
+     "back_translation": "Harbor Athletic now has a 39 percent chance of winning, up from 34 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM02-M03.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M04",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 27 में ब्रूनो कैलवेल के पास रेडमियर एफ़सी के लिए एक बड़ा मौक़ा था.",
+     "evidence_ids": [
+      "GM02-M04.e1",
+      "GM02-M04.e2",
+      "GM02-M04.e10"
+     ],
+     "en_text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+     "back_translation": "In minute 27, Bruno Calvell had a big chance for Redmere FC."
+    },
+    {
+     "text": "यह शॉट 6.0 मीटर से 0.35 xG (अपेक्षित गोल) का था.",
+     "evidence_ids": [
+      "GM02-M04.e3",
+      "GM02-M04.e5"
+     ],
+     "en_text": "The shot was worth 0.35 xG from 6.0 metres.",
+     "back_translation": "The shot was 6.0 m to 0.35 xG (expected goal)."
+    },
+    {
+     "text": "उस चाल में 5 क्रियाएँ थीं, और शूटर दबाव में था: नहीं.",
+     "evidence_ids": [
+      "GM02-M04.e9",
+      "GM02-M04.e7"
+     ],
+     "en_text": "The move had 5 actions, and the shooter was under pressure: no.",
+     "back_translation": "That move had 5 actions, and the shooter was under pressure: no."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 3.6 प्रतिशत अंक बढ़ी, 18.2 प्रतिशत से 21.8 प्रतिशत तक.",
+     "evidence_ids": [
+      "GM02-M04.e14",
+      "GM02-M04.e12",
+      "GM02-M04.e13"
+     ],
+     "en_text": "Redmere FC win probability rose by 3.6 pp, from 18.2% to 21.8%.",
+     "back_translation": "Redmere FC's chances of winning increased by 3.6 percentage points, from 18.2 percent to 21.8 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s4: direction word ('down') contradicts cited change",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M04",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 27 में ब्रूनो कैलवेल के पास रेडमियर एफ़सी के लिए एक बड़ा मौक़ा था.",
+     "evidence_ids": [
+      "GM02-M04.e1",
+      "GM02-M04.e2",
+      "GM02-M04.e10"
+     ],
+     "en_text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+     "back_translation": "In minute 27, Bruno Calvell had a big chance for Redmere FC."
+    },
+    {
+     "text": "यह शॉट 6.0 मीटर से 0.35 xG (अपेक्षित गोल) का था.",
+     "evidence_ids": [
+      "GM02-M04.e3",
+      "GM02-M04.e5"
+     ],
+     "en_text": "The shot was worth 0.35 xG from 6.0 metres.",
+     "back_translation": "The shot was 6.0 m to 0.35 xG (expected goal)."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 22 प्रतिशत तक कूद गई, 4 प्रतिशत अंक ऊपर.",
+     "evidence_ids": [
+      "GM02-M04.e13",
+      "GM02-M04.e14"
+     ],
+     "en_text": "Redmere FC win chance jumped to 22%, up 4 points.",
+     "back_translation": "Redmire FC's chances of winning jumped to 22 percent, up 4 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: number 34.3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M04",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 27 में ब्रूनो कैलवेल के पास रेडमियर एफ़सी के लिए एक बड़ा मौक़ा था.",
+     "evidence_ids": [
+      "GM02-M04.e1",
+      "GM02-M04.e2",
+      "GM02-M04.e10"
+     ],
+     "en_text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+     "back_translation": "In minute 27, Bruno Calvell had a big chance for Redmere FC."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता मापता है; यह 0.35 था, और अधिक का मतलब बेहतर मौका होता है.",
+     "evidence_ids": [
+      "GM02-M04.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.35, and higher means a better chance.",
+     "back_translation": "xG (Goals Expected) measures the quality of chances; It was 0.35, and more means better chances."
+    },
+    {
+     "text": "हमारा मॉडल अब रेडमियर एफ़सी को 22 प्रतिशत जीत की संभावना देता है, जो पहले 18 प्रतिशत थी.",
+     "evidence_ids": [
+      "GM02-M04.e12",
+      "GM02-M04.e13"
+     ],
+     "en_text": "Our model now gives Redmere FC a 22% chance of winning, compared with 18% before.",
+     "back_translation": "Our model now gives Redmire FC a 22 percent chance of winning, up from 18 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M04",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 27 में ब्रूनो कैलवेल रेडमियर एफ़सी के लिए एक बड़ा मौक़ा पाते हैं.",
+     "evidence_ids": [
+      "GM02-M04.e1",
+      "GM02-M04.e2",
+      "GM02-M04.e10"
+     ],
+     "en_text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+     "back_translation": "In minute 27, Bruno Calvell finds a big chance for Redmier FC."
+    },
+    {
+     "text": "यह शॉट 6.0 मीटर से 0.35 xG अपेक्षित गोल का है.",
+     "evidence_ids": [
+      "GM02-M04.e3",
+      "GM02-M04.e5"
+     ],
+     "en_text": "The shot was worth 0.35 xG from 6.0 metres.",
+     "back_translation": "This shot is 6.0 meters to 0.35 xG expected goals."
+    },
+    {
+     "text": "रेडमियर एफ़सी अब जीतने की 22 प्रतिशत संभावना रखता है, जो पहले 18 प्रतिशत थी.",
+     "evidence_ids": [
+      "GM02-M04.e12",
+      "GM02-M04.e13"
+     ],
+     "en_text": "Redmere FC now has a 22 per cent chance of winning, up from 18 per cent.",
+     "back_translation": "Redmere FC now has a 22 percent chance of winning, up from 18 percent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M04",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Bruno Calvale tuvo una ocasión clara para Redmere FC en el minuto 27.",
+     "evidence_ids": [
+      "GM02-M04.e1",
+      "GM02-M04.e2",
+      "GM02-M04.e10"
+     ],
+     "en_text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+     "back_translation": "Bruno Calvale had a clear chance for Redmere FC in the 27th minute."
+    },
+    {
+     "text": "El disparo valía 0.35 xG (goles esperados) desde 6.0 metros.",
+     "evidence_ids": [
+      "GM02-M04.e3",
+      "GM02-M04.e5"
+     ],
+     "en_text": "The shot was worth 0.35 xG from 6.0 metres.",
+     "back_translation": "The shot was worth 0.35 xG (expected goals) from 6.0 meters."
+    },
+    {
+     "text": "La jugada tuvo 5 acciones, y el tirador estaba bajo presión: no.",
+     "evidence_ids": [
+      "GM02-M04.e9",
+      "GM02-M04.e7"
+     ],
+     "en_text": "The move had 5 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 5 actions, and the shooter was under pressure: no."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC subió 3.6 pp, de 18.2% a 21.8%.",
+     "evidence_ids": [
+      "GM02-M04.e14",
+      "GM02-M04.e12",
+      "GM02-M04.e13"
+     ],
+     "en_text": "Redmere FC win probability rose by 3.6 pp, from 18.2% to 21.8%.",
+     "back_translation": "Redmere FC's probability of victory rose 3.6 pp, from 18.2% to 21.8%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s4: direction word ('down') contradicts cited change",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M04",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Bruno Calvale tuvo una ocasión clara para Redmere FC en el minuto 27.",
+     "evidence_ids": [
+      "GM02-M04.e1",
+      "GM02-M04.e2",
+      "GM02-M04.e10"
+     ],
+     "en_text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+     "back_translation": "Bruno Calvale had a clear chance for Redmere FC in the 27th minute."
+    },
+    {
+     "text": "El disparo valía 0.35 xG (goles esperados) desde 6.0 metros.",
+     "evidence_ids": [
+      "GM02-M04.e3",
+      "GM02-M04.e5"
+     ],
+     "en_text": "The shot was worth 0.35 xG from 6.0 metres.",
+     "back_translation": "The shot was worth 0.35 xG (expected goals) from 6.0 meters."
+    },
+    {
+     "text": "La probabilidad de ganar de Redmere FC saltó a 22%, subiendo 4 puntos.",
+     "evidence_ids": [
+      "GM02-M04.e13",
+      "GM02-M04.e14"
+     ],
+     "en_text": "Redmere FC win chance jumped to 22%, up 4 points.",
+     "back_translation": "Redmere FC's chance of winning jumped to 22%, up 4 points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: number 34.3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M04",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Bruno Calvale tuvo una ocasión clara para Redmere FC en el minuto 27.",
+     "evidence_ids": [
+      "GM02-M04.e1",
+      "GM02-M04.e2",
+      "GM02-M04.e10"
+     ],
+     "en_text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+     "back_translation": "Bruno Calvale had a clear chance for Redmere FC in the 27th minute."
+    },
+    {
+     "text": "El xG (goles esperados) mide la calidad de la ocasión; este fue 0.35 y cuanto más alto es, mejor es la ocasión.",
+     "evidence_ids": [
+      "GM02-M04.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.35, and higher means a better chance.",
+     "back_translation": "The xG (expected goals) measures the quality of the chance; this was 0.35 and the higher it is, the better the chance."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC una probabilidad de ganar del 22%, frente al 18% anterior.",
+     "evidence_ids": [
+      "GM02-M04.e12",
+      "GM02-M04.e13"
+     ],
+     "en_text": "Our model now gives Redmere FC a 22% chance of winning, compared with 18% before.",
+     "back_translation": "Our model now gives Redmere FC a 22% chance of winning, up from 18% previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M04",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Bruno Calvale tiene una ocasión clara para Redmere FC en el minuto 27.",
+     "evidence_ids": [
+      "GM02-M04.e1",
+      "GM02-M04.e2",
+      "GM02-M04.e10"
+     ],
+     "en_text": "Bruno Calvale had a big chance for Redmere FC in minute 27.",
+     "back_translation": "Bruno Calvale has a clear chance for Redmere FC in the 27th minute."
+    },
+    {
+     "text": "El disparo vale 0.35 xG, goles esperados, desde 6.0 metros.",
+     "evidence_ids": [
+      "GM02-M04.e3",
+      "GM02-M04.e5"
+     ],
+     "en_text": "The shot was worth 0.35 xG from 6.0 metres.",
+     "back_translation": "The shot is worth 0.35 xG, expected goals, from 6.0 meters."
+    },
+    {
+     "text": "Redmere FC ahora tiene una probabilidad de ganar del 22 por ciento, frente al 18 por ciento.",
+     "evidence_ids": [
+      "GM02-M04.e12",
+      "GM02-M04.e13"
+     ],
+     "en_text": "Redmere FC now has a 22 per cent chance of winning, up from 18 per cent.",
+     "back_translation": "Redmere FC now have a 22 per cent chance of winning, up from 18 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M05",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी के सामी गुलहोल्ट को 34 मिनट में बाहर भेजा गया।",
+     "evidence_ids": [
+      "GM02-M05.e1",
+      "GM02-M05.e2",
+      "GM02-M05.e6"
+     ],
+     "en_text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+     "back_translation": "Sami Guelholt of Redmere FC was sent off in the 34th minute."
+    },
+    {
+     "text": "रेडमियर एफ़सी ने आख़िरी 56 मिनट 10 खिलाड़ियों के साथ खेले।",
+     "evidence_ids": [
+      "GM02-M05.e2",
+      "GM02-M05.e5",
+      "GM02-M05.e4"
+     ],
+     "en_text": "Redmere FC played the last 56 minutes with 10 players.",
+     "back_translation": "Redmire FC played the last 56 minutes with 10 players."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 3.4 प्रतिशत अंक बढ़ी, 21.4% से 24.7%।",
+     "evidence_ids": [
+      "GM02-M05.e10",
+      "GM02-M05.e8",
+      "GM02-M05.e9"
+     ],
+     "en_text": "Redmere FC win probability rose by 3.4 pp, from 21.4% to 24.7%.",
+     "back_translation": "Redmere FC's chances of winning increased by 3.4 percentage points, from 21.4% to 24.7%."
+    },
+    {
+     "text": "अगर रेडमियर एफ़सी के लिए सामी गुलहोल्ट पिच पर रहते, तो 200 सिम्युलेशन के आधार पर हार्बर एथलेटिक की जीत की संभावना लगभग 33% होती, न कि 54%।",
+     "evidence_ids": [
+      "GM02-M05.e12",
+      "GM02-M05.e11",
+      "GM02-M05.e18"
+     ],
+     "en_text": "What if Sami Gulholt had stayed on the pitch for Redmere FC? Across 200 simulated rollouts, Harbor Athletic win chance would be about 33% instead of 54%.",
+     "back_translation": "If Sami Guelholt had been on the pitch for Redmier FC, Harbour Athletic's chances of winning based on 200 simulations would have been around 33%, not 54%."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -20.5 प्रतिशत अंक है, 80% अंतराल -27.0 से -14.0 प्रतिशत अंक के साथ।",
+     "evidence_ids": [
+      "GM02-M05.e15",
+      "GM02-M05.e16",
+      "GM02-M05.e17"
+     ],
+     "en_text": "The simulated change is -20.5 pp, with an 80% interval from -27.0 to -14.0 pp.",
+     "back_translation": "The simulated change is -20.5 percentage points, with an 80% interval of -27.0 to -14.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M05",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी के सामी गुलहोल्ट को 34 मिनट में बाहर भेजा गया।",
+     "evidence_ids": [
+      "GM02-M05.e1",
+      "GM02-M05.e2",
+      "GM02-M05.e6"
+     ],
+     "en_text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+     "back_translation": "Sami Guelholt of Redmere FC was sent off in the 34th minute."
+    },
+    {
+     "text": "रेडमियर एफ़सी ने आख़िरी 56 मिनट 10 खिलाड़ियों के साथ खेले।",
+     "evidence_ids": [
+      "GM02-M05.e2",
+      "GM02-M05.e5",
+      "GM02-M05.e4"
+     ],
+     "en_text": "Redmere FC played the last 56 minutes with 10 players.",
+     "back_translation": "Redmire FC played the last 56 minutes with 10 players."
+    },
+    {
+     "text": "रेडमियर एफ़सी की उम्मीदें 3 प्रतिशत अंक बढ़कर 25% हो गईं।",
+     "evidence_ids": [
+      "GM02-M05.e9",
+      "GM02-M05.e10"
+     ],
+     "en_text": "Redmere FC hopes rose by 3 points to 25%.",
+     "back_translation": "Redmere FC's expectations increased by 3 percentage points to 25%."
+    },
+    {
+     "text": "अगर सामी गुलहोल्ट रेडमियर एफ़सी के लिए पिच पर बने रहते तो हार्बर एथलेटिक की जीत की संभावना लगभग 33 प्रतिशत होती, न कि 54 प्रतिशत।",
+     "evidence_ids": [
+      "GM02-M05.e12",
+      "GM02-M05.e11"
+     ],
+     "en_text": "What if Sami Gulholt had stayed on the pitch for Redmere FC? Harbor Athletic would be about 33% to win, not 54%.",
+     "back_translation": "If Sami Gullholt had stayed on the pitch for Redmire FC, Harbour Athletic's chances of winning would have been around 33 percent, not 54 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M05",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी के सामी गुलहोल्ट को 34 मिनट में बाहर भेजा गया।",
+     "evidence_ids": [
+      "GM02-M05.e1",
+      "GM02-M05.e2",
+      "GM02-M05.e6"
+     ],
+     "en_text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+     "back_translation": "Sami Guelholt of Redmere FC was sent off in the 34th minute."
+    },
+    {
+     "text": "हमारे मॉडल के अनुसार अब रेडमियर एफ़सी के जीत की संभावना 25% है, जबकि पहले वह 21% थी।",
+     "evidence_ids": [
+      "GM02-M05.e8",
+      "GM02-M05.e9"
+     ],
+     "en_text": "Our model now gives Redmere FC a 25% chance of winning, compared with 21% before.",
+     "back_translation": "According to our model, Redmeier FC now has a 25% chance of winning, compared to 21% earlier."
+    },
+    {
+     "text": "अगर वह घटना नहीं होती, तो हमारे सिम्युलेशन के अनुसार हार्बर एथलेटिक की जीत की संभावना लगभग 33% होती, 54% की जगह।",
+     "evidence_ids": [
+      "GM02-M05.e12",
+      "GM02-M05.e11"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 33% chance instead of 54%.",
+     "back_translation": "If that event hadn't happened, Harbor Athletic's chances of winning according to our simulations would have been about 33%, instead of 54%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M05",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी के सामी गुलहोल्ट 34 मिनट में बाहर भेजे जा रहे हैं।",
+     "evidence_ids": [
+      "GM02-M05.e1",
+      "GM02-M05.e2",
+      "GM02-M05.e6"
+     ],
+     "en_text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+     "back_translation": "Redmere FC's Sami Guelholt is sent off in 34 minutes."
+    },
+    {
+     "text": "रेडमियर एफ़सी आख़िरी 56 मिनट 10 खिलाड़ियों के साथ खेल रहे हैं।",
+     "evidence_ids": [
+      "GM02-M05.e2",
+      "GM02-M05.e5",
+      "GM02-M05.e4"
+     ],
+     "en_text": "Redmere FC played the last 56 minutes with 10 players.",
+     "back_translation": "Redmire FC are playing the last 56 minutes with 10 players."
+    },
+    {
+     "text": "रेडमियर एफ़सी के पास अब जीत की संभावना 25 प्रतिशत है, पहले यह 21 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M05.e8",
+      "GM02-M05.e9"
+     ],
+     "en_text": "Redmere FC now has a 25 per cent chance of winning, up from 21 per cent.",
+     "back_translation": "Redmere FC now has a 25 percent chance of winning, previously it was 21 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM02-M05.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M05",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Sami Gulholt de Redmere FC fue expulsado en el minuto 34.",
+     "evidence_ids": [
+      "GM02-M05.e1",
+      "GM02-M05.e2",
+      "GM02-M05.e6"
+     ],
+     "en_text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+     "back_translation": "Redmere FC's Sami Gulholt was sent off in the 34th minute."
+    },
+    {
+     "text": "Redmere FC jugó los últimos 56 minutos con 10 jugadores.",
+     "evidence_ids": [
+      "GM02-M05.e2",
+      "GM02-M05.e5",
+      "GM02-M05.e4"
+     ],
+     "en_text": "Redmere FC played the last 56 minutes with 10 players.",
+     "back_translation": "Redmere FC played the last 56 minutes with 10 players."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC aumentó en 3.4 pp, de 21.4 por ciento a 24.7 por ciento.",
+     "evidence_ids": [
+      "GM02-M05.e10",
+      "GM02-M05.e8",
+      "GM02-M05.e9"
+     ],
+     "en_text": "Redmere FC win probability rose by 3.4 pp, from 21.4% to 24.7%.",
+     "back_translation": "Redmere FC's probability of victory increased by 3.4 pp, from 21.4 percent to 24.7 percent."
+    },
+    {
+     "text": "Si Sami Gulholt se hubiera quedado en el campo para Redmere FC, a través de 200 simulaciones la probabilidad de ganar de Harbor Athletic sería aproximadamente 33 por ciento en lugar de 54 por ciento.",
+     "evidence_ids": [
+      "GM02-M05.e12",
+      "GM02-M05.e11",
+      "GM02-M05.e18"
+     ],
+     "en_text": "What if Sami Gulholt had stayed on the pitch for Redmere FC? Across 200 simulated rollouts, Harbor Athletic win chance would be about 33% instead of 54%.",
+     "back_translation": "If Sami Gulholt had stayed on the field for Redmere FC, across 200 simulations Harbor Athletic's probability of winning would be about 33 percent instead of 54 percent."
+    },
+    {
+     "text": "El cambio simulado es -20.5 pp, con un intervalo del 80% de -27.0 a -14.0 pp.",
+     "evidence_ids": [
+      "GM02-M05.e15",
+      "GM02-M05.e16",
+      "GM02-M05.e17"
+     ],
+     "en_text": "The simulated change is -20.5 pp, with an 80% interval from -27.0 to -14.0 pp.",
+     "back_translation": "The simulated change is -20.5 pp, with an 80% range of -27.0 to -14.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M05",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Sami Gulholt de Redmere FC fue expulsado en el minuto 34.",
+     "evidence_ids": [
+      "GM02-M05.e1",
+      "GM02-M05.e2",
+      "GM02-M05.e6"
+     ],
+     "en_text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+     "back_translation": "Redmere FC's Sami Gulholt was sent off in the 34th minute."
+    },
+    {
+     "text": "Redmere FC jugó los últimos 56 minutos con 10 jugadores.",
+     "evidence_ids": [
+      "GM02-M05.e2",
+      "GM02-M05.e5",
+      "GM02-M05.e4"
+     ],
+     "en_text": "Redmere FC played the last 56 minutes with 10 players.",
+     "back_translation": "Redmere FC played the last 56 minutes with 10 players."
+    },
+    {
+     "text": "Las esperanzas de Redmere FC subieron 3 puntos hasta 25 por ciento.",
+     "evidence_ids": [
+      "GM02-M05.e9",
+      "GM02-M05.e10"
+     ],
+     "en_text": "Redmere FC hopes rose by 3 points to 25%.",
+     "back_translation": "Redmere FC's hopes rose 3 points to 25 percent."
+    },
+    {
+     "text": "Si Sami Gulholt se hubiera quedado en el campo para Redmere FC, Harbor Athletic tendría cerca de 33 por ciento de probabilidad de ganar, no 54 por ciento.",
+     "evidence_ids": [
+      "GM02-M05.e12",
+      "GM02-M05.e11"
+     ],
+     "en_text": "What if Sami Gulholt had stayed on the pitch for Redmere FC? Harbor Athletic would be about 33% to win, not 54%.",
+     "back_translation": "If Sami Gulholt had stayed on the field for Redmere FC, Harbor Athletic would have about a 33 percent chance of winning, not a 54 percent chance."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M05",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Sami Gulholt de Redmere FC fue expulsado en el minuto 34.",
+     "evidence_ids": [
+      "GM02-M05.e1",
+      "GM02-M05.e2",
+      "GM02-M05.e6"
+     ],
+     "en_text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+     "back_translation": "Redmere FC's Sami Gulholt was sent off in the 34th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC una probabilidad de ganar del 25 por ciento, en comparación con 21 por ciento antes.",
+     "evidence_ids": [
+      "GM02-M05.e8",
+      "GM02-M05.e9"
+     ],
+     "en_text": "Our model now gives Redmere FC a 25% chance of winning, compared with 21% before.",
+     "back_translation": "Our model now gives Redmere FC a 25 per cent chance of winning, compared to 21 per cent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Harbor Athletic habría tenido aproximadamente una probabilidad del 33 por ciento en lugar de 54 por ciento.",
+     "evidence_ids": [
+      "GM02-M05.e12",
+      "GM02-M05.e11"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 33% chance instead of 54%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Harbor Athletic would have had about a 33 percent chance instead of 54 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M05",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Sami Gulholt de Redmere FC es expulsado en el minuto 34.",
+     "evidence_ids": [
+      "GM02-M05.e1",
+      "GM02-M05.e2",
+      "GM02-M05.e6"
+     ],
+     "en_text": "Sami Gulholt of Redmere FC was sent off in minute 34.",
+     "back_translation": "Redmere FC's Sami Gulholt is sent off in the 34th minute."
+    },
+    {
+     "text": "Redmere FC juega los últimos 56 minutos con 10 jugadores.",
+     "evidence_ids": [
+      "GM02-M05.e2",
+      "GM02-M05.e5",
+      "GM02-M05.e4"
+     ],
+     "en_text": "Redmere FC played the last 56 minutes with 10 players.",
+     "back_translation": "Redmere FC play the last 56 minutes with 10 players."
+    },
+    {
+     "text": "Redmere FC tiene ahora una probabilidad de ganar del 25 por ciento, frente al 21 por ciento.",
+     "evidence_ids": [
+      "GM02-M05.e8",
+      "GM02-M05.e9"
+     ],
+     "en_text": "Redmere FC now has a 25 per cent chance of winning, up from 21 per cent.",
+     "back_translation": "Redmere FC now have a 25 per cent chance of winning, up from 21 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM02-M05.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M06",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "इकेर मोरटन ने हार्बर एथलेटिक के लिए मिनट 40 में गोल किया, स्कोर 1-0 हुआ।",
+     "evidence_ids": [
+      "GM02-M06.e1",
+      "GM02-M06.e2",
+      "GM02-M06.e11",
+      "GM02-M06.e10"
+     ],
+     "en_text": "Iker Morton scored for Harbor Athletic in minute 40, making it 1-0.",
+     "back_translation": "Iker Morton scored in minute 40 for Harbour Athletic, making the score 1-0."
+    },
+    {
+     "text": "शॉट का मूल्य 0.39 xG (अपेक्षित गोल) था और वह 6.2 मीटर से था।",
+     "evidence_ids": [
+      "GM02-M06.e3",
+      "GM02-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.39 xG from 6.2 metres.",
+     "back_translation": "The shot was valued at 0.39 xG (expected goals) and was from 6.2 meters."
+    },
+    {
+     "text": "उस चाल में 3 एक्शन थे और शूटर पर दबाव नहीं था।",
+     "evidence_ids": [
+      "GM02-M06.e9",
+      "GM02-M06.e7"
+     ],
+     "en_text": "The move had 3 actions, and the shooter was under pressure: no.",
+     "back_translation": "That move had 3 actions and no pressure on the shooter."
+    },
+    {
+     "text": "हार्बर एथलेटिक की जीत की संभावना 43.3 प्रतिशत अंक बढ़ी, 42.1 प्रतिशत से 85.5 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM02-M06.e15",
+      "GM02-M06.e13",
+      "GM02-M06.e14"
+     ],
+     "en_text": "Harbor Athletic win probability rose by 43.3 pp, from 42.1% to 85.5%.",
+     "back_translation": "Harbor Athletic's chances of winning increased by 43.3 percentage points, from 42.1 percent to 85.5 percent."
+    },
+    {
+     "text": "यदि इकेर मोरटन का गोल हार्बर एथलेटिक के लिए नहीं हुआ होता, तो 200 सिम्युलेशन के आधार पर हार्बर एथलेटिक की जीत की संभावना लगभग 48 प्रतिशत होती, 79 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM02-M06.e17",
+      "GM02-M06.e16",
+      "GM02-M06.e23"
+     ],
+     "en_text": "What if Iker Morton's goal for Harbor Athletic had not gone in? Across 200 simulated rollouts, Harbor Athletic win chance would be about 48% instead of 79%.",
+     "back_translation": "If Iker Morton's goal hadn't happened for Harbor Athletic, Harbor Athletic's chances of winning based on 200 simulations would have been about 48 percent, instead of 79 percent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -31.0 प्रतिशत अंक है, 80% अंतराल -35.0 से -26.5 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM02-M06.e20",
+      "GM02-M06.e21",
+      "GM02-M06.e22"
+     ],
+     "en_text": "The simulated change is -31.0 pp, with an 80% interval from -35.0 to -26.5 pp.",
+     "back_translation": "The simulated change is -31.0 percentage points, with an 80% interval ranging from -35.0 to -26.5 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M06",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 40 में इकेर मोरटन ने हार्बर एथलेटिक के लिए गोल किया और स्कोर अब 1-0 हो गया।",
+     "evidence_ids": [
+      "GM02-M06.e1",
+      "GM02-M06.e2",
+      "GM02-M06.e11",
+      "GM02-M06.e10"
+     ],
+     "en_text": "Iker Morton scored for Harbor Athletic in minute 40, making it 1-0.",
+     "back_translation": "In minute 40 Iker Morton scored for Harbour Athletic and the score was now 1-0."
+    },
+    {
+     "text": "शॉट का मूल्य 0.39 xG (अपेक्षित गोल) था और वह 6.2 मीटर से था।",
+     "evidence_ids": [
+      "GM02-M06.e3",
+      "GM02-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.39 xG from 6.2 metres.",
+     "back_translation": "The shot was valued at 0.39 xG (expected goals) and was from 6.2 meters."
+    },
+    {
+     "text": "हार्बर एथलेटिक की उम्मीदें 43 प्रतिशत अंक बढ़कर 86 प्रतिशत हो गईं।",
+     "evidence_ids": [
+      "GM02-M06.e14",
+      "GM02-M06.e15"
+     ],
+     "en_text": "Harbor Athletic hopes rose by 43 points to 86%.",
+     "back_translation": "Harbor Athletic's expectations increased by 43 percentage points to 86 percent."
+    },
+    {
+     "text": "अगर इकेर मोरटन का गोल नहीं होता, तो हार्बर एथलेटिक की जीत की संभावना लगभग 48 प्रतिशत होती, 79 प्रतिशत नहीं।",
+     "evidence_ids": [
+      "GM02-M06.e17",
+      "GM02-M06.e16"
+     ],
+     "en_text": "What if Iker Morton's goal for Harbor Athletic had not gone in? Harbor Athletic would be about 48% to win, not 79%.",
+     "back_translation": "If it hadn't been for Iker Morton's goal, Harbour Athletic's chances of winning would have been around 48 per cent, not 79 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M06",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 40 में इकेर मोरटन ने हार्बर एथलेटिक के लिए गोल किया और स्कोर 1-0 हो गया।",
+     "evidence_ids": [
+      "GM02-M06.e1",
+      "GM02-M06.e2",
+      "GM02-M06.e11",
+      "GM02-M06.e10"
+     ],
+     "en_text": "Iker Morton scored for Harbor Athletic in minute 40, making it 1-0.",
+     "back_translation": "In minute 40, Iker Morton scored for Harbour Athletic and the score was 1-0."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता मापता है; यह 0.39 था और अधिक होने का मतलब बेहतर मौका होता है।",
+     "evidence_ids": [
+      "GM02-M06.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.39, and higher means a better chance.",
+     "back_translation": "xG (Expected Goals) measures the quality of chances; It was 0.39 and being higher means better chances."
+    },
+    {
+     "text": "हमारे मॉडल अब हार्बर एथलेटिक को 86 प्रतिशत जीत की संभावना देता है, पहले 42 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M06.e13",
+      "GM02-M06.e14"
+     ],
+     "en_text": "Our model now gives Harbor Athletic a 86% chance of winning, compared with 42% before.",
+     "back_translation": "Our model now gives Harbor Athletic an 86 percent chance of winning, up from 42 percent previously."
+    },
+    {
+     "text": "अगर वह नहीं होता, तो हमारे सिम्युलेशन के अनुसार हार्बर एथलेटिक की जीत की संभावना लगभग 48 प्रतिशत होती, 79 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM02-M06.e17",
+      "GM02-M06.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 48% chance instead of 79%.",
+     "back_translation": "If he hadn't, Harbor Athletic's chances of winning would have been about 48 percent, instead of 79 percent, according to our simulations."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M06",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 40। इकेर मोरटन हार्बर एथलेटिक के लिए गोल करते हैं और स्कोर अब 1-0 है।",
+     "evidence_ids": [
+      "GM02-M06.e11",
+      "GM02-M06.e1",
+      "GM02-M06.e2",
+      "GM02-M06.e10"
+     ],
+     "en_text": "Minute 40. Iker Morton scores for Harbor Athletic, and the score is now 1-0.",
+     "back_translation": "min. 40. Iker Morton scores for Harbour Athletic and the score is now 1-0."
+    },
+    {
+     "text": "शॉट का मूल्य 0.39 xG (अपेक्षित गोल) है और वह 6.2 मीटर से है।",
+     "evidence_ids": [
+      "GM02-M06.e3",
+      "GM02-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.39 xG from 6.2 metres.",
+     "back_translation": "The shot has a value of 0.39 xG (expected goals) and is from 6.2 meters."
+    },
+    {
+     "text": "हार्बर एथलेटिक की जीत की संभावना अब 86 प्रतिशत है, पहले 42 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M06.e13",
+      "GM02-M06.e14"
+     ],
+     "en_text": "Harbor Athletic now has a 86 per cent chance of winning, up from 42 per cent.",
+     "back_translation": "Harbor Athletic's chances of winning are now 86 percent, up from 42 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M06",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Iker Morton marcó para Harbor Athletic en el minuto 40, dejando el marcador 1-0.",
+     "evidence_ids": [
+      "GM02-M06.e1",
+      "GM02-M06.e2",
+      "GM02-M06.e11",
+      "GM02-M06.e10"
+     ],
+     "en_text": "Iker Morton scored for Harbor Athletic in minute 40, making it 1-0.",
+     "back_translation": "Iker Morton scored for Harbor Athletic in the 40th minute, leaving the score 1-0."
+    },
+    {
+     "text": "El disparo valía 0.39 xG (goles esperados) desde 6.2 metros.",
+     "evidence_ids": [
+      "GM02-M06.e3",
+      "GM02-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.39 xG from 6.2 metres.",
+     "back_translation": "The shot was worth 0.39 xG (expected goals) from 6.2 meters."
+    },
+    {
+     "text": "La jugada tuvo 3 acciones y el tirador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM02-M06.e9",
+      "GM02-M06.e7"
+     ],
+     "en_text": "The move had 3 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 3 actions and the shooter was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Harbor Athletic aumentó 43.3 pp, de 42.1% a 85.5%.",
+     "evidence_ids": [
+      "GM02-M06.e15",
+      "GM02-M06.e13",
+      "GM02-M06.e14"
+     ],
+     "en_text": "Harbor Athletic win probability rose by 43.3 pp, from 42.1% to 85.5%.",
+     "back_translation": "Harbor Athletic's chance of victory increased 43.3 pp, from 42.1% to 85.5%."
+    },
+    {
+     "text": "Si el gol de Iker Morton para Harbor Athletic no hubiera entrado, según 200 simulaciones la probabilidad de ganar de Harbor Athletic sería aproximadamente 48% en vez de 79%.",
+     "evidence_ids": [
+      "GM02-M06.e17",
+      "GM02-M06.e16",
+      "GM02-M06.e23"
+     ],
+     "en_text": "What if Iker Morton's goal for Harbor Athletic had not gone in? Across 200 simulated rollouts, Harbor Athletic win chance would be about 48% instead of 79%.",
+     "back_translation": "If Iker Morton's goal for Harbor Athletic hadn't gone in, according to 200 simulations the chance of winning for Harbor Athletic would be around 48% instead of 79%."
+    },
+    {
+     "text": "El cambio simulado es -31.0 pp, con un intervalo del 80% desde -35.0 hasta -26.5 pp.",
+     "evidence_ids": [
+      "GM02-M06.e20",
+      "GM02-M06.e21",
+      "GM02-M06.e22"
+     ],
+     "en_text": "The simulated change is -31.0 pp, with an 80% interval from -35.0 to -26.5 pp.",
+     "back_translation": "The simulated change is -31.0 pp, with an 80% range from -35.0 to -26.5 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M06",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Iker Morton marcó para Harbor Athletic en el minuto 40 y puso el 1-0.",
+     "evidence_ids": [
+      "GM02-M06.e1",
+      "GM02-M06.e2",
+      "GM02-M06.e11",
+      "GM02-M06.e10"
+     ],
+     "en_text": "Iker Morton scored for Harbor Athletic in minute 40, making it 1-0.",
+     "back_translation": "Iker Morton scored for Harbor Athletic in the 40th minute and made it 1-0."
+    },
+    {
+     "text": "El disparo valía 0.39 xG (goles esperados) desde 6.2 metros.",
+     "evidence_ids": [
+      "GM02-M06.e3",
+      "GM02-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.39 xG from 6.2 metres.",
+     "back_translation": "The shot was worth 0.39 xG (expected goals) from 6.2 meters."
+    },
+    {
+     "text": "Las esperanzas de Harbor Athletic subieron 43 puntos hasta 86%.",
+     "evidence_ids": [
+      "GM02-M06.e14",
+      "GM02-M06.e15"
+     ],
+     "en_text": "Harbor Athletic hopes rose by 43 points to 86%.",
+     "back_translation": "Harbor Athletic's hopes rose 43 points to 86%."
+    },
+    {
+     "text": "Si el gol de Iker Morton para Harbor Athletic no hubiera entrado, Harbor Athletic tendría alrededor de 48% de probabilidad de ganar, no 79%.",
+     "evidence_ids": [
+      "GM02-M06.e17",
+      "GM02-M06.e16"
+     ],
+     "en_text": "What if Iker Morton's goal for Harbor Athletic had not gone in? Harbor Athletic would be about 48% to win, not 79%.",
+     "back_translation": "If Iker Morton's goal for Harbor Athletic hadn't gone in, Harbor Athletic would have about a 48% chance of winning, not a 79% chance."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M06",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Iker Morton marcó para Harbor Athletic en el minuto 40, dejando el 1-0.",
+     "evidence_ids": [
+      "GM02-M06.e1",
+      "GM02-M06.e2",
+      "GM02-M06.e11",
+      "GM02-M06.e10"
+     ],
+     "en_text": "Iker Morton scored for Harbor Athletic in minute 40, making it 1-0.",
+     "back_translation": "Iker Morton scored for Harbor Athletic in the 40th minute, making it 1-0."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de la ocasión; esta fue 0.39 y un valor mayor significa más probabilidad de gol.",
+     "evidence_ids": [
+      "GM02-M06.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.39, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; this was 0.39 and a higher value means more chance of scoring."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Harbor Athletic una probabilidad de victoria de 86%, frente al 42% anterior.",
+     "evidence_ids": [
+      "GM02-M06.e13",
+      "GM02-M06.e14"
+     ],
+     "en_text": "Our model now gives Harbor Athletic a 86% chance of winning, compared with 42% before.",
+     "back_translation": "Our model now gives Harbor Athletic an 86% chance of victory, up from 42% previously."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones indican que Harbor Athletic tendría aproximadamente 48% de probabilidad en lugar de 79%.",
+     "evidence_ids": [
+      "GM02-M06.e17",
+      "GM02-M06.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 48% chance instead of 79%.",
+     "back_translation": "If that hadn't happened, our simulations indicate that Harbor Athletic would have about a 48% chance instead of 79%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M06",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 40, Iker Morton marca para Harbor Athletic y el marcador ahora es 1-0.",
+     "evidence_ids": [
+      "GM02-M06.e11",
+      "GM02-M06.e1",
+      "GM02-M06.e2",
+      "GM02-M06.e10"
+     ],
+     "en_text": "Minute 40. Iker Morton scores for Harbor Athletic, and the score is now 1-0.",
+     "back_translation": "In the 40th minute, Iker Morton scores for Harbor Athletic and the score is now 1-0."
+    },
+    {
+     "text": "El disparo vale 0.39 xG goles esperados desde 6.2 metros.",
+     "evidence_ids": [
+      "GM02-M06.e3",
+      "GM02-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.39 xG from 6.2 metres.",
+     "back_translation": "The shot is worth 0.39 xG expected goals from 6.2 meters."
+    },
+    {
+     "text": "Harbor Athletic ahora tiene 86 por ciento de probabilidad de ganar, frente a 42 por ciento.",
+     "evidence_ids": [
+      "GM02-M06.e13",
+      "GM02-M06.e14"
+     ],
+     "en_text": "Harbor Athletic now has a 86 per cent chance of winning, up from 42 per cent.",
+     "back_translation": "Harbor Athletic now has an 86 percent chance of winning, up from 42 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M07",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने 50वें मिनट से मैच पर नियंत्रण लिया।",
+     "evidence_ids": [
+      "GM02-M07.e1",
+      "GM02-M07.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 50.",
+     "back_translation": "Redmeier FC took control of the match from the 50th minute."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.44 से -0.94 पर गया।",
+     "evidence_ids": [
+      "GM02-M07.e2",
+      "GM02-M07.e3"
+     ],
+     "en_text": "The momentum index went from 0.44 to -0.94.",
+     "back_translation": "The momentum index went from 0.44 to -0.94."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 1.1 प्रतिशत अंक गिरकर 3.1 प्रतिशत से 2.0 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM02-M07.e9",
+      "GM02-M07.e7",
+      "GM02-M07.e8"
+     ],
+     "en_text": "Redmere FC win probability fell by 1.1 pp, from 3.1% to 2.0%.",
+     "back_translation": "Redmere FC's chances of winning fell 1.1 percentage points from 3.1 percent to 2.0 percent."
+    },
+    {
+     "text": "यदि हार्बर एथलेटिक ने इस बिंदु से अधिक प्रेसिंग की होती, तो 200 सिम्युलेशन में हार्बर एथलेटिक की जीत की संभावना लगभग 88 प्रतिशत होती, न कि 84 प्रतिशत।",
+     "evidence_ids": [
+      "GM02-M07.e11",
+      "GM02-M07.e10",
+      "GM02-M07.e17"
+     ],
+     "en_text": "What if Harbor Athletic had pressed harder from this point? Across 200 simulated rollouts, Harbor Athletic win chance would be about 88% instead of 84%.",
+     "back_translation": "If Harbor Athletic had done more pressing than this point, Harbor Athletic's chances of winning in the 200 simulation would have been about 88 percent, not 84 percent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन +3.0 प्रतिशत अंक है, 80% अंतराल -1.5 से 7.5 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM02-M07.e14",
+      "GM02-M07.e15",
+      "GM02-M07.e16"
+     ],
+     "en_text": "The simulated change is +3.0 pp, with an 80% interval from -1.5 to 7.5 pp.",
+     "back_translation": "The simulated change is +3.0 percentage points, with an 80% interval ranging from -1.5 to 7.5 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s3: direction word ('up') contradicts cited change",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M07",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने 50वें मिनट से मैच पर कब्ज़ा कर लिया।",
+     "evidence_ids": [
+      "GM02-M07.e1",
+      "GM02-M07.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 50.",
+     "back_translation": "Redmeier FC took control of the match from the 50th minute."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.44 से -0.94 हो गया।",
+     "evidence_ids": [
+      "GM02-M07.e2",
+      "GM02-M07.e3"
+     ],
+     "en_text": "The momentum index went from 0.44 to -0.94.",
+     "back_translation": "The momentum index went from 0.44 to -0.94."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 2 प्रतिशत पर गिर गई, 1 प्रतिशत अंक कम।",
+     "evidence_ids": [
+      "GM02-M07.e8",
+      "GM02-M07.e9"
+     ],
+     "en_text": "Redmere FC win chance dropped to 2%, down 1 points.",
+     "back_translation": "Redmire FC's chances of winning fell to 2 percent, down 1 percentage point."
+    },
+    {
+     "text": "अगर हार्बर एथलेटिक ने इस बिंदु से ज्यादा प्रेसिंग की होती तो हार्बर एथलेटिक की जीत की संभावना लगभग 88 प्रतिशत होती, न कि 84 प्रतिशत।",
+     "evidence_ids": [
+      "GM02-M07.e11",
+      "GM02-M07.e10"
+     ],
+     "en_text": "What if Harbor Athletic had pressed harder from this point? Harbor Athletic would be about 88% to win, not 84%.",
+     "back_translation": "If Harbor Athletic had done more pressing than this point, Harbor Athletic's chances of winning would have been about 88 percent, not 84 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM02-M07.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M07",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने 50वें मिनट से मैच पर काबू पा लिया।",
+     "evidence_ids": [
+      "GM02-M07.e1",
+      "GM02-M07.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 50.",
+     "back_translation": "Redmire FC took control of the match from the 50th minute."
+    },
+    {
+     "text": "हमारे मॉडल अब रेडमियर एफ़सी को जीत की 2 प्रतिशत संभावना देता है, पहले 3 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M07.e7",
+      "GM02-M07.e8"
+     ],
+     "en_text": "Our model now gives Redmere FC a 2% chance of winning, compared with 3% before.",
+     "back_translation": "Our model now gives Redmeier FC a 2 percent chance of winning, up from 3 percent previously."
+    },
+    {
+     "text": "अगर ऐसा नहीं हुआ होता, तो हमारी सिम्युलेशन बताती हैं कि हार्बर एथलेटिक की जीत की संभावना लगभग 88 प्रतिशत होती, न कि 84 प्रतिशत।",
+     "evidence_ids": [
+      "GM02-M07.e11",
+      "GM02-M07.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 88% chance instead of 84%.",
+     "back_translation": "If that hadn't happened, our simulations show that Harbor Athletic's chances of winning would have been about 88 percent, not 84 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M07",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी 50वें मिनट से मैच पर काबू पा रहा है।",
+     "evidence_ids": [
+      "GM02-M07.e1",
+      "GM02-M07.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 50.",
+     "back_translation": "Redmire FC have been in control of the match since the 50th minute."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.44 से -0.94 जा रहा है।",
+     "evidence_ids": [
+      "GM02-M07.e2",
+      "GM02-M07.e3"
+     ],
+     "en_text": "The momentum index went from 0.44 to -0.94.",
+     "back_translation": "The momentum index is going from 0.44 to -0.94."
+    },
+    {
+     "text": "रेडमियर एफ़सी अब जीत की 2 प्रतिशत संभावना रखता है, पहले 3 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M07.e7",
+      "GM02-M07.e8"
+     ],
+     "en_text": "Redmere FC now has a 2 per cent chance of winning, down from 3 per cent.",
+     "back_translation": "Redmeier FC now has a 2 percent chance of winning, up from 3 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M07",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC tomó el control del partido a partir del minuto 50.",
+     "evidence_ids": [
+      "GM02-M07.e1",
+      "GM02-M07.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 50.",
+     "back_translation": "Redmere FC took control of the match from the 50th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de 0.44 a -0.94.",
+     "evidence_ids": [
+      "GM02-M07.e2",
+      "GM02-M07.e3"
+     ],
+     "en_text": "The momentum index went from 0.44 to -0.94.",
+     "back_translation": "The momentum index went from 0.44 to -0.94."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC cayó 1.1 pp, de 3.1% a 2.0%.",
+     "evidence_ids": [
+      "GM02-M07.e9",
+      "GM02-M07.e7",
+      "GM02-M07.e8"
+     ],
+     "en_text": "Redmere FC win probability fell by 1.1 pp, from 3.1% to 2.0%.",
+     "back_translation": "Redmere FC's probability of victory fell 1.1 pp, from 3.1% to 2.0%."
+    },
+    {
+     "text": "Si Harbor Athletic hubiera presionado más desde este punto, en 200 simulaciones la probabilidad de ganar de Harbor Athletic sería aproximadamente 88% en lugar de 84%.",
+     "evidence_ids": [
+      "GM02-M07.e11",
+      "GM02-M07.e10",
+      "GM02-M07.e17"
+     ],
+     "en_text": "What if Harbor Athletic had pressed harder from this point? Across 200 simulated rollouts, Harbor Athletic win chance would be about 88% instead of 84%.",
+     "back_translation": "If Harbor Athletic had pushed harder from this point, in 200 simulations Harbor Athletic's probability of winning would be about 88% instead of 84%."
+    },
+    {
+     "text": "La variación simulada es +3.0 pp, con un intervalo del 80% de -1.5 a 7.5 pp.",
+     "evidence_ids": [
+      "GM02-M07.e14",
+      "GM02-M07.e15",
+      "GM02-M07.e16"
+     ],
+     "en_text": "The simulated change is +3.0 pp, with an 80% interval from -1.5 to 7.5 pp.",
+     "back_translation": "The simulated variation is +3.0 pp, with an 80% range of -1.5 to 7.5 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s3: direction word ('up') contradicts cited change",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M07",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC se hizo con el control del partido a partir del minuto 50.",
+     "evidence_ids": [
+      "GM02-M07.e1",
+      "GM02-M07.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 50.",
+     "back_translation": "Redmere FC took control of the game from the 50th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de 0.44 a -0.94.",
+     "evidence_ids": [
+      "GM02-M07.e2",
+      "GM02-M07.e3"
+     ],
+     "en_text": "The momentum index went from 0.44 to -0.94.",
+     "back_translation": "The momentum index went from 0.44 to -0.94."
+    },
+    {
+     "text": "La probabilidad de ganar de Redmere FC bajó a 2%, 1 punto menos.",
+     "evidence_ids": [
+      "GM02-M07.e8",
+      "GM02-M07.e9"
+     ],
+     "en_text": "Redmere FC win chance dropped to 2%, down 1 points.",
+     "back_translation": "Redmere FC's chance of winning dropped to 2%, down 1 point."
+    },
+    {
+     "text": "Si Harbor Athletic hubiera presionado más desde ese punto, Harbor Athletic tendría alrededor de 88% de probabilidad de ganar, no 84%.",
+     "evidence_ids": [
+      "GM02-M07.e11",
+      "GM02-M07.e10"
+     ],
+     "en_text": "What if Harbor Athletic had pressed harder from this point? Harbor Athletic would be about 88% to win, not 84%.",
+     "back_translation": "If Harbor Athletic had pushed harder from that point, Harbor Athletic would have about an 88% chance of winning, not 84%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM02-M07.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M07",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC tomó el control del partido desde el minuto 50.",
+     "evidence_ids": [
+      "GM02-M07.e1",
+      "GM02-M07.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 50.",
+     "back_translation": "Redmere FC took control of the match from the 50th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC una probabilidad de ganar del 2%, comparada con el 3% antes.",
+     "evidence_ids": [
+      "GM02-M07.e7",
+      "GM02-M07.e8"
+     ],
+     "en_text": "Our model now gives Redmere FC a 2% chance of winning, compared with 3% before.",
+     "back_translation": "Our model now gives Redmere FC a 2% chance of winning, compared to 3% before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Harbor Athletic habría tenido aproximadamente 88% de probabilidad de ganar en lugar de 84%.",
+     "evidence_ids": [
+      "GM02-M07.e11",
+      "GM02-M07.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 88% chance instead of 84%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Harbor Athletic would have had about an 88% chance of winning instead of 84%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M07",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC toma el control del partido desde el minuto 50.",
+     "evidence_ids": [
+      "GM02-M07.e1",
+      "GM02-M07.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 50.",
+     "back_translation": "Redmere FC takes control of the match from the 50th minute."
+    },
+    {
+     "text": "El índice de impulso pasa de 0.44 a -0.94.",
+     "evidence_ids": [
+      "GM02-M07.e2",
+      "GM02-M07.e3"
+     ],
+     "en_text": "The momentum index went from 0.44 to -0.94.",
+     "back_translation": "The momentum index goes from 0.44 to -0.94."
+    },
+    {
+     "text": "Redmere FC ahora tiene una probabilidad de victoria del 2 por ciento, frente al 3 por ciento.",
+     "evidence_ids": [
+      "GM02-M07.e7",
+      "GM02-M07.e8"
+     ],
+     "en_text": "Redmere FC now has a 2 per cent chance of winning, down from 3 per cent.",
+     "back_translation": "Redmere FC now have a 2 per cent chance of victory, up from 3 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M08",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने मिनट 59 में बदलाव किया; एलेक्स कॉरहोल्ट ब्रूनो कैलवेल की जगह उतरे।",
+     "evidence_ids": [
+      "GM02-M08.e1",
+      "GM02-M08.e6",
+      "GM02-M08.e2",
+      "GM02-M08.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+     "back_translation": "Redmeier FC made a change in minute 59; Alex Courholt came on in place of Bruno Calvell."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.034 से 0.060 हो गया।",
+     "evidence_ids": [
+      "GM02-M08.e4",
+      "GM02-M08.e5"
+     ],
+     "en_text": "Threat per minute went from 0.034 to 0.060.",
+     "back_translation": "The per-minute danger increased from 0.034 to 0.060."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 1.5 प्रतिशत अंक से घटकर 2.4% से 0.9% हो गई।",
+     "evidence_ids": [
+      "GM02-M08.e10",
+      "GM02-M08.e8",
+      "GM02-M08.e9"
+     ],
+     "en_text": "Redmere FC win probability fell by 1.5 pp, from 2.4% to 0.9%.",
+     "back_translation": "Redmere FC's chances of winning decreased by 1.5 percentage points from 2.4% to 0.9%."
+    },
+    {
+     "text": "अगर रेडमियर एफ़सी ने एलेक्स कॉरहोल्ट को लाने की बजाय ब्रूनो कैलवेल को रखा होता, तो 200 सिम्युलेशन में हार्बर एथलेटिक की जीत की संभावना लगभग 84% के बजाय 84% होती।",
+     "evidence_ids": [
+      "GM02-M08.e12",
+      "GM02-M08.e11",
+      "GM02-M08.e18"
+     ],
+     "en_text": "What if Redmere FC had kept Bruno Calvale on instead of bringing on Aleks Corholt? Across 200 simulated rollouts, Harbor Athletic win chance would be about 84% instead of 84%.",
+     "back_translation": "If Redmire FC had kept Bruno Calvel instead of bringing in Alex Coreholt, Harbour Athletic's chances of winning in the 200 simulation would have been 84% instead of about 84%."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन +0.0 प्रतिशत अंक है, 80% अंतराल -4.5 से 5.0 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM02-M08.e15",
+      "GM02-M08.e16",
+      "GM02-M08.e17"
+     ],
+     "en_text": "The simulated change is +0.0 pp, with an 80% interval from -4.5 to 5.0 pp.",
+     "back_translation": "The simulated change is +0.0 percentage points, with an 80% interval ranging from -4.5 to 5.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M08",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने मिनट 59 में बदलाव किया; एलेक्स कॉरहोल्ट ब्रूनो कैलवेल की जगह आए।",
+     "evidence_ids": [
+      "GM02-M08.e1",
+      "GM02-M08.e6",
+      "GM02-M08.e2",
+      "GM02-M08.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+     "back_translation": "Redmier FC made the change in minute 59; Alex Courholt came on in place of Bruno Calwell."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.034 से 0.060 हो गया।",
+     "evidence_ids": [
+      "GM02-M08.e4",
+      "GM02-M08.e5"
+     ],
+     "en_text": "Threat per minute went from 0.034 to 0.060.",
+     "back_translation": "The per-minute danger increased from 0.034 to 0.060."
+    },
+    {
+     "text": "रेडमियर एफ़सी की उम्मीदें 2 प्रतिशत अंक घटकर 1% हो गईं।",
+     "evidence_ids": [
+      "GM02-M08.e9",
+      "GM02-M08.e10"
+     ],
+     "en_text": "Redmere FC hopes fell by 2 points to 1%.",
+     "back_translation": "Redmere FC's expectations dropped 2 percentage points to 1%."
+    },
+    {
+     "text": "अगर रेडमियर एफ़सी ने एलेक्स कॉरहोल्ट को लाने की बजाय ब्रूनो कैलवेल को रखा होता, तो हार्बर एथलेटिक की जीत की संभावना लगभग 84% होती, न कि 84%।",
+     "evidence_ids": [
+      "GM02-M08.e12",
+      "GM02-M08.e11"
+     ],
+     "en_text": "What if Redmere FC had kept Bruno Calvale on instead of bringing on Aleks Corholt? Harbor Athletic would be about 84% to win, not 84%.",
+     "back_translation": "If Redmere FC had kept Bruno Calvelle instead of bringing in Alex Courholt, Harbour Athletic's chances of winning would have been around 84%, not 84%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M08",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने मिनट 59 में बदलाव किया; एलेक्स कॉरहोल्ट ब्रूनो कैलवेल की जगह आए।",
+     "evidence_ids": [
+      "GM02-M08.e1",
+      "GM02-M08.e6",
+      "GM02-M08.e2",
+      "GM02-M08.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+     "back_translation": "Redmier FC made the change in minute 59; Alex Courholt came on in place of Bruno Calwell."
+    },
+    {
+     "text": "हमारे मॉडल के अनुसार रेडमियर एफ़सी की जीत की संभावना अब 1% है, पहले 2% थी।",
+     "evidence_ids": [
+      "GM02-M08.e8",
+      "GM02-M08.e9"
+     ],
+     "en_text": "Our model now gives Redmere FC a 1% chance of winning, compared with 2% before.",
+     "back_translation": "According to our model, Redmere FC's chances of winning are now 1%, previously 2%."
+    },
+    {
+     "text": "अगर वह बदलाव नहीं होता, तो हमारे सिम्युलेशनों के अनुसार हार्बर एथलेटिक की जीत की संभावना लगभग 84% के बजाय 84% होती।",
+     "evidence_ids": [
+      "GM02-M08.e12",
+      "GM02-M08.e11"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 84% chance instead of 84%.",
+     "back_translation": "If that had not changed, Harbor Athletic's chances of winning would have been 84% instead of about 84% according to our simulations."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M08",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी मिनट 59 में बदलाव कर रहा है, एलेक्स कॉरहोल्ट ब्रूनो कैलवेल की जगह आ रहे हैं।",
+     "evidence_ids": [
+      "GM02-M08.e1",
+      "GM02-M08.e6",
+      "GM02-M08.e2",
+      "GM02-M08.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+     "back_translation": "Redmier is making changes to FC min 59, with Alex Corholt coming in as a replacement for Bruno Calvez."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.034 से 0.060 हो रहा है।",
+     "evidence_ids": [
+      "GM02-M08.e4",
+      "GM02-M08.e5"
+     ],
+     "en_text": "Threat per minute went from 0.034 to 0.060.",
+     "back_translation": "The danger per minute is getting from 0.034 to 0.060."
+    },
+    {
+     "text": "रेडमियर एफ़सी अब 1 प्रतिशत जीत की संभावना रखता है, पहले 2 प्रतिशत था।",
+     "evidence_ids": [
+      "GM02-M08.e8",
+      "GM02-M08.e9"
+     ],
+     "en_text": "Redmere FC now has a 1 per cent chance of winning, down from 2 per cent.",
+     "back_translation": "Redmire FC now has a 1 percent chance of winning, up from 2 percent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M08",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC realizó un cambio en el minuto 59: Aleks Corholt entra por Bruno Calvale.",
+     "evidence_ids": [
+      "GM02-M08.e1",
+      "GM02-M08.e6",
+      "GM02-M08.e2",
+      "GM02-M08.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+     "back_translation": "Redmere FC made a change in the 59th minute: Aleks Corholt came on for Bruno Calvale."
+    },
+    {
+     "text": "La amenaza por minuto pasó de 0.034 a 0.060.",
+     "evidence_ids": [
+      "GM02-M08.e4",
+      "GM02-M08.e5"
+     ],
+     "en_text": "Threat per minute went from 0.034 to 0.060.",
+     "back_translation": "The threat per minute went from 0.034 to 0.060."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC cayó en 1.5 pp, de 2.4 por ciento a 0.9 por ciento.",
+     "evidence_ids": [
+      "GM02-M08.e10",
+      "GM02-M08.e8",
+      "GM02-M08.e9"
+     ],
+     "en_text": "Redmere FC win probability fell by 1.5 pp, from 2.4% to 0.9%.",
+     "back_translation": "Redmere FC's probability of victory fell by 1.5 pp, from 2.4 percent to 0.9 percent."
+    },
+    {
+     "text": "Si Redmere FC hubiera mantenido a Bruno Calvale en lugar de introducir a Aleks Corholt, en 200 simulaciones la probabilidad de ganar de Harbor Athletic sería de aproximadamente 84 por ciento en lugar de 84 por ciento.",
+     "evidence_ids": [
+      "GM02-M08.e12",
+      "GM02-M08.e11",
+      "GM02-M08.e18"
+     ],
+     "en_text": "What if Redmere FC had kept Bruno Calvale on instead of bringing on Aleks Corholt? Across 200 simulated rollouts, Harbor Athletic win chance would be about 84% instead of 84%.",
+     "back_translation": "If Redmere FC had kept Bruno Calvale instead of introducing Aleks Corholt, in 200 simulations Harbor Athletic's probability of winning would be about 84 percent instead of 84 percent."
+    },
+    {
+     "text": "El cambio simulado es +0.0 pp, con un intervalo del 80% de -4.5 a 5.0 pp.",
+     "evidence_ids": [
+      "GM02-M08.e15",
+      "GM02-M08.e16",
+      "GM02-M08.e17"
+     ],
+     "en_text": "The simulated change is +0.0 pp, with an 80% interval from -4.5 to 5.0 pp.",
+     "back_translation": "The simulated change is +0.0 pp, with an 80% range of -4.5 to 5.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M08",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC hizo un cambio en el minuto 59: Aleks Corholt entra por Bruno Calvale.",
+     "evidence_ids": [
+      "GM02-M08.e1",
+      "GM02-M08.e6",
+      "GM02-M08.e2",
+      "GM02-M08.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+     "back_translation": "Redmere FC made a change in the 59th minute: Aleks Corholt came on for Bruno Calvale."
+    },
+    {
+     "text": "La amenaza por minuto subió de 0.034 a 0.060.",
+     "evidence_ids": [
+      "GM02-M08.e4",
+      "GM02-M08.e5"
+     ],
+     "en_text": "Threat per minute went from 0.034 to 0.060.",
+     "back_translation": "The threat per minute rose from 0.034 to 0.060."
+    },
+    {
+     "text": "Las esperanzas de Redmere FC cayeron 2 puntos hasta 1 por ciento.",
+     "evidence_ids": [
+      "GM02-M08.e9",
+      "GM02-M08.e10"
+     ],
+     "en_text": "Redmere FC hopes fell by 2 points to 1%.",
+     "back_translation": "Redmere FC's hopes fell 2 points to 1 percent."
+    },
+    {
+     "text": "Si Redmere FC hubiera mantenido a Bruno Calvale en lugar de meter a Aleks Corholt, Harbor Athletic estaría alrededor de 84 por ciento para ganar, no 84 por ciento.",
+     "evidence_ids": [
+      "GM02-M08.e12",
+      "GM02-M08.e11"
+     ],
+     "en_text": "What if Redmere FC had kept Bruno Calvale on instead of bringing on Aleks Corholt? Harbor Athletic would be about 84% to win, not 84%.",
+     "back_translation": "If Redmere FC had kept Bruno Calvale instead of bringing in Aleks Corholt, Harbor Athletic would be around 84 per cent to win, not 84 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M08",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC hizo un cambio en el minuto 59: entra Aleks Corholt por Bruno Calvale.",
+     "evidence_ids": [
+      "GM02-M08.e1",
+      "GM02-M08.e6",
+      "GM02-M08.e2",
+      "GM02-M08.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+     "back_translation": "Redmere FC made a change in the 59th minute: Aleks Corholt comes on for Bruno Calvale."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC una probabilidad de ganar del 1 por ciento, frente al 2 por ciento anterior.",
+     "evidence_ids": [
+      "GM02-M08.e8",
+      "GM02-M08.e9"
+     ],
+     "en_text": "Our model now gives Redmere FC a 1% chance of winning, compared with 2% before.",
+     "back_translation": "Our model now gives Redmere FC a 1 per cent chance of winning, up from 2 per cent previously."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Harbor Athletic habría tenido aproximadamente un 84 por ciento de probabilidad en lugar de 84 por ciento.",
+     "evidence_ids": [
+      "GM02-M08.e12",
+      "GM02-M08.e11"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Harbor Athletic would have about a 84% chance instead of 84%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Harbor Athletic would have had about an 84 percent chance instead of 84 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M08",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC hace un cambio en el minuto 59 y Aleks Corholt entra por Bruno Calvale.",
+     "evidence_ids": [
+      "GM02-M08.e1",
+      "GM02-M08.e6",
+      "GM02-M08.e2",
+      "GM02-M08.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 59: Aleks Corholt on for Bruno Calvale.",
+     "back_translation": "Redmere FC makes a change in the 59th minute and Aleks Corholt comes on for Bruno Calvale."
+    },
+    {
+     "text": "La amenaza por minuto pasa de 0.034 a 0.060.",
+     "evidence_ids": [
+      "GM02-M08.e4",
+      "GM02-M08.e5"
+     ],
+     "en_text": "Threat per minute went from 0.034 to 0.060.",
+     "back_translation": "The threat per minute goes from 0.034 to 0.060."
+    },
+    {
+     "text": "Redmere FC ahora tiene un 1 por ciento de probabilidad de ganar, frente al 2 por ciento.",
+     "evidence_ids": [
+      "GM02-M08.e8",
+      "GM02-M08.e9"
+     ],
+     "en_text": "Redmere FC now has a 1 per cent chance of winning, down from 2 per cent.",
+     "back_translation": "Redmere FC now have a 1 per cent chance of winning, up from 2 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M09",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ओमार डनांडो के पास 60 मिनट में रेडमियर एफ़सी के लिए एक बड़ा मौक़ा था।",
+     "evidence_ids": [
+      "GM02-M09.e1",
+      "GM02-M09.e2",
+      "GM02-M09.e10"
+     ],
+     "en_text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+     "back_translation": "Omar Donando had a big chance for Redmire FC in the 60 minutes."
+    },
+    {
+     "text": "यह शॉट 4.2 मीटर से 0.47 xG (अपेक्षित गोल) के बराबर था।",
+     "evidence_ids": [
+      "GM02-M09.e3",
+      "GM02-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.47 xG from 4.2 metres.",
+     "back_translation": "This shot was equal to 4.2 x G from 0.47 meters (expected goals)."
+    },
+    {
+     "text": "इस मूव में 5 क्रियाएँ थीं, और शूटर पर दबाव नहीं था।",
+     "evidence_ids": [
+      "GM02-M09.e9",
+      "GM02-M09.e7"
+     ],
+     "en_text": "The move had 5 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move had 5 actions, and there was no pressure on the shooter."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 0.4 प्रतिशत अंक कम हुई, 2.4 प्रतिशत से 2.0 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM02-M09.e14",
+      "GM02-M09.e12",
+      "GM02-M09.e13"
+     ],
+     "en_text": "Redmere FC win probability fell by 0.4 pp, from 2.4% to 2.0%.",
+     "back_translation": "Redmere FC's chances of winning decreased by 0.4 percentage points, from 2.4 percent to 2.0 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M09",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ओमार डनांडो ने 60वें मिनट में रेडमियर एफ़सी के लिए एक बड़ा मौक़ा बनाया!",
+     "evidence_ids": [
+      "GM02-M09.e1",
+      "GM02-M09.e2",
+      "GM02-M09.e10"
+     ],
+     "en_text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+     "back_translation": "Omar Donando created a big chance for Redmire FC in the 60th minute!"
+    },
+    {
+     "text": "यह शॉट 4.2 मीटर से 0.47 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM02-M09.e3",
+      "GM02-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.47 xG from 4.2 metres.",
+     "back_translation": "The shot was 4.2 x G from 0.47 meters (expected goal)."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना लगभग नहीं बदली और लगभग 2 प्रतिशत पर बनी रही।",
+     "evidence_ids": [
+      "GM02-M09.e13",
+      "GM02-M09.e14"
+     ],
+     "en_text": "Redmere FC win chance barely moved, staying near 2%.",
+     "back_translation": "Redmere FC's chances of victory almost did not change and remained at around 2 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM02-M09.e99']",
+    "attempt 2: s1: unknown evidence ids ['GM02-M09.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M09",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "60वें मिनट में ओमार डनांडो के पास रेडमियर एफ़सी के लिए एक बड़ा मौक़ा आया।",
+     "evidence_ids": [
+      "GM02-M09.e1",
+      "GM02-M09.e2",
+      "GM02-M09.e10"
+     ],
+     "en_text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+     "back_translation": "In the 60th minute, Omar Donando had a big chance for Redmeier FC."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता को मापता है; यह 0.47 था, और अधिक होने का मतलब बेहतर मौका होता है।",
+     "evidence_ids": [
+      "GM02-M09.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.47, and higher means a better chance.",
+     "back_translation": "xG (Goals Expected) measures the quality of the chance; It was 0.47, and being higher means a better chance."
+    },
+    {
+     "text": "हमारे मॉडल के अनुसार अब रेडमियर एफ़सी को जीतने की 2 प्रतिशत संभावना दी जा रही है, जो पहले भी 2 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M09.e12",
+      "GM02-M09.e13"
+     ],
+     "en_text": "Our model now gives Redmere FC a 2% chance of winning, compared with 2% before.",
+     "back_translation": "According to our model, Redmire FC is now being given a 2 percent chance of winning, which was also 2 percent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M09",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ओमार डनांडो के पास 60वें मिनट में रेडमियर एफ़सी के लिए एक बड़ा मौक़ा आता है।",
+     "evidence_ids": [
+      "GM02-M09.e1",
+      "GM02-M09.e2",
+      "GM02-M09.e10"
+     ],
+     "en_text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+     "back_translation": "Omar Donando has a big chance for Redmeier FC in the 60th minute."
+    },
+    {
+     "text": "यह शॉट 4.2 मीटर से 0.47 xG (अपेक्षित गोल) का होता है।",
+     "evidence_ids": [
+      "GM02-M09.e3",
+      "GM02-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.47 xG from 4.2 metres.",
+     "back_translation": "This shot is 4.2 m to 0.47 xG (expected round)."
+    },
+    {
+     "text": "रेडमियर एफ़सी के पास अभी भी जीत की 2 प्रतिशत संभावना है।",
+     "evidence_ids": [
+      "GM02-M09.e13"
+     ],
+     "en_text": "Redmere FC still has a 2 per cent chance of winning.",
+     "back_translation": "Redmire FC still has a 2 percent chance of winning."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M09",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Omar Dunando tuvo una ocasión clara para Redmere FC en el minuto 60.",
+     "evidence_ids": [
+      "GM02-M09.e1",
+      "GM02-M09.e2",
+      "GM02-M09.e10"
+     ],
+     "en_text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+     "back_translation": "Omar Dunando had a clear chance for Redmere FC in the 60th minute."
+    },
+    {
+     "text": "El disparo valía 0.47 xG (goles esperados) desde 4.2 metros.",
+     "evidence_ids": [
+      "GM02-M09.e3",
+      "GM02-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.47 xG from 4.2 metres.",
+     "back_translation": "The shot was worth 0.47 xG (expected goals) from 4.2 meters."
+    },
+    {
+     "text": "La jugada tuvo 5 acciones, y el autor del disparo no estaba bajo presión.",
+     "evidence_ids": [
+      "GM02-M09.e9",
+      "GM02-M09.e7"
+     ],
+     "en_text": "The move had 5 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 5 actions, and the author of the shot was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC cayó 0.4 pp, de 2.4 por ciento a 2.0 por ciento.",
+     "evidence_ids": [
+      "GM02-M09.e14",
+      "GM02-M09.e12",
+      "GM02-M09.e13"
+     ],
+     "en_text": "Redmere FC win probability fell by 0.4 pp, from 2.4% to 2.0%.",
+     "back_translation": "Redmere FC's probability of victory fell 0.4 pp, from 2.4 percent to 2.0 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M09",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Omar Dunando tuvo una ocasión clara para Redmere FC en el minuto 60.",
+     "evidence_ids": [
+      "GM02-M09.e1",
+      "GM02-M09.e2",
+      "GM02-M09.e10"
+     ],
+     "en_text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+     "back_translation": "Omar Dunando had a clear chance for Redmere FC in the 60th minute."
+    },
+    {
+     "text": "El disparo valía 0.47 xG (goles esperados) desde 4.2 metros.",
+     "evidence_ids": [
+      "GM02-M09.e3",
+      "GM02-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.47 xG from 4.2 metres.",
+     "back_translation": "The shot was worth 0.47 xG (expected goals) from 4.2 meters."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC apenas se movió, quedándose cerca del 2 por ciento.",
+     "evidence_ids": [
+      "GM02-M09.e13",
+      "GM02-M09.e14"
+     ],
+     "en_text": "Redmere FC win chance barely moved, staying near 2%.",
+     "back_translation": "Redmere FC's chance of victory barely budged, remaining close to 2 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM02-M09.e99']",
+    "attempt 2: s1: unknown evidence ids ['GM02-M09.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M09",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Omar Dunando tuvo una ocasión clara para Redmere FC en el minuto 60.",
+     "evidence_ids": [
+      "GM02-M09.e1",
+      "GM02-M09.e2",
+      "GM02-M09.e10"
+     ],
+     "en_text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+     "back_translation": "Omar Dunando had a clear chance for Redmere FC in the 60th minute."
+    },
+    {
+     "text": "El xG (goles esperados) mide la calidad de la ocasión; este fue 0.47, y un valor más alto significa una mejor probabilidad de marcar.",
+     "evidence_ids": [
+      "GM02-M09.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.47, and higher means a better chance.",
+     "back_translation": "The xG (expected goals) measures the quality of the chance; this was 0.47, and a higher value means a better chance of scoring."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC un 2 por ciento de probabilidad de ganar, comparado con 2 por ciento antes.",
+     "evidence_ids": [
+      "GM02-M09.e12",
+      "GM02-M09.e13"
+     ],
+     "en_text": "Our model now gives Redmere FC a 2% chance of winning, compared with 2% before.",
+     "back_translation": "Our model now gives Redmere FC a 2 per cent chance of winning, compared to 2 per cent before."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M09",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Omar Dunando tiene una ocasión clara para Redmere FC en el minuto 60.",
+     "evidence_ids": [
+      "GM02-M09.e1",
+      "GM02-M09.e2",
+      "GM02-M09.e10"
+     ],
+     "en_text": "Omar Dunando had a big chance for Redmere FC in minute 60.",
+     "back_translation": "Omar Dunando has a clear chance for Redmere FC in the 60th minute."
+    },
+    {
+     "text": "El disparo vale 0.47 xG (goles esperados) desde 4.2 metros.",
+     "evidence_ids": [
+      "GM02-M09.e3",
+      "GM02-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.47 xG from 4.2 metres.",
+     "back_translation": "The shot is worth 0.47 xG (expected goals) from 4.2 meters."
+    },
+    {
+     "text": "Redmere FC aún tiene un 2 por ciento de probabilidad de victoria.",
+     "evidence_ids": [
+      "GM02-M09.e13"
+     ],
+     "en_text": "Redmere FC still has a 2 per cent chance of winning.",
+     "back_translation": "Redmere FC still has a 2 percent chance of victory."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M10",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने 84 मिनट में बदलाव किया; एमरे हॉलसेन को ब्रूनो रैवडेन के स्थान पर उतारा गया।",
+     "evidence_ids": [
+      "GM02-M10.e1",
+      "GM02-M10.e6",
+      "GM02-M10.e2",
+      "GM02-M10.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+     "back_translation": "Redmeier FC made a change in 84 minutes; Emre Halsen replaced Bruno Ravden."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.008 से 0.026 तक बढ़ा।",
+     "evidence_ids": [
+      "GM02-M10.e4",
+      "GM02-M10.e5"
+     ],
+     "en_text": "Threat per minute went from 0.008 to 0.026.",
+     "back_translation": "The per-minute threat increased from 0.008 to 0.026."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 0.1 प्रतिशत अंक से घट गई, 0.3 प्रतिशत से 0.3 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM02-M10.e10",
+      "GM02-M10.e8",
+      "GM02-M10.e9"
+     ],
+     "en_text": "Redmere FC win probability fell by 0.1 pp, from 0.3% to 0.3%.",
+     "back_translation": "Redmeier FC's chances of winning decreased by 0.1 percentage points, from 0.3 percent to 0.3 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M10",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने 84 मिनट में एक बदलाव किया, एमरे हॉलसेन ब्रूनो रैवडेन की जगह आ गए।",
+     "evidence_ids": [
+      "GM02-M10.e1",
+      "GM02-M10.e6",
+      "GM02-M10.e2",
+      "GM02-M10.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+     "back_translation": "Redmire FC made one change in the 84th minute, with Emre Halsen coming on as a replacement for Bruno Ravden."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.008 से बढ़कर 0.026 हो गया।",
+     "evidence_ids": [
+      "GM02-M10.e4",
+      "GM02-M10.e5"
+     ],
+     "en_text": "Threat per minute went from 0.008 to 0.026.",
+     "back_translation": "The per-minute threat increased from 0.008 to 0.026."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना लगभग नहीं बदली और 0 प्रतिशत के आसपास बनी रही।",
+     "evidence_ids": [
+      "GM02-M10.e9",
+      "GM02-M10.e10"
+     ],
+     "en_text": "Redmere FC win chance barely moved, staying near 0%.",
+     "back_translation": "Redmeier FC's chances of victory almost did not change and remained around 0 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M10",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने 84 मिनट में एक बदलाव किया; एमरे हॉलसेन ब्रूनो रैवडेन की जगह आए।",
+     "evidence_ids": [
+      "GM02-M10.e1",
+      "GM02-M10.e6",
+      "GM02-M10.e2",
+      "GM02-M10.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+     "back_translation": "Redmeier FC made a change in the 84th minute; Emre Halsen came on in place of Bruno Ravden."
+    },
+    {
+     "text": "हमारा मॉडल अब रेडमियर एफ़सी को जीतने की 0 प्रतिशत संभावना देता है, पहले भी 0 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM02-M10.e8",
+      "GM02-M10.e9"
+     ],
+     "en_text": "Our model now gives Redmere FC a 0% chance of winning, compared with 0% before.",
+     "back_translation": "Our model now gives Redmeier FC a 0 percent chance of winning, even before it was 0 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M10",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी 84 मिनट पर बदलाव करता है एमरे हॉलसेन ब्रूनो रैवडेन की जगह आ रहे हैं।",
+     "evidence_ids": [
+      "GM02-M10.e1",
+      "GM02-M10.e6",
+      "GM02-M10.e2",
+      "GM02-M10.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+     "back_translation": "Redmire FC make the change on 84 minutes, with Emre Halsen coming on in place of Bruno Ravden."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.008 से 0.026 हो रहा है।",
+     "evidence_ids": [
+      "GM02-M10.e4",
+      "GM02-M10.e5"
+     ],
+     "en_text": "Threat per minute went from 0.008 to 0.026.",
+     "back_translation": "The per-minute threat is getting from 0.008 to 0.026."
+    },
+    {
+     "text": "रेडमियर एफ़सी के पास अभी भी जीत की 0 प्रतिशत संभावना है।",
+     "evidence_ids": [
+      "GM02-M10.e9"
+     ],
+     "en_text": "Redmere FC still has a 0 per cent chance of winning.",
+     "back_translation": "Redmeier FC still has a 0 percent chance of winning."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M10",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC realizó un cambio en el minuto 84: entra Emre Holssen por Bruno Ravden.",
+     "evidence_ids": [
+      "GM02-M10.e1",
+      "GM02-M10.e6",
+      "GM02-M10.e2",
+      "GM02-M10.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+     "back_translation": "Redmere FC made a change in the 84th minute: Emre Holssen came on for Bruno Ravden."
+    },
+    {
+     "text": "La amenaza por minuto pasó de 0.008 a 0.026.",
+     "evidence_ids": [
+      "GM02-M10.e4",
+      "GM02-M10.e5"
+     ],
+     "en_text": "Threat per minute went from 0.008 to 0.026.",
+     "back_translation": "The threat per minute went from 0.008 to 0.026."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC cayó 0.1 pp, de 0.3 por ciento a 0.3 por ciento.",
+     "evidence_ids": [
+      "GM02-M10.e10",
+      "GM02-M10.e8",
+      "GM02-M10.e9"
+     ],
+     "en_text": "Redmere FC win probability fell by 0.1 pp, from 0.3% to 0.3%.",
+     "back_translation": "Redmere FC's probability of victory fell 0.1 pp, from 0.3 percent to 0.3 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M10",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC hizo un cambio en el minuto 84: entra Emre Holssen por Bruno Ravden.",
+     "evidence_ids": [
+      "GM02-M10.e1",
+      "GM02-M10.e6",
+      "GM02-M10.e2",
+      "GM02-M10.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+     "back_translation": "Redmere FC made a change in the 84th minute: Emre Holssen came on for Bruno Ravden."
+    },
+    {
+     "text": "La amenaza por minuto subió de 0.008 a 0.026.",
+     "evidence_ids": [
+      "GM02-M10.e4",
+      "GM02-M10.e5"
+     ],
+     "en_text": "Threat per minute went from 0.008 to 0.026.",
+     "back_translation": "The threat per minute rose from 0.008 to 0.026."
+    },
+    {
+     "text": "La probabilidad de ganar de Redmere FC apenas se movió, manteniéndose cerca del 0 por ciento.",
+     "evidence_ids": [
+      "GM02-M10.e9",
+      "GM02-M10.e10"
+     ],
+     "en_text": "Redmere FC win chance barely moved, staying near 0%.",
+     "back_translation": "Redmere FC's odds of winning barely budged, remaining close to 0 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M10",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC hizo un cambio en el minuto 84: entra Emre Holssen por Bruno Ravden.",
+     "evidence_ids": [
+      "GM02-M10.e1",
+      "GM02-M10.e6",
+      "GM02-M10.e2",
+      "GM02-M10.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+     "back_translation": "Redmere FC made a change in the 84th minute: Emre Holssen came on for Bruno Ravden."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC una probabilidad de ganar del 0 por ciento, comparada con 0 por ciento antes.",
+     "evidence_ids": [
+      "GM02-M10.e8",
+      "GM02-M10.e9"
+     ],
+     "en_text": "Our model now gives Redmere FC a 0% chance of winning, compared with 0% before.",
+     "back_translation": "Our model now gives Redmere FC a 0 percent chance of winning, compared to 0 percent before."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM02-M10",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC hace un cambio en el minuto 84 entra Emre Holssen por Bruno Ravden.",
+     "evidence_ids": [
+      "GM02-M10.e1",
+      "GM02-M10.e6",
+      "GM02-M10.e2",
+      "GM02-M10.e3"
+     ],
+     "en_text": "Redmere FC made a change in minute 84: Emre Holssen on for Bruno Ravden.",
+     "back_translation": "Redmere FC makes a substitution in the 84th minute, Emre Holssen comes on for Bruno Ravden."
+    },
+    {
+     "text": "La amenaza por minuto pasa de 0.008 a 0.026.",
+     "evidence_ids": [
+      "GM02-M10.e4",
+      "GM02-M10.e5"
+     ],
+     "en_text": "Threat per minute went from 0.008 to 0.026.",
+     "back_translation": "The threat per minute goes from 0.008 to 0.026."
+    },
+    {
+     "text": "Redmere FC todavía tiene una probabilidad de ganar del 0 por ciento.",
+     "evidence_ids": [
+      "GM02-M10.e9"
+     ],
+     "en_text": "Redmere FC still has a 0 per cent chance of winning.",
+     "back_translation": "Redmere FC still have a 0 percent chance of winning."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  }
+ ],
+ "trace": {
+  "GM02-M01": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM02-M02": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM02-M03": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM02-M04": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM02-M05": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "14/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "1/1 sentences passed checks"
+    },
+    {
+     "step": 3,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 4,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM02-M06": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM02-M07": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM02-M08": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM02-M09": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM02-M10": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  }
+ }
+}

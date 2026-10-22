@@ -11,6 +11,7 @@
     "lang": {"enum": ["en", "hi", "es", "ar", "ja"]},
     "fav_club": {"type": ["string", "null"]},
     "fav_player": {"type": ["string", "null"]},
+    "player_lock": {"type": "boolean", "default": false, "description": "Only show moments involving fav_player."},
     "analogy": {"enum": ["none", "cricket"], "default": "none"},
     "tone": {"type": "integer", "minimum": 0, "maximum": 2, "default": 1},
     "stats_density": {"type": "integer", "minimum": 0, "maximum": 2, "default": 1}

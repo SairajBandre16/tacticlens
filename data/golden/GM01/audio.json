@@ -1,0 +1,27 @@
+{
+ "GM01-M03": {
+  "en": "audio/en-9eef8dbce8eefd9c.mp3",
+  "hi": "audio/hi-e3ede7743b634145.mp3",
+  "es": "audio/es-63c576cfa7bdbdf2.mp3"
+ },
+ "GM01-M04": {
+  "en": "audio/en-779456c5e86e81d0.mp3",
+  "hi": "audio/hi-9aad57fc903ba6f6.mp3",
+  "es": "audio/es-46f55aa38e50acba.mp3"
+ },
+ "GM01-M05": {
+  "en": "audio/en-a7ff3f48f669c8cb.mp3",
+  "hi": "audio/hi-ee1fa43dd71421f2.mp3",
+  "es": "audio/es-bf73e36289dd746a.mp3"
+ },
+ "GM01-M09": {
+  "en": "audio/en-eda5dc2260c8192c.mp3",
+  "hi": "audio/hi-812d85443d59d75d.mp3",
+  "es": "audio/es-f09d6b68bfe53999.mp3"
+ },
+ "GM01-M11": {
+  "en": "audio/en-4929f1473d343acd.mp3",
+  "hi": "audio/hi-b1ae36e84dfa3775.mp3",
+  "es": "audio/es-2977f2e94b18f45b.mp3"
+ }
+}

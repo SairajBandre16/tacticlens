@@ -1,0 +1,3517 @@
+{
+ "backend": "foundry",
+ "explanations": [
+  {
+   "moment_id": "GM05-M01",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "सिरिल पेनब्रुक ने नॉर्थब्रिज यूनाइटेड के लिये मिनट 2 में गोल किया, स्कोर 1-0 हुआ।",
+     "evidence_ids": [
+      "GM05-M01.e1",
+      "GM05-M01.e2",
+      "GM05-M01.e11",
+      "GM05-M01.e10"
+     ],
+     "en_text": "Cyril Penbrook scored for Northbridge United in minute 2, making it 1-0.",
+     "back_translation": "Cyril Penbrook scored for Northbridge United in minute 2, making the score 1-0."
+    },
+    {
+     "text": "यह शॉट 8.6 मीटर से 0.14 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM05-M01.e3",
+      "GM05-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.14 xG from 8.6 metres.",
+     "back_translation": "The shot was 8.6 x G from 0.14 m (expected goal)."
+    },
+    {
+     "text": "इस चाल में 7 क्रियाएँ थीं और शूटर पर दबाव नहीं था।",
+     "evidence_ids": [
+      "GM05-M01.e9",
+      "GM05-M01.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move had 7 actions and did not put pressure on the shooter."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना 7.3 प्रतिशत अंक बढ़ी, 91.3 प्रतिशत से 98.6 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM05-M01.e15",
+      "GM05-M01.e13",
+      "GM05-M01.e14"
+     ],
+     "en_text": "Northbridge United win probability rose by 7.3 pp, from 91.3% to 98.6%.",
+     "back_translation": "Northbridge United's chances of winning increased by 7.3 percentage points, from 91.3 percent to 98.6 percent."
+    },
+    {
+     "text": "अगर सिरिल पेनब्रुक का गोल नहीं होता तो 200 सिम्युलेशनों में नॉर्थब्रिज यूनाइटेड की जीत की संभावना लगभग 92 प्रतिशत होती, न कि 98 प्रतिशत।",
+     "evidence_ids": [
+      "GM05-M01.e17",
+      "GM05-M01.e16",
+      "GM05-M01.e23"
+     ],
+     "en_text": "What if Cyril Penbrook's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 92% instead of 98%.",
+     "back_translation": "If it weren't for Cyril Penbrook's goal, Northbridge United's chances of winning in 200 simulations would have been around 92 per cent, not 98 per cent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -7.0 प्रतिशत अंक है, 80% अंतराल -9.5 से -5.0 प्रतिशत अंक के बीच है।",
+     "evidence_ids": [
+      "GM05-M01.e20",
+      "GM05-M01.e21",
+      "GM05-M01.e22"
+     ],
+     "en_text": "The simulated change is -7.0 pp, with an 80% interval from -9.5 to -5.0 pp.",
+     "back_translation": "The simulated change is -7.0 percentage points, with the 80% interval being between -9.5 to -5.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M01",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 2 में सिरिल पेनब्रुक ने नॉर्थब्रिज यूनाइटेड के लिये गोल किया, स्कोर 1-0 हो गया!",
+     "evidence_ids": [
+      "GM05-M01.e1",
+      "GM05-M01.e2",
+      "GM05-M01.e11",
+      "GM05-M01.e10"
+     ],
+     "en_text": "Cyril Penbrook scored for Northbridge United in minute 2, making it 1-0.",
+     "back_translation": "In minute 2, Cyril Penbrook scored for Northbridge United, the score was 1-0!"
+    },
+    {
+     "text": "यह शॉट 8.6 मीटर से 0.14 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM05-M01.e3",
+      "GM05-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.14 xG from 8.6 metres.",
+     "back_translation": "The shot was 8.6 x G from 0.14 m (expected goal)."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की उम्मीदें 7 प्रतिशत अंक बढ़कर 99 प्रतिशत हो गईं।",
+     "evidence_ids": [
+      "GM05-M01.e14",
+      "GM05-M01.e15"
+     ],
+     "en_text": "Northbridge United hopes rose by 7 points to 99%.",
+     "back_translation": "Northbridge United's expectations rose 7 percentage points to 99 percent."
+    },
+    {
+     "text": "अगर सिरिल पेनब्रुक का गोल नहीं होता तो नॉर्थब्रिज यूनाइटेड की जीत की संभावना लगभग 92 प्रतिशत होती, 98 प्रतिशत नहीं।",
+     "evidence_ids": [
+      "GM05-M01.e17",
+      "GM05-M01.e16"
+     ],
+     "en_text": "What if Cyril Penbrook's goal for Northbridge United had not gone in? Northbridge United would be about 92% to win, not 98%.",
+     "back_translation": "If it hadn't been for Cyril Penbrook's goal, Northbridge United's chances of winning would have been around 92 per cent, not 98 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M01",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 2 में सिरिल पेनब्रुक ने नॉर्थब्रिज यूनाइटेड के लिये गोल किया और स्कोर 1-0 हुआ।",
+     "evidence_ids": [
+      "GM05-M01.e1",
+      "GM05-M01.e2",
+      "GM05-M01.e11",
+      "GM05-M01.e10"
+     ],
+     "en_text": "Cyril Penbrook scored for Northbridge United in minute 2, making it 1-0.",
+     "back_translation": "In minute 2, Cyril Penbrook scored for Northbridge United and the score was 1-0."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता मापता है, यह 0.14 था और अधिक होने पर मौका बेहतर होता है।",
+     "evidence_ids": [
+      "GM05-M01.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.14, and higher means a better chance.",
+     "back_translation": "xG (Expected Goals) measures the quality of the chance, it was 0.14 and the higher the chance is better."
+    },
+    {
+     "text": "हमारा मॉडल अब नॉर्थब्रिज यूनाइटेड को 99 प्रतिशत जीत की संभावना देता है, पहले यह 91 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM05-M01.e13",
+      "GM05-M01.e14"
+     ],
+     "en_text": "Our model now gives Northbridge United a 99% chance of winning, compared with 91% before.",
+     "back_translation": "Our model now gives Northbridge United a 99 per cent chance of winning, previously it was 91 per cent."
+    },
+    {
+     "text": "अगर वह नहीं हुआ होता तो हमारे सिम्युलेशनों से पता चलता है कि नॉर्थब्रिज यूनाइटेड की जीत की संभावना लगभग 92 प्रतिशत होती, 98 प्रतिशत की बजाय।",
+     "evidence_ids": [
+      "GM05-M01.e17",
+      "GM05-M01.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Northbridge United would have about a 92% chance instead of 98%.",
+     "back_translation": "If that had not happened, our simulations show that Northbridge United would have had a chance of winning at around 92 per cent, instead of 98 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M01",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 2, सिरिल पेनब्रुक नॉर्थब्रिज यूनाइटेड के लिये गोल करते हैं और स्कोर अब 1-0 है।",
+     "evidence_ids": [
+      "GM05-M01.e11",
+      "GM05-M01.e1",
+      "GM05-M01.e2",
+      "GM05-M01.e10"
+     ],
+     "en_text": "Minute 2. Cyril Penbrook scores for Northbridge United, and the score is now 1-0.",
+     "back_translation": "Minute 2, Cyril Penbrook scores for Northbridge United and the score is now 1-0."
+    },
+    {
+     "text": "यह शॉट 8.6 मीटर से 0.14 xG अपेक्षित गोल के बराबर है।",
+     "evidence_ids": [
+      "GM05-M01.e3",
+      "GM05-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.14 xG from 8.6 metres.",
+     "back_translation": "This shot is equivalent to the expected goal from 8.6 meters to 0.14 xG."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड के पास अब 99 प्रतिशत जीत की संभावना है, जो पहले 91 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM05-M01.e13",
+      "GM05-M01.e14"
+     ],
+     "en_text": "Northbridge United now has a 99 per cent chance of winning, up from 91 per cent.",
+     "back_translation": "Northbridge United now have a 99 percent chance of winning, up from 91 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: cites no evidence",
+    "attempt 1: s1: scoreline '1-0' not in cited evidence",
+    "attempt 1: s1: number 2 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M01",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Cyril Penbrook marcó para Northbridge United en el minuto 2, poniendo el 1-0.",
+     "evidence_ids": [
+      "GM05-M01.e1",
+      "GM05-M01.e2",
+      "GM05-M01.e11",
+      "GM05-M01.e10"
+     ],
+     "en_text": "Cyril Penbrook scored for Northbridge United in minute 2, making it 1-0.",
+     "back_translation": "Cyril Penbrook scored for Northbridge United in the 2nd minute, making it 1-0."
+    },
+    {
+     "text": "El disparo valía 0.14 xG (goles esperados) desde 8.6 metros.",
+     "evidence_ids": [
+      "GM05-M01.e3",
+      "GM05-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.14 xG from 8.6 metres.",
+     "back_translation": "The shot was worth 0.14 xG (expected goals) from 8.6 meters."
+    },
+    {
+     "text": "La jugada tuvo 7 acciones y el tirador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM05-M01.e9",
+      "GM05-M01.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 7 actions and the shooter was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Northbridge United aumentó en 7.3 pp, de 91.3 por ciento a 98.6 por ciento.",
+     "evidence_ids": [
+      "GM05-M01.e15",
+      "GM05-M01.e13",
+      "GM05-M01.e14"
+     ],
+     "en_text": "Northbridge United win probability rose by 7.3 pp, from 91.3% to 98.6%.",
+     "back_translation": "Northbridge United's probability of victory increased by 7.3 pp, from 91.3 percent to 98.6 percent."
+    },
+    {
+     "text": "¿Y si el gol de Cyril Penbrook para Northbridge United no hubiese entrado? En 200 simulaciones, la probabilidad de ganar de Northbridge United sería aproximadamente 92 por ciento en lugar de 98 por ciento.",
+     "evidence_ids": [
+      "GM05-M01.e17",
+      "GM05-M01.e16",
+      "GM05-M01.e23"
+     ],
+     "en_text": "What if Cyril Penbrook's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 92% instead of 98%.",
+     "back_translation": "What if Cyril Penbrook's goal for Northbridge United hadn't gone in? In 200 simulations, Northbridge United's chance of winning would be about 92 percent instead of 98 percent."
+    },
+    {
+     "text": "El cambio simulado es -7.0 pp, con un intervalo del 80% de -9.5 a -5.0 pp.",
+     "evidence_ids": [
+      "GM05-M01.e20",
+      "GM05-M01.e21",
+      "GM05-M01.e22"
+     ],
+     "en_text": "The simulated change is -7.0 pp, with an 80% interval from -9.5 to -5.0 pp.",
+     "back_translation": "The simulated change is -7.0 pp, with an 80% range of -9.5 to -5.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M01",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Cyril Penbrook marcó para Northbridge United en el minuto 2, haciendo el 1-0.",
+     "evidence_ids": [
+      "GM05-M01.e1",
+      "GM05-M01.e2",
+      "GM05-M01.e11",
+      "GM05-M01.e10"
+     ],
+     "en_text": "Cyril Penbrook scored for Northbridge United in minute 2, making it 1-0.",
+     "back_translation": "Cyril Penbrook scored for Northbridge United in the 2nd minute, making it 1-0."
+    },
+    {
+     "text": "El disparo valía 0.14 xG (goles esperados) desde 8.6 metros.",
+     "evidence_ids": [
+      "GM05-M01.e3",
+      "GM05-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.14 xG from 8.6 metres.",
+     "back_translation": "The shot was worth 0.14 xG (expected goals) from 8.6 meters."
+    },
+    {
+     "text": "Las esperanzas de Northbridge United subieron 7 puntos hasta 99 por ciento.",
+     "evidence_ids": [
+      "GM05-M01.e14",
+      "GM05-M01.e15"
+     ],
+     "en_text": "Northbridge United hopes rose by 7 points to 99%.",
+     "back_translation": "Northbridge United's hopes rose 7 points to 99 percent."
+    },
+    {
+     "text": "¿Y si el gol de Cyril Penbrook para Northbridge United no hubiera entrado? Northbridge United estaría alrededor de 92 por ciento para ganar, no 98 por ciento.",
+     "evidence_ids": [
+      "GM05-M01.e17",
+      "GM05-M01.e16"
+     ],
+     "en_text": "What if Cyril Penbrook's goal for Northbridge United had not gone in? Northbridge United would be about 92% to win, not 98%.",
+     "back_translation": "What if Cyril Penbrook's goal for Northbridge United hadn't gone in? Northbridge United would be around 92 per cent to win, not 98 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M01",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Cyril Penbrook marcó para Northbridge United en el minuto 2, dejando el marcador 1-0.",
+     "evidence_ids": [
+      "GM05-M01.e1",
+      "GM05-M01.e2",
+      "GM05-M01.e11",
+      "GM05-M01.e10"
+     ],
+     "en_text": "Cyril Penbrook scored for Northbridge United in minute 2, making it 1-0.",
+     "back_translation": "Cyril Penbrook scored for Northbridge United in the 2nd minute, leaving the score 1-0."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de la ocasión; esta fue 0.14 y cuanto mayor es, mejor la probabilidad de marcar.",
+     "evidence_ids": [
+      "GM05-M01.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.14, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; this was 0.14 and the higher it is, the better the probability of scoring."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Northbridge United una probabilidad de victoria del 99 por ciento, comparada con 91 por ciento antes.",
+     "evidence_ids": [
+      "GM05-M01.e13",
+      "GM05-M01.e14"
+     ],
+     "en_text": "Our model now gives Northbridge United a 99% chance of winning, compared with 91% before.",
+     "back_translation": "Our model now gives Northbridge United a 99 percent chance of victory, compared to 91 percent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Northbridge United tendría alrededor de 92 por ciento de probabilidad en vez de 98 por ciento.",
+     "evidence_ids": [
+      "GM05-M01.e17",
+      "GM05-M01.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Northbridge United would have about a 92% chance instead of 98%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Northbridge United would have about a 92 percent chance instead of 98 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M01",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 2. Cyril Penbrook marca para Northbridge United y el marcador es ahora 1-0.",
+     "evidence_ids": [
+      "GM05-M01.e11",
+      "GM05-M01.e1",
+      "GM05-M01.e2",
+      "GM05-M01.e10"
+     ],
+     "en_text": "Minute 2. Cyril Penbrook scores for Northbridge United, and the score is now 1-0.",
+     "back_translation": "Minute 2. Cyril Penbrook scores for Northbridge United and the score is now 1-0."
+    },
+    {
+     "text": "El disparo vale 0.14 xG (goles esperados) desde 8.6 metros.",
+     "evidence_ids": [
+      "GM05-M01.e3",
+      "GM05-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.14 xG from 8.6 metres.",
+     "back_translation": "The shot is worth 0.14 xG (expected goals) from 8.6 meters."
+    },
+    {
+     "text": "Northbridge United ahora tiene una probabilidad de victoria del 99 por ciento, frente a 91 por ciento.",
+     "evidence_ids": [
+      "GM05-M01.e13",
+      "GM05-M01.e14"
+     ],
+     "en_text": "Northbridge United now has a 99 per cent chance of winning, up from 91 per cent.",
+     "back_translation": "Northbridge United now has a 99 per cent chance of victory, up from 91 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: cites no evidence",
+    "attempt 1: s1: scoreline '1-0' not in cited evidence",
+    "attempt 1: s1: number 2 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M02",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड ने 27 मिनट से खेल पर नियंत्रण ले लिया।",
+     "evidence_ids": [
+      "GM05-M02.e1",
+      "GM05-M02.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 27.",
+     "back_translation": "Northbridge United took control of the game on 27 minutes."
+    },
+    {
+     "text": "मोमेंटम सूचकांक -0.09 से 0.90 हो गया।",
+     "evidence_ids": [
+      "GM05-M02.e2",
+      "GM05-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.09 to 0.90.",
+     "back_translation": "The momentum index went up from -0.09 to 0.90."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना 1.7 प्रतिशत अंक गिरकर 98.7 प्रतिशत से 97.0 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM05-M02.e9",
+      "GM05-M02.e7",
+      "GM05-M02.e8"
+     ],
+     "en_text": "Northbridge United win probability fell by 1.7 pp, from 98.7% to 97.0%.",
+     "back_translation": "Northbridge United's chances of winning fell 1.7 percentage points from 98.7 per cent to 97.0 per cent."
+    },
+    {
+     "text": "यदि इस बिंदु से एल्मस्टेड वांडरर्स ने अधिक प्रेसिंग की होती तो 200 सिम्युलेशन में नॉर्थब्रिज यूनाइटेड की जीत की संभावना 92 प्रतिशत की बजाय लगभग 94 प्रतिशत होती।",
+     "evidence_ids": [
+      "GM05-M02.e11",
+      "GM05-M02.e10",
+      "GM05-M02.e17"
+     ],
+     "en_text": "What if Elmstead Wanderers had pressed harder from this point? Across 200 simulated rollouts, Northbridge United win chance would be about 94% instead of 92%.",
+     "back_translation": "If Elmstead Wanderers had been more pressing from this point on, Northbridge United's chances of winning in 200 simulations would have been around 94 per cent instead of 92 per cent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन +2.0 प्रतिशत अंक है, 80% अंतराल -1.5 से 5.5 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM05-M02.e14",
+      "GM05-M02.e15",
+      "GM05-M02.e16"
+     ],
+     "en_text": "The simulated change is +2.0 pp, with an 80% interval from -1.5 to 5.5 pp.",
+     "back_translation": "The simulated change is +2.0 percentage points, with an 80% interval ranging from -1.5 to 5.5 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s4: What-if sentence must be hedged (would/about/simulated)",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M02",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड ने 27 मिनट से मैच पर कब्ज़ा कर लिया।",
+     "evidence_ids": [
+      "GM05-M02.e1",
+      "GM05-M02.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 27.",
+     "back_translation": "Northbridge United took control of the match from 27 minutes."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.09 से 0.90 पर पहुंच गया।",
+     "evidence_ids": [
+      "GM05-M02.e2",
+      "GM05-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.09 to 0.90.",
+     "back_translation": "The Momentum Index rose from -0.09 to 0.90."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना 97 प्रतिशत पर आ गई, 2 प्रतिशत अंक नीचे।",
+     "evidence_ids": [
+      "GM05-M02.e8",
+      "GM05-M02.e9"
+     ],
+     "en_text": "Northbridge United win chance dropped to 97%, down 2 points.",
+     "back_translation": "Northbridge United's chances of winning came down to 97 per cent, down 2 percentage points."
+    },
+    {
+     "text": "अगर इस बिंदु से एल्मस्टेड वांडरर्स ने ज्यादा प्रेसिंग की होती तो नॉर्थब्रिज यूनाइटेड की जीत की संभावना 92 प्रतिशत की बजाय लगभग 94 प्रतिशत रहती।",
+     "evidence_ids": [
+      "GM05-M02.e11",
+      "GM05-M02.e10"
+     ],
+     "en_text": "What if Elmstead Wanderers had pressed harder from this point? Northbridge United would be about 94% to win, not 92%.",
+     "back_translation": "If Elmstead Wanderers had pressed more from this point on, Northbridge United's chances of winning would have been around 94 per cent instead of 92 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M02",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड ने 27 मिनट से खेल पर नियंत्रण ले लिया।",
+     "evidence_ids": [
+      "GM05-M02.e1",
+      "GM05-M02.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 27.",
+     "back_translation": "Northbridge United took control of the game on 27 minutes."
+    },
+    {
+     "text": "हमारे मॉडल के अनुसार अब नॉर्थब्रिज यूनाइटेड के जीतने की संभावना 97 प्रतिशत है, पहले यह 99 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM05-M02.e7",
+      "GM05-M02.e8"
+     ],
+     "en_text": "Our model now gives Northbridge United a 97% chance of winning, compared with 99% before.",
+     "back_translation": "According to our model, Northbridge United now have a 97 per cent chance of winning, previously it was 99 per cent."
+    },
+    {
+     "text": "यदि ऐसा नहीं हुआ होता तो हमारे सिम्युलेशन सुझाते हैं कि नॉर्थब्रिज यूनाइटेड की जीत की संभावना 92 प्रतिशत की जगह लगभग 94 प्रतिशत होती।",
+     "evidence_ids": [
+      "GM05-M02.e11",
+      "GM05-M02.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Northbridge United would have about a 94% chance instead of 92%.",
+     "back_translation": "If this had not happened, our simulations suggest that Northbridge United would have had a 94 per cent chance of winning instead of 92 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M02",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड 27 मिनट से खेल पर नियंत्रण ले रहा है।",
+     "evidence_ids": [
+      "GM05-M02.e1",
+      "GM05-M02.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 27.",
+     "back_translation": "Northbridge United took control of the game for 27 minutes."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स माइनस 0.09 से 0.90 हो गया है।",
+     "evidence_ids": [
+      "GM05-M02.e2",
+      "GM05-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.09 to 0.90.",
+     "back_translation": "The momentum index has gone from minus 0.09 to 0.90."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड के पास अब जीतने की 97 प्रतिशत संभावना है, जो पहले 99 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM05-M02.e7",
+      "GM05-M02.e8"
+     ],
+     "en_text": "Northbridge United now has a 97 per cent chance of winning, down from 99 per cent.",
+     "back_translation": "Northbridge United now have a 97 percent chance of winning, up from 99 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M02",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Northbridge United se hizo con el control del partido desde el minuto 27.",
+     "evidence_ids": [
+      "GM05-M02.e1",
+      "GM05-M02.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 27.",
+     "back_translation": "Northbridge United took control of the game from the 27th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.09 a 0.90.",
+     "evidence_ids": [
+      "GM05-M02.e2",
+      "GM05-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.09 to 0.90.",
+     "back_translation": "The momentum index went from -0.09 to 0.90."
+    },
+    {
+     "text": "La probabilidad de victoria de Northbridge United cayó 1.7 pp, de 98.7 por ciento a 97.0 por ciento.",
+     "evidence_ids": [
+      "GM05-M02.e9",
+      "GM05-M02.e7",
+      "GM05-M02.e8"
+     ],
+     "en_text": "Northbridge United win probability fell by 1.7 pp, from 98.7% to 97.0%.",
+     "back_translation": "Northbridge United's chance of victory fell 1.7 pp, from 98.7 percent to 97.0 percent."
+    },
+    {
+     "text": "¿Y si Elmstead Wanderers hubiera presionado más desde ese momento? En 200 simulaciones, la probabilidad de ganar de Northbridge United sería aproximadamente 94 por ciento en lugar de 92 por ciento.",
+     "evidence_ids": [
+      "GM05-M02.e11",
+      "GM05-M02.e10",
+      "GM05-M02.e17"
+     ],
+     "en_text": "What if Elmstead Wanderers had pressed harder from this point? Across 200 simulated rollouts, Northbridge United win chance would be about 94% instead of 92%.",
+     "back_translation": "What if Elmstead Wanderers had pushed harder since then? In 200 simulations, Northbridge United's probability of winning would be about 94 per cent rather than 92 per cent."
+    },
+    {
+     "text": "El cambio simulado es +2.0 pp, con un intervalo del 80% de -1.5 a 5.5 pp.",
+     "evidence_ids": [
+      "GM05-M02.e14",
+      "GM05-M02.e15",
+      "GM05-M02.e16"
+     ],
+     "en_text": "The simulated change is +2.0 pp, with an 80% interval from -1.5 to 5.5 pp.",
+     "back_translation": "The simulated change is +2.0 pp, with an 80% range of -1.5 to 5.5 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s4: What-if sentence must be hedged (would/about/simulated)",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M02",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Northbridge United tomó el control del partido desde el minuto 27.",
+     "evidence_ids": [
+      "GM05-M02.e1",
+      "GM05-M02.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 27.",
+     "back_translation": "Northbridge United took control of the match from the 27th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.09 a 0.90.",
+     "evidence_ids": [
+      "GM05-M02.e2",
+      "GM05-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.09 to 0.90.",
+     "back_translation": "The momentum index went from -0.09 to 0.90."
+    },
+    {
+     "text": "La probabilidad de ganar de Northbridge United bajó a 97 por ciento, 2 puntos porcentuales menos.",
+     "evidence_ids": [
+      "GM05-M02.e8",
+      "GM05-M02.e9"
+     ],
+     "en_text": "Northbridge United win chance dropped to 97%, down 2 points.",
+     "back_translation": "Northbridge United's chance of winning dropped to 97 percent, down 2 percentage points."
+    },
+    {
+     "text": "¿Y si Elmstead Wanderers hubiera presionado más desde ese momento? Northbridge United tendría alrededor de 94 por ciento de probabilidad de ganar, no 92 por ciento.",
+     "evidence_ids": [
+      "GM05-M02.e11",
+      "GM05-M02.e10"
+     ],
+     "en_text": "What if Elmstead Wanderers had pressed harder from this point? Northbridge United would be about 94% to win, not 92%.",
+     "back_translation": "What if Elmstead Wanderers had pushed harder from that point on? Northbridge United would have about a 94 percent chance of winning, not 92 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M02",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Northbridge United tomó el control del partido desde el minuto 27.",
+     "evidence_ids": [
+      "GM05-M02.e1",
+      "GM05-M02.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 27.",
+     "back_translation": "Northbridge United took control of the match from the 27th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora le da a Northbridge United un 97 por ciento de probabilidad de ganar, comparado con 99 por ciento antes.",
+     "evidence_ids": [
+      "GM05-M02.e7",
+      "GM05-M02.e8"
+     ],
+     "en_text": "Our model now gives Northbridge United a 97% chance of winning, compared with 99% before.",
+     "back_translation": "Our model now gives Northbridge United a 97 percent chance of winning, compared to 99 percent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Northbridge United tendría alrededor de 94 por ciento de probabilidad de ganar en lugar de 92 por ciento.",
+     "evidence_ids": [
+      "GM05-M02.e11",
+      "GM05-M02.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Northbridge United would have about a 94% chance instead of 92%.",
+     "back_translation": "If that hadn't happened, our simulations suggest Northbridge United would have about a 94 percent chance of winning instead of 92 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M02",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Northbridge United toma el control del partido desde el minuto 27.",
+     "evidence_ids": [
+      "GM05-M02.e1",
+      "GM05-M02.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 27.",
+     "back_translation": "Northbridge United takes control of the match from the 27th minute."
+    },
+    {
+     "text": "El índice de impulso pasa de -0.09 a 0.90.",
+     "evidence_ids": [
+      "GM05-M02.e2",
+      "GM05-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.09 to 0.90.",
+     "back_translation": "The momentum index goes from -0.09 to 0.90."
+    },
+    {
+     "text": "Northbridge United ahora tiene 97 por ciento de probabilidad de ganar, frente al 99 por ciento anterior.",
+     "evidence_ids": [
+      "GM05-M02.e7",
+      "GM05-M02.e8"
+     ],
+     "en_text": "Northbridge United now has a 97 per cent chance of winning, down from 99 per cent.",
+     "back_translation": "Northbridge United now has a 97 per cent chance of winning, up from 99 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M03",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "काइओ फ़ेरमियर के पास नॉर्थब्रिज यूनाइटेड के लिए 32 मिनट में एक बड़ा मौक़ा था।",
+     "evidence_ids": [
+      "GM05-M03.e1",
+      "GM05-M03.e2",
+      "GM05-M03.e10"
+     ],
+     "en_text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+     "back_translation": "Kaio Fermier had a big chance for Northbridge United on 32 minutes."
+    },
+    {
+     "text": "शॉट का मान 0.32 xG (अपेक्षित गोल) था और यह 4.7 मीटर से लिया गया था।",
+     "evidence_ids": [
+      "GM05-M03.e3",
+      "GM05-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.32 xG from 4.7 metres.",
+     "back_translation": "The shot had a value of 0.32 xG (expected goals) and was taken from 4.7 meters."
+    },
+    {
+     "text": "उस चाल में 7 क्रियाएँ थीं, और शूटर पर प्रेसिंग नहीं था।",
+     "evidence_ids": [
+      "GM05-M03.e9",
+      "GM05-M03.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "That move had 7 actions, and there was no pressing on the shooter."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना 1.6 प्रतिशत अंक बढ़ी, 97.0 प्रतिशत से 98.5 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM05-M03.e14",
+      "GM05-M03.e12",
+      "GM05-M03.e13"
+     ],
+     "en_text": "Northbridge United win probability rose by 1.6 pp, from 97.0% to 98.5%.",
+     "back_translation": "Northbridge United's chances of winning increased by 1.6 percentage points, from 97.0 percent to 98.5 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M03",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "काइओ फ़ेरमियर के पास 32 मिनट में नॉर्थब्रिज यूनाइटेड के लिए एक बड़ा मौक़ा था!",
+     "evidence_ids": [
+      "GM05-M03.e1",
+      "GM05-M03.e2",
+      "GM05-M03.e10"
+     ],
+     "en_text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+     "back_translation": "Kaio Fermier had a big chance for Northbridge United on 32 minutes!"
+    },
+    {
+     "text": "यह शॉट 4.7 मीटर से 0.32 xG (अपेक्षित गोल) के बराबर था।",
+     "evidence_ids": [
+      "GM05-M03.e3",
+      "GM05-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.32 xG from 4.7 metres.",
+     "back_translation": "This shot was equivalent to 4.7 x G (expected goals) from 0.32 meters."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की उम्मीदें 2 अंक बढ़कर 98 प्रतिशत हो गईं।",
+     "evidence_ids": [
+      "GM05-M03.e13",
+      "GM05-M03.e14"
+     ],
+     "en_text": "Northbridge United hopes rose by 2 points to 98%.",
+     "back_translation": "Northbridge United's hopes rose 2 points to 98 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M03",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "काइओ फ़ेरमियर के पास नॉर्थब्रिज यूनाइटेड के लिए 32 मिनट में एक बड़ा मौक़ा था।",
+     "evidence_ids": [
+      "GM05-M03.e1",
+      "GM05-M03.e2",
+      "GM05-M03.e10"
+     ],
+     "en_text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+     "back_translation": "Kaio Fermier had a big chance for Northbridge United on 32 minutes."
+    },
+    {
+     "text": "xG मौके की गुणवत्ता मापता है; यह 0.32 था और अधिक होना बेहतर मौका दर्शाता है।",
+     "evidence_ids": [
+      "GM05-M03.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.32, and higher means a better chance.",
+     "back_translation": "xG measures the quality of the chance; It was 0.32 and being higher indicates a better chance."
+    },
+    {
+     "text": "हमारे मॉडल के अनुसार नॉर्थब्रिज यूनाइटेड को अब जीतने की 98 प्रतिशत संभावना है, जबकि पहले यह 97 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM05-M03.e12",
+      "GM05-M03.e13"
+     ],
+     "en_text": "Our model now gives Northbridge United a 98% chance of winning, compared with 97% before.",
+     "back_translation": "According to our model Northbridge United now have a 98 per cent chance of winning, compared to 97 per cent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M03",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "काइओ फ़ेरमियर के पास नॉर्थब्रिज यूनाइटेड के लिए 32 मिनट में एक बड़ा मौक़ा है।",
+     "evidence_ids": [
+      "GM05-M03.e1",
+      "GM05-M03.e2",
+      "GM05-M03.e10"
+     ],
+     "en_text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+     "back_translation": "Kaio Fermier has a big chance for Northbridge United on 32 minutes."
+    },
+    {
+     "text": "यह शॉट 4.7 मीटर से 0.32 xG अपेक्षित गोल के बराबर है।",
+     "evidence_ids": [
+      "GM05-M03.e3",
+      "GM05-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.32 xG from 4.7 metres.",
+     "back_translation": "This shot is equivalent to a 4.7 x G expected goal from 0.32 meters."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड के पास अब जीतने की 98 प्रतिशत संभावना है, जो 97 प्रतिशत से बढ़ी है।",
+     "evidence_ids": [
+      "GM05-M03.e12",
+      "GM05-M03.e13"
+     ],
+     "en_text": "Northbridge United now has a 98 per cent chance of winning, up from 97 per cent.",
+     "back_translation": "Northbridge United now have a 98 percent chance of winning, up from 97 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM05-M03.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M03",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Caio Ferrmere tuvo una ocasión clara para Northbridge United en el minuto 32.",
+     "evidence_ids": [
+      "GM05-M03.e1",
+      "GM05-M03.e2",
+      "GM05-M03.e10"
+     ],
+     "en_text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+     "back_translation": "Caio Ferrmere had a clear chance for Northbridge United in the 32nd minute."
+    },
+    {
+     "text": "El disparo valía 0.32 xG (goles esperados) desde 4.7 metros.",
+     "evidence_ids": [
+      "GM05-M03.e3",
+      "GM05-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.32 xG from 4.7 metres.",
+     "back_translation": "The shot was worth 0.32 xG (expected goals) from 4.7 meters."
+    },
+    {
+     "text": "La jugada tuvo 7 acciones y el rematador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM05-M03.e9",
+      "GM05-M03.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 7 actions and the striker was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Northbridge United aumentó en 1.6 pp, de 97.0 por ciento a 98.5 por ciento.",
+     "evidence_ids": [
+      "GM05-M03.e14",
+      "GM05-M03.e12",
+      "GM05-M03.e13"
+     ],
+     "en_text": "Northbridge United win probability rose by 1.6 pp, from 97.0% to 98.5%.",
+     "back_translation": "Northbridge United's probability of victory increased by 1.6 pp, from 97.0 percent to 98.5 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M03",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Caio Ferrmere tuvo una ocasión clara para Northbridge United en el minuto 32.",
+     "evidence_ids": [
+      "GM05-M03.e1",
+      "GM05-M03.e2",
+      "GM05-M03.e10"
+     ],
+     "en_text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+     "back_translation": "Caio Ferrmere had a clear chance for Northbridge United in the 32nd minute."
+    },
+    {
+     "text": "El disparo valía 0.32 xG (goles esperados) desde 4.7 metros.",
+     "evidence_ids": [
+      "GM05-M03.e3",
+      "GM05-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.32 xG from 4.7 metres.",
+     "back_translation": "The shot was worth 0.32 xG (expected goals) from 4.7 meters."
+    },
+    {
+     "text": "Las esperanzas de Northbridge United subieron 2 puntos hasta 98 por ciento.",
+     "evidence_ids": [
+      "GM05-M03.e13",
+      "GM05-M03.e14"
+     ],
+     "en_text": "Northbridge United hopes rose by 2 points to 98%.",
+     "back_translation": "Northbridge United's hopes rose 2 points to 98 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M03",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Caio Ferrmere tuvo una ocasión clara para Northbridge United en el minuto 32.",
+     "evidence_ids": [
+      "GM05-M03.e1",
+      "GM05-M03.e2",
+      "GM05-M03.e10"
+     ],
+     "en_text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+     "back_translation": "Caio Ferrmere had a clear chance for Northbridge United in the 32nd minute."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de la ocasión: esta fue 0.32 y cuanto más alto es el valor, mejor es la ocasión.",
+     "evidence_ids": [
+      "GM05-M03.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.32, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance: this was 0.32 and the higher the value, the better the chance."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Northbridge United una probabilidad de victoria del 98 por ciento, frente al 97 por ciento anterior.",
+     "evidence_ids": [
+      "GM05-M03.e12",
+      "GM05-M03.e13"
+     ],
+     "en_text": "Our model now gives Northbridge United a 98% chance of winning, compared with 97% before.",
+     "back_translation": "Our model now gives Northbridge United a 98 percent chance of victory, up from 97 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M03",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Caio Ferrmere tiene una ocasión clara para Northbridge United en el minuto 32.",
+     "evidence_ids": [
+      "GM05-M03.e1",
+      "GM05-M03.e2",
+      "GM05-M03.e10"
+     ],
+     "en_text": "Caio Ferrmere had a big chance for Northbridge United in minute 32.",
+     "back_translation": "Caio Ferrmere has a clear chance for Northbridge United in the 32nd minute."
+    },
+    {
+     "text": "El disparo vale 0.32 xG (goles esperados) desde 4.7 metros.",
+     "evidence_ids": [
+      "GM05-M03.e3",
+      "GM05-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.32 xG from 4.7 metres.",
+     "back_translation": "The shot is worth 0.32 xG (expected goals) from 4.7 meters."
+    },
+    {
+     "text": "Northbridge United ahora tiene una probabilidad de victoria del 98 por ciento, frente al 97 por ciento.",
+     "evidence_ids": [
+      "GM05-M03.e12",
+      "GM05-M03.e13"
+     ],
+     "en_text": "Northbridge United now has a 98 per cent chance of winning, up from 97 per cent.",
+     "back_translation": "Northbridge United now has a 98 percent chance of victory, up from 97 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM05-M03.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M04",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड ने मिनट 45 से मैच का नियंत्रण संभाल लिया।",
+     "evidence_ids": [
+      "GM05-M04.e1",
+      "GM05-M04.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 45.",
+     "back_translation": "Northbridge United took control of the match from minute 45."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.09 से 0.98 तक बढ़ा।",
+     "evidence_ids": [
+      "GM05-M04.e2",
+      "GM05-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.09 to 0.98.",
+     "back_translation": "The momentum index rose from 0.09 to 0.98."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना 0.8 प्रतिशत अंक बढ़ी, 99.0% से 99.8% तक।",
+     "evidence_ids": [
+      "GM05-M04.e9",
+      "GM05-M04.e7",
+      "GM05-M04.e8"
+     ],
+     "en_text": "Northbridge United win probability rose by 0.8 pp, from 99.0% to 99.8%.",
+     "back_translation": "Northbridge United's chances of winning increased by 0.8 percentage points, from 99.0% to 99.8%."
+    },
+    {
+     "text": "अगर इस बिंदु से एल्मस्टेड वांडरर्स ने ज़्यादा प्रेसिंग की होती तो 200 सिम्युलेशन में नॉर्थब्रिज यूनाइटेड की जीत की संभावना 94% के बजाय लगभग 92% होती।",
+     "evidence_ids": [
+      "GM05-M04.e11",
+      "GM05-M04.e10",
+      "GM05-M04.e17"
+     ],
+     "en_text": "What if Elmstead Wanderers had pressed harder from this point? Across 200 simulated rollouts, Northbridge United win chance would be about 92% instead of 94%.",
+     "back_translation": "If Elmstead Wanderers had been more pressing from this point on, Northbridge United's chances of winning in 200 simulations would have been around 92% instead of 94%."
+    },
+    {
+     "text": "सिम्युलेशन द्वारा अनुमानित परिवर्तन -1.5 प्रतिशत अंक है, 80% अंतराल -5.0 से 2.0 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM05-M04.e14",
+      "GM05-M04.e15",
+      "GM05-M04.e16"
+     ],
+     "en_text": "The simulated change is -1.5 pp, with an 80% interval from -5.0 to 2.0 pp.",
+     "back_translation": "The change estimated by the simulation is -1.5 percentage points, with an 80% interval ranging from -5.0 to 2.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M04",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड ने मिनट 45 से खेल पर कब्जा कर लिया।",
+     "evidence_ids": [
+      "GM05-M04.e1",
+      "GM05-M04.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 45.",
+     "back_translation": "Northbridge United took control of the game from minute 45."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.09 से 0.98 तक बढ़ गया।",
+     "evidence_ids": [
+      "GM05-M04.e2",
+      "GM05-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.09 to 0.98.",
+     "back_translation": "The Momentum Index rose from 0.09 to 0.98."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना मुश्किल से बदली, लगभग 100% के पास बनी रही।",
+     "evidence_ids": [
+      "GM05-M04.e8",
+      "GM05-M04.e9"
+     ],
+     "en_text": "Northbridge United win chance barely moved, staying near 100%.",
+     "back_translation": "Northbridge United's chances of victory barely changed, remaining near 100%."
+    },
+    {
+     "text": "अगर इस बिंदु से एल्मस्टेड वांडरर्स ने ज़्यादा प्रेसिंग की होती तो नॉर्थब्रिज यूनाइटेड की जीत लगभग 92% होती, 94% नहीं।",
+     "evidence_ids": [
+      "GM05-M04.e11",
+      "GM05-M04.e10"
+     ],
+     "en_text": "What if Elmstead Wanderers had pressed harder from this point? Northbridge United would be about 92% to win, not 94%.",
+     "back_translation": "If Elmstead Wanderers had pressed more from this point on, Northbridge United would have won by about 92%, not 94%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M04",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड ने मिनट 45 से खेल का नियंत्रण संभाल लिया।",
+     "evidence_ids": [
+      "GM05-M04.e1",
+      "GM05-M04.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 45.",
+     "back_translation": "Northbridge United took control of the game from minute 45."
+    },
+    {
+     "text": "हमारा मॉडल अब नॉर्थब्रिज यूनाइटेड को 100% जीत की संभावना देता है, जो पहले 99% थी।",
+     "evidence_ids": [
+      "GM05-M04.e7",
+      "GM05-M04.e8"
+     ],
+     "en_text": "Our model now gives Northbridge United a 100% chance of winning, compared with 99% before.",
+     "back_translation": "Our model now gives Northbridge United a 100% chance of winning, up from 99% previously."
+    },
+    {
+     "text": "अगर ऐसा नहीं हुआ होता तो हमारे सिम्युलेशन बताते हैं कि नॉर्थब्रिज यूनाइटेड की जीत लगभग 92% होती, 94% के बजाय।",
+     "evidence_ids": [
+      "GM05-M04.e11",
+      "GM05-M04.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Northbridge United would have about a 92% chance instead of 94%.",
+     "back_translation": "If this had not happened, our simulations show that Northbridge United would have won by about 92%, instead of 94%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M04",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड मिनट 45 से खेल पर काबू पाता है।",
+     "evidence_ids": [
+      "GM05-M04.e1",
+      "GM05-M04.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 45.",
+     "back_translation": "Northbridge United control the game by minute 45."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.09 से 0.98 तक बढ़ता है।",
+     "evidence_ids": [
+      "GM05-M04.e2",
+      "GM05-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.09 to 0.98.",
+     "back_translation": "The momentum index rises from 0.09 to 0.98."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड के पास अब जीत की 100 प्रतिशत संभावना है, पहले 99 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM05-M04.e7",
+      "GM05-M04.e8"
+     ],
+     "en_text": "Northbridge United now has a 100 per cent chance of winning, up from 99 per cent.",
+     "back_translation": "Northbridge United now have a 100 per cent chance of winning, up from 99 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M04",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Northbridge United tomó el control del partido desde el minuto 45.",
+     "evidence_ids": [
+      "GM05-M04.e1",
+      "GM05-M04.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 45.",
+     "back_translation": "Northbridge United took control of the match from the 45th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de 0.09 a 0.98.",
+     "evidence_ids": [
+      "GM05-M04.e2",
+      "GM05-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.09 to 0.98.",
+     "back_translation": "The momentum index went from 0.09 to 0.98."
+    },
+    {
+     "text": "La probabilidad de victoria de Northbridge United aumentó en 0.8 pp, de 99.0 por ciento a 99.8 por ciento.",
+     "evidence_ids": [
+      "GM05-M04.e9",
+      "GM05-M04.e7",
+      "GM05-M04.e8"
+     ],
+     "en_text": "Northbridge United win probability rose by 0.8 pp, from 99.0% to 99.8%.",
+     "back_translation": "Northbridge United's probability of victory increased by 0.8 pp, from 99.0 percent to 99.8 percent."
+    },
+    {
+     "text": "¿Y si Elmstead Wanderers hubiera presionado más desde este punto? En 200 simulaciones, la probabilidad de ganar de Northbridge United sería aproximadamente 92 por ciento en lugar de 94 por ciento.",
+     "evidence_ids": [
+      "GM05-M04.e11",
+      "GM05-M04.e10",
+      "GM05-M04.e17"
+     ],
+     "en_text": "What if Elmstead Wanderers had pressed harder from this point? Across 200 simulated rollouts, Northbridge United win chance would be about 92% instead of 94%.",
+     "back_translation": "What if Elmstead Wanderers had pushed harder from this point? In 200 simulations, Northbridge United's probability of winning would be about 92 percent instead of 94 percent."
+    },
+    {
+     "text": "El cambio simulado es -1.5 pp, con un intervalo del 80% de -5.0 a 2.0 pp.",
+     "evidence_ids": [
+      "GM05-M04.e14",
+      "GM05-M04.e15",
+      "GM05-M04.e16"
+     ],
+     "en_text": "The simulated change is -1.5 pp, with an 80% interval from -5.0 to 2.0 pp.",
+     "back_translation": "The simulated change is -1.5 pp, with an 80% range of -5.0 to 2.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M04",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Northbridge United tomó el control del partido desde el minuto 45.",
+     "evidence_ids": [
+      "GM05-M04.e1",
+      "GM05-M04.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 45.",
+     "back_translation": "Northbridge United took control of the match from the 45th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de 0.09 a 0.98.",
+     "evidence_ids": [
+      "GM05-M04.e2",
+      "GM05-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.09 to 0.98.",
+     "back_translation": "The momentum index went from 0.09 to 0.98."
+    },
+    {
+     "text": "La probabilidad de ganar de Northbridge United apenas se movió, permaneciendo cerca del 100 por ciento.",
+     "evidence_ids": [
+      "GM05-M04.e8",
+      "GM05-M04.e9"
+     ],
+     "en_text": "Northbridge United win chance barely moved, staying near 100%.",
+     "back_translation": "Northbridge United's odds of winning barely budged, remaining close to 100 percent."
+    },
+    {
+     "text": "¿Y si Elmstead Wanderers hubiera presionado más desde este punto? Northbridge United tendría alrededor de 92 por ciento de probabilidad de ganar, no 94 por ciento.",
+     "evidence_ids": [
+      "GM05-M04.e11",
+      "GM05-M04.e10"
+     ],
+     "en_text": "What if Elmstead Wanderers had pressed harder from this point? Northbridge United would be about 92% to win, not 94%.",
+     "back_translation": "What if Elmstead Wanderers had pushed harder from this point? Northbridge United would have about a 92 per cent chance of winning, not 94 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M04",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Northbridge United tomó el control del partido desde el minuto 45.",
+     "evidence_ids": [
+      "GM05-M04.e1",
+      "GM05-M04.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 45.",
+     "back_translation": "Northbridge United took control of the match from the 45th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Northbridge United una probabilidad de victoria del 100 por ciento, frente al 99 por ciento anterior.",
+     "evidence_ids": [
+      "GM05-M04.e7",
+      "GM05-M04.e8"
+     ],
+     "en_text": "Our model now gives Northbridge United a 100% chance of winning, compared with 99% before.",
+     "back_translation": "Our model now gives Northbridge United a 100 per cent chance of victory, up from 99 per cent previously."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Northbridge United habría tenido alrededor de 92 por ciento de probabilidad en lugar de 94 por ciento.",
+     "evidence_ids": [
+      "GM05-M04.e11",
+      "GM05-M04.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Northbridge United would have about a 92% chance instead of 94%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Northbridge United would have had about a 92 percent chance rather than a 94 percent chance."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M04",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Northbridge United toma el control del partido desde el minuto 45.",
+     "evidence_ids": [
+      "GM05-M04.e1",
+      "GM05-M04.e5"
+     ],
+     "en_text": "Northbridge United took control of the game from minute 45.",
+     "back_translation": "Northbridge United takes control of the match from the 45th minute."
+    },
+    {
+     "text": "El índice de impulso pasa de 0.09 a 0.98.",
+     "evidence_ids": [
+      "GM05-M04.e2",
+      "GM05-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.09 to 0.98.",
+     "back_translation": "The momentum index goes from 0.09 to 0.98."
+    },
+    {
+     "text": "Northbridge United ahora tiene una probabilidad de victoria del 100 por ciento, frente al 99 por ciento.",
+     "evidence_ids": [
+      "GM05-M04.e7",
+      "GM05-M04.e8"
+     ],
+     "en_text": "Northbridge United now has a 100 per cent chance of winning, up from 99 per cent.",
+     "back_translation": "Northbridge United now has a 100 percent chance of victory, up from 99 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M05",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 46 में टेओ मोरहोल्ट ने नॉर्थब्रिज यूनाइटेड के लिए गोल किया, स्कोर 2-0 हो गया।",
+     "evidence_ids": [
+      "GM05-M05.e1",
+      "GM05-M05.e2",
+      "GM05-M05.e11",
+      "GM05-M05.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 46, making it 2-0.",
+     "back_translation": "In minute 46 Teo Morholt scored for Northbridge United, making the score 2-0."
+    },
+    {
+     "text": "यह शॉट 9.4 मीटर से 0.12 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM05-M05.e3",
+      "GM05-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 9.4 metres.",
+     "back_translation": "The shot was 9.4 x G from 0.12 meters (expected goal)."
+    },
+    {
+     "text": "इस मूव में 4 कार्रवाईयाँ थीं, और शूटर दबाव में था: नहीं।",
+     "evidence_ids": [
+      "GM05-M05.e9",
+      "GM05-M05.e7"
+     ],
+     "en_text": "The move had 4 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move had 4 actions, and the shooter was under pressure: no."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना 1.0 प्रतिशत अंक से बढ़ी, 98.5 प्रतिशत से 99.5 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM05-M05.e15",
+      "GM05-M05.e13",
+      "GM05-M05.e14"
+     ],
+     "en_text": "Northbridge United win probability rose by 1.0 pp, from 98.5% to 99.5%.",
+     "back_translation": "Northbridge United's chances of winning increased by 1.0 percentage points, from 98.5 per cent to 99.5 per cent."
+    },
+    {
+     "text": "अगर टेओ मोरहोल्ट का नॉर्थब्रिज यूनाइटेड के लिए गोल नहीं होता, तो 200 सिम्युलेशन में नॉर्थब्रिज यूनाइटेड की जीत की संभावना लगभग 96 प्रतिशत होती, 100 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM05-M05.e17",
+      "GM05-M05.e16",
+      "GM05-M05.e23"
+     ],
+     "en_text": "What if Teo Morholt's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 96% instead of 100%.",
+     "back_translation": "If it weren't for Teo Morholt's goal for Northbridge United, Northbridge United's chances of winning in 200 simulations would have been around 96 percent, instead of 100 percent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -3.0 प्रतिशत अंक है, 80% अंतराल -4.5 से -1.5 प्रतिशत अंक के बीच है।",
+     "evidence_ids": [
+      "GM05-M05.e20",
+      "GM05-M05.e21",
+      "GM05-M05.e22"
+     ],
+     "en_text": "The simulated change is -3.0 pp, with an 80% interval from -4.5 to -1.5 pp.",
+     "back_translation": "The simulated change is -3.0 percentage points, with an 80% interval between -4.5 to -1.5 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M05",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 46 में टेओ मोरहोल्ट ने नॉर्थब्रिज यूनाइटेड के लिए गोल किया, स्कोर 2-0 हो गया।",
+     "evidence_ids": [
+      "GM05-M05.e1",
+      "GM05-M05.e2",
+      "GM05-M05.e11",
+      "GM05-M05.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 46, making it 2-0.",
+     "back_translation": "In minute 46 Teo Morholt scored for Northbridge United, making the score 2-0."
+    },
+    {
+     "text": "यह शॉट 9.4 मीटर से 0.12 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM05-M05.e3",
+      "GM05-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 9.4 metres.",
+     "back_translation": "The shot was 9.4 x G from 0.12 meters (expected goal)."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की उम्मीदें 1 अंक बढ़कर 100 प्रतिशत हो गईं।",
+     "evidence_ids": [
+      "GM05-M05.e14",
+      "GM05-M05.e15"
+     ],
+     "en_text": "Northbridge United hopes rose by 1 points to 100%.",
+     "back_translation": "Northbridge United's hopes increased by 1 point to 100 percent."
+    },
+    {
+     "text": "अगर टेओ मोरहोल्ट का गोल नहीं होता, तो नॉर्थब्रिज यूनाइटेड की जीत करीब 96 प्रतिशत होती, 100 प्रतिशत नहीं।",
+     "evidence_ids": [
+      "GM05-M05.e17",
+      "GM05-M05.e16"
+     ],
+     "en_text": "What if Teo Morholt's goal for Northbridge United had not gone in? Northbridge United would be about 96% to win, not 100%.",
+     "back_translation": "If it weren't for Teo Morholt's goal, Northbridge United would have won at around 96 percent, not 100 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M05",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 46 में टेओ मोरहोल्ट ने नॉर्थब्रिज यूनाइटेड के लिए गोल किया, स्कोर 2-0 हो गया।",
+     "evidence_ids": [
+      "GM05-M05.e1",
+      "GM05-M05.e2",
+      "GM05-M05.e11",
+      "GM05-M05.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 46, making it 2-0.",
+     "back_translation": "In minute 46 Teo Morholt scored for Northbridge United, making the score 2-0."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता मापता है; यह 0.12 था, और अधिक का मतलब बेहतर मौका होता है।",
+     "evidence_ids": [
+      "GM05-M05.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.12, and higher means a better chance.",
+     "back_translation": "xG (Expected Goals) measures the quality of chances; It was 0.12, and more means better chances."
+    },
+    {
+     "text": "हमारे मॉडल अब नॉर्थब्रिज यूनाइटेड को 100 प्रतिशत जीत की संभावना देता है, पहले यह 98 प्रतिशत था।",
+     "evidence_ids": [
+      "GM05-M05.e13",
+      "GM05-M05.e14"
+     ],
+     "en_text": "Our model now gives Northbridge United a 100% chance of winning, compared with 98% before.",
+     "back_translation": "Our model now gives Northbridge United a 100 per cent chance of winning, previously it was 98 per cent."
+    },
+    {
+     "text": "अगर ऐसा नहीं होता, तो हमारे सिम्युलेशन सुझाव देते हैं कि नॉर्थब्रिज यूनाइटेड की संभावना लगभग 96 प्रतिशत होती, 100 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM05-M05.e17",
+      "GM05-M05.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Northbridge United would have about a 96% chance instead of 100%.",
+     "back_translation": "If that were not the case, our simulations suggest that Northbridge United would have had a probability of around 96 per cent, rather than 100 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M05",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 46. टेओ मोरहोल्ट नॉर्थब्रिज यूनाइटेड के लिए गोल करते हैं, स्कोर अब 2-0 है।",
+     "evidence_ids": [
+      "GM05-M05.e11",
+      "GM05-M05.e1",
+      "GM05-M05.e2",
+      "GM05-M05.e10"
+     ],
+     "en_text": "Minute 46. Teo Morholt scores for Northbridge United, and the score is now 2-0.",
+     "back_translation": "Minutes 46. Teo Morholt scores for Northbridge United, the score is now 2-0."
+    },
+    {
+     "text": "यह शॉट 9.4 मीटर से 0.12 xG है यानी अपेक्षित गोल के हिसाब से।",
+     "evidence_ids": [
+      "GM05-M05.e3",
+      "GM05-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 9.4 metres.",
+     "back_translation": "This shot is 9.4 meters to 0.12 xG i.e. in terms of the expected goal."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड के पास अब जीत की 100 प्रतिशत संभावना है, पहले यह 98 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM05-M05.e13",
+      "GM05-M05.e14"
+     ],
+     "en_text": "Northbridge United now has a 100 per cent chance of winning, up from 98 per cent.",
+     "back_translation": "Northbridge United now have a 100 percent chance of winning, previously it was 98 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M05",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Teo Morholt marcó para Northbridge United en el minuto 46, dejando el marcador 2-0.",
+     "evidence_ids": [
+      "GM05-M05.e1",
+      "GM05-M05.e2",
+      "GM05-M05.e11",
+      "GM05-M05.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 46, making it 2-0.",
+     "back_translation": "Teo Morholt scored for Northbridge United in the 46th minute, leaving the score 2-0."
+    },
+    {
+     "text": "El disparo valía 0.12 xG (goles esperados) desde 9.4 metros.",
+     "evidence_ids": [
+      "GM05-M05.e3",
+      "GM05-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 9.4 metres.",
+     "back_translation": "The shot was worth 0.12 xG (expected goals) from 9.4 meters."
+    },
+    {
+     "text": "La jugada tuvo 4 acciones y el ejecutor no estaba bajo presión.",
+     "evidence_ids": [
+      "GM05-M05.e9",
+      "GM05-M05.e7"
+     ],
+     "en_text": "The move had 4 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 4 actions and the executor was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Northbridge United aumentó en 1.0 pp, de 98.5% a 99.5%.",
+     "evidence_ids": [
+      "GM05-M05.e15",
+      "GM05-M05.e13",
+      "GM05-M05.e14"
+     ],
+     "en_text": "Northbridge United win probability rose by 1.0 pp, from 98.5% to 99.5%.",
+     "back_translation": "Northbridge United's chance of victory increased by 1.0 pp, from 98.5% to 99.5%."
+    },
+    {
+     "text": "¿Y si el gol de Teo Morholt para Northbridge United no hubiera entrado? En 200 simulaciones, la probabilidad de ganar de Northbridge United sería aproximadamente 96% en lugar de 100%.",
+     "evidence_ids": [
+      "GM05-M05.e17",
+      "GM05-M05.e16",
+      "GM05-M05.e23"
+     ],
+     "en_text": "What if Teo Morholt's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 96% instead of 100%.",
+     "back_translation": "What if Teo Morholt's goal for Northbridge United hadn't gone in? In 200 simulations, Northbridge United's chance of winning would be about 96% instead of 100%."
+    },
+    {
+     "text": "El cambio simulado es -3.0 pp, con un intervalo del 80% de -4.5 a -1.5 pp.",
+     "evidence_ids": [
+      "GM05-M05.e20",
+      "GM05-M05.e21",
+      "GM05-M05.e22"
+     ],
+     "en_text": "The simulated change is -3.0 pp, with an 80% interval from -4.5 to -1.5 pp.",
+     "back_translation": "The simulated change is -3.0 pp, with an 80% range of -4.5 to -1.5 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M05",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "¡Teo Morholt marcó para Northbridge United en el minuto 46 y ya es 2-0!",
+     "evidence_ids": [
+      "GM05-M05.e1",
+      "GM05-M05.e2",
+      "GM05-M05.e11",
+      "GM05-M05.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 46, making it 2-0.",
+     "back_translation": "Teo Morholt scored for Northbridge United in the 46th minute and it's already 2-0!"
+    },
+    {
+     "text": "El disparo tenía 0.12 xG (goles esperados) desde 9.4 metros.",
+     "evidence_ids": [
+      "GM05-M05.e3",
+      "GM05-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 9.4 metres.",
+     "back_translation": "The shot had 0.12 xG (expected goals) from 9.4 meters."
+    },
+    {
+     "text": "Las esperanzas de Northbridge United subieron 1 punto hasta 100%.",
+     "evidence_ids": [
+      "GM05-M05.e14",
+      "GM05-M05.e15"
+     ],
+     "en_text": "Northbridge United hopes rose by 1 points to 100%.",
+     "back_translation": "Northbridge United's hopes rose 1 point to 100%."
+    },
+    {
+     "text": "¿Y si el gol de Teo Morholt para Northbridge United no hubiese entrado? Northbridge United estaría alrededor del 96% para ganar, no del 100%.",
+     "evidence_ids": [
+      "GM05-M05.e17",
+      "GM05-M05.e16"
+     ],
+     "en_text": "What if Teo Morholt's goal for Northbridge United had not gone in? Northbridge United would be about 96% to win, not 100%.",
+     "back_translation": "What if Teo Morholt's goal for Northbridge United hadn't gone in? Northbridge United would be around 96% to win, not 100%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M05",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Teo Morholt marcó para Northbridge United en el minuto 46, y el marcador quedó 2-0.",
+     "evidence_ids": [
+      "GM05-M05.e1",
+      "GM05-M05.e2",
+      "GM05-M05.e11",
+      "GM05-M05.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 46, making it 2-0.",
+     "back_translation": "Teo Morholt scored for Northbridge United in the 46th minute, and the score was 2-0."
+    },
+    {
+     "text": "El xG (goles esperados) mide la calidad de la ocasión; este fue 0.12, y cuanto mayor es, mejor es la probabilidad de marcar.",
+     "evidence_ids": [
+      "GM05-M05.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.12, and higher means a better chance.",
+     "back_translation": "The xG (expected goals) measures the quality of the chance; this was 0.12, and the higher it is, the better the probability of scoring."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Northbridge United una probabilidad de victoria del 100%, comparada con 98% antes.",
+     "evidence_ids": [
+      "GM05-M05.e13",
+      "GM05-M05.e14"
+     ],
+     "en_text": "Our model now gives Northbridge United a 100% chance of winning, compared with 98% before.",
+     "back_translation": "Our model now gives Northbridge United a 100% chance of victory, compared to 98% before."
+    },
+    {
+     "text": "Si eso no hubiera pasado, nuestras simulaciones indican que Northbridge United tendría aproximadamente 96% de probabilidad en lugar de 100%.",
+     "evidence_ids": [
+      "GM05-M05.e17",
+      "GM05-M05.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Northbridge United would have about a 96% chance instead of 100%.",
+     "back_translation": "If that hadn't happened, our simulations indicate that Northbridge United would have about a 96% chance instead of 100%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M05",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 46. Teo Morholt marca para Northbridge United y el marcador es ahora 2-0.",
+     "evidence_ids": [
+      "GM05-M05.e11",
+      "GM05-M05.e1",
+      "GM05-M05.e2",
+      "GM05-M05.e10"
+     ],
+     "en_text": "Minute 46. Teo Morholt scores for Northbridge United, and the score is now 2-0.",
+     "back_translation": "Minute 46. Teo Morholt scores for Northbridge United and the score is now 2-0."
+    },
+    {
+     "text": "El disparo vale 0.12 xG desde 9.4 metros.",
+     "evidence_ids": [
+      "GM05-M05.e3",
+      "GM05-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 9.4 metres.",
+     "back_translation": "The shot is worth 0.12 xG from 9.4 meters."
+    },
+    {
+     "text": "Northbridge United ahora tiene una probabilidad de victoria del 100 por ciento, frente al 98 por ciento.",
+     "evidence_ids": [
+      "GM05-M05.e13",
+      "GM05-M05.e14"
+     ],
+     "en_text": "Northbridge United now has a 100 per cent chance of winning, up from 98 per cent.",
+     "back_translation": "Northbridge United now has a 100 percent chance of victory, up from 98 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M06",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "सिरिल पेनब्रुक के पास नॉर्थब्रिज यूनाइटेड के लिए 52 मिनट में एक बड़ा मौक़ा था.",
+     "evidence_ids": [
+      "GM05-M06.e1",
+      "GM05-M06.e2",
+      "GM05-M06.e10"
+     ],
+     "en_text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+     "back_translation": "Cyril Penbrook had a big chance for Northbridge United on 52 minutes."
+    },
+    {
+     "text": "शॉट का मूल्य 0.49 xG (अपेक्षित गोल) था और दूरी 4.9 मीटर थी.",
+     "evidence_ids": [
+      "GM05-M06.e3",
+      "GM05-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.49 xG from 4.9 metres.",
+     "back_translation": "The value of the shot was 0.49 xG (expected rounds) and the distance was 4.9 meters."
+    },
+    {
+     "text": "यह मूव 8 कार्रवाइयों का था और शूटर पर प्रेशर नहीं था.",
+     "evidence_ids": [
+      "GM05-M06.e9",
+      "GM05-M06.e7"
+     ],
+     "en_text": "The move had 8 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move was of 8 actions and there was no pressure on the shooter."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना 0.3 प्रतिशत अंक बढ़ी, 99.5% से 99.8% तक.",
+     "evidence_ids": [
+      "GM05-M06.e14",
+      "GM05-M06.e12",
+      "GM05-M06.e13"
+     ],
+     "en_text": "Northbridge United win probability rose by 0.3 pp, from 99.5% to 99.8%.",
+     "back_translation": "Northbridge United's chances of winning increased by 0.3 percentage points, from 99.5% to 99.8%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M06",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "सिरिल पेनब्रुक ने 52 मिनट में नॉर्थब्रिज यूनाइटेड के लिए एक बड़ा मौक़ा बनाया.",
+     "evidence_ids": [
+      "GM05-M06.e1",
+      "GM05-M06.e2",
+      "GM05-M06.e10"
+     ],
+     "en_text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+     "back_translation": "Cyril Penbrook created a big chance for Northbridge United in the 52nd minute."
+    },
+    {
+     "text": "शॉट की क़ीमत 0.49 xG (अपेक्षित गोल) थी और दूरी 4.9 मीटर थी.",
+     "evidence_ids": [
+      "GM05-M06.e3",
+      "GM05-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.49 xG from 4.9 metres.",
+     "back_translation": "The shot cost 0.49 xG (expected goals) and the distance was 4.9 meters."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना लगभग नहीं बदली और 100% के पास ही बनी रही.",
+     "evidence_ids": [
+      "GM05-M06.e13",
+      "GM05-M06.e14"
+     ],
+     "en_text": "Northbridge United win chance barely moved, staying near 100%.",
+     "back_translation": "Northbridge United's chances of victory almost did not change and remained close to 100%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M06",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "सिरिल पेनब्रुक के पास 52 मिनट में नॉर्थब्रिज यूनाइटेड के लिए एक बड़ा मौक़ा था.",
+     "evidence_ids": [
+      "GM05-M06.e1",
+      "GM05-M06.e2",
+      "GM05-M06.e10"
+     ],
+     "en_text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+     "back_translation": "Cyril Penbrook had a big chance for Northbridge United in the 52nd minute."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता नापता है, यह 0.49 था और अधिक का मतलब बेहतर मौका होता है.",
+     "evidence_ids": [
+      "GM05-M06.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.49, and higher means a better chance.",
+     "back_translation": "xG (Goals Expected) measures the quality of the chance, it was 0.49 and more means better chances."
+    },
+    {
+     "text": "हमारे मॉडल के मुताबिक अब नॉर्थब्रिज यूनाइटेड को जीतने की 100% संभावना है, जो पहले भी 100% थी.",
+     "evidence_ids": [
+      "GM05-M06.e12",
+      "GM05-M06.e13"
+     ],
+     "en_text": "Our model now gives Northbridge United a 100% chance of winning, compared with 100% before.",
+     "back_translation": "According to our model, there is now a 100% chance of winning Northbridge United, which was also 100% earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M06",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "सिरिल पेनब्रुक के पास नॉर्थब्रिज यूनाइटेड के लिए 52 मिनट में एक बड़ा मौक़ा है.",
+     "evidence_ids": [
+      "GM05-M06.e1",
+      "GM05-M06.e2",
+      "GM05-M06.e10"
+     ],
+     "en_text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+     "back_translation": "Cyril Penbrook has a big chance for Northbridge United in 52 minutes."
+    },
+    {
+     "text": "शॉट की कीमत 0.49 xG (अपेक्षित गोल) है और दूरी 4.9 मीटर है.",
+     "evidence_ids": [
+      "GM05-M06.e3",
+      "GM05-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.49 xG from 4.9 metres.",
+     "back_translation": "The shot costs 0.49 xG (expected goals) and the distance is 4.9 meters."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड के पास अभी भी जीत की 100 प्रतिशत संभावना है.",
+     "evidence_ids": [
+      "GM05-M06.e13"
+     ],
+     "en_text": "Northbridge United still has a 100 per cent chance of winning.",
+     "back_translation": "Northbridge United still have a 100 percent chance of winning."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M06",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Cyril Penbrook tuvo una ocasión clara para Northbridge United en el minuto 52.",
+     "evidence_ids": [
+      "GM05-M06.e1",
+      "GM05-M06.e2",
+      "GM05-M06.e10"
+     ],
+     "en_text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+     "back_translation": "Cyril Penbrook had a clear chance for Northbridge United in the 52nd minute."
+    },
+    {
+     "text": "El disparo tuvo un valor de 0.49 xG (goles esperados) desde 4.9 metros.",
+     "evidence_ids": [
+      "GM05-M06.e3",
+      "GM05-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.49 xG from 4.9 metres.",
+     "back_translation": "The shot had a value of 0.49 xG (expected goals) from 4.9 meters."
+    },
+    {
+     "text": "La jugada tuvo 8 acciones y el tirador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM05-M06.e9",
+      "GM05-M06.e7"
+     ],
+     "en_text": "The move had 8 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 8 actions and the shooter was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Northbridge United aumentó 0.3 pp, de 99.5 por ciento a 99.8 por ciento.",
+     "evidence_ids": [
+      "GM05-M06.e14",
+      "GM05-M06.e12",
+      "GM05-M06.e13"
+     ],
+     "en_text": "Northbridge United win probability rose by 0.3 pp, from 99.5% to 99.8%.",
+     "back_translation": "Northbridge United's probability of victory increased 0.3 pp, from 99.5 percent to 99.8 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M06",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Cyril Penbrook tuvo una ocasión clara para Northbridge United en el minuto 52.",
+     "evidence_ids": [
+      "GM05-M06.e1",
+      "GM05-M06.e2",
+      "GM05-M06.e10"
+     ],
+     "en_text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+     "back_translation": "Cyril Penbrook had a clear chance for Northbridge United in the 52nd minute."
+    },
+    {
+     "text": "El disparo valía 0.49 xG (goles esperados) desde 4.9 metros.",
+     "evidence_ids": [
+      "GM05-M06.e3",
+      "GM05-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.49 xG from 4.9 metres.",
+     "back_translation": "The shot was worth 0.49 xG (expected goals) from 4.9 meters."
+    },
+    {
+     "text": "La probabilidad de ganar de Northbridge United apenas se movió, manteniéndose cerca del 100 por ciento.",
+     "evidence_ids": [
+      "GM05-M06.e13",
+      "GM05-M06.e14"
+     ],
+     "en_text": "Northbridge United win chance barely moved, staying near 100%.",
+     "back_translation": "Northbridge United's odds of winning barely budged, remaining close to 100 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M06",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Cyril Penbrook tuvo una ocasión clara para Northbridge United en el minuto 52.",
+     "evidence_ids": [
+      "GM05-M06.e1",
+      "GM05-M06.e2",
+      "GM05-M06.e10"
+     ],
+     "en_text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+     "back_translation": "Cyril Penbrook had a clear chance for Northbridge United in the 52nd minute."
+    },
+    {
+     "text": "El xG (goles esperados) mide la calidad de las ocasiones, este fue 0.49 y cuanto mayor es, mejor es la oportunidad.",
+     "evidence_ids": [
+      "GM05-M06.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.49, and higher means a better chance.",
+     "back_translation": "The xG (expected goals) measures the quality of chances, this was 0.49 and the higher it is, the better the opportunity."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Northbridge United una probabilidad de ganar del 100 por ciento, en comparación con el 100 por ciento antes.",
+     "evidence_ids": [
+      "GM05-M06.e12",
+      "GM05-M06.e13"
+     ],
+     "en_text": "Our model now gives Northbridge United a 100% chance of winning, compared with 100% before.",
+     "back_translation": "Our model now gives Northbridge United a 100 percent chance of winning, compared to 100 percent before."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M06",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Cyril Penbrook tiene una ocasión clara para Northbridge United en el minuto 52.",
+     "evidence_ids": [
+      "GM05-M06.e1",
+      "GM05-M06.e2",
+      "GM05-M06.e10"
+     ],
+     "en_text": "Cyril Penbrook had a big chance for Northbridge United in minute 52.",
+     "back_translation": "Cyril Penbrook has a clear chance for Northbridge United in the 52nd minute."
+    },
+    {
+     "text": "El disparo vale 0.49 xG, es decir goles esperados, desde 4.9 metros.",
+     "evidence_ids": [
+      "GM05-M06.e3",
+      "GM05-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.49 xG from 4.9 metres.",
+     "back_translation": "The shot is worth 0.49 xG, i.e. expected goals, from 4.9 meters."
+    },
+    {
+     "text": "Northbridge United todavía tiene una probabilidad de ganar del 100 por ciento.",
+     "evidence_ids": [
+      "GM05-M06.e13"
+     ],
+     "en_text": "Northbridge United still has a 100 per cent chance of winning.",
+     "back_translation": "Northbridge United still has a 100 percent chance of winning."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M07",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "काइओ फ़ेरमियर ने मिनट 59 में नॉर्थब्रिज यूनाइटेड के लिए गोल किया, स्कोर 3-0 हो गया।",
+     "evidence_ids": [
+      "GM05-M07.e1",
+      "GM05-M07.e2",
+      "GM05-M07.e11",
+      "GM05-M07.e10"
+     ],
+     "en_text": "Caio Ferrmere scored for Northbridge United in minute 59, making it 3-0.",
+     "back_translation": "Kaio Fermier scored for Northbridge United in minute 59, making the score 3-0."
+    },
+    {
+     "text": "शॉट की वैल्यू 0.11 xG (अपेक्षित गोल) थी और यह 10.1 मीटर से था।",
+     "evidence_ids": [
+      "GM05-M07.e3",
+      "GM05-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.11 xG from 10.1 metres.",
+     "back_translation": "The shot had a value of 0.11 xG (expected goals) and was from 10.1 meters."
+    },
+    {
+     "text": "यह हमला 7 कार्रवाइयां का था, और शूटर पर प्रेशर नहीं था।",
+     "evidence_ids": [
+      "GM05-M07.e9",
+      "GM05-M07.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "This attack was of 7 actions, and there was no pressure on the shooter."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना 0.2 प्रतिशत अंक से बढ़ी, 99.8 प्रतिशत से 100.0 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM05-M07.e15",
+      "GM05-M07.e13",
+      "GM05-M07.e14"
+     ],
+     "en_text": "Northbridge United win probability rose by 0.2 pp, from 99.8% to 100.0%.",
+     "back_translation": "Northbridge United's chances of winning increased by 0.2 percentage points, from 99.8 percent to 100.0 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M07",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "काइओ फ़ेरमियर ने मिनट 59 में नॉर्थब्रिज यूनाइटेड के लिए गोल किया और स्कोर अब 3-0 हो गया!",
+     "evidence_ids": [
+      "GM05-M07.e1",
+      "GM05-M07.e2",
+      "GM05-M07.e11",
+      "GM05-M07.e10"
+     ],
+     "en_text": "Caio Ferrmere scored for Northbridge United in minute 59, making it 3-0.",
+     "back_translation": "Kaio Fermier scored for Northbridge United in minute 59 and the score is now 3-0!"
+    },
+    {
+     "text": "शॉट की वैल्यू 0.11 xG (अपेक्षित गोल) थी, दूरी 10.1 मीटर।",
+     "evidence_ids": [
+      "GM05-M07.e3",
+      "GM05-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.11 xG from 10.1 metres.",
+     "back_translation": "The value of the shot was 0.11 xG (expected rounds), distance 10.1 meters."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना मुश्किल से बदली और यह 100.0 प्रतिशत के नज़दीक बनी रही।",
+     "evidence_ids": [
+      "GM05-M07.e14",
+      "GM05-M07.e15"
+     ],
+     "en_text": "Northbridge United win chance barely moved, staying near 100%.",
+     "back_translation": "Northbridge United's chances of victory barely changed and remained close to 100.0 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M07",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "काइओ फ़ेरमियर ने मिनट 59 में नॉर्थब्रिज यूनाइटेड के लिए गोल किया, स्कोर 3-0 हो गया।",
+     "evidence_ids": [
+      "GM05-M07.e1",
+      "GM05-M07.e2",
+      "GM05-M07.e11",
+      "GM05-M07.e10"
+     ],
+     "en_text": "Caio Ferrmere scored for Northbridge United in minute 59, making it 3-0.",
+     "back_translation": "Kaio Fermier scored for Northbridge United in minute 59, making the score 3-0."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता बताता है; यह 0.11 था, और जितना बड़ा होता है उतना बेहतर मौका माना जाता है।",
+     "evidence_ids": [
+      "GM05-M07.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.11, and higher means a better chance.",
+     "back_translation": "xG (Expected Goals) indicates the quality of the chance; It was 0.11, and the bigger the better the chance is considered."
+    },
+    {
+     "text": "हमारे मॉडल के अनुसार अब नॉर्थब्रिज यूनाइटेड को 100.0 प्रतिशत जीत की संभावना मिलती है, जो पहले भी 100.0 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM05-M07.e13",
+      "GM05-M07.e14"
+     ],
+     "en_text": "Our model now gives Northbridge United a 100% chance of winning, compared with 100% before.",
+     "back_translation": "According to our model, Northbridge United now gets a 100.0 percent chance of winning, up from 100.0 percent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M07",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 59। काइओ फ़ेरमियर नॉर्थब्रिज यूनाइटेड के लिए गोल करते हैं और स्कोर अब 3-0 है।",
+     "evidence_ids": [
+      "GM05-M07.e11",
+      "GM05-M07.e1",
+      "GM05-M07.e2",
+      "GM05-M07.e10"
+     ],
+     "en_text": "Minute 59. Caio Ferrmere scores for Northbridge United, and the score is now 3-0.",
+     "back_translation": "Minutes 59. Kaio Fermier scores for Northbridge United and the score is now 3-0."
+    },
+    {
+     "text": "शॉट की वैल्यू 0.11 xG (अपेक्षित गोल) है और यह 10.1 मीटर से है।",
+     "evidence_ids": [
+      "GM05-M07.e3",
+      "GM05-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.11 xG from 10.1 metres.",
+     "back_translation": "The shot has a value of 0.11 xG (expected rounds) and is from 10.1 meters."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड के पास अब भी 100.0 प्रतिशत जीत की संभावना है।",
+     "evidence_ids": [
+      "GM05-M07.e14"
+     ],
+     "en_text": "Northbridge United still has a 100 per cent chance of winning.",
+     "back_translation": "Northbridge United still have a 100.0 percent chance of winning."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M07",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Caio Ferrmere marcó para Northbridge United en el minuto 59, dejando el marcador 3-0.",
+     "evidence_ids": [
+      "GM05-M07.e1",
+      "GM05-M07.e2",
+      "GM05-M07.e11",
+      "GM05-M07.e10"
+     ],
+     "en_text": "Caio Ferrmere scored for Northbridge United in minute 59, making it 3-0.",
+     "back_translation": "Caio Ferrmere scored for Northbridge United in the 59th minute, leaving the score 3-0."
+    },
+    {
+     "text": "El disparo tenía un valor de 0.11 xG (goles esperados) desde 10.1 metros.",
+     "evidence_ids": [
+      "GM05-M07.e3",
+      "GM05-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.11 xG from 10.1 metres.",
+     "back_translation": "The shot had a value of 0.11 xG (expected goals) from 10.1 meters."
+    },
+    {
+     "text": "La jugada tuvo 7 acciones, y el rematador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM05-M07.e9",
+      "GM05-M07.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 7 actions, and the striker was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Northbridge United aumentó 0.2 pp, de 99.8 por ciento a 100.0 por ciento.",
+     "evidence_ids": [
+      "GM05-M07.e15",
+      "GM05-M07.e13",
+      "GM05-M07.e14"
+     ],
+     "en_text": "Northbridge United win probability rose by 0.2 pp, from 99.8% to 100.0%.",
+     "back_translation": "Northbridge United's probability of victory increased 0.2 pp, from 99.8 percent to 100.0 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M07",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "¡Caio Ferrmere marcó para Northbridge United en el minuto 59 y ya es 3-0!",
+     "evidence_ids": [
+      "GM05-M07.e1",
+      "GM05-M07.e2",
+      "GM05-M07.e11",
+      "GM05-M07.e10"
+     ],
+     "en_text": "Caio Ferrmere scored for Northbridge United in minute 59, making it 3-0.",
+     "back_translation": "Caio Ferrmere scored for Northbridge United in the 59th minute and it's already 3-0!"
+    },
+    {
+     "text": "El disparo valía 0.11 xG (goles esperados) desde 10.1 metros.",
+     "evidence_ids": [
+      "GM05-M07.e3",
+      "GM05-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.11 xG from 10.1 metres.",
+     "back_translation": "The shot was worth 0.11 xG (expected goals) from 10.1 meters."
+    },
+    {
+     "text": "La probabilidad de victoria de Northbridge United apenas se movió, permaneciendo cerca del 100 por ciento.",
+     "evidence_ids": [
+      "GM05-M07.e14",
+      "GM05-M07.e15"
+     ],
+     "en_text": "Northbridge United win chance barely moved, staying near 100%.",
+     "back_translation": "Northbridge United's chance of victory barely budged, remaining close to 100 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M07",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Caio Ferrmere marcó para Northbridge United en el minuto 59; el resultado pasó a ser 3-0.",
+     "evidence_ids": [
+      "GM05-M07.e1",
+      "GM05-M07.e2",
+      "GM05-M07.e11",
+      "GM05-M07.e10"
+     ],
+     "en_text": "Caio Ferrmere scored for Northbridge United in minute 59, making it 3-0.",
+     "back_translation": "Caio Ferrmere scored for Northbridge United in the 59th minute; the score became 3-0."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de la ocasión; esta fue 0.11, y cuanto mayor es, mejor es la probabilidad de marcar.",
+     "evidence_ids": [
+      "GM05-M07.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.11, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; this was 0.11, and the higher it is, the better the probability of scoring."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Northbridge United una probabilidad de victoria del 100 por ciento, comparada con 100 por ciento antes.",
+     "evidence_ids": [
+      "GM05-M07.e13",
+      "GM05-M07.e14"
+     ],
+     "en_text": "Our model now gives Northbridge United a 100% chance of winning, compared with 100% before.",
+     "back_translation": "Our model now gives Northbridge United a 100 percent chance of victory, compared to 100 percent before."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M07",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 59 Caio Ferrmere marca para Northbridge United y el marcador es ahora 3-0.",
+     "evidence_ids": [
+      "GM05-M07.e11",
+      "GM05-M07.e1",
+      "GM05-M07.e2",
+      "GM05-M07.e10"
+     ],
+     "en_text": "Minute 59. Caio Ferrmere scores for Northbridge United, and the score is now 3-0.",
+     "back_translation": "Minute 59 Caio Ferrmere scores for Northbridge United and the score is now 3-0."
+    },
+    {
+     "text": "El disparo vale 0.11 xG goles esperados desde 10.1 metros.",
+     "evidence_ids": [
+      "GM05-M07.e3",
+      "GM05-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.11 xG from 10.1 metres.",
+     "back_translation": "The shot is worth 0.11 xG expected goals from 10.1 meters."
+    },
+    {
+     "text": "Northbridge United sigue teniendo una probabilidad de victoria del 100 por ciento.",
+     "evidence_ids": [
+      "GM05-M07.e14"
+     ],
+     "en_text": "Northbridge United still has a 100 per cent chance of winning.",
+     "back_translation": "Northbridge United still has a 100 percent chance of victory."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M08",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "टेओ मोरहोल्ट ने मिनट 88 में नॉर्थब्रिज यूनाइटेड के लिए गोल किया, स्कोर 4-0 हुआ।",
+     "evidence_ids": [
+      "GM05-M08.e1",
+      "GM05-M08.e2",
+      "GM05-M08.e11",
+      "GM05-M08.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 88, making it 4-0.",
+     "back_translation": "Teo Morholt scored for Northbridge United in minute 88, making the score 4-0."
+    },
+    {
+     "text": "यह शॉट 0.28 xG (अपेक्षित गोल) का था, 6.9 मीटर की दूरी से।",
+     "evidence_ids": [
+      "GM05-M08.e3",
+      "GM05-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The shot was 0.28 xG (expected rounds), from a distance of 6.9 meters."
+    },
+    {
+     "text": "उस चाल में 7 कार्रवाइयाँ थीं, और शूटर दबाव में था: नहीं।",
+     "evidence_ids": [
+      "GM05-M08.e9",
+      "GM05-M08.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "That move had 7 actions, and the shooter was under pressure: no."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना 100.0 प्रतिशत पर बनी रही।",
+     "evidence_ids": [
+      "GM05-M08.e15",
+      "GM05-M08.e14"
+     ],
+     "en_text": "Northbridge United win probability held at 100.0%.",
+     "back_translation": "Northbridge United's chances of winning remained at 100.0 percent."
+    },
+    {
+     "text": "अगर टेओ मोरहोल्ट का गोल नॉर्थब्रिज यूनाइटेड के लिए ना जाता, तो 200 सिम्युलेशन में नॉर्थब्रिज यूनाइटेड की जीत की संभावना लगभग 100 प्रतिशत के बजाय 100 प्रतिशत होती।",
+     "evidence_ids": [
+      "GM05-M08.e17",
+      "GM05-M08.e16",
+      "GM05-M08.e23"
+     ],
+     "en_text": "What if Teo Morholt's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 100% instead of 100%.",
+     "back_translation": "If Teo Morholt's goal hadn't gone for Northbridge United, Northbridge United's chances of winning in 200 simulations would have been 100 percent instead of almost 100 percent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन +0.0 प्रतिशत अंक है, और 80% अंतराल 0.0 से 0.0 प्रतिशत अंक तक है।",
+     "evidence_ids": [
+      "GM05-M08.e20",
+      "GM05-M08.e21",
+      "GM05-M08.e22"
+     ],
+     "en_text": "The simulated change is +0.0 pp, with an 80% interval from 0.0 to 0.0 pp.",
+     "back_translation": "The simulated change is +0.0 percentage points, and the 80% interval ranges from 0.0 to 0.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M08",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 88 में टेओ मोरहोल्ट ने नॉर्थब्रिज यूनाइटेड के लिए गोल किया, स्कोर अब 4-0 हो गया!",
+     "evidence_ids": [
+      "GM05-M08.e1",
+      "GM05-M08.e2",
+      "GM05-M08.e11",
+      "GM05-M08.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 88, making it 4-0.",
+     "back_translation": "In minute 88 Teo Morholt scored for Northbridge United, the score is now 4-0!"
+    },
+    {
+     "text": "शॉट की वैल्यू 0.28 xG (अपेक्षित गोल) थी, 6.9 मीटर से!",
+     "evidence_ids": [
+      "GM05-M08.e3",
+      "GM05-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The value of the shot was 0.28 xG (expected rounds), from 6.9 meters!"
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड की जीत की संभावना मुश्किल से बदली और लगभग 100 प्रतिशत पर ही बनी रही।",
+     "evidence_ids": [
+      "GM05-M08.e14",
+      "GM05-M08.e15"
+     ],
+     "en_text": "Northbridge United win chance barely moved, staying near 100%.",
+     "back_translation": "Northbridge United's chances of victory barely changed and remained at almost 100 per cent."
+    },
+    {
+     "text": "अगर टेओ मोरहोल्ट का गोल नहीं होता, तो नॉर्थब्रिज यूनाइटेड के जीतने की संभावना लगभग 100 प्रतिशत होती, न कि 100 प्रतिशत।",
+     "evidence_ids": [
+      "GM05-M08.e17",
+      "GM05-M08.e16"
+     ],
+     "en_text": "What if Teo Morholt's goal for Northbridge United had not gone in? Northbridge United would be about 100% to win, not 100%.",
+     "back_translation": "If it hadn't been for Teo Morholt's goal, Northbridge United's chances of winning would have been almost 100 percent, not 100 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M08",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "टेओ मोरहोल्ट ने मिनट 88 में नॉर्थब्रिज यूनाइटेड के लिए गोल किया, स्कोर 4-0 हो गया।",
+     "evidence_ids": [
+      "GM05-M08.e1",
+      "GM05-M08.e2",
+      "GM05-M08.e11",
+      "GM05-M08.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 88, making it 4-0.",
+     "back_translation": "Teo Morholt scored for Northbridge United in minute 88, making the score 4-0."
+    },
+    {
+     "text": "xG मौके की गुणवत्ता मापता है; यह 0.28 था, और अधिक का मतलब बेहतर मौका होता है।",
+     "evidence_ids": [
+      "GM05-M08.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.28, and higher means a better chance.",
+     "back_translation": "xG measures chance quality; It was 0.28, and more means a better chance."
+    },
+    {
+     "text": "हमारा मॉडल अब नॉर्थब्रिज यूनाइटेड को 100 प्रतिशत जीत की संभावना देता है, जबकि पहले 100 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM05-M08.e13",
+      "GM05-M08.e14"
+     ],
+     "en_text": "Our model now gives Northbridge United a 100% chance of winning, compared with 100% before.",
+     "back_translation": "Our model now gives Northbridge United a 100 percent chance of winning, compared to 100 percent earlier."
+    },
+    {
+     "text": "अगर वह नहीं हुआ होता, तो हमारी सिम्युलेशन बताती हैं कि नॉर्थब्रिज यूनाइटेड के पास लगभग 100 प्रतिशत मौका होता, न कि 100 प्रतिशत।",
+     "evidence_ids": [
+      "GM05-M08.e17",
+      "GM05-M08.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Northbridge United would have about a 100% chance instead of 100%.",
+     "back_translation": "If that hadn't happened, our simulations show that Northbridge United would have had almost a 100 percent chance, not a 100 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M08",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 88 पर टेओ मोरहोल्ट नॉर्थब्रिज यूनाइटेड के लिए गोल करते हैं और स्कोर अब 4-0 है।",
+     "evidence_ids": [
+      "GM05-M08.e11",
+      "GM05-M08.e1",
+      "GM05-M08.e2",
+      "GM05-M08.e10"
+     ],
+     "en_text": "Minute 88. Teo Morholt scores for Northbridge United, and the score is now 4-0.",
+     "back_translation": "At minute 88 Teo Morholt scores for Northbridge United and the score is now 4-0."
+    },
+    {
+     "text": "यह शॉट 0.28 xG (अपेक्षित गोल) का है, 6.9 मीटर से।",
+     "evidence_ids": [
+      "GM05-M08.e3",
+      "GM05-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "This shot is 0.28 xG (expected goal), from 6.9 meters."
+    },
+    {
+     "text": "नॉर्थब्रिज यूनाइटेड के पास अभी भी जीत की 100 प्रतिशत संभावना है।",
+     "evidence_ids": [
+      "GM05-M08.e14"
+     ],
+     "en_text": "Northbridge United still has a 100 per cent chance of winning.",
+     "back_translation": "Northbridge United still have a 100 percent chance of winning."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "attempt 2: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M08",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Teo Morholt marcó para Northbridge United en el minuto 88, poniendo el marcador 4-0.",
+     "evidence_ids": [
+      "GM05-M08.e1",
+      "GM05-M08.e2",
+      "GM05-M08.e11",
+      "GM05-M08.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 88, making it 4-0.",
+     "back_translation": "Teo Morholt scored for Northbridge United in the 88th minute, making the score 4-0."
+    },
+    {
+     "text": "El disparo valía 0.28 xG (goles esperados) desde 6.9 metros.",
+     "evidence_ids": [
+      "GM05-M08.e3",
+      "GM05-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The shot was worth 0.28 xG (expected goals) from 6.9 meters."
+    },
+    {
+     "text": "La jugada tuvo 7 acciones y el rematador estaba bajo presión: no.",
+     "evidence_ids": [
+      "GM05-M08.e9",
+      "GM05-M08.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 7 actions and the striker was under pressure: no."
+    },
+    {
+     "text": "La probabilidad de victoria de Northbridge United se mantuvo en 100.0 por ciento.",
+     "evidence_ids": [
+      "GM05-M08.e15",
+      "GM05-M08.e14"
+     ],
+     "en_text": "Northbridge United win probability held at 100.0%.",
+     "back_translation": "Northbridge United's chance of victory remained at 100.0 percent."
+    },
+    {
+     "text": "¿Y si el gol de Teo Morholt para Northbridge United no hubiera entrado? En 200 simulaciones, la probabilidad de ganar de Northbridge United sería aproximadamente 100 por ciento en lugar de 100 por ciento.",
+     "evidence_ids": [
+      "GM05-M08.e17",
+      "GM05-M08.e16",
+      "GM05-M08.e23"
+     ],
+     "en_text": "What if Teo Morholt's goal for Northbridge United had not gone in? Across 200 simulated rollouts, Northbridge United win chance would be about 100% instead of 100%.",
+     "back_translation": "What if Teo Morholt's goal for Northbridge United hadn't gone in? In 200 simulations, Northbridge United's probability of winning would be about 100 percent instead of 100 percent."
+    },
+    {
+     "text": "El cambio simulado es +0.0 pp, con un intervalo del 80% de 0.0 a 0.0 pp.",
+     "evidence_ids": [
+      "GM05-M08.e20",
+      "GM05-M08.e21",
+      "GM05-M08.e22"
+     ],
+     "en_text": "The simulated change is +0.0 pp, with an 80% interval from 0.0 to 0.0 pp.",
+     "back_translation": "The simulated change is +0.0 pp, with an 80% range of 0.0 to 0.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M08",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Teo Morholt marcó para Northbridge United en el minuto 88, dejando el marcador 4-0.",
+     "evidence_ids": [
+      "GM05-M08.e1",
+      "GM05-M08.e2",
+      "GM05-M08.e11",
+      "GM05-M08.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 88, making it 4-0.",
+     "back_translation": "Teo Morholt scored for Northbridge United in the 88th minute, making it 4-0."
+    },
+    {
+     "text": "El tiro valía 0.28 xG (goles esperados) desde 6.9 metros.",
+     "evidence_ids": [
+      "GM05-M08.e3",
+      "GM05-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The shot was worth 0.28 xG (expected goals) from 6.9 meters."
+    },
+    {
+     "text": "La probabilidad de ganar de Northbridge United casi no se movió, manteniéndose cerca de 100 por ciento.",
+     "evidence_ids": [
+      "GM05-M08.e14",
+      "GM05-M08.e15"
+     ],
+     "en_text": "Northbridge United win chance barely moved, staying near 100%.",
+     "back_translation": "Northbridge United's chance of winning was almost unchanged, remaining close to 100 percent."
+    },
+    {
+     "text": "¿Y si el gol de Teo Morholt para Northbridge United no hubiera entrado? Northbridge United estaría aproximadamente 100 por ciento para ganar, no 100 por ciento.",
+     "evidence_ids": [
+      "GM05-M08.e17",
+      "GM05-M08.e16"
+     ],
+     "en_text": "What if Teo Morholt's goal for Northbridge United had not gone in? Northbridge United would be about 100% to win, not 100%.",
+     "back_translation": "What if Teo Morholt's goal for Northbridge United hadn't gone in? Northbridge United would be roughly 100 per cent to win, not 100 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M08",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Teo Morholt marcó para Northbridge United en el minuto 88, dejando el resultado 4-0.",
+     "evidence_ids": [
+      "GM05-M08.e1",
+      "GM05-M08.e2",
+      "GM05-M08.e11",
+      "GM05-M08.e10"
+     ],
+     "en_text": "Teo Morholt scored for Northbridge United in minute 88, making it 4-0.",
+     "back_translation": "Teo Morholt scored for Northbridge United in the 88th minute, leaving the score 4-0."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de la ocasión; esta fue 0.28, y cuanto más alto es el número, mejor la probabilidad.",
+     "evidence_ids": [
+      "GM05-M08.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.28, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; this was 0.28, and the higher the number, the better the probability."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Northbridge United una probabilidad de ganar de 100 por ciento, comparada con 100 por ciento antes.",
+     "evidence_ids": [
+      "GM05-M08.e13",
+      "GM05-M08.e14"
+     ],
+     "en_text": "Our model now gives Northbridge United a 100% chance of winning, compared with 100% before.",
+     "back_translation": "Our model now gives Northbridge United a 100 percent chance of winning, compared to 100 percent before."
+    },
+    {
+     "text": "Si eso no hubiera sucedido, nuestras simulaciones sugieren que Northbridge United habría tenido aproximadamente 100 por ciento de probabilidad en lugar de 100 por ciento.",
+     "evidence_ids": [
+      "GM05-M08.e17",
+      "GM05-M08.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Northbridge United would have about a 100% chance instead of 100%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Northbridge United would have had about a 100 percent chance rather than a 100 percent chance."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM05-M08",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 88. Teo Morholt marca para Northbridge United y el marcador es ahora 4-0.",
+     "evidence_ids": [
+      "GM05-M08.e11",
+      "GM05-M08.e1",
+      "GM05-M08.e2",
+      "GM05-M08.e10"
+     ],
+     "en_text": "Minute 88. Teo Morholt scores for Northbridge United, and the score is now 4-0.",
+     "back_translation": "88th minute. Teo Morholt scores for Northbridge United and the score is now 4-0."
+    },
+    {
+     "text": "El disparo vale 0.28 xG (goles esperados) desde 6.9 metros.",
+     "evidence_ids": [
+      "GM05-M08.e3",
+      "GM05-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The shot is worth 0.28 xG (expected goals) from 6.9 meters."
+    },
+    {
+     "text": "Northbridge United todavía tiene un 100 por ciento de probabilidad de ganar.",
+     "evidence_ids": [
+      "GM05-M08.e14"
+     ],
+     "en_text": "Northbridge United still has a 100 per cent chance of winning.",
+     "back_translation": "Northbridge United still has a 100 percent chance of winning."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "attempt 2: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  }
+ ],
+ "trace": {
+  "GM05-M01": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM05-M02": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM05-M03": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM05-M04": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM05-M05": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM05-M06": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM05-M07": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM05-M08": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  }
+ }
+}

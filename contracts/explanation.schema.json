@@ -23,7 +23,8 @@
       "properties": {
         "text": {"type": "string", "minLength": 1},
         "evidence_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-        "en_text": {"type": ["string", "null"], "description": "English source or back-translation shown beside non-English text."}
+        "en_text": {"type": ["string", "null"], "description": "English source shown beside non-English text."},
+        "back_translation": {"type": ["string", "null"], "description": "Machine back-translation of text into English (quality check)."}
       }
     }
   }

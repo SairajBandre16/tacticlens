@@ -91,3 +91,4 @@ def test_persona_key_is_stable():
     p = c.Persona(mode="casual", lang="hi", fav_club="NBU", analogy="cricket", tone=2, stats_density=0)
     assert p.key == "casual.hi.cricket.t2.d0.NBU.-"
     assert c.Persona.model_validate(p.model_dump()).key == p.key
+    assert p.model_copy(update={"player_lock": True}).key == p.key + ".lock"

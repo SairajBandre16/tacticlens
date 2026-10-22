@@ -1,0 +1,3113 @@
+{
+ "backend": "foundry",
+ "explanations": [
+  {
+   "moment_id": "GM04-M01",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन ने मिनट 34 से खेल पर नियंत्रण संभाला।",
+     "evidence_ids": [
+      "GM04-M01.e1",
+      "GM04-M01.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 34.",
+     "back_translation": "Kestrel Town took control of the game from minute 34."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.51 से 0.62 तक बदल गया।",
+     "evidence_ids": [
+      "GM04-M01.e2",
+      "GM04-M01.e3"
+     ],
+     "en_text": "The momentum index went from -0.51 to 0.62.",
+     "back_translation": "The Momentum Index changed from -0.51 to 0.62."
+    },
+    {
+     "text": "केस्ट्रल टाउन की जीत की संभावना 12.7 प्रतिशत अंक बढ़ी, जो 41.9 प्रतिशत से 54.6 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM04-M01.e9",
+      "GM04-M01.e7",
+      "GM04-M01.e8"
+     ],
+     "en_text": "Kestrel Town win probability rose by 12.7 pp, from 41.9% to 54.6%.",
+     "back_translation": "Kestrel Town's chances of winning increased by 12.7 percentage points, from 41.9 percent to 54.6 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M01",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन ने मिनट 34 से मैच पर कब्ज़ा कर लिया।",
+     "evidence_ids": [
+      "GM04-M01.e1",
+      "GM04-M01.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 34.",
+     "back_translation": "Kestrel Town took control of the match from minute 34."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.51 से 0.62 पर आ गया।",
+     "evidence_ids": [
+      "GM04-M01.e2",
+      "GM04-M01.e3"
+     ],
+     "en_text": "The momentum index went from -0.51 to 0.62.",
+     "back_translation": "The Momentum Index fell to 0.62 from -0.51."
+    },
+    {
+     "text": "केस्ट्रल टाउन की उम्मीदें 13 प्रतिशत अंक बढ़कर 55 प्रतिशत हो गईं।",
+     "evidence_ids": [
+      "GM04-M01.e8",
+      "GM04-M01.e9"
+     ],
+     "en_text": "Kestrel Town hopes rose by 13 points to 55%.",
+     "back_translation": "Kestrel Town's expectations rose 13 percentage points to 55 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: real-world club or player name is not allowed",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M01",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन ने मिनट 34 से खेल को काबू में लिया।",
+     "evidence_ids": [
+      "GM04-M01.e1",
+      "GM04-M01.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 34.",
+     "back_translation": "Kestrel Town took control of the game from minute 34."
+    },
+    {
+     "text": "हमारा मॉडल अब केस्ट्रल टाउन को जीतने की 55 प्रतिशत संभावना देता है, जबकि पहले यह 42 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M01.e7",
+      "GM04-M01.e8"
+     ],
+     "en_text": "Our model now gives Kestrel Town a 55% chance of winning, compared with 42% before.",
+     "back_translation": "Our model now gives Kestrel Town a 55 percent chance of winning, compared to 42 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M01",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन मिनट 34 से खेल पर नियंत्रण लेता है।",
+     "evidence_ids": [
+      "GM04-M01.e1",
+      "GM04-M01.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 34.",
+     "back_translation": "Kestrel Town take control of the game from minute 34."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.51 से 0.62 पर चला जाता है।",
+     "evidence_ids": [
+      "GM04-M01.e2",
+      "GM04-M01.e3"
+     ],
+     "en_text": "The momentum index went from -0.51 to 0.62.",
+     "back_translation": "The momentum index goes from -0.51 to 0.62."
+    },
+    {
+     "text": "केस्ट्रल टाउन अब जीत की संभावना 55 प्रतिशत है जो पहले 42 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M01.e7",
+      "GM04-M01.e8"
+     ],
+     "en_text": "Kestrel Town now has a 55 per cent chance of winning, up from 42 per cent.",
+     "back_translation": "Kestrel Town now has a 55 percent chance of winning, up from 42 percent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M01",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Kestrel Town asumió el control del partido desde el minuto 34.",
+     "evidence_ids": [
+      "GM04-M01.e1",
+      "GM04-M01.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 34.",
+     "back_translation": "Kestrel Town took control of the match from the 34th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.51 a 0.62.",
+     "evidence_ids": [
+      "GM04-M01.e2",
+      "GM04-M01.e3"
+     ],
+     "en_text": "The momentum index went from -0.51 to 0.62.",
+     "back_translation": "The momentum index went from -0.51 to 0.62."
+    },
+    {
+     "text": "La probabilidad de victoria de Kestrel Town aumentó 12.7 pp, de 41.9 por ciento a 54.6 por ciento.",
+     "evidence_ids": [
+      "GM04-M01.e9",
+      "GM04-M01.e7",
+      "GM04-M01.e8"
+     ],
+     "en_text": "Kestrel Town win probability rose by 12.7 pp, from 41.9% to 54.6%.",
+     "back_translation": "Kestrel Town's probability of victory increased 12.7 pp, from 41.9 percent to 54.6 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M01",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Kestrel Town tomó el control del partido desde el minuto 34.",
+     "evidence_ids": [
+      "GM04-M01.e1",
+      "GM04-M01.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 34.",
+     "back_translation": "Kestrel Town took control of the match from the 34th minute."
+    },
+    {
+     "text": "El índice de impulso subió de -0.51 a 0.62.",
+     "evidence_ids": [
+      "GM04-M01.e2",
+      "GM04-M01.e3"
+     ],
+     "en_text": "The momentum index went from -0.51 to 0.62.",
+     "back_translation": "The momentum index rose from -0.51 to 0.62."
+    },
+    {
+     "text": "Las esperanzas de Kestrel Town subieron 13 puntos hasta el 55 por ciento.",
+     "evidence_ids": [
+      "GM04-M01.e8",
+      "GM04-M01.e9"
+     ],
+     "en_text": "Kestrel Town hopes rose by 13 points to 55%.",
+     "back_translation": "Kestrel Town's hopes rose 13 points to 55 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: real-world club or player name is not allowed",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M01",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Kestrel Town tomó el control del partido desde el minuto 34.",
+     "evidence_ids": [
+      "GM04-M01.e1",
+      "GM04-M01.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 34.",
+     "back_translation": "Kestrel Town took control of the match from the 34th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Kestrel Town una probabilidad de victoria del 55 por ciento, frente al 42 por ciento anterior.",
+     "evidence_ids": [
+      "GM04-M01.e7",
+      "GM04-M01.e8"
+     ],
+     "en_text": "Our model now gives Kestrel Town a 55% chance of winning, compared with 42% before.",
+     "back_translation": "Our model now gives Kestrel Town a 55 percent chance of victory, up from 42 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M01",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Kestrel Town toma el control del partido desde el minuto 34.",
+     "evidence_ids": [
+      "GM04-M01.e1",
+      "GM04-M01.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 34.",
+     "back_translation": "Kestrel Town takes control of the match from the 34th minute."
+    },
+    {
+     "text": "El índice de impulso pasa de -0.51 a 0.62.",
+     "evidence_ids": [
+      "GM04-M01.e2",
+      "GM04-M01.e3"
+     ],
+     "en_text": "The momentum index went from -0.51 to 0.62.",
+     "back_translation": "The momentum index goes from -0.51 to 0.62."
+    },
+    {
+     "text": "Kestrel Town ahora tiene una probabilidad de victoria del 55 por ciento, frente al 42 por ciento.",
+     "evidence_ids": [
+      "GM04-M01.e7",
+      "GM04-M01.e8"
+     ],
+     "en_text": "Kestrel Town now has a 55 per cent chance of winning, up from 42 per cent.",
+     "back_translation": "Kestrel Town now has a 55 percent chance of victory, up from 42 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M02",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "वेन मोरबी ने मिनट 41 में केस्ट्रल टाउन के लिए गोल किया, स्कोर 1-0 हो गया।",
+     "evidence_ids": [
+      "GM04-M02.e1",
+      "GM04-M02.e2",
+      "GM04-M02.e11",
+      "GM04-M02.e10"
+     ],
+     "en_text": "Wen Morby scored for Kestrel Town in minute 41, making it 1-0.",
+     "back_translation": "Wayne Morby scored for Kestrel Town in minute 41, making the score 1-0."
+    },
+    {
+     "text": "यह शॉट 8.4 मीटर से 0.25 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM04-M02.e3",
+      "GM04-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.25 xG from 8.4 metres.",
+     "back_translation": "The shot was 8.4 x G from 0.25 meters (expected goals)."
+    },
+    {
+     "text": "यह मूव 3 कार्रवाइयों का था, और शूटर पर दबाव नहीं था।",
+     "evidence_ids": [
+      "GM04-M02.e9",
+      "GM04-M02.e7"
+     ],
+     "en_text": "The move had 3 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move was of 3 actions, and there was no pressure on the shooter."
+    },
+    {
+     "text": "केस्ट्रल टाउन की जीत की संभावना 28.3 प्रतिशत अंक बढ़ी, 54.6 प्रतिशत से 82.9 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM04-M02.e15",
+      "GM04-M02.e13",
+      "GM04-M02.e14"
+     ],
+     "en_text": "Kestrel Town win probability rose by 28.3 pp, from 54.6% to 82.9%.",
+     "back_translation": "Kestrel Town's chances of winning increased by 28.3 percentage points, from 54.6 percent to 82.9 percent."
+    },
+    {
+     "text": "अगर वेन मोरबी का गोल नहीं होता, तो 200 सिम्युलेशन के अनुसार केस्ट्रल टाउन की जीत की संभावना लगभग 44 प्रतिशत होती, न कि 81 प्रतिशत।",
+     "evidence_ids": [
+      "GM04-M02.e17",
+      "GM04-M02.e16",
+      "GM04-M02.e23"
+     ],
+     "en_text": "What if Wen Morby's goal for Kestrel Town had not gone in? Across 200 simulated rollouts, Kestrel Town win chance would be about 44% instead of 81%.",
+     "back_translation": "If it weren't for Wayne Morby's goal, Kestrel Town's chances of winning according to 200 simulations would have been about 44 percent, not 81 percent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -37.5 प्रतिशत अंक है, और 80% अंतराल -42.0 से -33.0 प्रतिशत अंक के बीच है।",
+     "evidence_ids": [
+      "GM04-M02.e20",
+      "GM04-M02.e21",
+      "GM04-M02.e22"
+     ],
+     "en_text": "The simulated change is -37.5 pp, with an 80% interval from -42.0 to -33.0 pp.",
+     "back_translation": "The simulated change is -37.5 percentage points, and the 80% interval is between -42.0 to -33.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M02",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "वेन मोरबी ने मिनट 41 में केस्ट्रल टाउन के लिए गोल किया, स्कोर अब 1-0 हो गया!",
+     "evidence_ids": [
+      "GM04-M02.e1",
+      "GM04-M02.e2",
+      "GM04-M02.e11",
+      "GM04-M02.e10"
+     ],
+     "en_text": "Wen Morby scored for Kestrel Town in minute 41, making it 1-0.",
+     "back_translation": "Wayne Morby scored for Kestrel Town in minute 41, the score is now 1-0!"
+    },
+    {
+     "text": "8.4 मीटर से यह शॉट 0.25 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM04-M02.e3",
+      "GM04-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.25 xG from 8.4 metres.",
+     "back_translation": "From 8.4 meters, this shot was 0.25 xG (expected goals)."
+    },
+    {
+     "text": "केस्ट्रल टाउन की उम्मीदें 28 प्रतिशत अंक बढ़कर 83 प्रतिशत हो गईं।",
+     "evidence_ids": [
+      "GM04-M02.e14",
+      "GM04-M02.e15"
+     ],
+     "en_text": "Kestrel Town hopes rose by 28 points to 83%.",
+     "back_translation": "Kestrel Town's expectations rose 28 percentage points to 83 percent."
+    },
+    {
+     "text": "अगर वेन मोरबी का गोल नहीं जाता, तो केस्ट्रल टाउन की जीत लगभग 44 प्रतिशत होती, 81 प्रतिशत नहीं।",
+     "evidence_ids": [
+      "GM04-M02.e17",
+      "GM04-M02.e16"
+     ],
+     "en_text": "What if Wen Morby's goal for Kestrel Town had not gone in? Kestrel Town would be about 44% to win, not 81%.",
+     "back_translation": "If it hadn't been for Wayne Morby's goal, Kestrel Town would have won at about 44 per cent, not 81 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M02",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "वेन मोरबी ने मिनट 41 में केस्ट्रल टाउन के लिए गोल किया, स्कोर 1-0 हो गया।",
+     "evidence_ids": [
+      "GM04-M02.e1",
+      "GM04-M02.e2",
+      "GM04-M02.e11",
+      "GM04-M02.e10"
+     ],
+     "en_text": "Wen Morby scored for Kestrel Town in minute 41, making it 1-0.",
+     "back_translation": "Wayne Morby scored for Kestrel Town in minute 41, making the score 1-0."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौका की गुणवत्ता को मापता है, यह 0.25 था और अधिक होना बेहतर मौका होता है।",
+     "evidence_ids": [
+      "GM04-M02.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.25, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance, it was 0.25 and the higher the chance is better."
+    },
+    {
+     "text": "हमारा मॉडल अब केस्ट्रल टाउन को 83 प्रतिशत की जीत की संभावना देता है, पहले यह 55 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M02.e13",
+      "GM04-M02.e14"
+     ],
+     "en_text": "Our model now gives Kestrel Town a 83% chance of winning, compared with 55% before.",
+     "back_translation": "Our model now gives Kestrel Town an 83 percent chance of winning, previously it was 55 percent."
+    },
+    {
+     "text": "अगर ऐसा नहीं होता, तो हमारे सिम्युलेशन के अनुसार केस्ट्रल टाउन की जीत की संभावना लगभग 44 प्रतिशत होती, न कि 81 प्रतिशत।",
+     "evidence_ids": [
+      "GM04-M02.e17",
+      "GM04-M02.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Kestrel Town would have about a 44% chance instead of 81%.",
+     "back_translation": "If this were not the case, the probability of winning the Kestrel Town according to our simulation would have been about 44 percent, not 81 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M02",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 41 पर वेन मोरबी केस्ट्रल टाउन के लिए गोल करते हैं और स्कोर अब 1-0 है।",
+     "evidence_ids": [
+      "GM04-M02.e11",
+      "GM04-M02.e1",
+      "GM04-M02.e2",
+      "GM04-M02.e10"
+     ],
+     "en_text": "Minute 41. Wen Morby scores for Kestrel Town, and the score is now 1-0.",
+     "back_translation": "At minute 41 Wayne Morby scores for Kestrel Town and the score is now 1-0."
+    },
+    {
+     "text": "शॉट 8.4 मीटर से 0.25 xG का है।",
+     "evidence_ids": [
+      "GM04-M02.e3",
+      "GM04-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.25 xG from 8.4 metres.",
+     "back_translation": "The shot is 8.4 meters to 0.25 xG."
+    },
+    {
+     "text": "केस्ट्रल टाउन के पास अब जीत की 83 प्रतिशत संभावना है, जो पहले 55 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M02.e13",
+      "GM04-M02.e14"
+     ],
+     "en_text": "Kestrel Town now has a 83 per cent chance of winning, up from 55 per cent.",
+     "back_translation": "Kestrel Town now has an 83 percent chance of winning, up from 55 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M02",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Wen Morby marcó para Kestrel Town en el minuto 41, poniendo el marcador 1-0.",
+     "evidence_ids": [
+      "GM04-M02.e1",
+      "GM04-M02.e2",
+      "GM04-M02.e11",
+      "GM04-M02.e10"
+     ],
+     "en_text": "Wen Morby scored for Kestrel Town in minute 41, making it 1-0.",
+     "back_translation": "Wen Morby scored for Kestrel Town in the 41st minute, making the score 1-0."
+    },
+    {
+     "text": "El disparo valía 0.25 xG (goles esperados) desde 8.4 metros.",
+     "evidence_ids": [
+      "GM04-M02.e3",
+      "GM04-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.25 xG from 8.4 metres.",
+     "back_translation": "The shot was worth 0.25 xG (expected goals) from 8.4 meters."
+    },
+    {
+     "text": "La jugada tuvo 3 acciones y el ejecutor no estaba bajo presión.",
+     "evidence_ids": [
+      "GM04-M02.e9",
+      "GM04-M02.e7"
+     ],
+     "en_text": "The move had 3 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 3 actions and the executor was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Kestrel Town aumentó en 28.3 pp, del 54.6% al 82.9%.",
+     "evidence_ids": [
+      "GM04-M02.e15",
+      "GM04-M02.e13",
+      "GM04-M02.e14"
+     ],
+     "en_text": "Kestrel Town win probability rose by 28.3 pp, from 54.6% to 82.9%.",
+     "back_translation": "Kestrel Town's probability of victory increased by 28.3 pp, from 54.6% to 82.9%."
+    },
+    {
+     "text": "Si el gol de Wen Morby para Kestrel Town no hubiera entrado, en 200 simulaciones Kestrel Town tendría una probabilidad de ganar de aproximadamente 44% en lugar de 81%.",
+     "evidence_ids": [
+      "GM04-M02.e17",
+      "GM04-M02.e16",
+      "GM04-M02.e23"
+     ],
+     "en_text": "What if Wen Morby's goal for Kestrel Town had not gone in? Across 200 simulated rollouts, Kestrel Town win chance would be about 44% instead of 81%.",
+     "back_translation": "If Wen Morby's goal for Kestrel Town hadn't gone in, in 200 simulations Kestrel Town would have a chance of winning of about 44% instead of 81%."
+    },
+    {
+     "text": "El cambio simulado es de -37.5 pp, con un intervalo del 80% de -42.0 a -33.0 pp.",
+     "evidence_ids": [
+      "GM04-M02.e20",
+      "GM04-M02.e21",
+      "GM04-M02.e22"
+     ],
+     "en_text": "The simulated change is -37.5 pp, with an 80% interval from -42.0 to -33.0 pp.",
+     "back_translation": "The simulated change is -37.5 pp, with an 80% range of -42.0 to -33.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M02",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "¡Wen Morby marcó para Kestrel Town en el minuto 41 y el marcador se puso 1-0!",
+     "evidence_ids": [
+      "GM04-M02.e1",
+      "GM04-M02.e2",
+      "GM04-M02.e11",
+      "GM04-M02.e10"
+     ],
+     "en_text": "Wen Morby scored for Kestrel Town in minute 41, making it 1-0.",
+     "back_translation": "Wen Morby scored for Kestrel Town in the 41st minute and the score was 1-0!"
+    },
+    {
+     "text": "Ese disparo valía 0.25 xG (goles esperados) desde 8.4 metros.",
+     "evidence_ids": [
+      "GM04-M02.e3",
+      "GM04-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.25 xG from 8.4 metres.",
+     "back_translation": "That shot was worth 0.25 xG (expected goals) from 8.4 meters."
+    },
+    {
+     "text": "Las esperanzas de Kestrel Town subieron 28 puntos hasta 83%.",
+     "evidence_ids": [
+      "GM04-M02.e14",
+      "GM04-M02.e15"
+     ],
+     "en_text": "Kestrel Town hopes rose by 28 points to 83%.",
+     "back_translation": "Kestrel Town's hopes rose 28 points to 83%."
+    },
+    {
+     "text": "Si el gol de Wen Morby para Kestrel Town no hubiera entrado, Kestrel Town estaría cerca del 44% para ganar en lugar del 81%.",
+     "evidence_ids": [
+      "GM04-M02.e17",
+      "GM04-M02.e16"
+     ],
+     "en_text": "What if Wen Morby's goal for Kestrel Town had not gone in? Kestrel Town would be about 44% to win, not 81%.",
+     "back_translation": "If Wen Morby's goal for Kestrel Town hadn't gone in, Kestrel Town would be close to 44% to win instead of 81%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M02",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Wen Morby marcó para Kestrel Town en el minuto 41 y el marcador quedó 1-0.",
+     "evidence_ids": [
+      "GM04-M02.e1",
+      "GM04-M02.e2",
+      "GM04-M02.e11",
+      "GM04-M02.e10"
+     ],
+     "en_text": "Wen Morby scored for Kestrel Town in minute 41, making it 1-0.",
+     "back_translation": "Wen Morby scored for Kestrel Town in the 41st minute and the score was 1-0."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de una ocasión; esta fue 0.25 y cuanto mayor es, mejor la probabilidad de marcar.",
+     "evidence_ids": [
+      "GM04-M02.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.25, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of a chance; this was 0.25 and the higher it is, the better the probability of scoring."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Kestrel Town un 83% de probabilidad de ganar, comparado con 55% antes.",
+     "evidence_ids": [
+      "GM04-M02.e13",
+      "GM04-M02.e14"
+     ],
+     "en_text": "Our model now gives Kestrel Town a 83% chance of winning, compared with 55% before.",
+     "back_translation": "Our model now gives Kestrel Town an 83% chance of winning, compared to 55% before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Kestrel Town tendría alrededor de 44% de probabilidad en lugar de 81%.",
+     "evidence_ids": [
+      "GM04-M02.e17",
+      "GM04-M02.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Kestrel Town would have about a 44% chance instead of 81%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Kestrel Town would have around a 44% chance instead of 81%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M02",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 41, Wen Morby marca para Kestrel Town y el marcador es ahora 1 a 0.",
+     "evidence_ids": [
+      "GM04-M02.e11",
+      "GM04-M02.e1",
+      "GM04-M02.e2",
+      "GM04-M02.e10"
+     ],
+     "en_text": "Minute 41. Wen Morby scores for Kestrel Town, and the score is now 1-0.",
+     "back_translation": "In the 41st minute, Wen Morby scores for Kestrel Town and the score is now 1-0."
+    },
+    {
+     "text": "El disparo vale 0.25 xG, goles esperados, desde 8.4 metros.",
+     "evidence_ids": [
+      "GM04-M02.e3",
+      "GM04-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.25 xG from 8.4 metres.",
+     "back_translation": "The shot is worth 0.25 xG, expected goals, from 8.4 metres."
+    },
+    {
+     "text": "Kestrel Town ahora tiene un 83 por ciento de probabilidad de ganar, frente al 55 por ciento.",
+     "evidence_ids": [
+      "GM04-M02.e13",
+      "GM04-M02.e14"
+     ],
+     "en_text": "Kestrel Town now has a 83 per cent chance of winning, up from 55 per cent.",
+     "back_translation": "Kestrel Town now has an 83 per cent chance of winning, up from 55 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M03",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन ने मैच पर नियंत्रण 56 मिनट से संभाला।",
+     "evidence_ids": [
+      "GM04-M03.e1",
+      "GM04-M03.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 56.",
+     "back_translation": "Kestrel Town took control of the match on 56 minutes."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.68 से 0.85 तक चला।",
+     "evidence_ids": [
+      "GM04-M03.e2",
+      "GM04-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.68 to 0.85.",
+     "back_translation": "The momentum index moved from -0.68 to 0.85."
+    },
+    {
+     "text": "केस्ट्रल टाउन की जीत की संभावना 16.9 प्रतिशत अंक बढ़ी, 70.5 प्रतिशत से 87.5 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM04-M03.e9",
+      "GM04-M03.e7",
+      "GM04-M03.e8"
+     ],
+     "en_text": "Kestrel Town win probability rose by 16.9 pp, from 70.5% to 87.5%.",
+     "back_translation": "Kestrel Town's chances of winning increased by 16.9 percentage points, from 70.5 percent to 87.5 percent."
+    },
+    {
+     "text": "यदि हार्बर एथलेटिक ने इस बिंदु से अधिक प्रेसिंग की होती, तो 200 सिम्युलेशन में केस्ट्रल टाउन की जीत की संभावना लगभग 72 प्रतिशत होती न कि 72 प्रतिशत।",
+     "evidence_ids": [
+      "GM04-M03.e11",
+      "GM04-M03.e10",
+      "GM04-M03.e17"
+     ],
+     "en_text": "What if Harbor Athletic had pressed harder from this point? Across 200 simulated rollouts, Kestrel Town win chance would be about 72% instead of 72%.",
+     "back_translation": "If Harbor Athletic had done more pressing than this point, Kestrel Town's chances of winning in the 200 simulation would have been about 72 percent, not 72 percent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -0.5 प्रतिशत अंक है, 80% अंतराल -5.5 से 5.0 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM04-M03.e14",
+      "GM04-M03.e15",
+      "GM04-M03.e16"
+     ],
+     "en_text": "The simulated change is -0.5 pp, with an 80% interval from -5.5 to 5.0 pp.",
+     "back_translation": "The simulated change is -0.5 percentage points, with an 80% interval ranging from -5.5 to 5.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M03",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन ने 56 मिनट से खेल पर कब्जा कर लिया।",
+     "evidence_ids": [
+      "GM04-M03.e1",
+      "GM04-M03.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 56.",
+     "back_translation": "Kestrel Town took control of the game on 56 minutes."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.68 से 0.85 तक कूद गया।",
+     "evidence_ids": [
+      "GM04-M03.e2",
+      "GM04-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.68 to 0.85.",
+     "back_translation": "The Momentum Index jumped from -0.68 to 0.85."
+    },
+    {
+     "text": "केस्ट्रल टाउन की उम्मीदें 17 प्रतिशत अंक बढ़कर 88 प्रतिशत हो गईं।",
+     "evidence_ids": [
+      "GM04-M03.e8",
+      "GM04-M03.e9"
+     ],
+     "en_text": "Kestrel Town hopes rose by 17 points to 88%.",
+     "back_translation": "Kestrel Town's expectations rose 17 percentage points to 88 percent."
+    },
+    {
+     "text": "अगर हार्बर एथलेटिक ने यहाँ ज्यादा प्रेसिंग की होती, तो केस्ट्रल टाउन की जीत की संभावना लगभग 72 प्रतिशत होती, न कि 72 प्रतिशत।",
+     "evidence_ids": [
+      "GM04-M03.e11",
+      "GM04-M03.e10"
+     ],
+     "en_text": "What if Harbor Athletic had pressed harder from this point? Kestrel Town would be about 72% to win, not 72%.",
+     "back_translation": "If Harbour Athletic had done more pressing here, Kestrel Town's chances of winning would have been around 72 percent, not 72 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M03",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन ने 56 मिनट से मैच पर नियंत्रण लेना शुरू किया।",
+     "evidence_ids": [
+      "GM04-M03.e1",
+      "GM04-M03.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 56.",
+     "back_translation": "Kestrel Town began to take control of the match on 56 minutes."
+    },
+    {
+     "text": "हमारे मॉडल के अनुसार अब केस्ट्रल टाउन के जीतने की संभावना 88 प्रतिशत है, जबकि पहले 70 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M03.e7",
+      "GM04-M03.e8"
+     ],
+     "en_text": "Our model now gives Kestrel Town a 88% chance of winning, compared with 70% before.",
+     "back_translation": "According to our model, now Kestrel Town has an 88 percent chance of winning, compared to 70 percent earlier."
+    },
+    {
+     "text": "यदि ऐसा नहीं होता, तो हमारे सिम्युलेशन सुझाते हैं कि केस्ट्रल टाउन की लगभग 72 प्रतिशत जीत की संभावना होती न कि 72 प्रतिशत।",
+     "evidence_ids": [
+      "GM04-M03.e11",
+      "GM04-M03.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Kestrel Town would have about a 72% chance instead of 72%.",
+     "back_translation": "If it weren't, our simulations suggest that Kestrel Town would have about a 72 percent chance of winning, not 72 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s3: What-if sentence must be hedged (would/about/simulated)",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M03",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन 56 मिनट से मैच पर नियंत्रण लेता है।",
+     "evidence_ids": [
+      "GM04-M03.e1",
+      "GM04-M03.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 56.",
+     "back_translation": "Kestral Town take control of the match from 56 minutes."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.68 से 0.85 हो जाता है।",
+     "evidence_ids": [
+      "GM04-M03.e2",
+      "GM04-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.68 to 0.85.",
+     "back_translation": "The momentum index goes from -0.68 to 0.85."
+    },
+    {
+     "text": "केस्ट्रल टाउन के अब जीतने की संभावना 88 प्रतिशत है, जो पहले 70 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M03.e7",
+      "GM04-M03.e8"
+     ],
+     "en_text": "Kestrel Town now has a 88 per cent chance of winning, up from 70 per cent.",
+     "back_translation": "Kestrel Town now has an 88 percent chance of winning, up from 70 percent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M03",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Kestrel Town tomó el control del partido desde el minuto 56.",
+     "evidence_ids": [
+      "GM04-M03.e1",
+      "GM04-M03.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 56.",
+     "back_translation": "Kestrel Town took control of the game from the 56th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.68 a 0.85.",
+     "evidence_ids": [
+      "GM04-M03.e2",
+      "GM04-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.68 to 0.85.",
+     "back_translation": "The momentum index went from -0.68 to 0.85."
+    },
+    {
+     "text": "La probabilidad de victoria de Kestrel Town aumentó en 16.9 pp, de 70.5 por ciento a 87.5 por ciento.",
+     "evidence_ids": [
+      "GM04-M03.e9",
+      "GM04-M03.e7",
+      "GM04-M03.e8"
+     ],
+     "en_text": "Kestrel Town win probability rose by 16.9 pp, from 70.5% to 87.5%.",
+     "back_translation": "Kestrel Town's probability of victory increased by 16.9 pp, from 70.5 percent to 87.5 percent."
+    },
+    {
+     "text": "¿Y si Harbor Athletic hubiera presionado más desde ese momento? En 200 simulaciones, la probabilidad de ganar de Kestrel Town sería aproximadamente 72 por ciento en lugar de 72 por ciento.",
+     "evidence_ids": [
+      "GM04-M03.e11",
+      "GM04-M03.e10",
+      "GM04-M03.e17"
+     ],
+     "en_text": "What if Harbor Athletic had pressed harder from this point? Across 200 simulated rollouts, Kestrel Town win chance would be about 72% instead of 72%.",
+     "back_translation": "What if Harbor Athletic had pushed harder from that point on? In 200 simulations, Kestrel Town's chance of winning would be about 72 percent instead of 72 percent."
+    },
+    {
+     "text": "El cambio simulado es -0.5 pp, con un intervalo del 80% desde -5.5 a 5.0 pp.",
+     "evidence_ids": [
+      "GM04-M03.e14",
+      "GM04-M03.e15",
+      "GM04-M03.e16"
+     ],
+     "en_text": "The simulated change is -0.5 pp, with an 80% interval from -5.5 to 5.0 pp.",
+     "back_translation": "The simulated change is -0.5 pp, with an 80% range from -5.5 to 5.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M03",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Kestrel Town se hizo con el control del partido a partir del minuto 56.",
+     "evidence_ids": [
+      "GM04-M03.e1",
+      "GM04-M03.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 56.",
+     "back_translation": "Kestrel Town took control of the game from the 56th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.68 a 0.85.",
+     "evidence_ids": [
+      "GM04-M03.e2",
+      "GM04-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.68 to 0.85.",
+     "back_translation": "The momentum index went from -0.68 to 0.85."
+    },
+    {
+     "text": "Las esperanzas de Kestrel Town subieron 17 puntos hasta 88 por ciento.",
+     "evidence_ids": [
+      "GM04-M03.e8",
+      "GM04-M03.e9"
+     ],
+     "en_text": "Kestrel Town hopes rose by 17 points to 88%.",
+     "back_translation": "Kestrel Town's hopes rose 17 points to 88 percent."
+    },
+    {
+     "text": "¿Y si Harbor Athletic hubiera presionado más desde ese momento? Kestrel Town estaría alrededor del 72 por ciento para ganar, no 72 por ciento.",
+     "evidence_ids": [
+      "GM04-M03.e11",
+      "GM04-M03.e10"
+     ],
+     "en_text": "What if Harbor Athletic had pressed harder from this point? Kestrel Town would be about 72% to win, not 72%.",
+     "back_translation": "What if Harbor Athletic had pushed harder from that point on? Kestrel Town would be around 72 per cent to win, not 72 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M03",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Kestrel Town tomó el control del partido desde el minuto 56.",
+     "evidence_ids": [
+      "GM04-M03.e1",
+      "GM04-M03.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 56.",
+     "back_translation": "Kestrel Town took control of the game from the 56th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Kestrel Town una probabilidad de victoria del 88 por ciento, comparada con 70 por ciento antes.",
+     "evidence_ids": [
+      "GM04-M03.e7",
+      "GM04-M03.e8"
+     ],
+     "en_text": "Our model now gives Kestrel Town a 88% chance of winning, compared with 70% before.",
+     "back_translation": "Our model now gives Kestrel Town an 88 percent chance of victory, compared to 70 percent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Kestrel Town habría tenido alrededor de 72 por ciento en lugar de 72 por ciento.",
+     "evidence_ids": [
+      "GM04-M03.e11",
+      "GM04-M03.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Kestrel Town would have about a 72% chance instead of 72%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Kestrel Town would have had about 72 percent instead of 72 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s3: What-if sentence must be hedged (would/about/simulated)",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M03",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Kestrel Town toma el control del partido desde el minuto 56.",
+     "evidence_ids": [
+      "GM04-M03.e1",
+      "GM04-M03.e5"
+     ],
+     "en_text": "Kestrel Town took control of the game from minute 56.",
+     "back_translation": "Kestrel Town takes control of the match from the 56th minute."
+    },
+    {
+     "text": "El índice de impulso va de -0.68 a 0.85.",
+     "evidence_ids": [
+      "GM04-M03.e2",
+      "GM04-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.68 to 0.85.",
+     "back_translation": "The momentum index goes from -0.68 to 0.85."
+    },
+    {
+     "text": "Kestrel Town ahora tiene una probabilidad de victoria del 88 por ciento, frente al 70 por ciento.",
+     "evidence_ids": [
+      "GM04-M03.e7",
+      "GM04-M03.e8"
+     ],
+     "en_text": "Kestrel Town now has a 88 per cent chance of winning, up from 70 per cent.",
+     "back_translation": "Kestrel Town now has an 88 percent chance of victory, up from 70 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M04",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन की प्रेसिंग 60 मिनट से फीकी पड़ गई।",
+     "evidence_ids": [
+      "GM04-M04.e1",
+      "GM04-M04.e8"
+     ],
+     "en_text": "The Kestrel Town press faded from minute 60.",
+     "back_translation": "The pressing of Kestrel Town faded by 60 minutes."
+    },
+    {
+     "text": "प्रति मिनट प्रेशर 2.3 से 0.4 तक घट गया।",
+     "evidence_ids": [
+      "GM04-M04.e2",
+      "GM04-M04.e3"
+     ],
+     "en_text": "Pressures per minute went from 2.3 to 0.4.",
+     "back_translation": "The pressure per minute decreased from 2.3 to 0.4."
+    },
+    {
+     "text": "PPDA 5.6 से 7.0 तक बढ़ा।",
+     "evidence_ids": [
+      "GM04-M04.e4",
+      "GM04-M04.e5"
+     ],
+     "en_text": "PPDA went from 5.6 to 7.0.",
+     "back_translation": "PPDA increased from 5.6 to 7.0."
+    },
+    {
+     "text": "केस्ट्रल टाउन की जीत की संभावना 4.1 प्रतिशत अंक बढ़ी, 84.7 प्रतिशत से 88.8 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM04-M04.e12",
+      "GM04-M04.e10",
+      "GM04-M04.e11"
+     ],
+     "en_text": "Kestrel Town win probability rose by 4.1 pp, from 84.7% to 88.8%.",
+     "back_translation": "Kestrel Town's chances of winning increased by 4.1 percentage points, from 84.7 percent to 88.8 percent."
+    },
+    {
+     "text": "यदि केस्ट्रल टाउन ने अपनी शुरुआती तीव्रता पर प्रेसिंग जारी रखी होती, तो 200 सिम्युलेशनों में केस्ट्रल टाउन की जीत की संभावना लगभग 85 प्रतिशत होती, न कि 76 प्रतिशत।",
+     "evidence_ids": [
+      "GM04-M04.e14",
+      "GM04-M04.e13",
+      "GM04-M04.e20"
+     ],
+     "en_text": "What if Kestrel Town had kept pressing at their earlier intensity? Across 200 simulated rollouts, Kestrel Town win chance would be about 85% instead of 76%.",
+     "back_translation": "If Kestrel Town had continued to press at its initial intensity, Kestrel Town's chances of winning in 200 simulations would have been about 85 percent, not 76 percent."
+    },
+    {
+     "text": "सिम्युलेशन से पाया गया परिवर्तन +9.0 प्रतिशत अंक है, और इसका 80% अंतराल 4.0 से 14.0 प्रतिशत अंक है।",
+     "evidence_ids": [
+      "GM04-M04.e17",
+      "GM04-M04.e18",
+      "GM04-M04.e19"
+     ],
+     "en_text": "The simulated change is +9.0 pp, with an 80% interval from 4.0 to 14.0 pp.",
+     "back_translation": "The change found from the simulation is +9.0 percentage points, and its 80% interval is 4.0 to 14.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M04",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन की प्रेसिंग 60 मिनट से फीकी पड़ गई।",
+     "evidence_ids": [
+      "GM04-M04.e1",
+      "GM04-M04.e8"
+     ],
+     "en_text": "The Kestrel Town press faded from minute 60.",
+     "back_translation": "The pressing of Kestrel Town faded by 60 minutes."
+    },
+    {
+     "text": "प्रति मिनट प्रेशर 2.3 से 0.4 पर गिर गया।",
+     "evidence_ids": [
+      "GM04-M04.e2",
+      "GM04-M04.e3"
+     ],
+     "en_text": "Pressures per minute went from 2.3 to 0.4.",
+     "back_translation": "The pressure per minute dropped from 2.3 to 0.4."
+    },
+    {
+     "text": "केस्ट्रल टाउन की जीत की संभावना 89 प्रतिशत पर कूद गई, 4 प्रतिशत अंक बढ़कर।",
+     "evidence_ids": [
+      "GM04-M04.e11",
+      "GM04-M04.e12"
+     ],
+     "en_text": "Kestrel Town win chance jumped to 89%, up 4 points.",
+     "back_translation": "Kestrel Town's chances of winning jumped to 89 percent, up 4 percentage points."
+    },
+    {
+     "text": "अगर केस्ट्रल टाउन ने अपनी शुरुआती तीव्रता पर प्रेसिंग जारी रखी होती तो उनकी जीत की संभावना लगभग 85 प्रतिशत होती, न कि 76 प्रतिशत।",
+     "evidence_ids": [
+      "GM04-M04.e14",
+      "GM04-M04.e13"
+     ],
+     "en_text": "What if Kestrel Town had kept pressing at their earlier intensity? Kestrel Town would be about 85% to win, not 76%.",
+     "back_translation": "If Kestrel Town had continued to press at their initial intensity, their chances of winning would have been around 85 percent, not 76 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M04",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन की प्रेसिंग 60 मिनट से कमजोर हो गई।",
+     "evidence_ids": [
+      "GM04-M04.e1",
+      "GM04-M04.e8"
+     ],
+     "en_text": "The Kestrel Town press faded from minute 60.",
+     "back_translation": "Kestrel Town's pressing weakened by 60 minutes."
+    },
+    {
+     "text": "हमारा मॉडल अब केस्ट्रल टाउन को जीत की 89 प्रतिशत संभावना देता है, जबकि पहले यह 85 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M04.e10",
+      "GM04-M04.e11"
+     ],
+     "en_text": "Our model now gives Kestrel Town a 89% chance of winning, compared with 85% before.",
+     "back_translation": "Our model now gives Kestrel Town an 89 percent chance of winning, compared to 85 percent previously."
+    },
+    {
+     "text": "अगर ऐसा नहीं हुआ होता तो हमारे सिम्युलेशनों के अनुसार केस्ट्रल टाउन की जीत की संभावना लगभग 85 प्रतिशत होती, न कि 76 प्रतिशत।",
+     "evidence_ids": [
+      "GM04-M04.e14",
+      "GM04-M04.e13"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Kestrel Town would have about a 85% chance instead of 76%.",
+     "back_translation": "If this had not happened, according to our simulations, the probability of winning Kestrel Town would have been about 85 percent, not 76 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M04",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "केस्ट्रल टाउन की प्रेसिंग 60 मिनट से फीकी पड़ रही है।",
+     "evidence_ids": [
+      "GM04-M04.e1",
+      "GM04-M04.e8"
+     ],
+     "en_text": "The Kestrel Town press faded from minute 60.",
+     "back_translation": "Kestrel Town's pressing has been fading for 60 minutes."
+    },
+    {
+     "text": "प्रति मिनट प्रेशर 2.3 से 0.4 तक घट गया है।",
+     "evidence_ids": [
+      "GM04-M04.e2",
+      "GM04-M04.e3"
+     ],
+     "en_text": "Pressures per minute went from 2.3 to 0.4.",
+     "back_translation": "The pressure per minute has decreased from 2.3 to 0.4."
+    },
+    {
+     "text": "केस्ट्रल टाउन के पास अब जीत की 89 प्रतिशत संभावना है, जो पहले 85 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M04.e10",
+      "GM04-M04.e11"
+     ],
+     "en_text": "Kestrel Town now has a 89 per cent chance of winning, up from 85 per cent.",
+     "back_translation": "Kestrel Town now has an 89 percent chance of winning, up from 85 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M04",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "La presión de Kestrel Town se debilitó a partir del minuto 60.",
+     "evidence_ids": [
+      "GM04-M04.e1",
+      "GM04-M04.e8"
+     ],
+     "en_text": "The Kestrel Town press faded from minute 60.",
+     "back_translation": "Kestrel Town's pressure weakened from the 60th minute."
+    },
+    {
+     "text": "Las presiones por minuto pasaron de 2.3 a 0.4.",
+     "evidence_ids": [
+      "GM04-M04.e2",
+      "GM04-M04.e3"
+     ],
+     "en_text": "Pressures per minute went from 2.3 to 0.4.",
+     "back_translation": "The pressures per minute went from 2.3 to 0.4."
+    },
+    {
+     "text": "El PPDA pasó de 5.6 a 7.0.",
+     "evidence_ids": [
+      "GM04-M04.e4",
+      "GM04-M04.e5"
+     ],
+     "en_text": "PPDA went from 5.6 to 7.0.",
+     "back_translation": "The PPDA went from 5.6 to 7.0."
+    },
+    {
+     "text": "La probabilidad de victoria de Kestrel Town aumentó 4.1 pp, de 84.7% a 88.8%.",
+     "evidence_ids": [
+      "GM04-M04.e12",
+      "GM04-M04.e10",
+      "GM04-M04.e11"
+     ],
+     "en_text": "Kestrel Town win probability rose by 4.1 pp, from 84.7% to 88.8%.",
+     "back_translation": "Kestrel Town's probability of victory increased by 4.1 pp, from 84.7% to 88.8%."
+    },
+    {
+     "text": "Si Kestrel Town hubiese mantenido la presión a su intensidad anterior, en 200 simulaciones la probabilidad de ganar de Kestrel Town sería de aproximadamente 85% en vez de 76%.",
+     "evidence_ids": [
+      "GM04-M04.e14",
+      "GM04-M04.e13",
+      "GM04-M04.e20"
+     ],
+     "en_text": "What if Kestrel Town had kept pressing at their earlier intensity? Across 200 simulated rollouts, Kestrel Town win chance would be about 85% instead of 76%.",
+     "back_translation": "If Kestrel Town had kept the pressure at its previous intensity, in 200 simulations Kestrel Town's probability of winning would be approximately 85% instead of 76%."
+    },
+    {
+     "text": "El cambio simulado es +9.0 pp, con un intervalo del 80% de 4.0 a 14.0 pp.",
+     "evidence_ids": [
+      "GM04-M04.e17",
+      "GM04-M04.e18",
+      "GM04-M04.e19"
+     ],
+     "en_text": "The simulated change is +9.0 pp, with an 80% interval from 4.0 to 14.0 pp.",
+     "back_translation": "The simulated change is +9.0 pp, with an 80% range from 4.0 to 14.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M04",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "La presión de Kestrel Town se desinfló a partir del minuto 60.",
+     "evidence_ids": [
+      "GM04-M04.e1",
+      "GM04-M04.e8"
+     ],
+     "en_text": "The Kestrel Town press faded from minute 60.",
+     "back_translation": "Kestrel Town's pressure was deflated from the 60th minute."
+    },
+    {
+     "text": "Las presiones por minuto cayeron de 2.3 a 0.4.",
+     "evidence_ids": [
+      "GM04-M04.e2",
+      "GM04-M04.e3"
+     ],
+     "en_text": "Pressures per minute went from 2.3 to 0.4.",
+     "back_translation": "Pressures per minute fell from 2.3 to 0.4."
+    },
+    {
+     "text": "La probabilidad de ganar de Kestrel Town saltó a 89%, subiendo 4 puntos.",
+     "evidence_ids": [
+      "GM04-M04.e11",
+      "GM04-M04.e12"
+     ],
+     "en_text": "Kestrel Town win chance jumped to 89%, up 4 points.",
+     "back_translation": "Kestrel Town's chance of winning jumped to 89%, up 4 points."
+    },
+    {
+     "text": "Si Kestrel Town hubiera mantenido su presión anterior, estaría en torno al 85% para ganar, no al 76%.",
+     "evidence_ids": [
+      "GM04-M04.e14",
+      "GM04-M04.e13"
+     ],
+     "en_text": "What if Kestrel Town had kept pressing at their earlier intensity? Kestrel Town would be about 85% to win, not 76%.",
+     "back_translation": "If Kestrel Town had maintained their previous pressure, they would be around 85% to win, not 76%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M04",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "La presión de Kestrel Town se debilitó a partir del minuto 60.",
+     "evidence_ids": [
+      "GM04-M04.e1",
+      "GM04-M04.e8"
+     ],
+     "en_text": "The Kestrel Town press faded from minute 60.",
+     "back_translation": "Kestrel Town's pressure weakened from the 60th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Kestrel Town un 89% de probabilidad de ganar, frente al 85% anterior.",
+     "evidence_ids": [
+      "GM04-M04.e10",
+      "GM04-M04.e11"
+     ],
+     "en_text": "Our model now gives Kestrel Town a 89% chance of winning, compared with 85% before.",
+     "back_translation": "Our model now gives Kestrel Town an 89% chance of winning, up from 85% previously."
+    },
+    {
+     "text": "Si eso no hubiera pasado, nuestras simulaciones sugieren que Kestrel Town tendría alrededor de un 85% de probabilidad en lugar del 76%.",
+     "evidence_ids": [
+      "GM04-M04.e14",
+      "GM04-M04.e13"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Kestrel Town would have about a 85% chance instead of 76%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Kestrel Town would have around an 85% chance instead of 76%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M04",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "La presión de Kestrel Town se debilita desde el minuto 60.",
+     "evidence_ids": [
+      "GM04-M04.e1",
+      "GM04-M04.e8"
+     ],
+     "en_text": "The Kestrel Town press faded from minute 60.",
+     "back_translation": "Kestrel Town's pressure weakens from the 60th minute."
+    },
+    {
+     "text": "Las presiones por minuto pasan de 2.3 a 0.4.",
+     "evidence_ids": [
+      "GM04-M04.e2",
+      "GM04-M04.e3"
+     ],
+     "en_text": "Pressures per minute went from 2.3 to 0.4.",
+     "back_translation": "The pressures per minute go from 2.3 to 0.4."
+    },
+    {
+     "text": "Kestrel Town ahora tiene un 89 por ciento de probabilidad de ganar, frente al 85 por ciento.",
+     "evidence_ids": [
+      "GM04-M04.e10",
+      "GM04-M04.e11"
+     ],
+     "en_text": "Kestrel Town now has a 89 per cent chance of winning, up from 85 per cent.",
+     "back_translation": "Kestrel Town now has an 89 percent chance of winning, up from 85 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M05",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "सामी गारमोर ने केस्ट्रल टाउन के लिए 62वें मिनट में बड़ा मौक़ा बनाया।",
+     "evidence_ids": [
+      "GM04-M05.e1",
+      "GM04-M05.e2",
+      "GM04-M05.e10"
+     ],
+     "en_text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+     "back_translation": "Sami Garmore created a big chance for Kestrel Town in the 62nd minute."
+    },
+    {
+     "text": "शॉट 0.37 xG (अपेक्षित गोल) का था और 6.0 मीटर से लिया गया था।",
+     "evidence_ids": [
+      "GM04-M05.e3",
+      "GM04-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 6.0 metres.",
+     "back_translation": "The shot was 0.37 xG (expected goal) and was taken from 6.0 meters."
+    },
+    {
+     "text": "इस चाल में 7 क्रियाएँ थीं, और शूटर दबाव में था: नहीं।",
+     "evidence_ids": [
+      "GM04-M05.e9",
+      "GM04-M05.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move had 7 actions, and the shooter was under pressure: no."
+    },
+    {
+     "text": "केस्ट्रल टाउन की जीत की संभावना 0.3 प्रतिशत अंक से बढ़ी, 87.1 प्रतिशत से 87.5 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM04-M05.e14",
+      "GM04-M05.e12",
+      "GM04-M05.e13"
+     ],
+     "en_text": "Kestrel Town win probability rose by 0.3 pp, from 87.1% to 87.5%.",
+     "back_translation": "Kestrel Town's chances of winning increased by 0.3 percentage points, from 87.1 percent to 87.5 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M05",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "सामी गारमोर ने केस्ट्रल टाउन के लिए 62वें मिनट में एक बड़ा मौक़ा बनाया!",
+     "evidence_ids": [
+      "GM04-M05.e1",
+      "GM04-M05.e2",
+      "GM04-M05.e10"
+     ],
+     "en_text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+     "back_translation": "Sami Garmore created a big chance for Kestrel Town in the 62nd minute!"
+    },
+    {
+     "text": "शॉट 0.37 xG (अपेक्षित गोल) का था और 6.0 मीटर से लिया गया था।",
+     "evidence_ids": [
+      "GM04-M05.e3",
+      "GM04-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 6.0 metres.",
+     "back_translation": "The shot was 0.37 xG (expected goal) and was taken from 6.0 meters."
+    },
+    {
+     "text": "केस्ट्रल टाउन की जीत की संभावना लगभग 88 प्रतिशत पर ही बनी रही।",
+     "evidence_ids": [
+      "GM04-M05.e13",
+      "GM04-M05.e14"
+     ],
+     "en_text": "Kestrel Town win chance barely moved, staying near 88%.",
+     "back_translation": "Kestrel Town's chances of winning remained at about 88 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M05",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "सामी गारमोर को केस्ट्रल टाउन के लिए 62वें मिनट में एक बड़ा मौक़ा मिला।",
+     "evidence_ids": [
+      "GM04-M05.e1",
+      "GM04-M05.e2",
+      "GM04-M05.e10"
+     ],
+     "en_text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+     "back_translation": "Sami Garmore got a big chance for Kestrel Town in the 62nd minute."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता नापता है, यह 0.37 था और अधिक होने का मतलब बेहतर मौका होता है।",
+     "evidence_ids": [
+      "GM04-M05.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.37, and higher means a better chance.",
+     "back_translation": "xG (Goals Expected) measures the quality of the chance, it was 0.37 and being higher means a better chance."
+    },
+    {
+     "text": "हमारे मॉडल अब केस्ट्रल टाउन को 88 प्रतिशत जीत की संभावना देता है, जबकि पहले यह 87 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M05.e12",
+      "GM04-M05.e13"
+     ],
+     "en_text": "Our model now gives Kestrel Town a 88% chance of winning, compared with 87% before.",
+     "back_translation": "Our model now gives Kestrel Town an 88 percent chance of winning, compared to 87 percent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: number 69.3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M05",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "सामी गारमोर केस्ट्रल टाउन के लिए 62वें मिनट में बड़ा मौक़ा पाते हैं।",
+     "evidence_ids": [
+      "GM04-M05.e1",
+      "GM04-M05.e2",
+      "GM04-M05.e10"
+     ],
+     "en_text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+     "back_translation": "Sami Garmore gets a big chance for Kestrel Town in the 62nd minute."
+    },
+    {
+     "text": "शॉट 0.37 xG अपेक्षित गोल का है और 6.0 मीटर से लिया गया है।",
+     "evidence_ids": [
+      "GM04-M05.e3",
+      "GM04-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 6.0 metres.",
+     "back_translation": "The shot is 0.37 xG of expected goal and is taken from 6.0 meters."
+    },
+    {
+     "text": "केस्ट्रल टाउन के पास अब 88 प्रतिशत की जीत की संभावना है, पहले यह 87 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M05.e12",
+      "GM04-M05.e13"
+     ],
+     "en_text": "Kestrel Town now has a 88 per cent chance of winning, up from 87 per cent.",
+     "back_translation": "Kestrel Town now has an 88 percent chance of winning, previously it was 87 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M05",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Sami Garmore tuvo una ocasión clara para Kestrel Town en el minuto 62.",
+     "evidence_ids": [
+      "GM04-M05.e1",
+      "GM04-M05.e2",
+      "GM04-M05.e10"
+     ],
+     "en_text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+     "back_translation": "Sami Garmore had a clear chance for Kestrel Town in the 62nd minute."
+    },
+    {
+     "text": "El tiro valía 0.37 xG (goles esperados) desde 6.0 metros.",
+     "evidence_ids": [
+      "GM04-M05.e3",
+      "GM04-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 6.0 metres.",
+     "back_translation": "The shot was worth 0.37 xG (expected goals) from 6.0 meters."
+    },
+    {
+     "text": "La jugada tuvo 7 acciones y el rematador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM04-M05.e9",
+      "GM04-M05.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 7 actions and the striker was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Kestrel Town aumentó 0.3 pp, del 87.1 por ciento al 87.5 por ciento.",
+     "evidence_ids": [
+      "GM04-M05.e14",
+      "GM04-M05.e12",
+      "GM04-M05.e13"
+     ],
+     "en_text": "Kestrel Town win probability rose by 0.3 pp, from 87.1% to 87.5%.",
+     "back_translation": "Kestrel Town's probability of victory increased 0.3 pp, from 87.1 percent to 87.5 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M05",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Sami Garmore tuvo una ocasión clara para Kestrel Town en el minuto 62.",
+     "evidence_ids": [
+      "GM04-M05.e1",
+      "GM04-M05.e2",
+      "GM04-M05.e10"
+     ],
+     "en_text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+     "back_translation": "Sami Garmore had a clear chance for Kestrel Town in the 62nd minute."
+    },
+    {
+     "text": "El disparo tenía 0.37 xG (goles esperados) desde 6.0 metros.",
+     "evidence_ids": [
+      "GM04-M05.e3",
+      "GM04-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 6.0 metres.",
+     "back_translation": "The shot had 0.37 xG (expected goals) from 6.0 meters."
+    },
+    {
+     "text": "La probabilidad de ganar de Kestrel Town apenas se movió, manteniéndose cerca del 88 por ciento.",
+     "evidence_ids": [
+      "GM04-M05.e13",
+      "GM04-M05.e14"
+     ],
+     "en_text": "Kestrel Town win chance barely moved, staying near 88%.",
+     "back_translation": "Kestrel Town's probability of winning barely budged, remaining close to 88 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M05",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Sami Garmore tuvo una ocasión clara para Kestrel Town en el minuto 62.",
+     "evidence_ids": [
+      "GM04-M05.e1",
+      "GM04-M05.e2",
+      "GM04-M05.e10"
+     ],
+     "en_text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+     "back_translation": "Sami Garmore had a clear chance for Kestrel Town in the 62nd minute."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de una ocasión; esta fue 0.37, y cuanto más alto es, mejor la ocasión.",
+     "evidence_ids": [
+      "GM04-M05.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.37, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of a chance; this was 0.37, and the higher it is, the better the chance."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Kestrel Town una probabilidad de ganar del 88 por ciento, comparada con el 87 por ciento antes.",
+     "evidence_ids": [
+      "GM04-M05.e12",
+      "GM04-M05.e13"
+     ],
+     "en_text": "Our model now gives Kestrel Town a 88% chance of winning, compared with 87% before.",
+     "back_translation": "Our model now gives Kestrel Town an 88 percent chance of winning, compared to 87 percent before."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: number 69.3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M05",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Sami Garmore tiene una ocasión clara para Kestrel Town en el minuto 62.",
+     "evidence_ids": [
+      "GM04-M05.e1",
+      "GM04-M05.e2",
+      "GM04-M05.e10"
+     ],
+     "en_text": "Sami Garmore had a big chance for Kestrel Town in minute 62.",
+     "back_translation": "Sami Garmore has a clear chance for Kestrel Town in the 62nd minute."
+    },
+    {
+     "text": "El tiro vale 0.37 xG (goles esperados) desde 6.0 metros.",
+     "evidence_ids": [
+      "GM04-M05.e3",
+      "GM04-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 6.0 metres.",
+     "back_translation": "The shot is worth 0.37 xG (expected goals) from 6.0 meters."
+    },
+    {
+     "text": "Kestrel Town ahora tiene una probabilidad de ganar del 88 por ciento, frente al 87 por ciento.",
+     "evidence_ids": [
+      "GM04-M05.e12",
+      "GM04-M05.e13"
+     ],
+     "en_text": "Kestrel Town now has a 88 per cent chance of winning, up from 87 per cent.",
+     "back_translation": "Kestrel Town now has an 88 percent chance of winning, up from 87 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: club 'Copperbay FC' is not in this match",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M06",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ओटो विनमोर ने मिनट 87 में हार्बर एथलेटिक के लिए गोल किया, स्कोर 1-1 हुआ।",
+     "evidence_ids": [
+      "GM04-M06.e1",
+      "GM04-M06.e2",
+      "GM04-M06.e11",
+      "GM04-M06.e10"
+     ],
+     "en_text": "Otto Wynmore scored for Harbor Athletic in minute 87, making it 1-1.",
+     "back_translation": "Otto Winmore scored for Harbour Athletic in minute 87, making the score 1-1."
+    },
+    {
+     "text": "यह शॉट 10.6 मीटर से 0.10 xG (अपेक्षित गोल) के बराबर था।",
+     "evidence_ids": [
+      "GM04-M06.e3",
+      "GM04-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.10 xG from 10.6 metres.",
+     "back_translation": "This shot was equal to 10.6 m to 0.10 xG (expected goals)."
+    },
+    {
+     "text": "यह चाल 2 एक्शन की थी, और शूटर पर प्रेशर नहीं था।",
+     "evidence_ids": [
+      "GM04-M06.e9",
+      "GM04-M06.e7"
+     ],
+     "en_text": "The move had 2 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move was 2 action, and there was no pressure on the shooter."
+    },
+    {
+     "text": "हार्बर एथलेटिक की जीत की संभावना 9.3 प्रतिशत अंक बढ़ी, 0.3 प्रतिशत से 9.6 प्रतिशत तक हुई।",
+     "evidence_ids": [
+      "GM04-M06.e15",
+      "GM04-M06.e13",
+      "GM04-M06.e14"
+     ],
+     "en_text": "Harbor Athletic win probability rose by 9.3 pp, from 0.3% to 9.6%.",
+     "back_translation": "Harbor Athletic's chances of winning increased by 9.3 percentage points, from 0.3 percent to 9.6 percent."
+    },
+    {
+     "text": "अगर ओटो विनमोर का हार्बर एथलेटिक के लिए किया गया गोल नहीं होता तो? 200 सिम्युलेशन में, केस्ट्रल टाउन की जीत की संभावना लगभग 94 प्रतिशत होती, 10 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM04-M06.e17",
+      "GM04-M06.e16",
+      "GM04-M06.e23"
+     ],
+     "en_text": "What if Otto Wynmore's goal for Harbor Athletic had not gone in? Across 200 simulated rollouts, Kestrel Town win chance would be about 94% instead of 10%.",
+     "back_translation": "What if it hadn't been for Otto Winmore's goal for Harbour Athletic? In 200 simulations, Kestrel Town's chances of winning would have been about 94 percent, instead of 10 percent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन +84.0 प्रतिशत अंक है, 80% अंतराल 80.5 से 87.5 प्रतिशत अंक के बीच है।",
+     "evidence_ids": [
+      "GM04-M06.e20",
+      "GM04-M06.e21",
+      "GM04-M06.e22"
+     ],
+     "en_text": "The simulated change is +84.0 pp, with an 80% interval from 80.5 to 87.5 pp.",
+     "back_translation": "The simulated change is +84.0 percentage points, with an 80% interval between 80.5 and 87.5 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M06",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ओटो विनमोर ने मिनट 87 में हार्बर एथलेटिक के लिए गोल किया, स्कोर अब 1-1 हो गया।",
+     "evidence_ids": [
+      "GM04-M06.e1",
+      "GM04-M06.e2",
+      "GM04-M06.e11",
+      "GM04-M06.e10"
+     ],
+     "en_text": "Otto Wynmore scored for Harbor Athletic in minute 87, making it 1-1.",
+     "back_translation": "Otto Winmore scored for Harbour Athletic in minute 87, with the score now 1-1."
+    },
+    {
+     "text": "यह शॉट 10.6 मीटर से 0.10 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM04-M06.e3",
+      "GM04-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.10 xG from 10.6 metres.",
+     "back_translation": "The shot was 10.6 x G from 0.10 meters (expected goals)."
+    },
+    {
+     "text": "हार्बर एथलेटिक की जीत की संभावना 10 प्रतिशत तक कूद गई, 9 प्रतिशत अंक बढ़ी।",
+     "evidence_ids": [
+      "GM04-M06.e14",
+      "GM04-M06.e15"
+     ],
+     "en_text": "Harbor Athletic win chance jumped to 10%, up 9 points.",
+     "back_translation": "Harbor Athletic's chances of winning jumped to 10 percent, up 9 percentage points."
+    },
+    {
+     "text": "अगर ओटो विनमोर का हार्बर एथलेटिक के लिए किया गोल नहीं गया होता तो केस्ट्रल टाउन की जीत की संभावना लगभग 94 प्रतिशत होती, न कि 10 प्रतिशत।",
+     "evidence_ids": [
+      "GM04-M06.e17",
+      "GM04-M06.e16"
+     ],
+     "en_text": "What if Otto Wynmore's goal for Harbor Athletic had not gone in? Kestrel Town would be about 94% to win, not 10%.",
+     "back_translation": "If it hadn't been for Otto Winmore's goal for Harbour Athletic, Kestrel Town's chances of winning would have been around 94 per cent, not 10 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M06",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ओटो विनमोर ने मिनट 87 में हार्बर एथलेटिक के लिए गोल किया और स्कोर 1-1 हो गया।",
+     "evidence_ids": [
+      "GM04-M06.e1",
+      "GM04-M06.e2",
+      "GM04-M06.e11",
+      "GM04-M06.e10"
+     ],
+     "en_text": "Otto Wynmore scored for Harbor Athletic in minute 87, making it 1-1.",
+     "back_translation": "Otto Winmore scored for Harbour Athletic in minute 87 minutes and the score was 1-1."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता मापता है; यह 0.10 था, और अधिक संख्या बेहतर मौका दिखाती है।",
+     "evidence_ids": [
+      "GM04-M06.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.10, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; It was 0.10, and the higher the number shows a better chance."
+    },
+    {
+     "text": "हमारा मॉडल अब हार्बर एथलेटिक को जीतने की 10 प्रतिशत की संभावना देता है, पहले 0 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M06.e13",
+      "GM04-M06.e14"
+     ],
+     "en_text": "Our model now gives Harbor Athletic a 10% chance of winning, compared with 0% before.",
+     "back_translation": "Our model now gives Harbor Athletic a 10 percent chance of winning, up from 0 percent previously."
+    },
+    {
+     "text": "अगर वह घटना नहीं हुई होती, हमारे सिम्युलेशन सुझाते हैं कि केस्ट्रल टाउन की संभावना लगभग 94 प्रतिशत होती, 10 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM04-M06.e17",
+      "GM04-M06.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Kestrel Town would have about a 94% chance instead of 10%.",
+     "back_translation": "If that event hadn't occurred, our simulations suggest that the probability of Kestrel Town would have been about 94 percent, instead of 10 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M06",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 87 ओटो विनमोर गोल करते हैं हार्बर एथलेटिक के लिए और स्कोर अब 1-1 है",
+     "evidence_ids": [
+      "GM04-M06.e11",
+      "GM04-M06.e1",
+      "GM04-M06.e2",
+      "GM04-M06.e10"
+     ],
+     "en_text": "Minute 87. Otto Wynmore scores for Harbor Athletic, and the score is now 1-1.",
+     "back_translation": "Minute 87 Otto Winmore scores for Harbour Athletic and the score is now 1-1"
+    },
+    {
+     "text": "यह शॉट 10.6 मीटर से 0.10 xG अपेक्षित गोल के बराबर है",
+     "evidence_ids": [
+      "GM04-M06.e3",
+      "GM04-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.10 xG from 10.6 metres.",
+     "back_translation": "This shot is equivalent to a 0.10 xG expected goal from 10.6 meters"
+    },
+    {
+     "text": "हार्बर एथलेटिक के पास अब जीतने की 10 प्रतिशत की संभावना है, पहले 0 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M06.e13",
+      "GM04-M06.e14"
+     ],
+     "en_text": "Harbor Athletic now has a 10 per cent chance of winning, up from 0 per cent.",
+     "back_translation": "Harbour Athletic now has a 10 percent chance of winning, up from 0 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M06",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Otto Wynmore marcó para Harbor Athletic en el minuto 87, poniendo el 1-1.",
+     "evidence_ids": [
+      "GM04-M06.e1",
+      "GM04-M06.e2",
+      "GM04-M06.e11",
+      "GM04-M06.e10"
+     ],
+     "en_text": "Otto Wynmore scored for Harbor Athletic in minute 87, making it 1-1.",
+     "back_translation": "Otto Wynmore scored for Harbor Athletic in the 87th minute, making it 1-1."
+    },
+    {
+     "text": "El disparo valía 0.10 xG (goles esperados) desde 10.6 metros.",
+     "evidence_ids": [
+      "GM04-M06.e3",
+      "GM04-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.10 xG from 10.6 metres.",
+     "back_translation": "The shot was worth 0.10 xG (expected goals) from 10.6 meters."
+    },
+    {
+     "text": "La jugada tuvo 2 acciones y el ejecutor del disparo no estaba bajo presión.",
+     "evidence_ids": [
+      "GM04-M06.e9",
+      "GM04-M06.e7"
+     ],
+     "en_text": "The move had 2 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 2 actions and the executor of the shot was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Harbor Athletic subió 9.3 pp, de 0.3 por ciento a 9.6 por ciento.",
+     "evidence_ids": [
+      "GM04-M06.e15",
+      "GM04-M06.e13",
+      "GM04-M06.e14"
+     ],
+     "en_text": "Harbor Athletic win probability rose by 9.3 pp, from 0.3% to 9.6%.",
+     "back_translation": "Harbor Athletic's probability of victory rose 9.3 pp, from 0.3 percent to 9.6 percent."
+    },
+    {
+     "text": "Si el gol de Otto Wynmore para Harbor Athletic no hubiera entrado, en 200 simulaciones la probabilidad de ganar de Kestrel Town sería aproximadamente 94 por ciento en lugar de 10 por ciento.",
+     "evidence_ids": [
+      "GM04-M06.e17",
+      "GM04-M06.e16",
+      "GM04-M06.e23"
+     ],
+     "en_text": "What if Otto Wynmore's goal for Harbor Athletic had not gone in? Across 200 simulated rollouts, Kestrel Town win chance would be about 94% instead of 10%.",
+     "back_translation": "If Otto Wynmore's goal for Harbor Athletic hadn't gone in, in 200 simulations Kestrel Town's chance of winning would be about 94 per cent instead of 10 per cent."
+    },
+    {
+     "text": "El cambio simulado es +84.0 pp, con un intervalo del 80% de 80.5 a 87.5 pp.",
+     "evidence_ids": [
+      "GM04-M06.e20",
+      "GM04-M06.e21",
+      "GM04-M06.e22"
+     ],
+     "en_text": "The simulated change is +84.0 pp, with an 80% interval from 80.5 to 87.5 pp.",
+     "back_translation": "The simulated change is +84.0 pp, with an 80% range from 80.5 to 87.5 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M06",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Otto Wynmore marcó para Harbor Athletic en el minuto 87 y el partido queda 1-1.",
+     "evidence_ids": [
+      "GM04-M06.e1",
+      "GM04-M06.e2",
+      "GM04-M06.e11",
+      "GM04-M06.e10"
+     ],
+     "en_text": "Otto Wynmore scored for Harbor Athletic in minute 87, making it 1-1.",
+     "back_translation": "Otto Wynmore scored for Harbor Athletic in the 87th minute and the match is 1-1."
+    },
+    {
+     "text": "El disparo valía 0.10 xG (goles esperados) desde 10.6 metros.",
+     "evidence_ids": [
+      "GM04-M06.e3",
+      "GM04-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.10 xG from 10.6 metres.",
+     "back_translation": "The shot was worth 0.10 xG (expected goals) from 10.6 meters."
+    },
+    {
+     "text": "La probabilidad de ganar de Harbor Athletic saltó a 10 por ciento, subiendo 9 puntos porcentuales.",
+     "evidence_ids": [
+      "GM04-M06.e14",
+      "GM04-M06.e15"
+     ],
+     "en_text": "Harbor Athletic win chance jumped to 10%, up 9 points.",
+     "back_translation": "Harbor Athletic's chance of winning jumped to 10 percent, up 9 percentage points."
+    },
+    {
+     "text": "Si el gol de Otto Wynmore para Harbor Athletic no hubiera entrado, Kestrel Town tendría alrededor de 94 por ciento de probabilidad de ganar, no 10 por ciento.",
+     "evidence_ids": [
+      "GM04-M06.e17",
+      "GM04-M06.e16"
+     ],
+     "en_text": "What if Otto Wynmore's goal for Harbor Athletic had not gone in? Kestrel Town would be about 94% to win, not 10%.",
+     "back_translation": "If Otto Wynmore's goal for Harbor Athletic hadn't gone in, Kestrel Town would have about a 94 percent chance of winning, not a 10 percent chance."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M06",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Otto Wynmore marcó para Harbor Athletic en el minuto 87, empatando 1-1.",
+     "evidence_ids": [
+      "GM04-M06.e1",
+      "GM04-M06.e2",
+      "GM04-M06.e11",
+      "GM04-M06.e10"
+     ],
+     "en_text": "Otto Wynmore scored for Harbor Athletic in minute 87, making it 1-1.",
+     "back_translation": "Otto Wynmore scored for Harbor Athletic in the 87th minute, tying it 1-1."
+    },
+    {
+     "text": "El xG (goles esperados) mide la calidad de una ocasión; este fue 0.10 y cuanto más alto, mejor la probabilidad.",
+     "evidence_ids": [
+      "GM04-M06.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.10, and higher means a better chance.",
+     "back_translation": "The xG (expected goals) measures the quality of a chance; this was 0.10 and the higher, the better the probability."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Harbor Athletic un 10 por ciento de probabilidad de ganar, frente al 0 por ciento antes.",
+     "evidence_ids": [
+      "GM04-M06.e13",
+      "GM04-M06.e14"
+     ],
+     "en_text": "Our model now gives Harbor Athletic a 10% chance of winning, compared with 0% before.",
+     "back_translation": "Our model now gives Harbor Athletic a 10 percent chance of winning, up from 0 percent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones indican que Kestrel Town tendría alrededor de 94 por ciento de probabilidad de ganar en lugar de 10 por ciento.",
+     "evidence_ids": [
+      "GM04-M06.e17",
+      "GM04-M06.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Kestrel Town would have about a 94% chance instead of 10%.",
+     "back_translation": "If that hadn't happened, our simulations indicate that Kestrel Town would have about a 94 percent chance of winning instead of 10 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M06",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 87 Otto Wynmore marca para Harbor Athletic y el marcador es ahora 1-1.",
+     "evidence_ids": [
+      "GM04-M06.e11",
+      "GM04-M06.e1",
+      "GM04-M06.e2",
+      "GM04-M06.e10"
+     ],
+     "en_text": "Minute 87. Otto Wynmore scores for Harbor Athletic, and the score is now 1-1.",
+     "back_translation": "Minute 87 Otto Wynmore scores for Harbor Athletic and the score is now 1-1."
+    },
+    {
+     "text": "El disparo vale 0.10 xG (goles esperados) desde 10.6 metros.",
+     "evidence_ids": [
+      "GM04-M06.e3",
+      "GM04-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.10 xG from 10.6 metres.",
+     "back_translation": "The shot is worth 0.10 xG (expected goals) from 10.6 meters."
+    },
+    {
+     "text": "Harbor Athletic ahora tiene una probabilidad de ganar del 10 por ciento, frente al 0 por ciento.",
+     "evidence_ids": [
+      "GM04-M06.e13",
+      "GM04-M06.e14"
+     ],
+     "en_text": "Harbor Athletic now has a 10 per cent chance of winning, up from 0 per cent.",
+     "back_translation": "Harbor Athletic now has a 10 percent chance of winning, up from 0 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M07",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "एमरे ब्रेनमियर ने मिनट 91 में हार्बर एथलेटिक के लिए गोल किया, जिससे स्कोर 1-2 हो गया।",
+     "evidence_ids": [
+      "GM04-M07.e1",
+      "GM04-M07.e2",
+      "GM04-M07.e11",
+      "GM04-M07.e10"
+     ],
+     "en_text": "Emre Brenmere scored for Harbor Athletic in minute 91, making it 1-2.",
+     "back_translation": "Emre Brennemeier scored for Harbour Athletic in minute 91, making the score 1-2."
+    },
+    {
+     "text": "शॉट की कीमत 0.02 xG (अपेक्षित गोल) थी, दूरी 24.8 मीटर से।",
+     "evidence_ids": [
+      "GM04-M07.e3",
+      "GM04-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.02 xG from 24.8 metres.",
+     "back_translation": "The shot cost 0.02 xG (expected goals), from a distance of 24.8 meters."
+    },
+    {
+     "text": "यह मूव 4 क्रियाओं का था, और शूटर दबाव में था: नहीं।",
+     "evidence_ids": [
+      "GM04-M07.e9",
+      "GM04-M07.e7"
+     ],
+     "en_text": "The move had 4 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move was of 4 actions, and the shooter was under pressure: no."
+    },
+    {
+     "text": "हार्बर एथलेटिक की जीत की संभावना 84.3 प्रतिशत अंक बढ़ी, 6.5 प्रतिशत से 90.8 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM04-M07.e15",
+      "GM04-M07.e13",
+      "GM04-M07.e14"
+     ],
+     "en_text": "Harbor Athletic win probability rose by 84.3 pp, from 6.5% to 90.8%.",
+     "back_translation": "Harbor Athletic's chances of winning increased by 84.3 percentage points, from 6.5 percent to 90.8 percent."
+    },
+    {
+     "text": "अगर एमरे ब्रेनमियर का हार्बर एथलेटिक के लिए गोल नहीं गया होता तो 200 सिम्युलेशन में केस्ट्रल टाउन की जीत की संभावना लगभग 6 प्रतिशत होती न कि 0 प्रतिशत।",
+     "evidence_ids": [
+      "GM04-M07.e17",
+      "GM04-M07.e16",
+      "GM04-M07.e23"
+     ],
+     "en_text": "What if Emre Brenmere's goal for Harbor Athletic had not gone in? Across 200 simulated rollouts, Kestrel Town win chance would be about 6% instead of 0%.",
+     "back_translation": "If Emre Brenmeier hadn't scored for Harbour Athletic, Kestrel Town's chances of winning in the 200 simulation would have been about 6 percent, not 0 percent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन +6.0 प्रतिशत अंक है, 80% अंतराल 4.0 से 8.0 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM04-M07.e20",
+      "GM04-M07.e21",
+      "GM04-M07.e22"
+     ],
+     "en_text": "The simulated change is +6.0 pp, with an 80% interval from 4.0 to 8.0 pp.",
+     "back_translation": "The simulated change is +6.0 percentage points, with an 80% interval ranging from 4.0 to 8.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM04-M07.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M07",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "एमरे ब्रेनमियर ने मिनट 91 में हार्बर एथलेटिक के लिए गोल किया, स्कोर अब 1-2 हो गया।",
+     "evidence_ids": [
+      "GM04-M07.e1",
+      "GM04-M07.e2",
+      "GM04-M07.e11",
+      "GM04-M07.e10"
+     ],
+     "en_text": "Emre Brenmere scored for Harbor Athletic in minute 91, making it 1-2.",
+     "back_translation": "Emre Brenmeier scored for Harbour Athletic in minute 91, with the score now 1-2."
+    },
+    {
+     "text": "शॉट की वैल्यू 0.02 xG (अपेक्षित गोल) थी, दूरी 24.8 मीटर।",
+     "evidence_ids": [
+      "GM04-M07.e3",
+      "GM04-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.02 xG from 24.8 metres.",
+     "back_translation": "The value of the shot was 0.02 xG (expected rounds), distance 24.8 meters."
+    },
+    {
+     "text": "हार्बर एथलेटिक की उम्मीदें 84 प्रतिशत अंक बढ़कर 91% हो गईं।",
+     "evidence_ids": [
+      "GM04-M07.e14",
+      "GM04-M07.e15"
+     ],
+     "en_text": "Harbor Athletic hopes rose by 84 points to 91%.",
+     "back_translation": "Harbor Athletic's expectations increased by 84 percentage points to 91%."
+    },
+    {
+     "text": "अगर एमरे ब्रेनमियर का हार्बर एथलेटिक के लिए किया गया गोल नहीं जाता तो केस्ट्रल टाउन की जीत की संभावना लगभग 6% होती, न कि 0%।",
+     "evidence_ids": [
+      "GM04-M07.e17",
+      "GM04-M07.e16"
+     ],
+     "en_text": "What if Emre Brenmere's goal for Harbor Athletic had not gone in? Kestrel Town would be about 6% to win, not 0%.",
+     "back_translation": "If Emre Brennemier's goal for Harbour Athletic hadn't gone for it, Kestrel Town's chances of winning would have been around 6%, not 0%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M07",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "एमरे ब्रेनमियर ने मिनट 91 में हार्बर एथलेटिक के लिए गोल किया और स्कोर 1-2 हो गया।",
+     "evidence_ids": [
+      "GM04-M07.e1",
+      "GM04-M07.e2",
+      "GM04-M07.e11",
+      "GM04-M07.e10"
+     ],
+     "en_text": "Emre Brenmere scored for Harbor Athletic in minute 91, making it 1-2.",
+     "back_translation": "Emre Brennemire scored for Harbour Athletic in minute 91 and the score was 1-2."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता मापता है; यह 0.02 था, और अधिक का मतलब बेहतर मौका होता है।",
+     "evidence_ids": [
+      "GM04-M07.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.02, and higher means a better chance.",
+     "back_translation": "xG (Expected Goals) measures the quality of the chance; It was 0.02, and more means a better chance."
+    },
+    {
+     "text": "हमारे मॉडल अब हार्बर एथलेटिक को 91% जीत की संभावना देता है, जबकि पहले यह 6% थी।",
+     "evidence_ids": [
+      "GM04-M07.e13",
+      "GM04-M07.e14"
+     ],
+     "en_text": "Our model now gives Harbor Athletic a 91% chance of winning, compared with 6% before.",
+     "back_translation": "Our model now gives Harbor Athletic a 91% chance of winning, compared to 6% previously."
+    },
+    {
+     "text": "अगर वह नहीं हुआ होता, तो हमारे सिम्युलेशन बताते हैं कि केस्ट्रल टाउन की जीत की संभावना लगभग 6% होती, 0% के बजाय।",
+     "evidence_ids": [
+      "GM04-M07.e17",
+      "GM04-M07.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Kestrel Town would have about a 6% chance instead of 0%.",
+     "back_translation": "If that had not happened, our simulations show that the probability of winning Kestrel Town would have been around 6%, instead of 0%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: cites no evidence",
+    "attempt 1: s1: scoreline '1-2' not in cited evidence",
+    "attempt 1: s1: number 91 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M07",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 91, एमरे ब्रेनमियर गोल करते हैं हार्बर एथलेटिक के लिए और स्कोर अब 1-2 है।",
+     "evidence_ids": [
+      "GM04-M07.e11",
+      "GM04-M07.e1",
+      "GM04-M07.e2",
+      "GM04-M07.e10"
+     ],
+     "en_text": "Minute 91. Emre Brenmere scores for Harbor Athletic, and the score is now 1-2.",
+     "back_translation": "Minute 91, Emre Brennemeier scores the goal for Harbour Athletic and the score is now 1-2."
+    },
+    {
+     "text": "शॉट की वैल्यू 0.02 xG (अपेक्षित गोल) है, दूरी 24.8 मीटर से।",
+     "evidence_ids": [
+      "GM04-M07.e3",
+      "GM04-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.02 xG from 24.8 metres.",
+     "back_translation": "The value of the shot is 0.02 xG (expected rounds), distance from 24.8 meters."
+    },
+    {
+     "text": "हार्बर एथलेटिक की अब जीत की संभावना 91 प्रतिशत है, जो पहले 6 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM04-M07.e13",
+      "GM04-M07.e14"
+     ],
+     "en_text": "Harbor Athletic now has a 91 per cent chance of winning, up from 6 per cent.",
+     "back_translation": "Harbor Athletic now has a 91 percent chance of winning, up from 6 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M07",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Emre Brenmere marcó para Harbor Athletic en el minuto 91, poniendo el marcador 1-2.",
+     "evidence_ids": [
+      "GM04-M07.e1",
+      "GM04-M07.e2",
+      "GM04-M07.e11",
+      "GM04-M07.e10"
+     ],
+     "en_text": "Emre Brenmere scored for Harbor Athletic in minute 91, making it 1-2.",
+     "back_translation": "Emre Brenmere scored for Harbor Athletic in the 91st minute, making it 1-2."
+    },
+    {
+     "text": "El disparo valía 0.02 xG (goles esperados) desde 24.8 metros.",
+     "evidence_ids": [
+      "GM04-M07.e3",
+      "GM04-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.02 xG from 24.8 metres.",
+     "back_translation": "The shot was worth 0.02 xG (expected goals) from 24.8 meters."
+    },
+    {
+     "text": "La jugada tuvo 4 acciones y el rematador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM04-M07.e9",
+      "GM04-M07.e7"
+     ],
+     "en_text": "The move had 4 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 4 actions and the finisher was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Harbor Athletic aumentó en 84.3 pp, de 6.5 por ciento a 90.8 por ciento.",
+     "evidence_ids": [
+      "GM04-M07.e15",
+      "GM04-M07.e13",
+      "GM04-M07.e14"
+     ],
+     "en_text": "Harbor Athletic win probability rose by 84.3 pp, from 6.5% to 90.8%.",
+     "back_translation": "Harbor Athletic's probability of victory increased by 84.3 pp, from 6.5 percent to 90.8 percent."
+    },
+    {
+     "text": "¿Y si el gol de Emre Brenmere para Harbor Athletic no hubiera entrado? En 200 simulaciones, la probabilidad de ganar de Kestrel Town sería aproximadamente 6 por ciento en lugar de 0 por ciento.",
+     "evidence_ids": [
+      "GM04-M07.e17",
+      "GM04-M07.e16",
+      "GM04-M07.e23"
+     ],
+     "en_text": "What if Emre Brenmere's goal for Harbor Athletic had not gone in? Across 200 simulated rollouts, Kestrel Town win chance would be about 6% instead of 0%.",
+     "back_translation": "What if Emre Brenmere's goal for Harbor Athletic hadn't gone in? In 200 simulations, Kestrel Town's chance of winning would be about 6 percent instead of 0 percent."
+    },
+    {
+     "text": "El cambio simulado es +6.0 pp, con un intervalo del 80% de 4.0 a 8.0 pp.",
+     "evidence_ids": [
+      "GM04-M07.e20",
+      "GM04-M07.e21",
+      "GM04-M07.e22"
+     ],
+     "en_text": "The simulated change is +6.0 pp, with an 80% interval from 4.0 to 8.0 pp.",
+     "back_translation": "The simulated change is +6.0 pp, with an 80% range of 4.0 to 8.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM04-M07.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M07",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Emre Brenmere marcó para Harbor Athletic en el minuto 91, poniendo el 1-2.",
+     "evidence_ids": [
+      "GM04-M07.e1",
+      "GM04-M07.e2",
+      "GM04-M07.e11",
+      "GM04-M07.e10"
+     ],
+     "en_text": "Emre Brenmere scored for Harbor Athletic in minute 91, making it 1-2.",
+     "back_translation": "Emre Brenmere scored for Harbor Athletic in the 91st minute, making it 1-2."
+    },
+    {
+     "text": "El disparo valía 0.02 xG (goles esperados) desde 24.8 metros.",
+     "evidence_ids": [
+      "GM04-M07.e3",
+      "GM04-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.02 xG from 24.8 metres.",
+     "back_translation": "The shot was worth 0.02 xG (expected goals) from 24.8 meters."
+    },
+    {
+     "text": "Las esperanzas de Harbor Athletic subieron 84 puntos hasta 91 por ciento.",
+     "evidence_ids": [
+      "GM04-M07.e14",
+      "GM04-M07.e15"
+     ],
+     "en_text": "Harbor Athletic hopes rose by 84 points to 91%.",
+     "back_translation": "Harbor Athletic's hopes rose 84 points to 91 percent."
+    },
+    {
+     "text": "Si el gol de Emre Brenmere para Harbor Athletic no hubiera entrado, Kestrel Town tendría alrededor de 6 por ciento de posibilidades de ganar en lugar de 0 por ciento.",
+     "evidence_ids": [
+      "GM04-M07.e17",
+      "GM04-M07.e16"
+     ],
+     "en_text": "What if Emre Brenmere's goal for Harbor Athletic had not gone in? Kestrel Town would be about 6% to win, not 0%.",
+     "back_translation": "If Emre Brenmere's goal for Harbor Athletic hadn't gone in, Kestrel Town would have around a 6 per cent chance of winning instead of 0 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M07",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Emre Brenmere marcó para Harbor Athletic en el minuto 91 y el marcador quedó 1-2.",
+     "evidence_ids": [
+      "GM04-M07.e1",
+      "GM04-M07.e2",
+      "GM04-M07.e11",
+      "GM04-M07.e10"
+     ],
+     "en_text": "Emre Brenmere scored for Harbor Athletic in minute 91, making it 1-2.",
+     "back_translation": "Emre Brenmere scored for Harbor Athletic in the 91st minute and the score was 1-2."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de una ocasión; esta fue 0.02 y un valor más alto significa más probabilidad de marcar.",
+     "evidence_ids": [
+      "GM04-M07.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.02, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of a chance; this was 0.02 and a higher value means more chance of scoring."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Harbor Athletic una probabilidad de victoria de 91 por ciento, frente a 6 por ciento antes.",
+     "evidence_ids": [
+      "GM04-M07.e13",
+      "GM04-M07.e14"
+     ],
+     "en_text": "Our model now gives Harbor Athletic a 91% chance of winning, compared with 6% before.",
+     "back_translation": "Our model now gives Harbor Athletic a 91 percent chance of victory, up from 6 percent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Kestrel Town tendría alrededor de 6 por ciento de probabilidad en lugar de 0 por ciento.",
+     "evidence_ids": [
+      "GM04-M07.e17",
+      "GM04-M07.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Kestrel Town would have about a 6% chance instead of 0%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Kestrel Town would have about a 6 percent chance instead of 0 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: cites no evidence",
+    "attempt 1: s1: scoreline '1-2' not in cited evidence",
+    "attempt 1: s1: number 91 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM04-M07",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 91, Emre Brenmere marca para Harbor Athletic y el marcador es ahora 1-2.",
+     "evidence_ids": [
+      "GM04-M07.e11",
+      "GM04-M07.e1",
+      "GM04-M07.e2",
+      "GM04-M07.e10"
+     ],
+     "en_text": "Minute 91. Emre Brenmere scores for Harbor Athletic, and the score is now 1-2.",
+     "back_translation": "In the 91st minute, Emre Brenmere scores for Harbor Athletic and the score is now 1-2."
+    },
+    {
+     "text": "El disparo vale 0.02 xG, es decir goles esperados, desde 24.8 metros.",
+     "evidence_ids": [
+      "GM04-M07.e3",
+      "GM04-M07.e5"
+     ],
+     "en_text": "The shot was worth 0.02 xG from 24.8 metres.",
+     "back_translation": "The shot is worth 0.02 xG, i.e. expected goals, from 24.8 meters."
+    },
+    {
+     "text": "Harbor Athletic ahora tiene 91 por ciento de probabilidad de victoria, frente a 6 por ciento.",
+     "evidence_ids": [
+      "GM04-M07.e13",
+      "GM04-M07.e14"
+     ],
+     "en_text": "Harbor Athletic now has a 91 per cent chance of winning, up from 6 per cent.",
+     "back_translation": "Harbor Athletic now has a 91 percent chance of victory, up from 6 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  }
+ ],
+ "trace": {
+  "GM04-M01": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM04-M02": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM04-M03": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM04-M04": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "16/16 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "16 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 16,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "16/16 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "16 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 16,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM04-M05": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM04-M06": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "16/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "1/1 sentences passed checks"
+    },
+    {
+     "step": 3,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 4,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM04-M07": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "16/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "1/1 sentences passed checks"
+    },
+    {
+     "step": 3,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 4,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,4226 @@
+{
+ "backend": "foundry",
+ "explanations": [
+  {
+   "moment_id": "GM03-M01",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "वेन ब्रॉममियर ने मिनट 3 में थॉर्नवेल सिटी के लिए गोल किया, स्कोर 0-1 हो गया.",
+     "evidence_ids": [
+      "GM03-M01.e1",
+      "GM03-M01.e2",
+      "GM03-M01.e11",
+      "GM03-M01.e10"
+     ],
+     "en_text": "Wen Brommere scored for Thornvale City in minute 3, making it 0-1.",
+     "back_translation": "Wayne Brommeier scored for Thornwell City in minute 3, making the score 0-1."
+    },
+    {
+     "text": "यह शॉट 0.30 xG (अपेक्षित गोल) का था, दूरी 6.8 मीटर थी.",
+     "evidence_ids": [
+      "GM03-M01.e3",
+      "GM03-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.30 xG from 6.8 metres.",
+     "back_translation": "The shot was 0.30 xG (expected goals), the distance was 6.8 meters."
+    },
+    {
+     "text": "उस मूव में 8 कार्रवाइयाँ थीं, और शूटर पर दबाव था: नहीं.",
+     "evidence_ids": [
+      "GM03-M01.e9",
+      "GM03-M01.e7"
+     ],
+     "en_text": "The move had 8 actions, and the shooter was under pressure: no.",
+     "back_translation": "That move had 8 actions, and the shooter was under pressure: No."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 24.2 प्रतिशत अंक बढ़ी, 30.2 प्रतिशत से 54.4 प्रतिशत तक.",
+     "evidence_ids": [
+      "GM03-M01.e15",
+      "GM03-M01.e13",
+      "GM03-M01.e14"
+     ],
+     "en_text": "Thornvale City win probability rose by 24.2 pp, from 30.2% to 54.4%.",
+     "back_translation": "Thornwell City's chances of winning increased by 24.2 percentage points, from 30.2 percent to 54.4 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M01",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "वेन ब्रॉममियर ने मिनट 3 में थॉर्नवेल सिटी के लिए गोल किया और स्कोर अब 0-1 है!",
+     "evidence_ids": [
+      "GM03-M01.e1",
+      "GM03-M01.e2",
+      "GM03-M01.e11",
+      "GM03-M01.e10"
+     ],
+     "en_text": "Wen Brommere scored for Thornvale City in minute 3, making it 0-1.",
+     "back_translation": "Wayne Brommeier scored for Thornwell City in minute 3 and the score is now 0-1!"
+    },
+    {
+     "text": "यह शॉट 0.30 xG (अपेक्षित गोल) का था और दूरी 6.8 मीटर थी.",
+     "evidence_ids": [
+      "GM03-M01.e3",
+      "GM03-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.30 xG from 6.8 metres.",
+     "back_translation": "The shot was 0.30 xG (expected goals) and the distance was 6.8 meters."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की उम्मीदें 24 प्रतिशत अंक बढ़कर अब 54 प्रतिशत हो गईं.",
+     "evidence_ids": [
+      "GM03-M01.e14",
+      "GM03-M01.e15"
+     ],
+     "en_text": "Thornvale City hopes rose by 24 points to 54%.",
+     "back_translation": "Thornwell City's hopes have increased by 24 percentage points to 54 per cent now."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M01",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "वेन ब्रॉममियर ने मिनट 3 में थॉर्नवेल सिटी के लिए गोल किया, स्कोर 0-1 हुआ.",
+     "evidence_ids": [
+      "GM03-M01.e1",
+      "GM03-M01.e2",
+      "GM03-M01.e11",
+      "GM03-M01.e10"
+     ],
+     "en_text": "Wen Brommere scored for Thornvale City in minute 3, making it 0-1.",
+     "back_translation": "Wayne Brommeier scored for Thornwell City in minute 3, the score was 0-1."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता मापता है; यह 0.30 था, और अधिक होने का मतलब बेहतर मौका है.",
+     "evidence_ids": [
+      "GM03-M01.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.30, and higher means a better chance.",
+     "back_translation": "xG (Expected Goals) measures the quality of the chance; It was 0.30, and being higher means better chances."
+    },
+    {
+     "text": "हमारे मॉडल के अनुसार अब थॉर्नवेल सिटी की जीत की संभावना 54 प्रतिशत है, पहले यह 30 प्रतिशत थी.",
+     "evidence_ids": [
+      "GM03-M01.e13",
+      "GM03-M01.e14"
+     ],
+     "en_text": "Our model now gives Thornvale City a 54% chance of winning, compared with 30% before.",
+     "back_translation": "According to our model, Thornwell City now have a 54 per cent chance of winning, up from 30 per cent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M01",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 3 वेन ब्रॉममियर थॉर्नवेल सिटी के लिए गोल करते हैं और स्कोर अब 0-1 है.",
+     "evidence_ids": [
+      "GM03-M01.e11",
+      "GM03-M01.e1",
+      "GM03-M01.e2",
+      "GM03-M01.e10"
+     ],
+     "en_text": "Minute 3. Wen Brommere scores for Thornvale City, and the score is now 0-1.",
+     "back_translation": "Minute 3 Wayne Brommeier scores for Thornwell City and the score is now 0-1."
+    },
+    {
+     "text": "यह शॉट 0.30 xG अपेक्षित गोल का है और यह 6.8 मीटर से लिया गया है.",
+     "evidence_ids": [
+      "GM03-M01.e3",
+      "GM03-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.30 xG from 6.8 metres.",
+     "back_translation": "The shot is 0.30 xG expected goal and is taken from 6.8 meters."
+    },
+    {
+     "text": "अब थॉर्नवेल सिटी की जीत की संभावना 54 प्रतिशत है पहले यह 30 प्रतिशत थी.",
+     "evidence_ids": [
+      "GM03-M01.e13",
+      "GM03-M01.e14"
+     ],
+     "en_text": "Thornvale City now has a 54 per cent chance of winning, up from 30 per cent.",
+     "back_translation": "Now Thornwell City have a 54 per cent chance of winning, up from 30 per cent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M01",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Wen Brommere marcó para Thornvale City en el minuto 3, poniendo el 0-1.",
+     "evidence_ids": [
+      "GM03-M01.e1",
+      "GM03-M01.e2",
+      "GM03-M01.e11",
+      "GM03-M01.e10"
+     ],
+     "en_text": "Wen Brommere scored for Thornvale City in minute 3, making it 0-1.",
+     "back_translation": "Wen Brommere scored for Thornvale City in the 3rd minute, making it 0-1."
+    },
+    {
+     "text": "El disparo valía 0.30 xG (goles esperados) desde 6.8 metros.",
+     "evidence_ids": [
+      "GM03-M01.e3",
+      "GM03-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.30 xG from 6.8 metres.",
+     "back_translation": "The shot was worth 0.30 xG (expected goals) from 6.8 meters."
+    },
+    {
+     "text": "La jugada tuvo 8 acciones y el rematador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM03-M01.e9",
+      "GM03-M01.e7"
+     ],
+     "en_text": "The move had 8 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 8 actions and the striker was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Thornvale City aumentó 24.2 pp, de 30.2 por ciento a 54.4 por ciento.",
+     "evidence_ids": [
+      "GM03-M01.e15",
+      "GM03-M01.e13",
+      "GM03-M01.e14"
+     ],
+     "en_text": "Thornvale City win probability rose by 24.2 pp, from 30.2% to 54.4%.",
+     "back_translation": "Thornvale City's probability of victory increased 24.2 pp, from 30.2 percent to 54.4 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M01",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Wen Brommere anotó para Thornvale City en el minuto 3 y el marcador pasó a ser 0-1.",
+     "evidence_ids": [
+      "GM03-M01.e1",
+      "GM03-M01.e2",
+      "GM03-M01.e11",
+      "GM03-M01.e10"
+     ],
+     "en_text": "Wen Brommere scored for Thornvale City in minute 3, making it 0-1.",
+     "back_translation": "Wen Brommere scored for Thornvale City in the 3rd minute and the score became 0-1."
+    },
+    {
+     "text": "El disparo valía 0.30 xG (goles esperados) desde 6.8 metros.",
+     "evidence_ids": [
+      "GM03-M01.e3",
+      "GM03-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.30 xG from 6.8 metres.",
+     "back_translation": "The shot was worth 0.30 xG (expected goals) from 6.8 meters."
+    },
+    {
+     "text": "Las esperanzas de Thornvale City subieron 24 puntos hasta 54 por ciento.",
+     "evidence_ids": [
+      "GM03-M01.e14",
+      "GM03-M01.e15"
+     ],
+     "en_text": "Thornvale City hopes rose by 24 points to 54%.",
+     "back_translation": "Thornvale City's hopes rose 24 points to 54 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M01",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Wen Brommere marcó para Thornvale City en el minuto 3; el marcador quedó 0-1.",
+     "evidence_ids": [
+      "GM03-M01.e1",
+      "GM03-M01.e2",
+      "GM03-M01.e11",
+      "GM03-M01.e10"
+     ],
+     "en_text": "Wen Brommere scored for Thornvale City in minute 3, making it 0-1.",
+     "back_translation": "Wen Brommere scored for Thornvale City in the 3rd minute; the score was 0-1."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de las ocasiones; esta fue 0.30 y cuanto mayor sea, mejor es la ocasión.",
+     "evidence_ids": [
+      "GM03-M01.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.30, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of chances; this was 0.30 and the higher it is, the better the chance."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Thornvale City una probabilidad de victoria del 54 por ciento, frente al 30 por ciento anterior.",
+     "evidence_ids": [
+      "GM03-M01.e13",
+      "GM03-M01.e14"
+     ],
+     "en_text": "Our model now gives Thornvale City a 54% chance of winning, compared with 30% before.",
+     "back_translation": "Our model now gives Thornvale City a 54 percent chance of victory, up from 30 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M01",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 3, Wen Brommere marca para Thornvale City y el marcador es ahora 0-1.",
+     "evidence_ids": [
+      "GM03-M01.e11",
+      "GM03-M01.e1",
+      "GM03-M01.e2",
+      "GM03-M01.e10"
+     ],
+     "en_text": "Minute 3. Wen Brommere scores for Thornvale City, and the score is now 0-1.",
+     "back_translation": "Minute 3, Wen Brommere scores for Thornvale City and the score is now 0-1."
+    },
+    {
+     "text": "El disparo vale 0.30 xG (goles esperados) desde 6.8 metros.",
+     "evidence_ids": [
+      "GM03-M01.e3",
+      "GM03-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.30 xG from 6.8 metres.",
+     "back_translation": "The shot is worth 0.30 xG (expected goals) from 6.8 meters."
+    },
+    {
+     "text": "Thornvale City ahora tiene una probabilidad de victoria del 54 por ciento, frente al 30 por ciento.",
+     "evidence_ids": [
+      "GM03-M01.e13",
+      "GM03-M01.e14"
+     ],
+     "en_text": "Thornvale City now has a 54 per cent chance of winning, up from 30 per cent.",
+     "back_translation": "Thornvale City now has a 54 percent chance of victory, up from 30 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M02",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ग्रेहेवन रोवर्स ने मैच पर नियंत्रण मिनट 3 से ले लिया।",
+     "evidence_ids": [
+      "GM03-M02.e1",
+      "GM03-M02.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 3.",
+     "back_translation": "Greyhaven Rovers took control of the match from minute 3."
+    },
+    {
+     "text": "मोमेंटम सूचकांक -0.66 से 0.16 तक बदल गया।",
+     "evidence_ids": [
+      "GM03-M02.e2",
+      "GM03-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.66 to 0.16.",
+     "back_translation": "The momentum index changed from -0.66 to 0.16."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की जीत की संभावना 22.9 प्रतिशत अंक घट गई, जो 47.3 प्रतिशत से 24.4 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM03-M02.e9",
+      "GM03-M02.e7",
+      "GM03-M02.e8"
+     ],
+     "en_text": "Greyhaven Rovers win probability fell by 22.9 pp, from 47.3% to 24.4%.",
+     "back_translation": "Greyhaven Rovers' chances of victory dropped by 22.9 percentage points, from 47.3 per cent to 24.4 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M02",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ग्रेहेवन रोवर्स ने मिनट 3 से मैच का कब्ज़ा कर लिया।",
+     "evidence_ids": [
+      "GM03-M02.e1",
+      "GM03-M02.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 3.",
+     "back_translation": "Greyhaven Rovers took control of the match from minute 3."
+    },
+    {
+     "text": "मोमेंटम सूचकांक -0.66 से 0.16 तक कूद गया।",
+     "evidence_ids": [
+      "GM03-M02.e2",
+      "GM03-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.66 to 0.16.",
+     "back_translation": "The momentum index jumped from -0.66 to 0.16."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की उम्मीदें 23 प्रतिशत अंक गिरकर 24 प्रतिशत पर आ गईं।",
+     "evidence_ids": [
+      "GM03-M02.e8",
+      "GM03-M02.e9"
+     ],
+     "en_text": "Greyhaven Rovers hopes fell by 23 points to 24%.",
+     "back_translation": "Greyhaven Rovers' hopes fell 23 percentage points to 24 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M02",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ग्रेहेवन रोवर्स ने मैच पर नियंत्रण मिनट 3 से ले लिया।",
+     "evidence_ids": [
+      "GM03-M02.e1",
+      "GM03-M02.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 3.",
+     "back_translation": "Greyhaven Rovers took control of the match from minute 3."
+    },
+    {
+     "text": "हमारा मॉडल अब ग्रेहेवन रोवर्स को जीत की 24 प्रतिशत संभावना देता है, जबकि पहले यह 47 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M02.e7",
+      "GM03-M02.e8"
+     ],
+     "en_text": "Our model now gives Greyhaven Rovers a 24% chance of winning, compared with 47% before.",
+     "back_translation": "Our model now gives Greyhaven Rovers a 24 per cent chance of winning, compared to 47 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "attempt 2: s1: cites no evidence",
+    "attempt 2: s1: number 3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M02",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ग्रेहेवन रोवर्स मिनट 3 से मैच का नियंत्रण ले लेते हैं।",
+     "evidence_ids": [
+      "GM03-M02.e1",
+      "GM03-M02.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 3.",
+     "back_translation": "Greyhaven Rovers take control of the match from minute 3."
+    },
+    {
+     "text": "मोमेंटम सूचकांक -0.66 से 0.16 तक बदलता है।",
+     "evidence_ids": [
+      "GM03-M02.e2",
+      "GM03-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.66 to 0.16.",
+     "back_translation": "The momentum index varies from -0.66 to 0.16."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स के पास अब जीत की 24 प्रतिशत संभावना है, पहले यह 47 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M02.e7",
+      "GM03-M02.e8"
+     ],
+     "en_text": "Greyhaven Rovers now has a 24 per cent chance of winning, down from 47 per cent.",
+     "back_translation": "Greyhaven Rovers now have a 24 per cent chance of winning, up from 47 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M02",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Greyhaven Rovers tomó el control del partido desde el minuto 3.",
+     "evidence_ids": [
+      "GM03-M02.e1",
+      "GM03-M02.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 3.",
+     "back_translation": "Greyhaven Rovers took control of the match from the 3rd minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.66 a 0.16.",
+     "evidence_ids": [
+      "GM03-M02.e2",
+      "GM03-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.66 to 0.16.",
+     "back_translation": "The momentum index went from -0.66 to 0.16."
+    },
+    {
+     "text": "La probabilidad de victoria de Greyhaven Rovers cayó 22.9 puntos porcentuales, de 47.3 por ciento a 24.4 por ciento.",
+     "evidence_ids": [
+      "GM03-M02.e9",
+      "GM03-M02.e7",
+      "GM03-M02.e8"
+     ],
+     "en_text": "Greyhaven Rovers win probability fell by 22.9 pp, from 47.3% to 24.4%.",
+     "back_translation": "Greyhaven Rovers' chance of victory fell 22.9 percentage points, from 47.3 percent to 24.4 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M02",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Greyhaven Rovers se hizo con el control del partido desde el minuto 3.",
+     "evidence_ids": [
+      "GM03-M02.e1",
+      "GM03-M02.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 3.",
+     "back_translation": "Greyhaven Rovers took control of the game from the 3rd minute."
+    },
+    {
+     "text": "El índice de impulso subió de -0.66 a 0.16.",
+     "evidence_ids": [
+      "GM03-M02.e2",
+      "GM03-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.66 to 0.16.",
+     "back_translation": "The momentum index rose from -0.66 to 0.16."
+    },
+    {
+     "text": "Las esperanzas de Greyhaven Rovers cayeron 23 puntos, hasta el 24 por ciento.",
+     "evidence_ids": [
+      "GM03-M02.e8",
+      "GM03-M02.e9"
+     ],
+     "en_text": "Greyhaven Rovers hopes fell by 23 points to 24%.",
+     "back_translation": "Greyhaven Rovers' hopes fell 23 points to 24 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M02",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Greyhaven Rovers tomó el control del partido desde el minuto 3.",
+     "evidence_ids": [
+      "GM03-M02.e1",
+      "GM03-M02.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 3.",
+     "back_translation": "Greyhaven Rovers took control of the match from the 3rd minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Greyhaven Rovers una probabilidad de ganar del 24 por ciento, frente al 47 por ciento anterior.",
+     "evidence_ids": [
+      "GM03-M02.e7",
+      "GM03-M02.e8"
+     ],
+     "en_text": "Our model now gives Greyhaven Rovers a 24% chance of winning, compared with 47% before.",
+     "back_translation": "Our model now gives Greyhaven Rovers a 24 percent chance of winning, up from 47 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "attempt 2: s1: cites no evidence",
+    "attempt 2: s1: number 3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M02",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Greyhaven Rovers toma el control del partido desde el minuto 3.",
+     "evidence_ids": [
+      "GM03-M02.e1",
+      "GM03-M02.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 3.",
+     "back_translation": "Greyhaven Rovers takes control of the match from the 3rd minute."
+    },
+    {
+     "text": "El índice de impulso va de -0.66 a 0.16.",
+     "evidence_ids": [
+      "GM03-M02.e2",
+      "GM03-M02.e3"
+     ],
+     "en_text": "The momentum index went from -0.66 to 0.16.",
+     "back_translation": "The momentum index goes from -0.66 to 0.16."
+    },
+    {
+     "text": "Greyhaven Rovers ahora tiene una probabilidad de ganar del 24 por ciento, frente al 47 por ciento.",
+     "evidence_ids": [
+      "GM03-M02.e7",
+      "GM03-M02.e8"
+     ],
+     "en_text": "Greyhaven Rovers now has a 24 per cent chance of winning, down from 47 per cent.",
+     "back_translation": "Greyhaven Rovers now have a 24 per cent chance of winning, up from 47 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M03",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "फ़ेमी विनवेल ने मिनट 22 में ग्रेहेवन रोवर्स के लिए गोल किया, स्कोर 1-1 हो गया।",
+     "evidence_ids": [
+      "GM03-M03.e1",
+      "GM03-M03.e2",
+      "GM03-M03.e11",
+      "GM03-M03.e10"
+     ],
+     "en_text": "Femi Wynvale scored for Greyhaven Rovers in minute 22, making it 1-1.",
+     "back_translation": "Femi Winwell scored for Greyhaven Rovers in minute 22, making the score 1-1."
+    },
+    {
+     "text": "शॉट 3.3 मीटर से 0.61 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM03-M03.e3",
+      "GM03-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.61 xG from 3.3 metres.",
+     "back_translation": "The shot was 3.3 x G from 0.61 meters (expected goal)."
+    },
+    {
+     "text": "यह चाल 5 क्रियाओं की थी, और शूटर पर प्रेसिंग नहीं था।",
+     "evidence_ids": [
+      "GM03-M03.e9",
+      "GM03-M03.e7"
+     ],
+     "en_text": "The move had 5 actions, and the shooter was under pressure: no.",
+     "back_translation": "This trick was 5 actions, and there was no pressing on the shooter."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की जीत की संभावना 12.0 प्रतिशत अंक बढ़ी, 35.6 प्रतिशत से 47.7 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM03-M03.e15",
+      "GM03-M03.e13",
+      "GM03-M03.e14"
+     ],
+     "en_text": "Greyhaven Rovers win probability rose by 12.0 pp, from 35.6% to 47.7%.",
+     "back_translation": "Greyhaven Rovers' chances of victory increased by 12.0 percentage points, from 35.6 per cent to 47.7 per cent."
+    },
+    {
+     "text": "यदि फ़ेमी विनवेल का ग्रेहेवन रोवर्स के लिए गोल नहीं होता, तो 200 सिम्युलेशन में ग्रेहेवन रोवर्स की जीत की संभावना लगभग 12 प्रतिशत होती, 32 प्रतिशत की बजाय।",
+     "evidence_ids": [
+      "GM03-M03.e17",
+      "GM03-M03.e16",
+      "GM03-M03.e23"
+     ],
+     "en_text": "What if Femi Wynvale's goal for Greyhaven Rovers had not gone in? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 12% instead of 32%.",
+     "back_translation": "If it weren't for Femi Winwell's goal for Greyhaven Rovers, the Greyhaven Rovers' chances of winning in the 200 simulation would have been around 12 percent, instead of 32 percent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -20.5 प्रतिशत अंक है, 80% अंतराल -24.0 से -17.0 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM03-M03.e20",
+      "GM03-M03.e21",
+      "GM03-M03.e22"
+     ],
+     "en_text": "The simulated change is -20.5 pp, with an 80% interval from -24.0 to -17.0 pp.",
+     "back_translation": "The simulated change is -20.5 percentage points, with an 80% interval ranging from -24.0 to -17.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: number 29.3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M03",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 22 में फ़ेमी विनवेल ने ग्रेहेवन रोवर्स के लिए गोल किया और स्कोर 1-1 हो गया।",
+     "evidence_ids": [
+      "GM03-M03.e1",
+      "GM03-M03.e2",
+      "GM03-M03.e11",
+      "GM03-M03.e10"
+     ],
+     "en_text": "Femi Wynvale scored for Greyhaven Rovers in minute 22, making it 1-1.",
+     "back_translation": "In minute 22, Femi Winwell scored for Greyhaven Rovers and the score was 1-1."
+    },
+    {
+     "text": "यह शॉट 3.3 मीटर से 0.61 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM03-M03.e3",
+      "GM03-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.61 xG from 3.3 metres.",
+     "back_translation": "The shot was 3.3 x G from 0.61 meters (expected goal)."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की उम्मीदें 12 प्रतिशत अंक बढ़कर 48 प्रतिशत हो गईं।",
+     "evidence_ids": [
+      "GM03-M03.e14",
+      "GM03-M03.e15"
+     ],
+     "en_text": "Greyhaven Rovers hopes rose by 12 points to 48%.",
+     "back_translation": "Greyhaven Rovers' hopes rose 12 percentage points to 48 per cent."
+    },
+    {
+     "text": "यदि फ़ेमी विनवेल का ग्रेहेवन रोवर्स के लिए गोल नहीं होता, तो ग्रेहेवन रोवर्स की जीत की संभावना लगभग 12 प्रतिशत होती, न कि 32 प्रतिशत।",
+     "evidence_ids": [
+      "GM03-M03.e17",
+      "GM03-M03.e16"
+     ],
+     "en_text": "What if Femi Wynvale's goal for Greyhaven Rovers had not gone in? Greyhaven Rovers would be about 12% to win, not 32%.",
+     "back_translation": "If it weren't for Femi Winwell's goal for Greyhaven Rovers, Greyhaven Rovers' chances of winning would have been around 12 percent, not 32 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M03",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "फ़ेमी विनवेल ने मिनट 22 में ग्रेहेवन रोवर्स के लिए गोल किया और स्कोर 1-1 हो गया।",
+     "evidence_ids": [
+      "GM03-M03.e1",
+      "GM03-M03.e2",
+      "GM03-M03.e11",
+      "GM03-M03.e10"
+     ],
+     "en_text": "Femi Wynvale scored for Greyhaven Rovers in minute 22, making it 1-1.",
+     "back_translation": "Femi Winwell scored for Greyhaven Rovers in minute 22 and the score was 1-1."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) किसी मौके की गुणवत्ता मापता है, यह 0.61 था और अधिक होना बेहतर मौका दर्शाता है।",
+     "evidence_ids": [
+      "GM03-M03.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.61, and higher means a better chance.",
+     "back_translation": "xG (Goals Expected) measures the quality of a chance, it was 0.61 and being higher indicates a better chance."
+    },
+    {
+     "text": "हमारा मॉडल अब ग्रेहेवन रोवर्स को 48 प्रतिशत जीत की संभावना देता है, जबकि पहले 36 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M03.e13",
+      "GM03-M03.e14"
+     ],
+     "en_text": "Our model now gives Greyhaven Rovers a 48% chance of winning, compared with 36% before.",
+     "back_translation": "Our model now gives Greyhaven Rovers a 48 per cent chance of winning, compared to 36 per cent previously."
+    },
+    {
+     "text": "यदि वह नहीं हुआ होता, तो हमारे सिम्युलेशन सुझाव देते हैं कि ग्रेहेवन रोवर्स की जीत की संभावना लगभग 12 प्रतिशत होती, 32 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM03-M03.e17",
+      "GM03-M03.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 12% chance instead of 32%.",
+     "back_translation": "If that had not happened, our simulations suggest that Greyhaven Rovers' chances of winning would have been around 12 per cent, instead of 32 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M03",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 22 पर फ़ेमी विनवेल ग्रेहेवन रोवर्स के लिए गोल करते हैं और स्कोर अब 1-1 है।",
+     "evidence_ids": [
+      "GM03-M03.e11",
+      "GM03-M03.e1",
+      "GM03-M03.e2",
+      "GM03-M03.e10"
+     ],
+     "en_text": "Minute 22. Femi Wynvale scores for Greyhaven Rovers, and the score is now 1-1.",
+     "back_translation": "At minute 22 Femi Winwell scores for Greyhaven Rovers and the score is now 1-1."
+    },
+    {
+     "text": "शॉट 3.3 मीटर से 0.61 xG (अपेक्षित गोल) का है।",
+     "evidence_ids": [
+      "GM03-M03.e3",
+      "GM03-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.61 xG from 3.3 metres.",
+     "back_translation": "The shot is 3.3 x G from 0.61 meters (expected goals)."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की अब जीत की संभावना 48 प्रतिशत है, पहले यह 36 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M03.e13",
+      "GM03-M03.e14"
+     ],
+     "en_text": "Greyhaven Rovers now has a 48 per cent chance of winning, up from 36 per cent.",
+     "back_translation": "Greyhaven Rovers now have a 48 per cent chance of winning, up from 36 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M03",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Femi Wynvale marcó para Greyhaven Rovers en el minuto 22, poniendo el marcador 1-1.",
+     "evidence_ids": [
+      "GM03-M03.e1",
+      "GM03-M03.e2",
+      "GM03-M03.e11",
+      "GM03-M03.e10"
+     ],
+     "en_text": "Femi Wynvale scored for Greyhaven Rovers in minute 22, making it 1-1.",
+     "back_translation": "Femi Wynvale scored for Greyhaven Rovers in the 22nd minute, making it 1-1."
+    },
+    {
+     "text": "El disparo valía 0.61 xG (goles esperados) desde 3.3 metros.",
+     "evidence_ids": [
+      "GM03-M03.e3",
+      "GM03-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.61 xG from 3.3 metres.",
+     "back_translation": "The shot was worth 0.61 xG (expected goals) from 3.3 meters."
+    },
+    {
+     "text": "La jugada tuvo 5 acciones, y el ejecutor no estaba bajo presión.",
+     "evidence_ids": [
+      "GM03-M03.e9",
+      "GM03-M03.e7"
+     ],
+     "en_text": "The move had 5 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 5 actions, and the executor was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Greyhaven Rovers aumentó 12.0 pp, de 35.6 por ciento a 47.7 por ciento.",
+     "evidence_ids": [
+      "GM03-M03.e15",
+      "GM03-M03.e13",
+      "GM03-M03.e14"
+     ],
+     "en_text": "Greyhaven Rovers win probability rose by 12.0 pp, from 35.6% to 47.7%.",
+     "back_translation": "Greyhaven Rovers' probability of victory increased 12.0 pp, from 35.6 percent to 47.7 percent."
+    },
+    {
+     "text": "Si el gol de Femi Wynvale para Greyhaven Rovers no hubiera entrado, en 200 simulaciones la probabilidad de ganar de Greyhaven Rovers sería aproximadamente 12 por ciento en vez de 32 por ciento.",
+     "evidence_ids": [
+      "GM03-M03.e17",
+      "GM03-M03.e16",
+      "GM03-M03.e23"
+     ],
+     "en_text": "What if Femi Wynvale's goal for Greyhaven Rovers had not gone in? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 12% instead of 32%.",
+     "back_translation": "If Femi Wynvale's goal for Greyhaven Rovers hadn't gone in, in 200 simulations the chance of winning for Greyhaven Rovers would be about 12 percent instead of 32 percent."
+    },
+    {
+     "text": "El cambio simulado es -20.5 pp, con un intervalo del 80% de -24.0 a -17.0 pp.",
+     "evidence_ids": [
+      "GM03-M03.e20",
+      "GM03-M03.e21",
+      "GM03-M03.e22"
+     ],
+     "en_text": "The simulated change is -20.5 pp, with an 80% interval from -24.0 to -17.0 pp.",
+     "back_translation": "The simulated change is -20.5 pp, with an 80% range of -24.0 to -17.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: number 29.3 not backed by cited evidence",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M03",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Femi Wynvale marcó para Greyhaven Rovers en el minuto 22 y el marcador queda 1-1.",
+     "evidence_ids": [
+      "GM03-M03.e1",
+      "GM03-M03.e2",
+      "GM03-M03.e11",
+      "GM03-M03.e10"
+     ],
+     "en_text": "Femi Wynvale scored for Greyhaven Rovers in minute 22, making it 1-1.",
+     "back_translation": "Femi Wynvale scored for Greyhaven Rovers in the 22nd minute and the score is 1-1."
+    },
+    {
+     "text": "El disparo valía 0.61 xG (goles esperados) desde 3.3 metros.",
+     "evidence_ids": [
+      "GM03-M03.e3",
+      "GM03-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.61 xG from 3.3 metres.",
+     "back_translation": "The shot was worth 0.61 xG (expected goals) from 3.3 meters."
+    },
+    {
+     "text": "Las esperanzas de Greyhaven Rovers subieron 12 puntos porcentuales hasta 48 por ciento.",
+     "evidence_ids": [
+      "GM03-M03.e14",
+      "GM03-M03.e15"
+     ],
+     "en_text": "Greyhaven Rovers hopes rose by 12 points to 48%.",
+     "back_translation": "Greyhaven Rovers' hopes rose 12 percentage points to 48 percent."
+    },
+    {
+     "text": "¿Y si el gol de Femi Wynvale para Greyhaven Rovers no hubiera entrado? Greyhaven Rovers tendría alrededor de 12 por ciento de probabilidad de ganar, no 32 por ciento.",
+     "evidence_ids": [
+      "GM03-M03.e17",
+      "GM03-M03.e16"
+     ],
+     "en_text": "What if Femi Wynvale's goal for Greyhaven Rovers had not gone in? Greyhaven Rovers would be about 12% to win, not 32%.",
+     "back_translation": "What if Femi Wynvale's goal for Greyhaven Rovers hadn't gone in? Greyhaven Rovers would have about a 12 percent chance of winning, not 32 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M03",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Femi Wynvale marcó para Greyhaven Rovers en el minuto 22, poniendo el partido 1-1.",
+     "evidence_ids": [
+      "GM03-M03.e1",
+      "GM03-M03.e2",
+      "GM03-M03.e11",
+      "GM03-M03.e10"
+     ],
+     "en_text": "Femi Wynvale scored for Greyhaven Rovers in minute 22, making it 1-1.",
+     "back_translation": "Femi Wynvale scored for Greyhaven Rovers in the 22nd minute, making it 1-1."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de la ocasión; esta fue 0.61, y cuanto más alto, mejor la probabilidad de gol.",
+     "evidence_ids": [
+      "GM03-M03.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.61, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; this was 0.61, and the higher, the better the probability of a goal."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Greyhaven Rovers un 48 por ciento de probabilidad de ganar, comparado con 36 por ciento antes.",
+     "evidence_ids": [
+      "GM03-M03.e13",
+      "GM03-M03.e14"
+     ],
+     "en_text": "Our model now gives Greyhaven Rovers a 48% chance of winning, compared with 36% before.",
+     "back_translation": "Our model now gives Greyhaven Rovers a 48 per cent chance of winning, compared to 36 per cent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Greyhaven Rovers tendría alrededor de 12 por ciento de probabilidad en lugar de 32 por ciento.",
+     "evidence_ids": [
+      "GM03-M03.e17",
+      "GM03-M03.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 12% chance instead of 32%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Greyhaven Rovers would have about a 12 percent chance instead of 32 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M03",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 22. Femi Wynvale marca para Greyhaven Rovers y el resultado es ahora 1-1.",
+     "evidence_ids": [
+      "GM03-M03.e11",
+      "GM03-M03.e1",
+      "GM03-M03.e2",
+      "GM03-M03.e10"
+     ],
+     "en_text": "Minute 22. Femi Wynvale scores for Greyhaven Rovers, and the score is now 1-1.",
+     "back_translation": "Minute 22. Femi Wynvale scores for Greyhaven Rovers and the score is now 1-1."
+    },
+    {
+     "text": "El disparo vale 0.61 xG, goles esperados, desde 3.3 metros.",
+     "evidence_ids": [
+      "GM03-M03.e3",
+      "GM03-M03.e5"
+     ],
+     "en_text": "The shot was worth 0.61 xG from 3.3 metres.",
+     "back_translation": "The shot is worth 0.61 xG, expected goals, from 3.3 meters."
+    },
+    {
+     "text": "Greyhaven Rovers ahora tiene 48 por ciento de probabilidad de victoria, frente a 36 por ciento.",
+     "evidence_ids": [
+      "GM03-M03.e13",
+      "GM03-M03.e14"
+     ],
+     "en_text": "Greyhaven Rovers now has a 48 per cent chance of winning, up from 36 per cent.",
+     "back_translation": "Greyhaven Rovers now has a 48 per cent chance of winning, up from 36 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M04",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 45 से ग्रेहेवन रोवर्स ने मैच पर नियंत्रण ले लिया।",
+     "evidence_ids": [
+      "GM03-M04.e1",
+      "GM03-M04.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 45.",
+     "back_translation": "From minute 45 Greyhaven Rovers took control of the match."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.17 से 0.76 तक गया।",
+     "evidence_ids": [
+      "GM03-M04.e2",
+      "GM03-M04.e3"
+     ],
+     "en_text": "The momentum index went from -0.17 to 0.76.",
+     "back_translation": "The momentum index went from -0.17 to 0.76."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की जीत की संभावना 0.9 प्रतिशत अंक बढ़ी, 38.8 प्रतिशत से 39.6 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM03-M04.e9",
+      "GM03-M04.e7",
+      "GM03-M04.e8"
+     ],
+     "en_text": "Greyhaven Rovers win probability rose by 0.9 pp, from 38.8% to 39.6%.",
+     "back_translation": "Greyhaven Rovers' chances of victory increased by 0.9 percentage points, from 38.8 per cent to 39.6 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M04",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 45 से ग्रेहेवन रोवर्स ने खेल का पहरा संभाल लिया।",
+     "evidence_ids": [
+      "GM03-M04.e1",
+      "GM03-M04.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 45.",
+     "back_translation": "From minute 45, Greyhaven Rovers took control of the game."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.17 से 0.76 तक उछल गया।",
+     "evidence_ids": [
+      "GM03-M04.e2",
+      "GM03-M04.e3"
+     ],
+     "en_text": "The momentum index went from -0.17 to 0.76.",
+     "back_translation": "The Momentum Index jumped from -0.17 to 0.76."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की जीत की संभावना मुश्किल से बदली और लगभग 40 प्रतिशत पर टिकी रही।",
+     "evidence_ids": [
+      "GM03-M04.e8",
+      "GM03-M04.e9"
+     ],
+     "en_text": "Greyhaven Rovers win chance barely moved, staying near 40%.",
+     "back_translation": "Greyhaven Rovers' chances of victory barely changed and rested at around 40 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M04",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 45 से ग्रेहेवन रोवर्स ने मैच का नियंत्रण ले लिया।",
+     "evidence_ids": [
+      "GM03-M04.e1",
+      "GM03-M04.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 45.",
+     "back_translation": "From minute 45 Greyhaven Rovers took control of the match."
+    },
+    {
+     "text": "हमारा मॉडल अब ग्रेहेवन रोवर्स को 40 प्रतिशत जीत की संभावना देता है, जबकि पहले 39 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M04.e7",
+      "GM03-M04.e8"
+     ],
+     "en_text": "Our model now gives Greyhaven Rovers a 40% chance of winning, compared with 39% before.",
+     "back_translation": "Our model now gives Greyhaven Rovers a 40 per cent chance of winning, compared to 39 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M04",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 45 से ग्रेहेवन रोवर्स मैच पर नियंत्रण ले रहा है।",
+     "evidence_ids": [
+      "GM03-M04.e1",
+      "GM03-M04.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 45.",
+     "back_translation": "From minute 45 Greyhaven Rovers take control of the match."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.17 से 0.76 तक बढ़ रहा है।",
+     "evidence_ids": [
+      "GM03-M04.e2",
+      "GM03-M04.e3"
+     ],
+     "en_text": "The momentum index went from -0.17 to 0.76.",
+     "back_translation": "The Momentum Index is rising from -0.17 to 0.76."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स के पास अब 40 प्रतिशत जीत की संभावना है, जो पहले 39 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M04.e7",
+      "GM03-M04.e8"
+     ],
+     "en_text": "Greyhaven Rovers now has a 40 per cent chance of winning, up from 39 per cent.",
+     "back_translation": "Greyhaven Rovers now have a 40 per cent chance of winning, up from 39 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M04",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Greyhaven Rovers asumió el control del partido a partir del minuto 45.",
+     "evidence_ids": [
+      "GM03-M04.e1",
+      "GM03-M04.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 45.",
+     "back_translation": "Greyhaven Rovers took control of the match from the 45th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.17 a 0.76.",
+     "evidence_ids": [
+      "GM03-M04.e2",
+      "GM03-M04.e3"
+     ],
+     "en_text": "The momentum index went from -0.17 to 0.76.",
+     "back_translation": "The momentum index went from -0.17 to 0.76."
+    },
+    {
+     "text": "La probabilidad de victoria de Greyhaven Rovers aumentó 0.9 puntos porcentuales, de 38.8 por ciento a 39.6 por ciento.",
+     "evidence_ids": [
+      "GM03-M04.e9",
+      "GM03-M04.e7",
+      "GM03-M04.e8"
+     ],
+     "en_text": "Greyhaven Rovers win probability rose by 0.9 pp, from 38.8% to 39.6%.",
+     "back_translation": "Greyhaven Rovers' chance of victory increased 0.9 percentage points, from 38.8 percent to 39.6 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M04",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Greyhaven Rovers se hicieron con el control del partido desde el minuto 45.",
+     "evidence_ids": [
+      "GM03-M04.e1",
+      "GM03-M04.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 45.",
+     "back_translation": "Greyhaven Rovers took control of the game from the 45th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.17 a 0.76.",
+     "evidence_ids": [
+      "GM03-M04.e2",
+      "GM03-M04.e3"
+     ],
+     "en_text": "The momentum index went from -0.17 to 0.76.",
+     "back_translation": "The momentum index went from -0.17 to 0.76."
+    },
+    {
+     "text": "La probabilidad de ganar de Greyhaven Rovers apenas se movió, manteniéndose cerca del 40 por ciento.",
+     "evidence_ids": [
+      "GM03-M04.e8",
+      "GM03-M04.e9"
+     ],
+     "en_text": "Greyhaven Rovers win chance barely moved, staying near 40%.",
+     "back_translation": "Greyhaven Rovers' chance of winning barely budged, remaining close to 40 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M04",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Greyhaven Rovers tomó el control del partido desde el minuto 45.",
+     "evidence_ids": [
+      "GM03-M04.e1",
+      "GM03-M04.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 45.",
+     "back_translation": "Greyhaven Rovers took control of the match from the 45th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Greyhaven Rovers una probabilidad de ganar del 40 por ciento, frente al 39 por ciento anterior.",
+     "evidence_ids": [
+      "GM03-M04.e7",
+      "GM03-M04.e8"
+     ],
+     "en_text": "Our model now gives Greyhaven Rovers a 40% chance of winning, compared with 39% before.",
+     "back_translation": "Our model now gives Greyhaven Rovers a 40 percent chance of winning, up from 39 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M04",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Greyhaven Rovers toma el control del partido desde el minuto 45.",
+     "evidence_ids": [
+      "GM03-M04.e1",
+      "GM03-M04.e5"
+     ],
+     "en_text": "Greyhaven Rovers took control of the game from minute 45.",
+     "back_translation": "Greyhaven Rovers takes control of the match from the 45th minute."
+    },
+    {
+     "text": "El índice de impulso pasa de -0.17 a 0.76.",
+     "evidence_ids": [
+      "GM03-M04.e2",
+      "GM03-M04.e3"
+     ],
+     "en_text": "The momentum index went from -0.17 to 0.76.",
+     "back_translation": "The momentum index goes from -0.17 to 0.76."
+    },
+    {
+     "text": "Greyhaven Rovers ahora tiene una probabilidad de ganar del 40 por ciento, frente al 39 por ciento.",
+     "evidence_ids": [
+      "GM03-M04.e7",
+      "GM03-M04.e8"
+     ],
+     "en_text": "Greyhaven Rovers now has a 40 per cent chance of winning, up from 39 per cent.",
+     "back_translation": "Greyhaven Rovers now have a 40 percent chance of winning, up from 39 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M05",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने 60 मिनट में बदलाव किया: ओटो गारमियर इकेर गारक्रॉफ़्ट की जगह आए।",
+     "evidence_ids": [
+      "GM03-M05.e1",
+      "GM03-M05.e6",
+      "GM03-M05.e2",
+      "GM03-M05.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+     "back_translation": "Thornwell City made a change on 60 minutes: Otto Garmeier came on in place of Iker Garcroft."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.016 से 0.035 तक बढ़ा।",
+     "evidence_ids": [
+      "GM03-M05.e4",
+      "GM03-M05.e5"
+     ],
+     "en_text": "Threat per minute went from 0.016 to 0.035.",
+     "back_translation": "The per-minute threat increased from 0.016 to 0.035."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 17.4 प्रतिशत अंक घट गई, 23.8% से 6.5% तक।",
+     "evidence_ids": [
+      "GM03-M05.e10",
+      "GM03-M05.e8",
+      "GM03-M05.e9"
+     ],
+     "en_text": "Thornvale City win probability fell by 17.4 pp, from 23.8% to 6.5%.",
+     "back_translation": "Thornwell City's chances of victory decreased by 17.4 percentage points, from 23.8% to 6.5%."
+    },
+    {
+     "text": "अगर थॉर्नवेल सिटी ने ओटो गारमियर को लाने के बजाय इकेर गारक्रॉफ़्ट को बनाए रखा होता तो, 200 सिम्युलेशन में ग्रेहेवन रोवर्स की जीत की संभावना लगभग 24% होती, न कि 20%।",
+     "evidence_ids": [
+      "GM03-M05.e12",
+      "GM03-M05.e11",
+      "GM03-M05.e18"
+     ],
+     "en_text": "What if Thornvale City had kept Iker Garcroft on instead of bringing on Otto Garmere? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 24% instead of 20%.",
+     "back_translation": "If Thornwell City had retained Iker Garcroft instead of bringing in Otto Garmier, Greyhaven Rovers' chances of winning in the 200 simulation would have been around 24%, not 20%."
+    },
+    {
+     "text": "सिम्युलेटेड बदलाव +3.5 प्रतिशत अंक है, 80% अंतराल -2.0 से 9.0 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM03-M05.e15",
+      "GM03-M05.e16",
+      "GM03-M05.e17"
+     ],
+     "en_text": "The simulated change is +3.5 pp, with an 80% interval from -2.0 to 9.0 pp.",
+     "back_translation": "The simulated change is +3.5 percentage points, with an 80% interval ranging from -2.0 to 9.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M05",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने 60 मिनट में बदलाव किया: ओटो गारमियर आए, इकेर गारक्रॉफ़्ट की जगह।",
+     "evidence_ids": [
+      "GM03-M05.e1",
+      "GM03-M05.e6",
+      "GM03-M05.e2",
+      "GM03-M05.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+     "back_translation": "Thornwell City made a change on 60 minutes: Otto Garmier came on, replacing Iker Garcroft."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.016 से 0.035 हो गया।",
+     "evidence_ids": [
+      "GM03-M05.e4",
+      "GM03-M05.e5"
+     ],
+     "en_text": "Threat per minute went from 0.016 to 0.035.",
+     "back_translation": "The per-minute threat increased from 0.016 to 0.035."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 6% तक गिर गई, 17 प्रतिशत अंक कम।",
+     "evidence_ids": [
+      "GM03-M05.e9",
+      "GM03-M05.e10"
+     ],
+     "en_text": "Thornvale City win chance dropped to 6%, down 17 points.",
+     "back_translation": "Thornwell City's chances of victory dropped to 6%, down 17 percentage points."
+    },
+    {
+     "text": "अगर थॉर्नवेल सिटी ने ओटो गारमियर की जगह इकेर गारक्रॉफ़्ट को बनाए रखा होता, तो ग्रेहेवन रोवर्स की जीत की संभावना लगभग 24% होती, 20% नहीं।",
+     "evidence_ids": [
+      "GM03-M05.e12",
+      "GM03-M05.e11"
+     ],
+     "en_text": "What if Thornvale City had kept Iker Garcroft on instead of bringing on Otto Garmere? Greyhaven Rovers would be about 24% to win, not 20%.",
+     "back_translation": "If Thornwell City had retained Iker Garcroft in place of Otto Garmier, Greyhaven Rovers' chances of winning would have been around 24%, not 20%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M05",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने 60 मिनट में बदलाव किया: ओटो गारमियर इकेर गारक्रॉफ़्ट की जगह आए।",
+     "evidence_ids": [
+      "GM03-M05.e1",
+      "GM03-M05.e6",
+      "GM03-M05.e2",
+      "GM03-M05.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+     "back_translation": "Thornwell City made a change on 60 minutes: Otto Garmeier came on in place of Iker Garcroft."
+    },
+    {
+     "text": "हमारा मॉडल अब थॉर्नवेल सिटी को 6% जीत की संभावना देता है, पहले यह 24% थी।",
+     "evidence_ids": [
+      "GM03-M05.e8",
+      "GM03-M05.e9"
+     ],
+     "en_text": "Our model now gives Thornvale City a 6% chance of winning, compared with 24% before.",
+     "back_translation": "Our model now gives Thornwell City a 6% chance of winning, previously it was 24%."
+    },
+    {
+     "text": "अगर वह बदलाव नहीं होता, तो हमारे सिम्युलेशन बताते हैं कि ग्रेहेवन रोवर्स की जीत की संभावना लगभग 24% होती, 20% के बजाय।",
+     "evidence_ids": [
+      "GM03-M05.e12",
+      "GM03-M05.e11"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 24% chance instead of 20%.",
+     "back_translation": "If that had not changed, our simulations show that Greyhaven Rovers would have had a win probability of around 24%, instead of 20%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M05",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी 60वें मिनट में बदलाव करता है, ओटो गारमियर इकेर गारक्रॉफ़्ट की जगह आते हैं।",
+     "evidence_ids": [
+      "GM03-M05.e1",
+      "GM03-M05.e6",
+      "GM03-M05.e2",
+      "GM03-M05.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+     "back_translation": "Thornwell City make a change in the 60th minute, with Otto Garmier coming in as a replacement for Iker Garcroft."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.016 से 0.035 हो जाता है।",
+     "evidence_ids": [
+      "GM03-M05.e4",
+      "GM03-M05.e5"
+     ],
+     "en_text": "Threat per minute went from 0.016 to 0.035.",
+     "back_translation": "The risk per minute increases from 0.016 to 0.035."
+    },
+    {
+     "text": "थॉर्नवेल सिटी के पास अब जीत की संभावना 6 प्रतिशत है, जो पहले 24 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M05.e8",
+      "GM03-M05.e9"
+     ],
+     "en_text": "Thornvale City now has a 6 per cent chance of winning, down from 24 per cent.",
+     "back_translation": "Thornwell City now have a 6 per cent chance of winning, up from 24 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M05",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City hizo un cambio en el minuto 60: Otto Garmere entra por Iker Garcroft.",
+     "evidence_ids": [
+      "GM03-M05.e1",
+      "GM03-M05.e6",
+      "GM03-M05.e2",
+      "GM03-M05.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+     "back_translation": "Thornvale City made a change in the 60th minute: Otto Garmere came on for Iker Garcroft."
+    },
+    {
+     "text": "La amenaza por minuto pasó de 0.016 a 0.035.",
+     "evidence_ids": [
+      "GM03-M05.e4",
+      "GM03-M05.e5"
+     ],
+     "en_text": "Threat per minute went from 0.016 to 0.035.",
+     "back_translation": "The threat per minute went from 0.016 to 0.035."
+    },
+    {
+     "text": "La probabilidad de victoria de Thornvale City cayó 17.4 pp, del 23.8 por ciento al 6.5 por ciento.",
+     "evidence_ids": [
+      "GM03-M05.e10",
+      "GM03-M05.e8",
+      "GM03-M05.e9"
+     ],
+     "en_text": "Thornvale City win probability fell by 17.4 pp, from 23.8% to 6.5%.",
+     "back_translation": "Thornvale City's probability of victory fell 17.4 pp, from 23.8 percent to 6.5 percent."
+    },
+    {
+     "text": "¿Qué pasaría si Thornvale City hubiera mantenido a Iker Garcroft en vez de dar entrada a Otto Garmere? En 200 simulaciones, la probabilidad de ganar de Greyhaven Rovers sería aproximadamente 24 por ciento en lugar de 20 por ciento.",
+     "evidence_ids": [
+      "GM03-M05.e12",
+      "GM03-M05.e11",
+      "GM03-M05.e18"
+     ],
+     "en_text": "What if Thornvale City had kept Iker Garcroft on instead of bringing on Otto Garmere? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 24% instead of 20%.",
+     "back_translation": "What if Thornvale City had kept Iker Garcroft instead of bringing on Otto Garmere? In 200 simulations, Greyhaven Rovers' chance of winning would be about 24 per cent instead of 20 per cent."
+    },
+    {
+     "text": "El cambio simulado es +3.5 pp, con un intervalo del 80% de -2.0 a 9.0 pp.",
+     "evidence_ids": [
+      "GM03-M05.e15",
+      "GM03-M05.e16",
+      "GM03-M05.e17"
+     ],
+     "en_text": "The simulated change is +3.5 pp, with an 80% interval from -2.0 to 9.0 pp.",
+     "back_translation": "The simulated change is +3.5 pp, with an 80% range of -2.0 to 9.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M05",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City hizo un cambio en el minuto 60: Otto Garmere entra por Iker Garcroft.",
+     "evidence_ids": [
+      "GM03-M05.e1",
+      "GM03-M05.e6",
+      "GM03-M05.e2",
+      "GM03-M05.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+     "back_translation": "Thornvale City made a change in the 60th minute: Otto Garmere came on for Iker Garcroft."
+    },
+    {
+     "text": "La amenaza por minuto subió de 0.016 a 0.035.",
+     "evidence_ids": [
+      "GM03-M05.e4",
+      "GM03-M05.e5"
+     ],
+     "en_text": "Threat per minute went from 0.016 to 0.035.",
+     "back_translation": "The threat per minute rose from 0.016 to 0.035."
+    },
+    {
+     "text": "La probabilidad de ganar de Thornvale City bajó a 6 por ciento, 17 puntos menos.",
+     "evidence_ids": [
+      "GM03-M05.e9",
+      "GM03-M05.e10"
+     ],
+     "en_text": "Thornvale City win chance dropped to 6%, down 17 points.",
+     "back_translation": "Thornvale City's chance of winning dropped to 6 percent, down 17 points."
+    },
+    {
+     "text": "¿Y si Thornvale City hubiera mantenido a Iker Garcroft en vez de introducir a Otto Garmere? Greyhaven Rovers estaría alrededor del 24 por ciento para ganar, no del 20 por ciento.",
+     "evidence_ids": [
+      "GM03-M05.e12",
+      "GM03-M05.e11"
+     ],
+     "en_text": "What if Thornvale City had kept Iker Garcroft on instead of bringing on Otto Garmere? Greyhaven Rovers would be about 24% to win, not 20%.",
+     "back_translation": "What if Thornvale City had kept Iker Garcroft instead of bringing in Otto Garmere? Greyhaven Rovers would be around 24 per cent to win, not 20 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M05",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City hizo un cambio en el minuto 60: Otto Garmere entra por Iker Garcroft.",
+     "evidence_ids": [
+      "GM03-M05.e1",
+      "GM03-M05.e6",
+      "GM03-M05.e2",
+      "GM03-M05.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+     "back_translation": "Thornvale City made a change in the 60th minute: Otto Garmere came on for Iker Garcroft."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Thornvale City un 6 por ciento de probabilidad de ganar, comparado con 24 por ciento antes.",
+     "evidence_ids": [
+      "GM03-M05.e8",
+      "GM03-M05.e9"
+     ],
+     "en_text": "Our model now gives Thornvale City a 6% chance of winning, compared with 24% before.",
+     "back_translation": "Our model now gives Thornvale City a 6 percent chance of winning, compared to 24 percent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Greyhaven Rovers tendría aproximadamente un 24 por ciento de probabilidad en lugar de 20 por ciento.",
+     "evidence_ids": [
+      "GM03-M05.e12",
+      "GM03-M05.e11"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 24% chance instead of 20%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Greyhaven Rovers would have about a 24 percent chance instead of 20 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M05",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City hace un cambio en el minuto 60, Otto Garmere entra por Iker Garcroft.",
+     "evidence_ids": [
+      "GM03-M05.e1",
+      "GM03-M05.e6",
+      "GM03-M05.e2",
+      "GM03-M05.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 60: Otto Garmere on for Iker Garcroft.",
+     "back_translation": "Thornvale City makes a change in the 60th minute, Otto Garmere comes on for Iker Garcroft."
+    },
+    {
+     "text": "La amenaza por minuto pasa de 0.016 a 0.035.",
+     "evidence_ids": [
+      "GM03-M05.e4",
+      "GM03-M05.e5"
+     ],
+     "en_text": "Threat per minute went from 0.016 to 0.035.",
+     "back_translation": "The threat per minute goes from 0.016 to 0.035."
+    },
+    {
+     "text": "Thornvale City ahora tiene un 6 por ciento de probabilidad de victoria, frente al 24 por ciento anterior.",
+     "evidence_ids": [
+      "GM03-M05.e8",
+      "GM03-M05.e9"
+     ],
+     "en_text": "Thornvale City now has a 6 per cent chance of winning, down from 24 per cent.",
+     "back_translation": "Thornvale City now has a 6 per cent chance of winning, up from 24 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M06",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "माटेओ गुलहोल्ट ने मिनट 62 में ग्रेहेवन रोवर्स के लिए गोल किया, स्कोर 2-1 हो गया।",
+     "evidence_ids": [
+      "GM03-M06.e1",
+      "GM03-M06.e2",
+      "GM03-M06.e11",
+      "GM03-M06.e10"
+     ],
+     "en_text": "Mateo Gulholt scored for Greyhaven Rovers in minute 62, making it 2-1.",
+     "back_translation": "Matteo Gullholt scored for Greyhaven Rovers in minute 62, making the score 2-1."
+    },
+    {
+     "text": "उस शॉट की वैल्यू 0.40 xG (अपेक्षित गोल) थी और यह 6.3 metres से था।",
+     "evidence_ids": [
+      "GM03-M06.e3",
+      "GM03-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.40 xG from 6.3 metres.",
+     "back_translation": "That shot had a value of 0.40 xG (expected goals) and was from 6.3 meters."
+    },
+    {
+     "text": "यह चाल 6 कार्रवाइयों की थी, और शूटर प्रेशर में था: नहीं।",
+     "evidence_ids": [
+      "GM03-M06.e9",
+      "GM03-M06.e7"
+     ],
+     "en_text": "The move had 6 actions, and the shooter was under pressure: no.",
+     "back_translation": "The move was 6 actions, and the shooter was under pressure: no."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की जीत की संभावना 40.4 प्रतिशत अंक से बढ़ी, 41.5% से 82.0% तक।",
+     "evidence_ids": [
+      "GM03-M06.e15",
+      "GM03-M06.e13",
+      "GM03-M06.e14"
+     ],
+     "en_text": "Greyhaven Rovers win probability rose by 40.4 pp, from 41.5% to 82.0%.",
+     "back_translation": "Greyhaven Rovers' chances of victory increased by 40.4 percentage points, from 41.5% to 82.0%."
+    },
+    {
+     "text": "अगर माटेओ गुलहोल्ट का गोल नहीं हुआ होता, तो 200 सिम्युलेशन में ग्रेहेवन रोवर्स की जीत की संभावना लगभग 25% होती, 85% के बजाय।",
+     "evidence_ids": [
+      "GM03-M06.e17",
+      "GM03-M06.e16",
+      "GM03-M06.e23"
+     ],
+     "en_text": "What if Mateo Gulholt's goal for Greyhaven Rovers had not gone in? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 25% instead of 85%.",
+     "back_translation": "If it hadn't been for Matteo Guelholt's goal, the probability of Greyhaven Rovers' victory in the 200 simulation would have been around 25%, instead of 85%."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -60.0 प्रतिशत अंक है, 80% अंतराल -64.5 से -55.5 प्रतिशत अंक के बीच।",
+     "evidence_ids": [
+      "GM03-M06.e20",
+      "GM03-M06.e21",
+      "GM03-M06.e22"
+     ],
+     "en_text": "The simulated change is -60.0 pp, with an 80% interval from -64.5 to -55.5 pp.",
+     "back_translation": "The simulated change is -60.0 percentage points, with an 80% interval between -64.5 to -55.5 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M06",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "माटेओ गुलहोल्ट ने मिनट 62 में ग्रेहेवन रोवर्स के लिए गोल किया, स्कोर अब 2-1 है।",
+     "evidence_ids": [
+      "GM03-M06.e1",
+      "GM03-M06.e2",
+      "GM03-M06.e11",
+      "GM03-M06.e10"
+     ],
+     "en_text": "Mateo Gulholt scored for Greyhaven Rovers in minute 62, making it 2-1.",
+     "back_translation": "Matteo Guilholt scored for Greyhaven Rovers in minute 62, the score is now 2-1."
+    },
+    {
+     "text": "शॉट की वैल्यू 0.40 xG (अपेक्षित गोल) थी और यह 6.3 metres से था।",
+     "evidence_ids": [
+      "GM03-M06.e3",
+      "GM03-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.40 xG from 6.3 metres.",
+     "back_translation": "The shot had a value of 0.40 xG (expected rounds) and was from 6.3 meters."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की उम्मीदें 40 अंक बढ़कर 82% हो गईं।",
+     "evidence_ids": [
+      "GM03-M06.e14",
+      "GM03-M06.e15"
+     ],
+     "en_text": "Greyhaven Rovers hopes rose by 40 points to 82%.",
+     "back_translation": "Greyhaven Rovers' hopes increased by 40 points to 82%."
+    },
+    {
+     "text": "अगर माटेओ गुलहोल्ट का गोल नहीं होता तो ग्रेहेवन रोवर्स की जीत की संभावना करीब 25% होती, 85% नहीं।",
+     "evidence_ids": [
+      "GM03-M06.e17",
+      "GM03-M06.e16"
+     ],
+     "en_text": "What if Mateo Gulholt's goal for Greyhaven Rovers had not gone in? Greyhaven Rovers would be about 25% to win, not 85%.",
+     "back_translation": "If it weren't for Matteo Guelholt's goal, Greyhaven Rovers' chances of winning would have been around 25%, not 85%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M06",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "माटेओ गुलहोल्ट ने मिनट 62 में ग्रेहेवन रोवर्स के लिए गोल किया और स्कोर 2-1 हो गया।",
+     "evidence_ids": [
+      "GM03-M06.e1",
+      "GM03-M06.e2",
+      "GM03-M06.e11",
+      "GM03-M06.e10"
+     ],
+     "en_text": "Mateo Gulholt scored for Greyhaven Rovers in minute 62, making it 2-1.",
+     "back_translation": "Matteo Guelholt scored for Greyhaven Rovers in minute 62 and the score was 2-1."
+    },
+    {
+     "text": "xG मौके की गुणवत्ता मापता है; यह 0.40 था, और जितना अधिक होता है उतना बेहतर मौका माना जाता है।",
+     "evidence_ids": [
+      "GM03-M06.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.40, and higher means a better chance.",
+     "back_translation": "xG measures the quality of the chance; It was 0.40, and the higher the better the chance is considered."
+    },
+    {
+     "text": "हमारे मॉडल अब ग्रेहेवन रोवर्स को जीतने की 82% संभावना देता है, जबकि पहले यह 42% थी।",
+     "evidence_ids": [
+      "GM03-M06.e13",
+      "GM03-M06.e14"
+     ],
+     "en_text": "Our model now gives Greyhaven Rovers a 82% chance of winning, compared with 42% before.",
+     "back_translation": "Our model now gives Greyhaven Rovers an 82% chance of winning, compared to 42% previously."
+    },
+    {
+     "text": "अगर वह घटना नहीं हुई होती, तो हमारे सिम्युलेशनों के अनुसार ग्रेहेवन रोवर्स की जीत की संभावना लगभग 25% होती, 85% की बजाय।",
+     "evidence_ids": [
+      "GM03-M06.e17",
+      "GM03-M06.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 25% chance instead of 85%.",
+     "back_translation": "If that event had not occurred, the Greyhaven Rovers' chances of winning according to our simulations would have been around 25%, instead of 85%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M06",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 62 पर माटेओ गुलहोल्ट ग्रेहेवन रोवर्स के लिए गोल करते हैं और स्कोर अब 2 से 1 है।",
+     "evidence_ids": [
+      "GM03-M06.e11",
+      "GM03-M06.e1",
+      "GM03-M06.e2",
+      "GM03-M06.e10"
+     ],
+     "en_text": "Minute 62. Mateo Gulholt scores for Greyhaven Rovers, and the score is now 2-1.",
+     "back_translation": "At minute 62 Matteo Guilholt scores for Greyhaven Rovers and the score is now 2 to 1."
+    },
+    {
+     "text": "यह शॉट 0.40 xG अपेक्षित गोल का था और 6.3 मीटर से था।",
+     "evidence_ids": [
+      "GM03-M06.e3",
+      "GM03-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.40 xG from 6.3 metres.",
+     "back_translation": "The shot was 0.40 xG of the expected goal and was from 6.3 meters."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स के जीतने की संभावना अब 82 प्रतिशत है, पहले 42 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M06.e13",
+      "GM03-M06.e14"
+     ],
+     "en_text": "Greyhaven Rovers now has a 82 per cent chance of winning, up from 42 per cent.",
+     "back_translation": "Greyhaven Rovers' chances of winning are now 82 per cent, up from 42 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M06",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Mateo Gulholt marcó para Greyhaven Rovers en el minuto 62, poniendo el marcador 2-1.",
+     "evidence_ids": [
+      "GM03-M06.e1",
+      "GM03-M06.e2",
+      "GM03-M06.e11",
+      "GM03-M06.e10"
+     ],
+     "en_text": "Mateo Gulholt scored for Greyhaven Rovers in minute 62, making it 2-1.",
+     "back_translation": "Mateo Gulholt scored for Greyhaven Rovers in the 62nd minute, making the score 2-1."
+    },
+    {
+     "text": "El disparo tuvo un valor de 0.40 xG (goles esperados) desde 6.3 metros.",
+     "evidence_ids": [
+      "GM03-M06.e3",
+      "GM03-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.40 xG from 6.3 metres.",
+     "back_translation": "The shot had a value of 0.40 xG (expected goals) from 6.3 meters."
+    },
+    {
+     "text": "La jugada tuvo 6 acciones y el ejecutor no estaba bajo presión.",
+     "evidence_ids": [
+      "GM03-M06.e9",
+      "GM03-M06.e7"
+     ],
+     "en_text": "The move had 6 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 6 actions and the executor was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Greyhaven Rovers aumentó en 40.4 pp, de 41.5 por ciento a 82.0 por ciento.",
+     "evidence_ids": [
+      "GM03-M06.e15",
+      "GM03-M06.e13",
+      "GM03-M06.e14"
+     ],
+     "en_text": "Greyhaven Rovers win probability rose by 40.4 pp, from 41.5% to 82.0%.",
+     "back_translation": "Greyhaven Rovers' probability of victory increased by 40.4 pp, from 41.5 percent to 82.0 percent."
+    },
+    {
+     "text": "¿Y si el gol de Mateo Gulholt para Greyhaven Rovers no hubiera entrado? En 200 simulaciones, la probabilidad de ganar de Greyhaven Rovers sería aproximadamente 25 por ciento en lugar de 85 por ciento.",
+     "evidence_ids": [
+      "GM03-M06.e17",
+      "GM03-M06.e16",
+      "GM03-M06.e23"
+     ],
+     "en_text": "What if Mateo Gulholt's goal for Greyhaven Rovers had not gone in? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 25% instead of 85%.",
+     "back_translation": "What if Mateo Gulholt's goal for Greyhaven Rovers hadn't gone in? In 200 simulations, Greyhaven Rovers' chance of winning would be about 25 percent instead of 85 percent."
+    },
+    {
+     "text": "La variación simulada es -60.0 pp, con un intervalo del 80% desde -64.5 hasta -55.5 pp.",
+     "evidence_ids": [
+      "GM03-M06.e20",
+      "GM03-M06.e21",
+      "GM03-M06.e22"
+     ],
+     "en_text": "The simulated change is -60.0 pp, with an 80% interval from -64.5 to -55.5 pp.",
+     "back_translation": "The simulated variation is -60.0 pp, with an 80% range from -64.5 to -55.5 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M06",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Mateo Gulholt marcó para Greyhaven Rovers en el minuto 62 y puso el 2-1.",
+     "evidence_ids": [
+      "GM03-M06.e1",
+      "GM03-M06.e2",
+      "GM03-M06.e11",
+      "GM03-M06.e10"
+     ],
+     "en_text": "Mateo Gulholt scored for Greyhaven Rovers in minute 62, making it 2-1.",
+     "back_translation": "Mateo Gulholt scored for Greyhaven Rovers in the 62nd minute and made it 2-1."
+    },
+    {
+     "text": "El tiro valía 0.40 xG (goles esperados) desde 6.3 metros.",
+     "evidence_ids": [
+      "GM03-M06.e3",
+      "GM03-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.40 xG from 6.3 metres.",
+     "back_translation": "The shot was worth 0.40 xG (expected goals) from 6.3 meters."
+    },
+    {
+     "text": "Las esperanzas de Greyhaven Rovers subieron 40 puntos hasta 82 por ciento.",
+     "evidence_ids": [
+      "GM03-M06.e14",
+      "GM03-M06.e15"
+     ],
+     "en_text": "Greyhaven Rovers hopes rose by 40 points to 82%.",
+     "back_translation": "Greyhaven Rovers' hopes rose 40 points to 82 percent."
+    },
+    {
+     "text": "Si el gol de Mateo Gulholt para Greyhaven Rovers no hubiera entrado, tendrían aproximadamente 25 por ciento de probabilidad de ganar en vez de 85 por ciento.",
+     "evidence_ids": [
+      "GM03-M06.e17",
+      "GM03-M06.e16"
+     ],
+     "en_text": "What if Mateo Gulholt's goal for Greyhaven Rovers had not gone in? Greyhaven Rovers would be about 25% to win, not 85%.",
+     "back_translation": "If Mateo Gulholt's goal for Greyhaven Rovers hadn't gone in, they'd have about a 25 percent chance of winning instead of 85 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M06",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Mateo Gulholt marcó para Greyhaven Rovers en el minuto 62 y el marcador quedó 2-1.",
+     "evidence_ids": [
+      "GM03-M06.e1",
+      "GM03-M06.e2",
+      "GM03-M06.e11",
+      "GM03-M06.e10"
+     ],
+     "en_text": "Mateo Gulholt scored for Greyhaven Rovers in minute 62, making it 2-1.",
+     "back_translation": "Mateo Gulholt scored for Greyhaven Rovers in the 62nd minute and the score was 2-1."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de la ocasión; este fue 0.40, y un valor mayor significa más probabilidad de gol.",
+     "evidence_ids": [
+      "GM03-M06.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.40, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; this was 0.40, and a higher value means more chance of scoring."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Greyhaven Rovers una probabilidad de victoria de 82 por ciento, comparada con 42 por ciento antes.",
+     "evidence_ids": [
+      "GM03-M06.e13",
+      "GM03-M06.e14"
+     ],
+     "en_text": "Our model now gives Greyhaven Rovers a 82% chance of winning, compared with 42% before.",
+     "back_translation": "Our model now gives Greyhaven Rovers an 82 per cent chance of victory, compared to 42 per cent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Greyhaven Rovers tendría aproximadamente 25 por ciento de probabilidad de ganar en lugar de 85 por ciento.",
+     "evidence_ids": [
+      "GM03-M06.e17",
+      "GM03-M06.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 25% chance instead of 85%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Greyhaven Rovers would have about a 25 percent chance of winning instead of 85 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M06",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 62. Mateo Gulholt marca para Greyhaven Rovers y el marcador es ahora 2-1.",
+     "evidence_ids": [
+      "GM03-M06.e11",
+      "GM03-M06.e1",
+      "GM03-M06.e2",
+      "GM03-M06.e10"
+     ],
+     "en_text": "Minute 62. Mateo Gulholt scores for Greyhaven Rovers, and the score is now 2-1.",
+     "back_translation": "Minute 62. Mateo Gulholt scores for Greyhaven Rovers and the score is now 2-1."
+    },
+    {
+     "text": "El disparo vale 0.40 xG, goles esperados, desde 6.3 metros.",
+     "evidence_ids": [
+      "GM03-M06.e3",
+      "GM03-M06.e5"
+     ],
+     "en_text": "The shot was worth 0.40 xG from 6.3 metres.",
+     "back_translation": "The shot is worth 0.40 xG, expected goals, from 6.3 meters."
+    },
+    {
+     "text": "Greyhaven Rovers ahora tiene 82 por ciento de probabilidad de ganar, frente a 42 por ciento.",
+     "evidence_ids": [
+      "GM03-M06.e13",
+      "GM03-M06.e14"
+     ],
+     "en_text": "Greyhaven Rovers now has a 82 per cent chance of winning, up from 42 per cent.",
+     "back_translation": "Greyhaven Rovers now has an 82 per cent chance of winning, up from 42 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M07",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने 65 मिनट में बदलाव किया, यारी केलक्रॉफ़्ट अरिन हलब्रुक की जगह आए।",
+     "evidence_ids": [
+      "GM03-M07.e1",
+      "GM03-M07.e6",
+      "GM03-M07.e2",
+      "GM03-M07.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+     "back_translation": "Thornwell City made the change on 65 minutes, with Yari Kelcroft coming on as a replacement for Arin Halbrook."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.005 से 0.038 तक बढ़ा।",
+     "evidence_ids": [
+      "GM03-M07.e4",
+      "GM03-M07.e5"
+     ],
+     "en_text": "Threat per minute went from 0.005 to 0.038.",
+     "back_translation": "The per-minute threat increased from 0.005 to 0.038."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 3.0 प्रतिशत अंक बढ़ी, 2.7 प्रतिशत से 5.7 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM03-M07.e10",
+      "GM03-M07.e8",
+      "GM03-M07.e9"
+     ],
+     "en_text": "Thornvale City win probability rose by 3.0 pp, from 2.7% to 5.7%.",
+     "back_translation": "Thornwell City's chances of winning increased by 3.0 percentage points, from 2.7 per cent to 5.7 per cent."
+    },
+    {
+     "text": "अगर थॉर्नवेल सिटी ने यारी केलक्रॉफ़्ट लाने के बजाय अरिन हलब्रुक को बनाए रखा होता, तो 200 सिम्युलेशन में ग्रेहेवन रोवर्स की जीत की संभावना लगभग 78 प्रतिशत होती, 84 प्रतिशत की जगह।",
+     "evidence_ids": [
+      "GM03-M07.e12",
+      "GM03-M07.e11",
+      "GM03-M07.e18"
+     ],
+     "en_text": "What if Thornvale City had kept Arin Halbrook on instead of bringing on Jari Kelcroft? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 78% instead of 84%.",
+     "back_translation": "If Thornwell City had retained Arryn Halbrook instead of bringing in Yari Kellcroft, Greyhaven Rovers' chances of winning in the 200 simulation would have been around 78 per cent, instead of 84 per cent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -6.0 प्रतिशत अंक है, 80% अंतराल -10.5 से -1.0 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM03-M07.e15",
+      "GM03-M07.e16",
+      "GM03-M07.e17"
+     ],
+     "en_text": "The simulated change is -6.0 pp, with an 80% interval from -10.5 to -1.0 pp.",
+     "back_translation": "The simulated change is -6.0 percentage points, with an 80% interval ranging from -10.5 to -1.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM03-M07.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M07",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "65 मिनट में थॉर्नवेल सिटी ने बदलाव किया — यारी केलक्रॉफ़्ट आए और अरिन हलब्रुक बाहर गए।",
+     "evidence_ids": [
+      "GM03-M07.e1",
+      "GM03-M07.e6",
+      "GM03-M07.e2",
+      "GM03-M07.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+     "back_translation": "On 65 minutes, Thornwell City made the difference — Yari Calcroft came on and Arryn Halbrook went out."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.005 से 0.038 तक बढ़ गया।",
+     "evidence_ids": [
+      "GM03-M07.e4",
+      "GM03-M07.e5"
+     ],
+     "en_text": "Threat per minute went from 0.005 to 0.038.",
+     "back_translation": "The per-minute threat increased from 0.005 to 0.038."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 6 प्रतिशत तक कूद गई, 3 प्रतिशत अंक ऊपर।",
+     "evidence_ids": [
+      "GM03-M07.e9",
+      "GM03-M07.e10"
+     ],
+     "en_text": "Thornvale City win chance jumped to 6%, up 3 points.",
+     "back_translation": "Thornwell City's chances of victory jumped to 6 percent, up 3 percentage points."
+    },
+    {
+     "text": "अगर थॉर्नवेल सिटी ने यारी केलक्रॉफ़्ट लाने के बजाय अरिन हलब्रुक को रखा होता, तो ग्रेहेवन रोवर्स की जीत की संभावना लगभग 78 प्रतिशत होती, 84 प्रतिशत नहीं।",
+     "evidence_ids": [
+      "GM03-M07.e12",
+      "GM03-M07.e11"
+     ],
+     "en_text": "What if Thornvale City had kept Arin Halbrook on instead of bringing on Jari Kelcroft? Greyhaven Rovers would be about 78% to win, not 84%.",
+     "back_translation": "If Thornwell City had kept Arryn Halbrook instead of bringing in Yari Calcroft, Greyhaven Rovers' chances of victory would have been around 78 per cent, not 84 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M07",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने 65 मिनट में बदलाव किया; यारी केलक्रॉफ़्ट अरिन हलब्रुक की जगह आए।",
+     "evidence_ids": [
+      "GM03-M07.e1",
+      "GM03-M07.e6",
+      "GM03-M07.e2",
+      "GM03-M07.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+     "back_translation": "Thornwell City made the change on 65 minutes; Yaari Kelcroft came on in place of Arryn Halbrook."
+    },
+    {
+     "text": "हमारे मॉडल के अनुसार अब थॉर्नवेल सिटी की जीत की संभावना 6 प्रतिशत है, पहले यह 3 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M07.e8",
+      "GM03-M07.e9"
+     ],
+     "en_text": "Our model now gives Thornvale City a 6% chance of winning, compared with 3% before.",
+     "back_translation": "According to our model now Thornwell City have a 6 per cent chance of winning, previously it was 3 per cent."
+    },
+    {
+     "text": "यदि ऐसा नहीं हुआ होता, तो हमारे सिम्युलेशन सुझाते हैं कि ग्रेहेवन रोवर्स की जीत की संभावना लगभग 78 प्रतिशत होती, 84 प्रतिशत की जगह।",
+     "evidence_ids": [
+      "GM03-M07.e12",
+      "GM03-M07.e11"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 78% chance instead of 84%.",
+     "back_translation": "If this had not happened, our simulations suggest that Greyhaven Rovers' chances of winning would have been around 78 per cent, instead of 84 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M07",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी 65 मिनट में बदलाव करता है यारी केलक्रॉफ़्ट अरिन हलब्रुक की जगह आते हैं।",
+     "evidence_ids": [
+      "GM03-M07.e1",
+      "GM03-M07.e6",
+      "GM03-M07.e2",
+      "GM03-M07.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+     "back_translation": "Thornwell City make changes on 65 minutes with Yari Kelcroft coming in as a replacement for Arryn Halbrook."
+    },
+    {
+     "text": "प्रति मिनट ख़तरा 0.005 से 0.038 तक जाता है।",
+     "evidence_ids": [
+      "GM03-M07.e4",
+      "GM03-M07.e5"
+     ],
+     "en_text": "Threat per minute went from 0.005 to 0.038.",
+     "back_translation": "The danger per minute goes from 0.005 to 0.038."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की अब 6 प्रतिशत जीत की संभावना है पहले यह 3 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M07.e8",
+      "GM03-M07.e9"
+     ],
+     "en_text": "Thornvale City now has a 6 per cent chance of winning, up from 3 per cent.",
+     "back_translation": "Thornwell City now have a 6 per cent chance of winning, up from 3 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M07",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City hizo un cambio en el minuto 65: Jari Kelcroft por Arin Halbrook.",
+     "evidence_ids": [
+      "GM03-M07.e1",
+      "GM03-M07.e6",
+      "GM03-M07.e2",
+      "GM03-M07.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+     "back_translation": "Thornvale City made a substitution in the 65th minute: Jari Kelcroft for Arin Halbrook."
+    },
+    {
+     "text": "La amenaza por minuto pasó de 0.005 a 0.038.",
+     "evidence_ids": [
+      "GM03-M07.e4",
+      "GM03-M07.e5"
+     ],
+     "en_text": "Threat per minute went from 0.005 to 0.038.",
+     "back_translation": "The threat per minute went from 0.005 to 0.038."
+    },
+    {
+     "text": "La probabilidad de victoria de Thornvale City aumentó en 3.0 pp, de 2.7% a 5.7%.",
+     "evidence_ids": [
+      "GM03-M07.e10",
+      "GM03-M07.e8",
+      "GM03-M07.e9"
+     ],
+     "en_text": "Thornvale City win probability rose by 3.0 pp, from 2.7% to 5.7%.",
+     "back_translation": "Thornvale City's win probability increased by 3.0 pp, from 2.7% to 5.7%."
+    },
+    {
+     "text": "Si Thornvale City hubiera mantenido a Arin Halbrook en lugar de introducir a Jari Kelcroft, en 200 simulaciones la probabilidad de ganar de Greyhaven Rovers habría sido de aproximadamente 78% en lugar de 84%.",
+     "evidence_ids": [
+      "GM03-M07.e12",
+      "GM03-M07.e11",
+      "GM03-M07.e18"
+     ],
+     "en_text": "What if Thornvale City had kept Arin Halbrook on instead of bringing on Jari Kelcroft? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 78% instead of 84%.",
+     "back_translation": "If Thornvale City had kept Arin Halbrook instead of introducing Jari Kelcroft, in 200 simulations Greyhaven Rovers' probability of winning would have been about 78% instead of 84%."
+    },
+    {
+     "text": "El cambio simulado es -6.0 pp, con un intervalo del 80% de -10.5 a -1.0 pp.",
+     "evidence_ids": [
+      "GM03-M07.e15",
+      "GM03-M07.e16",
+      "GM03-M07.e17"
+     ],
+     "en_text": "The simulated change is -6.0 pp, with an 80% interval from -10.5 to -1.0 pp.",
+     "back_translation": "The simulated change is -6.0 pp, with an 80% range of -10.5 to -1.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: unknown evidence ids ['GM03-M07.e99']",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M07",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City hizo un cambio en el minuto 65: entra Jari Kelcroft por Arin Halbrook.",
+     "evidence_ids": [
+      "GM03-M07.e1",
+      "GM03-M07.e6",
+      "GM03-M07.e2",
+      "GM03-M07.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+     "back_translation": "Thornvale City made a change in the 65th minute: Jari Kelcroft came on for Arin Halbrook."
+    },
+    {
+     "text": "La amenaza por minuto subió de 0.005 a 0.038.",
+     "evidence_ids": [
+      "GM03-M07.e4",
+      "GM03-M07.e5"
+     ],
+     "en_text": "Threat per minute went from 0.005 to 0.038.",
+     "back_translation": "The threat per minute rose from 0.005 to 0.038."
+    },
+    {
+     "text": "La probabilidad de ganar de Thornvale City se disparó hasta 6%, subiendo 3 puntos.",
+     "evidence_ids": [
+      "GM03-M07.e9",
+      "GM03-M07.e10"
+     ],
+     "en_text": "Thornvale City win chance jumped to 6%, up 3 points.",
+     "back_translation": "Thornvale City's probability of winning shot up to 6%, up 3 points."
+    },
+    {
+     "text": "Si Thornvale City hubiera mantenido a Arin Halbrook en vez de meter a Jari Kelcroft, Greyhaven Rovers tendrían cerca de 78% de probabilidad de ganar, no 84%.",
+     "evidence_ids": [
+      "GM03-M07.e12",
+      "GM03-M07.e11"
+     ],
+     "en_text": "What if Thornvale City had kept Arin Halbrook on instead of bringing on Jari Kelcroft? Greyhaven Rovers would be about 78% to win, not 84%.",
+     "back_translation": "If Thornvale City had kept Arin Halbrook instead of bringing on Jari Kelcroft, Greyhaven Rovers would have about a 78% chance of winning, not 84%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M07",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City hizo un cambio en el minuto 65: Jari Kelcroft entra por Arin Halbrook.",
+     "evidence_ids": [
+      "GM03-M07.e1",
+      "GM03-M07.e6",
+      "GM03-M07.e2",
+      "GM03-M07.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+     "back_translation": "Thornvale City made a change in the 65th minute: Jari Kelcroft comes on for Arin Halbrook."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Thornvale City una probabilidad de victoria de 6%, comparada con 3% antes.",
+     "evidence_ids": [
+      "GM03-M07.e8",
+      "GM03-M07.e9"
+     ],
+     "en_text": "Our model now gives Thornvale City a 6% chance of winning, compared with 3% before.",
+     "back_translation": "Our model now gives Thornvale City a 6% chance of victory, compared to 3% before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones indican que Greyhaven Rovers habrían tenido alrededor de 78% de probabilidad en vez de 84%.",
+     "evidence_ids": [
+      "GM03-M07.e12",
+      "GM03-M07.e11"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 78% chance instead of 84%.",
+     "back_translation": "If that hadn't happened, our simulations indicate that Greyhaven Rovers would have had about a 78% chance instead of 84%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M07",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City hace un cambio en el minuto 65, entra Jari Kelcroft por Arin Halbrook.",
+     "evidence_ids": [
+      "GM03-M07.e1",
+      "GM03-M07.e6",
+      "GM03-M07.e2",
+      "GM03-M07.e3"
+     ],
+     "en_text": "Thornvale City made a change in minute 65: Jari Kelcroft on for Arin Halbrook.",
+     "back_translation": "Thornvale City makes a change in the 65th minute, Jari Kelcroft comes on for Arin Halbrook."
+    },
+    {
+     "text": "La amenaza por minuto pasa de 0.005 a 0.038.",
+     "evidence_ids": [
+      "GM03-M07.e4",
+      "GM03-M07.e5"
+     ],
+     "en_text": "Threat per minute went from 0.005 to 0.038.",
+     "back_translation": "The threat per minute goes from 0.005 to 0.038."
+    },
+    {
+     "text": "Thornvale City ahora tiene una probabilidad de victoria de 6 por ciento, frente al 3 por ciento anterior.",
+     "evidence_ids": [
+      "GM03-M07.e8",
+      "GM03-M07.e9"
+     ],
+     "en_text": "Thornvale City now has a 6 per cent chance of winning, up from 3 per cent.",
+     "back_translation": "Thornvale City now has a 6 percent chance of victory, up from 3 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M08",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ओटो गारमियर ने थॉर्नवेल सिटी के लिए मिनट 66 में गोल किया, और स्कोर 2-2 हो गया।",
+     "evidence_ids": [
+      "GM03-M08.e1",
+      "GM03-M08.e2",
+      "GM03-M08.e11",
+      "GM03-M08.e10"
+     ],
+     "en_text": "Otto Garmere scored for Thornvale City in minute 66, making it 2-2.",
+     "back_translation": "Otto Garmier scored for Thornwell City in minute 66, and the score was 2-2."
+    },
+    {
+     "text": "यह शॉट 5.6 मीटर से 0.37 xG (अपेक्षित गोल) के बराबर था।",
+     "evidence_ids": [
+      "GM03-M08.e3",
+      "GM03-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 5.6 metres.",
+     "back_translation": "This shot was equivalent to 5.6 x G from 0.37 m (expected goals)."
+    },
+    {
+     "text": "यह मूव 7 एक्शन्स का था, और शूटर पर प्रेशर नहीं था।",
+     "evidence_ids": [
+      "GM03-M08.e9",
+      "GM03-M08.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move was of 7 actions, and there was no pressure on the shooter."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 12.1 प्रतिशत अंक बढ़ी, 2.1 प्रतिशत से 14.1 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM03-M08.e15",
+      "GM03-M08.e13",
+      "GM03-M08.e14"
+     ],
+     "en_text": "Thornvale City win probability rose by 12.1 pp, from 2.1% to 14.1%.",
+     "back_translation": "Thornwell City's chances of winning increased by 12.1 percentage points, from 2.1 per cent to 14.1 per cent."
+    },
+    {
+     "text": "अगर ओटो गारमियर का थॉर्नवेल सिटी के लिए गोल नहीं हुआ होता, तो 200 सिम्युलेशन में ग्रेहेवन रोवर्स की जीत की संभावना लगभग 85 प्रतिशत होती, न कि 22 प्रतिशत।",
+     "evidence_ids": [
+      "GM03-M08.e17",
+      "GM03-M08.e16",
+      "GM03-M08.e23"
+     ],
+     "en_text": "What if Otto Garmere's goal for Thornvale City had not gone in? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 85% instead of 22%.",
+     "back_translation": "If it hadn't been for Otto Garmeier's goal for Thornwell City, Greyhaven Rovers' chances of winning in 200 simulations would have been around 85 per cent, not 22 per cent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन +63.0 प्रतिशत अंक है, 80% अंतराल 58.5 से 67.0 प्रतिशत अंक तक है।",
+     "evidence_ids": [
+      "GM03-M08.e20",
+      "GM03-M08.e21",
+      "GM03-M08.e22"
+     ],
+     "en_text": "The simulated change is +63.0 pp, with an 80% interval from 58.5 to 67.0 pp.",
+     "back_translation": "The simulated change is +63.0 percentage points, with an 80% interval ranging from 58.5 to 67.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M08",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ओटो गारमियर ने थॉर्नवेल सिटी के लिए मिनट 66 में गोल किया और स्कोर 2-2 हो गया।",
+     "evidence_ids": [
+      "GM03-M08.e1",
+      "GM03-M08.e2",
+      "GM03-M08.e11",
+      "GM03-M08.e10"
+     ],
+     "en_text": "Otto Garmere scored for Thornvale City in minute 66, making it 2-2.",
+     "back_translation": "Otto Garmier scored for Thornwell City in minute 66 and the score was 2-2."
+    },
+    {
+     "text": "यह शॉट 5.6 मीटर से 0.37 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM03-M08.e3",
+      "GM03-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 5.6 metres.",
+     "back_translation": "The shot was 5.6 x G from 0.37 m (expected goal)."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की उम्मीदें 12 प्रतिशत अंक बढ़कर 14 प्रतिशत हो गईं।",
+     "evidence_ids": [
+      "GM03-M08.e14",
+      "GM03-M08.e15"
+     ],
+     "en_text": "Thornvale City hopes rose by 12 points to 14%.",
+     "back_translation": "Thornwell City's hopes rose 12 percentage points to 14 per cent."
+    },
+    {
+     "text": "यदि ओटो गारमियर का थॉर्नवेल सिटी के लिए गोल न गया होता, तो ग्रेहेवन रोवर्स की जीत की संभावना लगभग 85 प्रतिशत होती, न कि 22 प्रतिशत।",
+     "evidence_ids": [
+      "GM03-M08.e17",
+      "GM03-M08.e16"
+     ],
+     "en_text": "What if Otto Garmere's goal for Thornvale City had not gone in? Greyhaven Rovers would be about 85% to win, not 22%.",
+     "back_translation": "If Otto Garmier's goal had not gone for Thornwell City, Greyhaven Rovers' chances of winning would have been around 85 per cent, not 22 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M08",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "ओटो गारमियर ने थॉर्नवेल सिटी के लिए मिनट 66 में गोल किया, और स्कोर 2-2 हो गया।",
+     "evidence_ids": [
+      "GM03-M08.e1",
+      "GM03-M08.e2",
+      "GM03-M08.e11",
+      "GM03-M08.e10"
+     ],
+     "en_text": "Otto Garmere scored for Thornvale City in minute 66, making it 2-2.",
+     "back_translation": "Otto Garmier scored for Thornwell City in minute 66, and the score was 2-2."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता मापता है; यह 0.37 था, और अधिक का मतलब बेहतर मौका होता है।",
+     "evidence_ids": [
+      "GM03-M08.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.37, and higher means a better chance.",
+     "back_translation": "xG (Expected Goals) measures the quality of chances; It was 0.37, and more means better chances."
+    },
+    {
+     "text": "हमारे मॉडल अब थॉर्नवेल सिटी को 14 प्रतिशत की जीत की संभावना देता है, पहले यह 2 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M08.e13",
+      "GM03-M08.e14"
+     ],
+     "en_text": "Our model now gives Thornvale City a 14% chance of winning, compared with 2% before.",
+     "back_translation": "Our model now gives Thornwell City a 14 per cent chance of winning, previously it was 2 per cent."
+    },
+    {
+     "text": "अगर वह नहीं हुआ होता, तो हमारे सिम्युलेशन बताते हैं कि ग्रेहेवन रोवर्स की जीत की संभावना लगभग 85 प्रतिशत होती, न कि 22 प्रतिशत।",
+     "evidence_ids": [
+      "GM03-M08.e17",
+      "GM03-M08.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 85% chance instead of 22%.",
+     "back_translation": "If that had not happened, our simulations show that Greyhaven Rovers would have had a chance of winning at around 85 per cent, not 22 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M08",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 66। ओटो गारमियर थॉर्नवेल सिटी के लिए गोल करते हैं और स्कोर अब 2-2 है।",
+     "evidence_ids": [
+      "GM03-M08.e11",
+      "GM03-M08.e1",
+      "GM03-M08.e2",
+      "GM03-M08.e10"
+     ],
+     "en_text": "Minute 66. Otto Garmere scores for Thornvale City, and the score is now 2-2.",
+     "back_translation": "Minutes 66. Otto Garmeier scores for Thornwell City and the score is now 2-2."
+    },
+    {
+     "text": "यह शॉट 5.6 मीटर से 0.37 xG (अपेक्षित गोल) का है।",
+     "evidence_ids": [
+      "GM03-M08.e3",
+      "GM03-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 5.6 metres.",
+     "back_translation": "This shot is 5.6 x G from 0.37 meters (expected rounds)."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की अब जीत की संभावना 14 प्रतिशत है, जो पहले 2 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M08.e13",
+      "GM03-M08.e14"
+     ],
+     "en_text": "Thornvale City now has a 14 per cent chance of winning, up from 2 per cent.",
+     "back_translation": "Thornwell City now have a 14 per cent chance of winning, up from 2 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M08",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Otto Garmere marcó para Thornvale City en el minuto 66, poniendo el marcador 2-2.",
+     "evidence_ids": [
+      "GM03-M08.e1",
+      "GM03-M08.e2",
+      "GM03-M08.e11",
+      "GM03-M08.e10"
+     ],
+     "en_text": "Otto Garmere scored for Thornvale City in minute 66, making it 2-2.",
+     "back_translation": "Otto Garmere scored for Thornvale City in the 66th minute, making it 2-2."
+    },
+    {
+     "text": "El disparo valía 0.37 xG (goles esperados) desde 5.6 metros.",
+     "evidence_ids": [
+      "GM03-M08.e3",
+      "GM03-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 5.6 metres.",
+     "back_translation": "The shot was worth 0.37 xG (expected goals) from 5.6 meters."
+    },
+    {
+     "text": "La jugada tuvo 7 acciones, y el tirador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM03-M08.e9",
+      "GM03-M08.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 7 actions, and the shooter was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Thornvale City aumentó 12.1 pp, de 2.1 por ciento a 14.1 por ciento.",
+     "evidence_ids": [
+      "GM03-M08.e15",
+      "GM03-M08.e13",
+      "GM03-M08.e14"
+     ],
+     "en_text": "Thornvale City win probability rose by 12.1 pp, from 2.1% to 14.1%.",
+     "back_translation": "Thornvale City's probability of victory increased 12.1 pp, from 2.1 percent to 14.1 percent."
+    },
+    {
+     "text": "¿Y si el gol de Otto Garmere para Thornvale City no hubiera subido al marcador? En 200 simulaciones, la probabilidad de ganar de Greyhaven Rovers sería aproximadamente 85 por ciento en lugar de 22 por ciento.",
+     "evidence_ids": [
+      "GM03-M08.e17",
+      "GM03-M08.e16",
+      "GM03-M08.e23"
+     ],
+     "en_text": "What if Otto Garmere's goal for Thornvale City had not gone in? Across 200 simulated rollouts, Greyhaven Rovers win chance would be about 85% instead of 22%.",
+     "back_translation": "What if Otto Garmere's goal for Thornvale City hadn't gone on the scoreboard? In 200 simulations, Greyhaven Rovers' chance of winning would be about 85 percent instead of 22 percent."
+    },
+    {
+     "text": "El cambio simulado es +63.0 pp, con un intervalo del 80% de 58.5 a 67.0 pp.",
+     "evidence_ids": [
+      "GM03-M08.e20",
+      "GM03-M08.e21",
+      "GM03-M08.e22"
+     ],
+     "en_text": "The simulated change is +63.0 pp, with an 80% interval from 58.5 to 67.0 pp.",
+     "back_translation": "The simulated change is +63.0 pp, with an 80% range of 58.5 to 67.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M08",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Otto Garmere marcó para Thornvale City en el minuto 66, dejando el partido 2-2.",
+     "evidence_ids": [
+      "GM03-M08.e1",
+      "GM03-M08.e2",
+      "GM03-M08.e11",
+      "GM03-M08.e10"
+     ],
+     "en_text": "Otto Garmere scored for Thornvale City in minute 66, making it 2-2.",
+     "back_translation": "Otto Garmere scored for Thornvale City in the 66th minute, leaving the game 2-2."
+    },
+    {
+     "text": "El disparo valía 0.37 xG (goles esperados) desde 5.6 metros.",
+     "evidence_ids": [
+      "GM03-M08.e3",
+      "GM03-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 5.6 metres.",
+     "back_translation": "The shot was worth 0.37 xG (expected goals) from 5.6 meters."
+    },
+    {
+     "text": "Las esperanzas de Thornvale City subieron 12 puntos hasta 14 por ciento.",
+     "evidence_ids": [
+      "GM03-M08.e14",
+      "GM03-M08.e15"
+     ],
+     "en_text": "Thornvale City hopes rose by 12 points to 14%.",
+     "back_translation": "Thornvale City's hopes rose 12 points to 14 percent."
+    },
+    {
+     "text": "¿Y si el gol de Otto Garmere para Thornvale City no hubiera entrado? Greyhaven Rovers tendría alrededor de 85 por ciento de probabilidad de ganar, no 22 por ciento.",
+     "evidence_ids": [
+      "GM03-M08.e17",
+      "GM03-M08.e16"
+     ],
+     "en_text": "What if Otto Garmere's goal for Thornvale City had not gone in? Greyhaven Rovers would be about 85% to win, not 22%.",
+     "back_translation": "What if Otto Garmere's goal for Thornvale City hadn't gone in? Greyhaven Rovers would have around an 85 per cent chance of winning, not a 22 per cent chance."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M08",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Otto Garmere marcó para Thornvale City en el minuto 66, poniendo el marcador 2-2.",
+     "evidence_ids": [
+      "GM03-M08.e1",
+      "GM03-M08.e2",
+      "GM03-M08.e11",
+      "GM03-M08.e10"
+     ],
+     "en_text": "Otto Garmere scored for Thornvale City in minute 66, making it 2-2.",
+     "back_translation": "Otto Garmere scored for Thornvale City in the 66th minute, making it 2-2."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de la ocasión; esta fue 0.37, y cuanto mayor es, mejor oportunidad.",
+     "evidence_ids": [
+      "GM03-M08.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.37, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; this was 0.37, and the higher it is, the better chance."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Thornvale City un 14 por ciento de probabilidad de ganar, comparado con 2 por ciento antes.",
+     "evidence_ids": [
+      "GM03-M08.e13",
+      "GM03-M08.e14"
+     ],
+     "en_text": "Our model now gives Thornvale City a 14% chance of winning, compared with 2% before.",
+     "back_translation": "Our model now gives Thornvale City a 14 percent chance of winning, compared to 2 percent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Greyhaven Rovers tendría alrededor de 85 por ciento de probabilidad de ganar en lugar de 22 por ciento.",
+     "evidence_ids": [
+      "GM03-M08.e17",
+      "GM03-M08.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Greyhaven Rovers would have about a 85% chance instead of 22%.",
+     "back_translation": "If that hadn't happened, our simulations suggest that Greyhaven Rovers would have around an 85 percent chance of winning instead of 22 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M08",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 66 Otto Garmere marca para Thornvale City y el marcador ahora es 2 a 2.",
+     "evidence_ids": [
+      "GM03-M08.e11",
+      "GM03-M08.e1",
+      "GM03-M08.e2",
+      "GM03-M08.e10"
+     ],
+     "en_text": "Minute 66. Otto Garmere scores for Thornvale City, and the score is now 2-2.",
+     "back_translation": "Minute 66 Otto Garmere scores for Thornvale City and the score is now 2-2."
+    },
+    {
+     "text": "El disparo vale 0.37 xG goles esperados desde 5.6 metros.",
+     "evidence_ids": [
+      "GM03-M08.e3",
+      "GM03-M08.e5"
+     ],
+     "en_text": "The shot was worth 0.37 xG from 5.6 metres.",
+     "back_translation": "The shot is worth 0.37 xG expected goals from 5.6 meters."
+    },
+    {
+     "text": "Thornvale City ahora tiene 14 por ciento de probabilidad de ganar, frente a 2 por ciento.",
+     "evidence_ids": [
+      "GM03-M08.e13",
+      "GM03-M08.e14"
+     ],
+     "en_text": "Thornvale City now has a 14 per cent chance of winning, up from 2 per cent.",
+     "back_translation": "Thornvale City now has a 14 percent chance of winning, up from 2 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M09",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "इलान सेलबी के पास मिनट 71 में ग्रेहेवन रोवर्स के लिए एक बड़ा मौक़ा था।",
+     "evidence_ids": [
+      "GM03-M09.e1",
+      "GM03-M09.e2",
+      "GM03-M09.e10"
+     ],
+     "en_text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+     "back_translation": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71."
+    },
+    {
+     "text": "शॉट का मूल्य 0.28 xG (अपेक्षित गोल) था और यह 6.9 मीटर से लिया गया था।",
+     "evidence_ids": [
+      "GM03-M09.e3",
+      "GM03-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The shot had a value of 0.28 xG (expected goals) and was taken from 6.9 meters."
+    },
+    {
+     "text": "उस चाल में 7 एक्शन थे और शूटर दबाव में नहीं था।",
+     "evidence_ids": [
+      "GM03-M09.e9",
+      "GM03-M09.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "That move had 7 actions and the shooter was not under pressure."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की जीत की संभावना 1.9 प्रतिशत अंक गिरकर 22.7 प्रतिशत से 20.8 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM03-M09.e14",
+      "GM03-M09.e12",
+      "GM03-M09.e13"
+     ],
+     "en_text": "Greyhaven Rovers win probability fell by 1.9 pp, from 22.7% to 20.8%.",
+     "back_translation": "Greyhaven Rovers' chances of victory fell 1.9 percentage points from 22.7 per cent to 20.8 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s4: direction word ('up') contradicts cited change",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M09",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "इलान सेलबी ने मिनट 71 में ग्रेहेवन रोवर्स के लिए एक बड़ा मौक़ा पाया।",
+     "evidence_ids": [
+      "GM03-M09.e1",
+      "GM03-M09.e2",
+      "GM03-M09.e10"
+     ],
+     "en_text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+     "back_translation": "Ilan Selby created a big chance for Greyhaven Rovers in minute 71."
+    },
+    {
+     "text": "शॉट की क़ीमत 0.28 xG (अपेक्षित गोल) थी, 6.9 मीटर से।",
+     "evidence_ids": [
+      "GM03-M09.e3",
+      "GM03-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The shot cost 0.28 xG (expected rounds), from 6.9 meters."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स की जीत की संभावना घटकर 21 प्रतिशत हो गई, यानी 2 प्रतिशत अंक की कमी।",
+     "evidence_ids": [
+      "GM03-M09.e13",
+      "GM03-M09.e14"
+     ],
+     "en_text": "Greyhaven Rovers win chance dropped to 21%, down 2 points.",
+     "back_translation": "Greyhaven Rovers' chances of victory dropped to 21 percent, i.e. a decrease of 2 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M09",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 71 में इलान सेलबी के पास ग्रेहेवन रोवर्स के लिए एक बड़ा मौक़ा था।",
+     "evidence_ids": [
+      "GM03-M09.e1",
+      "GM03-M09.e2",
+      "GM03-M09.e10"
+     ],
+     "en_text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+     "back_translation": "In minute 71 Ilan Selby had a big chance for Greyhaven Rovers."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता नापता है, यह 0.28 था और अधिक होना बेहतर मौके को दिखाता है।",
+     "evidence_ids": [
+      "GM03-M09.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.28, and higher means a better chance.",
+     "back_translation": "xG (Goals Expected) measures the quality of the chance, it was 0.28 and being higher indicates a better chance."
+    },
+    {
+     "text": "हमारा मॉडल अब ग्रेहेवन रोवर्स को जीतने के लिए 21 प्रतिशत संभावना देता है, जबकि पहले यह 23 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M09.e12",
+      "GM03-M09.e13"
+     ],
+     "en_text": "Our model now gives Greyhaven Rovers a 21% chance of winning, compared with 23% before.",
+     "back_translation": "Our model now gives Greyhaven Rovers a 21 per cent chance of winning, compared to 23 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M09",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "इलान सेलबी के पास मिनट 71 में ग्रेहेवन रोवर्स के लिए बड़ा मौक़ा है।",
+     "evidence_ids": [
+      "GM03-M09.e1",
+      "GM03-M09.e2",
+      "GM03-M09.e10"
+     ],
+     "en_text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+     "back_translation": "Ilan Selby has a big chance for Greyhaven Rovers in minute 71."
+    },
+    {
+     "text": "शॉट का मान 0.28 xG (अपेक्षित गोल) है और यह 6.9 मीटर से है।",
+     "evidence_ids": [
+      "GM03-M09.e3",
+      "GM03-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The shot has a value of 0.28 xG (expected rounds) and is from 6.9 meters."
+    },
+    {
+     "text": "ग्रेहेवन रोवर्स अब जीतने की 21 प्रतिशत संभावना रखता है, जबकि पहले यह 23 प्रतिशत था।",
+     "evidence_ids": [
+      "GM03-M09.e12",
+      "GM03-M09.e13"
+     ],
+     "en_text": "Greyhaven Rovers now has a 21 per cent chance of winning, down from 23 per cent.",
+     "back_translation": "Greyhaven Rovers now have a 21 per cent chance of winning, compared to 23 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M09",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Ilan Selby tuvo una ocasión clara para Greyhaven Rovers en el minuto 71.",
+     "evidence_ids": [
+      "GM03-M09.e1",
+      "GM03-M09.e2",
+      "GM03-M09.e10"
+     ],
+     "en_text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+     "back_translation": "Ilan Selby had a clear chance for Greyhaven Rovers in the 71st minute."
+    },
+    {
+     "text": "El disparo valía 0.28 xG (goles esperados) desde 6.9 metros.",
+     "evidence_ids": [
+      "GM03-M09.e3",
+      "GM03-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The shot was worth 0.28 xG (expected goals) from 6.9 meters."
+    },
+    {
+     "text": "La jugada tuvo 7 acciones y el rematador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM03-M09.e9",
+      "GM03-M09.e7"
+     ],
+     "en_text": "The move had 7 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 7 actions and the striker was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Greyhaven Rovers cayó 1.9 pp, de 22.7 por ciento a 20.8 por ciento.",
+     "evidence_ids": [
+      "GM03-M09.e14",
+      "GM03-M09.e12",
+      "GM03-M09.e13"
+     ],
+     "en_text": "Greyhaven Rovers win probability fell by 1.9 pp, from 22.7% to 20.8%.",
+     "back_translation": "Greyhaven Rovers' probability of victory fell 1.9 pp, from 22.7 percent to 20.8 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s4: direction word ('up') contradicts cited change",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M09",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Ilan Selby tuvo una ocasión clara para Greyhaven Rovers en el minuto 71.",
+     "evidence_ids": [
+      "GM03-M09.e1",
+      "GM03-M09.e2",
+      "GM03-M09.e10"
+     ],
+     "en_text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+     "back_translation": "Ilan Selby had a clear chance for Greyhaven Rovers in the 71st minute."
+    },
+    {
+     "text": "El disparo valía 0.28 xG (goles esperados) desde 6.9 metros.",
+     "evidence_ids": [
+      "GM03-M09.e3",
+      "GM03-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The shot was worth 0.28 xG (expected goals) from 6.9 meters."
+    },
+    {
+     "text": "La probabilidad de ganar de Greyhaven Rovers cayó a 21 por ciento, 2 puntos porcentuales menos.",
+     "evidence_ids": [
+      "GM03-M09.e13",
+      "GM03-M09.e14"
+     ],
+     "en_text": "Greyhaven Rovers win chance dropped to 21%, down 2 points.",
+     "back_translation": "Greyhaven Rovers' chance of winning fell to 21 percent, down 2 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M09",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Ilan Selby tuvo una ocasión clara para Greyhaven Rovers en el minuto 71.",
+     "evidence_ids": [
+      "GM03-M09.e1",
+      "GM03-M09.e2",
+      "GM03-M09.e10"
+     ],
+     "en_text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+     "back_translation": "Ilan Selby had a clear chance for Greyhaven Rovers in the 71st minute."
+    },
+    {
+     "text": "xG (goles esperados) mide la calidad de la ocasión; esta fue 0.28 y un valor mayor significa una mejor oportunidad.",
+     "evidence_ids": [
+      "GM03-M09.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.28, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance; this was 0.28 and a higher value means a better chance."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Greyhaven Rovers una probabilidad de ganar del 21 por ciento, comparado con 23 por ciento antes.",
+     "evidence_ids": [
+      "GM03-M09.e12",
+      "GM03-M09.e13"
+     ],
+     "en_text": "Our model now gives Greyhaven Rovers a 21% chance of winning, compared with 23% before.",
+     "back_translation": "Our model now gives Greyhaven Rovers a 21 percent chance of winning, compared to 23 percent before."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M09",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Ilan Selby tiene una ocasión clara para Greyhaven Rovers en el minuto 71.",
+     "evidence_ids": [
+      "GM03-M09.e1",
+      "GM03-M09.e2",
+      "GM03-M09.e10"
+     ],
+     "en_text": "Ilan Selby had a big chance for Greyhaven Rovers in minute 71.",
+     "back_translation": "Ilan Selby has a clear chance for Greyhaven Rovers in the 71st minute."
+    },
+    {
+     "text": "El disparo vale 0.28 xG, goles esperados, desde 6.9 metros.",
+     "evidence_ids": [
+      "GM03-M09.e3",
+      "GM03-M09.e5"
+     ],
+     "en_text": "The shot was worth 0.28 xG from 6.9 metres.",
+     "back_translation": "The shot is worth 0.28 xG, expected goals, from 6.9 meters."
+    },
+    {
+     "text": "Greyhaven Rovers ahora tiene una probabilidad de ganar del 21 por ciento, frente al 23 por ciento.",
+     "evidence_ids": [
+      "GM03-M09.e12",
+      "GM03-M09.e13"
+     ],
+     "en_text": "Greyhaven Rovers now has a 21 per cent chance of winning, down from 23 per cent.",
+     "back_translation": "Greyhaven Rovers now have a 21 per cent chance of winning, up from 23 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M10",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने मैच का नियंत्रण मिनट 81 से संभाल लिया।",
+     "evidence_ids": [
+      "GM03-M10.e1",
+      "GM03-M10.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 81.",
+     "back_translation": "Thornwell City took control of the match from minute 81."
+    },
+    {
+     "text": "मोमेंटम सूचकांक 0.54 से -0.29 पर बदल गया।",
+     "evidence_ids": [
+      "GM03-M10.e2",
+      "GM03-M10.e3"
+     ],
+     "en_text": "The momentum index went from 0.54 to -0.29.",
+     "back_translation": "The momentum index changed from 0.54 to -0.29."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 3.0 प्रतिशत अंक कम हुई, जो 5.7 प्रतिशत से 2.7 प्रतिशत पर आई।",
+     "evidence_ids": [
+      "GM03-M10.e9",
+      "GM03-M10.e7",
+      "GM03-M10.e8"
+     ],
+     "en_text": "Thornvale City win probability fell by 3.0 pp, from 5.7% to 2.7%.",
+     "back_translation": "Thornwell City's chances of winning decreased by 3.0 percentage points, coming in from 5.7 percent to 2.7 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M10",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने मिनट 81 से मैच पर कब्ज़ा कर लिया।",
+     "evidence_ids": [
+      "GM03-M10.e1",
+      "GM03-M10.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 81.",
+     "back_translation": "Thornwell City took control of the match from minute 81."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.54 से -0.29 तक बदल गया।",
+     "evidence_ids": [
+      "GM03-M10.e2",
+      "GM03-M10.e3"
+     ],
+     "en_text": "The momentum index went from 0.54 to -0.29.",
+     "back_translation": "The momentum index changed from 0.54 to -0.29."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 3 प्रतिशत पर आ गई, जो 3 प्रतिशत अंक कम है।",
+     "evidence_ids": [
+      "GM03-M10.e8",
+      "GM03-M10.e9"
+     ],
+     "en_text": "Thornvale City win chance dropped to 3%, down 3 points.",
+     "back_translation": "Thornwell City's chances of winning came down to 3 per cent, down 3 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M10",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने मिनट 81 से मैच पर काबू पा लिया।",
+     "evidence_ids": [
+      "GM03-M10.e1",
+      "GM03-M10.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 81.",
+     "back_translation": "Thornwell City took control of the match from minute 81."
+    },
+    {
+     "text": "हमारे मॉडल के मुताबिक थॉर्नवेल सिटी की जीत की अब 3 प्रतिशत संभावना है, जबकि पहले यह 6 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M10.e7",
+      "GM03-M10.e8"
+     ],
+     "en_text": "Our model now gives Thornvale City a 3% chance of winning, compared with 6% before.",
+     "back_translation": "According to our model, Thornwell City now have a 3 per cent chance of winning, compared to 6 per cent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M10",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी मिनट 81 से मैच का नियंत्रण ले रहा है।",
+     "evidence_ids": [
+      "GM03-M10.e1",
+      "GM03-M10.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 81.",
+     "back_translation": "Thornwell City take control of the match from minute 81."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.54 से -0.29 पर जा रहा है।",
+     "evidence_ids": [
+      "GM03-M10.e2",
+      "GM03-M10.e3"
+     ],
+     "en_text": "The momentum index went from 0.54 to -0.29.",
+     "back_translation": "The Momentum Index is going from 0.54 to -0.29."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की अब जीत की 3 प्रतिशत संभावना है, जो पहले 6 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM03-M10.e7",
+      "GM03-M10.e8"
+     ],
+     "en_text": "Thornvale City now has a 3 per cent chance of winning, down from 6 per cent.",
+     "back_translation": "Thornwell City now have a 3 per cent chance of winning, up from 6 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M10",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City tomó el control del partido a partir del minuto 81.",
+     "evidence_ids": [
+      "GM03-M10.e1",
+      "GM03-M10.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 81.",
+     "back_translation": "Thornvale City took control of the game from the 81st minute."
+    },
+    {
+     "text": "El índice de impulso pasó de 0.54 a -0.29.",
+     "evidence_ids": [
+      "GM03-M10.e2",
+      "GM03-M10.e3"
+     ],
+     "en_text": "The momentum index went from 0.54 to -0.29.",
+     "back_translation": "The momentum index went from 0.54 to -0.29."
+    },
+    {
+     "text": "La probabilidad de victoria de Thornvale City disminuyó 3.0 pp, de 5.7 por ciento a 2.7 por ciento.",
+     "evidence_ids": [
+      "GM03-M10.e9",
+      "GM03-M10.e7",
+      "GM03-M10.e8"
+     ],
+     "en_text": "Thornvale City win probability fell by 3.0 pp, from 5.7% to 2.7%.",
+     "back_translation": "Thornvale City's probability of victory decreased 3.0 pp, from 5.7 percent to 2.7 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M10",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City se hizo con el control del partido desde el minuto 81.",
+     "evidence_ids": [
+      "GM03-M10.e1",
+      "GM03-M10.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 81.",
+     "back_translation": "Thornvale City took control of the game from the 81st minute."
+    },
+    {
+     "text": "El índice de impulso pasó de 0.54 a -0.29.",
+     "evidence_ids": [
+      "GM03-M10.e2",
+      "GM03-M10.e3"
+     ],
+     "en_text": "The momentum index went from 0.54 to -0.29.",
+     "back_translation": "The momentum index went from 0.54 to -0.29."
+    },
+    {
+     "text": "La probabilidad de ganar de Thornvale City cayó a 3 por ciento, 3 puntos porcentuales menos.",
+     "evidence_ids": [
+      "GM03-M10.e8",
+      "GM03-M10.e9"
+     ],
+     "en_text": "Thornvale City win chance dropped to 3%, down 3 points.",
+     "back_translation": "Thornvale City's chance of winning fell to 3 percent, down 3 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M10",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City tomó el control del partido desde el minuto 81.",
+     "evidence_ids": [
+      "GM03-M10.e1",
+      "GM03-M10.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 81.",
+     "back_translation": "Thornvale City took control of the game from the 81st minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Thornvale City una probabilidad de ganar del 3 por ciento, comparada con el 6 por ciento antes.",
+     "evidence_ids": [
+      "GM03-M10.e7",
+      "GM03-M10.e8"
+     ],
+     "en_text": "Our model now gives Thornvale City a 3% chance of winning, compared with 6% before.",
+     "back_translation": "Our model now gives Thornvale City a 3 percent chance of winning, compared to 6 percent before."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM03-M10",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City se hace con el control del partido desde el minuto 81.",
+     "evidence_ids": [
+      "GM03-M10.e1",
+      "GM03-M10.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 81.",
+     "back_translation": "Thornvale City takes control of the match from the 81st minute."
+    },
+    {
+     "text": "El índice de impulso pasa de 0.54 a menos 0.29.",
+     "evidence_ids": [
+      "GM03-M10.e2",
+      "GM03-M10.e3"
+     ],
+     "en_text": "The momentum index went from 0.54 to -0.29.",
+     "back_translation": "The momentum index goes from 0.54 to minus 0.29."
+    },
+    {
+     "text": "Thornvale City ahora tiene una probabilidad de ganar del 3 por ciento, frente al 6 por ciento.",
+     "evidence_ids": [
+      "GM03-M10.e7",
+      "GM03-M10.e8"
+     ],
+     "en_text": "Thornvale City now has a 3 per cent chance of winning, down from 6 per cent.",
+     "back_translation": "Thornvale City now has a 3 percent chance of winning, up from 6 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  }
+ ],
+ "trace": {
+  "GM03-M01": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM03-M02": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM03-M03": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM03-M04": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM03-M05": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM03-M06": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM03-M07": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM03-M08": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "16/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "1/1 sentences passed checks"
+    },
+    {
+     "step": 3,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 4,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM03-M09": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM03-M10": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  }
+ }
+}

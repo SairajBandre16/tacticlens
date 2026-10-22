@@ -92,6 +92,7 @@ class Sentence(_Contract):
     text: str = Field(min_length=1)
     evidence_ids: list[str] = Field(min_length=1)
     en_text: str | None = None
+    back_translation: str | None = None
 
 
 class Explanation(_Contract):
@@ -126,6 +127,7 @@ class Persona(_Contract):
     lang: Lang
     fav_club: str | None = None
     fav_player: str | None = None
+    player_lock: bool = False
     analogy: Analogy = "none"
     tone: int = Field(default=1, ge=0, le=2)
     stats_density: int = Field(default=1, ge=0, le=2)
@@ -136,7 +138,7 @@ class Persona(_Contract):
         return ".".join([
             self.mode, self.lang, self.analogy, f"t{self.tone}", f"d{self.stats_density}",
             self.fav_club or "-", self.fav_player or "-",
-        ])
+        ]) + (".lock" if self.player_lock else "")
 
 
 # schema file stem -> top-level model

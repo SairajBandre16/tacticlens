@@ -7,7 +7,8 @@
    "verified": true, "verifier_notes": [], "degraded": false},
   {"moment_id": "M001-MO03", "persona_key": "casual.hi.cricket.t1.d0.-.-", "lang": "hi",
    "sentences": [
-     {"text": "केस्ट्रल टाउन ने हेडर से गोल किया।", "evidence_ids": ["ev3"], "en_text": "Kestrel Town scored with a header."}
+     {"text": "केस्ट्रल टाउन ने हेडर से गोल किया।", "evidence_ids": ["ev3"], "en_text": "Kestrel Town scored with a header.",
+      "back_translation": "Kestrel Town scored a goal with a header."}
    ],
    "verified": false, "verifier_notes": ["regenerated twice; template fallback used"], "degraded": true}
 ]

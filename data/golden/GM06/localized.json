@@ -1,0 +1,3030 @@
+{
+ "backend": "foundry",
+ "explanations": [
+  {
+   "moment_id": "GM06-M01",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "अरिन हलब्रुक के पास मिनट 7 में थॉर्नवेल सिटी के लिए एक बड़ा मौक़ा था.",
+     "evidence_ids": [
+      "GM06-M01.e1",
+      "GM06-M01.e2",
+      "GM06-M01.e10"
+     ],
+     "en_text": "Arin Halbrook had a big chance for Thornvale City in minute 7.",
+     "back_translation": "Arin Halbrook had a big chance for Thornwell City in minute 7."
+    },
+    {
+     "text": "यह शॉट 1.8 मीटर से 0.74 xG (अपेक्षित गोल) के बराबर था.",
+     "evidence_ids": [
+      "GM06-M01.e3",
+      "GM06-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.74 xG from 1.8 metres.",
+     "back_translation": "This shot was equal to 1.8 m to 0.74 xG (expected goals)."
+    },
+    {
+     "text": "उस चाल में 10 कार्रवाइयाँ थीं, और शूटर पर दबाव नहीं था.",
+     "evidence_ids": [
+      "GM06-M01.e9",
+      "GM06-M01.e7"
+     ],
+     "en_text": "The move had 10 actions, and the shooter was under pressure: no.",
+     "back_translation": "That move had 10 actions, and the shooter was not pressured."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 0.9 प्रतिशत अंक से घटकर 33.4% से 32.5% हो गई.",
+     "evidence_ids": [
+      "GM06-M01.e14",
+      "GM06-M01.e12",
+      "GM06-M01.e13"
+     ],
+     "en_text": "Thornvale City win probability fell by 0.9 pp, from 33.4% to 32.5%.",
+     "back_translation": "Thornwell City's chances of winning decreased by 0.9 percentage points from 33.4% to 32.5%."
+    },
+    {
+     "text": "क्या होता अगर अरिन हलब्रुक ने थॉर्नवेल सिटी के लिए यह मौका गोल कर दिया होता, तो 200 सिम्युलेशन में रेडमियर एफ़सी की जीत की संभावना लगभग 17% होती, न कि 34%.",
+     "evidence_ids": [
+      "GM06-M01.e16",
+      "GM06-M01.e15",
+      "GM06-M01.e22"
+     ],
+     "en_text": "What if Arin Halbrook had scored this chance for Thornvale City? Across 200 simulated rollouts, Redmere FC win chance would be about 17% instead of 34%.",
+     "back_translation": "What if Arin Halbrooke had scored this chance for Thornwell City, Redmere FC's chances of winning in 200 simulations would have been around 17%, not 34%."
+    },
+    {
+     "text": "सिम्युलेशन के अनुसार परिवर्तन -17.5 प्रतिशत अंक है, 80% अंतराल -21.0 से -14.0 प्रतिशत अंक तक है.",
+     "evidence_ids": [
+      "GM06-M01.e19",
+      "GM06-M01.e20",
+      "GM06-M01.e21"
+     ],
+     "en_text": "The simulated change is -17.5 pp, with an 80% interval from -21.0 to -14.0 pp.",
+     "back_translation": "The change according to the simulation is -17.5 percentage points, with the 80% interval ranging from -21.0 to -14.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M01",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 7 में अरिन हलब्रुक के पास थॉर्नवेल सिटी के लिए एक बड़ा मौक़ा था.",
+     "evidence_ids": [
+      "GM06-M01.e1",
+      "GM06-M01.e2",
+      "GM06-M01.e10"
+     ],
+     "en_text": "Arin Halbrook had a big chance for Thornvale City in minute 7.",
+     "back_translation": "In minute 7, Arin Halbrook had a big chance for Thornwell City."
+    },
+    {
+     "text": "यह शॉट 1.8 मीटर से 0.74 xG (अपेक्षित गोल) का था.",
+     "evidence_ids": [
+      "GM06-M01.e3",
+      "GM06-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.74 xG from 1.8 metres.",
+     "back_translation": "The shot was 1.8 meters to 0.74 xG (expected goals)."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना मुश्किल से हिली और लगभग 32% पर बनी रही.",
+     "evidence_ids": [
+      "GM06-M01.e13",
+      "GM06-M01.e14"
+     ],
+     "en_text": "Thornvale City win chance barely moved, staying near 32%.",
+     "back_translation": "Thornwell City's chances of victory barely budged and remained at around 32%."
+    },
+    {
+     "text": "अगर अरिन हलब्रुक यह मौका थॉर्नवेल सिटी के लिए गोल कर देते तो रेडमियर एफ़सी की जीत की संभावना लगभग 17 प्रतिशत होती, न कि 34 प्रतिशत।",
+     "evidence_ids": [
+      "GM06-M01.e16",
+      "GM06-M01.e15"
+     ],
+     "en_text": "What if Arin Halbrook had scored this chance for Thornvale City? Redmere FC would be about 17% to win, not 34%.",
+     "back_translation": "If Arryn Halbrooke had scored this chance for Thornwell City, Redmere FC's chances of winning would have been around 17 per cent, not 34 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M01",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 7 में अरिन हलब्रुक के पास थॉर्नवेल सिटी के लिए एक बड़ा मौक़ा था.",
+     "evidence_ids": [
+      "GM06-M01.e1",
+      "GM06-M01.e2",
+      "GM06-M01.e10"
+     ],
+     "en_text": "Arin Halbrook had a big chance for Thornvale City in minute 7.",
+     "back_translation": "In minute 7, Arin Halbrook had a big chance for Thornwell City."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता मापता है, यह 0.74 था और अधिक होना बेहतर मौका दिखाता है.",
+     "evidence_ids": [
+      "GM06-M01.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.74, and higher means a better chance.",
+     "back_translation": "The xG (goal expected) measures the quality of the chance, it was 0.74 and shows a better chance of being higher."
+    },
+    {
+     "text": "हमारे मॉडल अब थॉर्नवेल सिटी को जीतने की 32% संभावना देता है, पहले यह 33% थी.",
+     "evidence_ids": [
+      "GM06-M01.e12",
+      "GM06-M01.e13"
+     ],
+     "en_text": "Our model now gives Thornvale City a 32% chance of winning, compared with 33% before.",
+     "back_translation": "Our model now gives Thornvale City a 32% chance of winning, up from 33% earlier."
+    },
+    {
+     "text": "अगर ऐसा नहीं हुआ होता तो हमारे सिम्युलेशन का सुझाव है कि रेडमियर एफ़सी की जीत की संभावना लगभग 17% होती, न कि 34%.",
+     "evidence_ids": [
+      "GM06-M01.e16",
+      "GM06-M01.e15"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Redmere FC would have about a 17% chance instead of 34%.",
+     "back_translation": "If this had not happened, our simulations suggest that Redmere FC would have had a winning probability of about 17%, not 34%."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M01",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "अरिन हलब्रुक के पास मिनट 7 में थॉर्नवेल सिटी के लिए एक बड़ा मौक़ा है.",
+     "evidence_ids": [
+      "GM06-M01.e1",
+      "GM06-M01.e2",
+      "GM06-M01.e10"
+     ],
+     "en_text": "Arin Halbrook had a big chance for Thornvale City in minute 7.",
+     "back_translation": "Arin Halbrook has a big chance for Thornwell City in minute 7."
+    },
+    {
+     "text": "यह शॉट 1.8 मीटर से 0.74 xG के बराबर है.",
+     "evidence_ids": [
+      "GM06-M01.e3",
+      "GM06-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.74 xG from 1.8 metres.",
+     "back_translation": "This shot is equal to 1.8 meters to 0.74 xG."
+    },
+    {
+     "text": "थॉर्नवेल सिटी के पास अब जीतने की 32 प्रतिशत संभावना है, जो पहले 33 प्रतिशत थी.",
+     "evidence_ids": [
+      "GM06-M01.e12",
+      "GM06-M01.e13"
+     ],
+     "en_text": "Thornvale City now has a 32 per cent chance of winning, down from 33 per cent.",
+     "back_translation": "Thornwell City now have a 32 per cent chance of winning, up from 33 per cent earlier."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M01",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Arin Halbrook tuvo una ocasión clara para Thornvale City en el minuto 7.",
+     "evidence_ids": [
+      "GM06-M01.e1",
+      "GM06-M01.e2",
+      "GM06-M01.e10"
+     ],
+     "en_text": "Arin Halbrook had a big chance for Thornvale City in minute 7.",
+     "back_translation": "Arin Halbrook had a clear chance for Thornvale City in the 7th minute."
+    },
+    {
+     "text": "El disparo valía 0.74 xG (goles esperados) desde 1.8 metros.",
+     "evidence_ids": [
+      "GM06-M01.e3",
+      "GM06-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.74 xG from 1.8 metres.",
+     "back_translation": "The shot was worth 0.74 xG (expected goals) from 1.8 meters."
+    },
+    {
+     "text": "La jugada tuvo 10 acciones y el rematador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM06-M01.e9",
+      "GM06-M01.e7"
+     ],
+     "en_text": "The move had 10 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 10 actions and the striker was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Thornvale City cayó 0.9 pp, de 33.4 por ciento a 32.5 por ciento.",
+     "evidence_ids": [
+      "GM06-M01.e14",
+      "GM06-M01.e12",
+      "GM06-M01.e13"
+     ],
+     "en_text": "Thornvale City win probability fell by 0.9 pp, from 33.4% to 32.5%.",
+     "back_translation": "Thornvale City's probability of victory fell 0.9 pp, from 33.4 percent to 32.5 percent."
+    },
+    {
+     "text": "Si Arin Halbrook hubiera marcado esta ocasión para Thornvale City, en 200 simulaciones la probabilidad de ganar de Redmere FC sería aproximadamente 17 por ciento en lugar de 34 por ciento.",
+     "evidence_ids": [
+      "GM06-M01.e16",
+      "GM06-M01.e15",
+      "GM06-M01.e22"
+     ],
+     "en_text": "What if Arin Halbrook had scored this chance for Thornvale City? Across 200 simulated rollouts, Redmere FC win chance would be about 17% instead of 34%.",
+     "back_translation": "If Arin Halbrook had scored this chance for Thornvale City, across 200 simulations Redmere FC's chance of winning would be around 17 per cent instead of 34 per cent."
+    },
+    {
+     "text": "El cambio simulado es -17.5 pp, con un intervalo del 80% de -21.0 a -14.0 pp.",
+     "evidence_ids": [
+      "GM06-M01.e19",
+      "GM06-M01.e20",
+      "GM06-M01.e21"
+     ],
+     "en_text": "The simulated change is -17.5 pp, with an 80% interval from -21.0 to -14.0 pp.",
+     "back_translation": "The simulated change is -17.5 pp, with an 80% range of -21.0 to -14.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M01",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Arin Halbrook tuvo una ocasión clara para Thornvale City en el minuto 7.",
+     "evidence_ids": [
+      "GM06-M01.e1",
+      "GM06-M01.e2",
+      "GM06-M01.e10"
+     ],
+     "en_text": "Arin Halbrook had a big chance for Thornvale City in minute 7.",
+     "back_translation": "Arin Halbrook had a clear chance for Thornvale City in the 7th minute."
+    },
+    {
+     "text": "El disparo valía 0.74 xG (goles esperados) desde 1.8 metros.",
+     "evidence_ids": [
+      "GM06-M01.e3",
+      "GM06-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.74 xG from 1.8 metres.",
+     "back_translation": "The shot was worth 0.74 xG (expected goals) from 1.8 meters."
+    },
+    {
+     "text": "La probabilidad de ganar de Thornvale City apenas se movió, manteniéndose cerca del 32 por ciento.",
+     "evidence_ids": [
+      "GM06-M01.e13",
+      "GM06-M01.e14"
+     ],
+     "en_text": "Thornvale City win chance barely moved, staying near 32%.",
+     "back_translation": "Thornvale City's probability of winning barely budged, remaining close to 32 percent."
+    },
+    {
+     "text": "Si Arin Halbrook hubiera marcado esta ocasión para Thornvale City, la probabilidad de ganar de Redmere FC sería alrededor de 17 por ciento, no 34 por ciento.",
+     "evidence_ids": [
+      "GM06-M01.e16",
+      "GM06-M01.e15"
+     ],
+     "en_text": "What if Arin Halbrook had scored this chance for Thornvale City? Redmere FC would be about 17% to win, not 34%.",
+     "back_translation": "If Arin Halbrook had scored this chance for Thornvale City, Redmere FC's chance of winning would be around 17 per cent, not 34 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M01",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Arin Halbrook tuvo una ocasión clara para Thornvale City en el minuto 7.",
+     "evidence_ids": [
+      "GM06-M01.e1",
+      "GM06-M01.e2",
+      "GM06-M01.e10"
+     ],
+     "en_text": "Arin Halbrook had a big chance for Thornvale City in minute 7.",
+     "back_translation": "Arin Halbrook had a clear chance for Thornvale City in the 7th minute."
+    },
+    {
+     "text": "El xG (goles esperados) mide la calidad de una ocasión; esta fue 0.74 y cuanto mayor es, mejor la ocasión.",
+     "evidence_ids": [
+      "GM06-M01.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.74, and higher means a better chance.",
+     "back_translation": "The xG (expected goals) measures the quality of a chance; this was 0.74 and the higher it is, the better the chance."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Thornvale City una probabilidad de victoria del 32 por ciento, comparado con el 33 por ciento antes.",
+     "evidence_ids": [
+      "GM06-M01.e12",
+      "GM06-M01.e13"
+     ],
+     "en_text": "Our model now gives Thornvale City a 32% chance of winning, compared with 33% before.",
+     "back_translation": "Our model now gives Thornvale City a 32 percent chance of victory, compared to 33 percent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Redmere FC tendría aproximadamente un 17 por ciento de probabilidad en lugar del 34 por ciento.",
+     "evidence_ids": [
+      "GM06-M01.e16",
+      "GM06-M01.e15"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Redmere FC would have about a 17% chance instead of 34%.",
+     "back_translation": "If that hadn't happened, our simulations suggest Redmere FC would have about a 17 percent chance instead of 34 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M01",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Arin Halbrook tiene una ocasión clara para Thornvale City en el minuto 7.",
+     "evidence_ids": [
+      "GM06-M01.e1",
+      "GM06-M01.e2",
+      "GM06-M01.e10"
+     ],
+     "en_text": "Arin Halbrook had a big chance for Thornvale City in minute 7.",
+     "back_translation": "Arin Halbrook has a clear chance for Thornvale City in the 7th minute."
+    },
+    {
+     "text": "El disparo vale 0.74 xG (goles esperados) desde 1.8 metros.",
+     "evidence_ids": [
+      "GM06-M01.e3",
+      "GM06-M01.e5"
+     ],
+     "en_text": "The shot was worth 0.74 xG from 1.8 metres.",
+     "back_translation": "The shot is worth 0.74 xG (expected goals) from 1.8 meters."
+    },
+    {
+     "text": "Thornvale City ahora tiene una probabilidad de victoria del 32 por ciento, por debajo del 33 por ciento.",
+     "evidence_ids": [
+      "GM06-M01.e12",
+      "GM06-M01.e13"
+     ],
+     "en_text": "Thornvale City now has a 32 per cent chance of winning, down from 33 per cent.",
+     "back_translation": "Thornvale City now has a 32 percent chance of victory, down from 33 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M02",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 10 में ओमार डनांडो ने रेडमियर एफ़सी के लिए गोल किया और स्कोर 1-0 हुआ।",
+     "evidence_ids": [
+      "GM06-M02.e1",
+      "GM06-M02.e2",
+      "GM06-M02.e11",
+      "GM06-M02.e10"
+     ],
+     "en_text": "Omar Dunando scored for Redmere FC in minute 10, making it 1-0.",
+     "back_translation": "In minute 10, Omar Danando scored for Redmire FC and the score was 1-0."
+    },
+    {
+     "text": "यह शॉट 12.1 मीटर से 0.12 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM06-M02.e3",
+      "GM06-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 12.1 metres.",
+     "back_translation": "The shot was 12.1 x G (expected goal) from 0.12 meters."
+    },
+    {
+     "text": "यह मूव 2 क्रियाओं का था, और शूटर पर दबाव था: नहीं।",
+     "evidence_ids": [
+      "GM06-M02.e9",
+      "GM06-M02.e7"
+     ],
+     "en_text": "The move had 2 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move was of 2 actions, and the pressure on the shooter was: no."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 36.9 प्रतिशत अंक बढ़ी, 38.0 प्रतिशत से 74.9 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM06-M02.e15",
+      "GM06-M02.e13",
+      "GM06-M02.e14"
+     ],
+     "en_text": "Redmere FC win probability rose by 36.9 pp, from 38.0% to 74.9%.",
+     "back_translation": "Redmire FC's chances of winning increased by 36.9 percentage points, from 38.0 percent to 74.9 percent."
+    },
+    {
+     "text": "अगर ओमार डनांडो का रेडमियर एफ़सी के लिए किया गया गोल नहीं होता तो क्या होता? 200 सिम्युलेशन में, रेडमियर एफ़सी की जीत की संभावना लगभग 44 प्रतिशत होती, 69 प्रतिशत की बजाय।",
+     "evidence_ids": [
+      "GM06-M02.e17",
+      "GM06-M02.e16",
+      "GM06-M02.e23"
+     ],
+     "en_text": "What if Omar Dunando's goal for Redmere FC had not gone in? Across 200 simulated rollouts, Redmere FC win chance would be about 44% instead of 69%.",
+     "back_translation": "What would have happened if it hadn't been for Omar Dunando's goal for Redmeier FC? In 200 simulations, Redmeier FC's chances of winning would have been around 44 percent, instead of 69 percent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -24.5 प्रतिशत अंक है, 80% अंतराल -28.5 से -20.5 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM06-M02.e20",
+      "GM06-M02.e21",
+      "GM06-M02.e22"
+     ],
+     "en_text": "The simulated change is -24.5 pp, with an 80% interval from -28.5 to -20.5 pp.",
+     "back_translation": "The simulated change is -24.5 percentage points, with an 80% interval ranging from -28.5 to -20.5 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M02",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 10 में ओमार डनांडो ने रेडमियर एफ़सी के लिए गोल किया, और स्कोर 1-0 हो गया।",
+     "evidence_ids": [
+      "GM06-M02.e1",
+      "GM06-M02.e2",
+      "GM06-M02.e11",
+      "GM06-M02.e10"
+     ],
+     "en_text": "Omar Dunando scored for Redmere FC in minute 10, making it 1-0.",
+     "back_translation": "In minute 10, Omar Donando scored for Redmire FC, and the score was 1-0."
+    },
+    {
+     "text": "शॉट 12.1 मीटर से 0.12 xG (अपेक्षित गोल) का था।",
+     "evidence_ids": [
+      "GM06-M02.e3",
+      "GM06-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 12.1 metres.",
+     "back_translation": "The shot was 12.1 x G from 0.12 meters (expected goal)."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 75 प्रतिशत तक कूद गई, 37 प्रतिशत अंक ऊपर।",
+     "evidence_ids": [
+      "GM06-M02.e14",
+      "GM06-M02.e15"
+     ],
+     "en_text": "Redmere FC win chance jumped to 75%, up 37 points.",
+     "back_translation": "Redmeier FC's chances of winning jumped to 75 percent, up 37 percentage points."
+    },
+    {
+     "text": "अगर ओमार डनांडो का गोल रेडमियर एफ़सी के लिए नहीं गया होता तो क्या? रेडमियर एफ़सी की जीत की संभावना लगभग 44 प्रतिशत होती, 69 प्रतिशत नहीं।",
+     "evidence_ids": [
+      "GM06-M02.e17",
+      "GM06-M02.e16"
+     ],
+     "en_text": "What if Omar Dunando's goal for Redmere FC had not gone in? Redmere FC would be about 44% to win, not 69%.",
+     "back_translation": "What if Omar Donando's goal hadn't gone for Redmeier FC? Redmeier FC's chances of winning would have been around 44 percent, not 69 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M02",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 10 में ओमार डनांडो ने रेडमियर एफ़सी के लिए गोल किया, जिससे स्कोर 1-0 हो गया।",
+     "evidence_ids": [
+      "GM06-M02.e1",
+      "GM06-M02.e2",
+      "GM06-M02.e11",
+      "GM06-M02.e10"
+     ],
+     "en_text": "Omar Dunando scored for Redmere FC in minute 10, making it 1-0.",
+     "back_translation": "In minute 10, Omar Danando scored for Redmeier FC, making the score 1-0."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता को मापता है, यह 0.12 था और अधिक का मतलब बेहतर मौका है।",
+     "evidence_ids": [
+      "GM06-M02.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.12, and higher means a better chance.",
+     "back_translation": "xG (expected goals) measures the quality of the chance, it was 0.12 and more means better chances."
+    },
+    {
+     "text": "हमारा मॉडल अब रेडमियर एफ़सी को 75 प्रतिशत जीत की संभावना देता है, जो पहले 38 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M02.e13",
+      "GM06-M02.e14"
+     ],
+     "en_text": "Our model now gives Redmere FC a 75% chance of winning, compared with 38% before.",
+     "back_translation": "Our model now gives Redmeier FC a 75 percent chance of winning, up from 38 percent previously."
+    },
+    {
+     "text": "अगर वह घटना नहीं होती, तो हमारे सिम्युलेशन सुझाते हैं कि रेडमियर एफ़सी की जीत की संभावना लगभग 44 प्रतिशत होती, 69 प्रतिशत की बजाय।",
+     "evidence_ids": [
+      "GM06-M02.e17",
+      "GM06-M02.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Redmere FC would have about a 44% chance instead of 69%.",
+     "back_translation": "If that event had not occurred, our simulations suggest that Redmere FC would have had a chance of winning at around 44 percent, instead of 69 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M02",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "मिनट 10 ओमार डनांडो रेडमियर एफ़सी के लिए गोल करते हैं और स्कोर अब 1-0 है।",
+     "evidence_ids": [
+      "GM06-M02.e11",
+      "GM06-M02.e1",
+      "GM06-M02.e2",
+      "GM06-M02.e10"
+     ],
+     "en_text": "Minute 10. Omar Dunando scores for Redmere FC, and the score is now 1-0.",
+     "back_translation": "Minute 10 Omar Danando Redmeier scores for FC and the score is now 1-0."
+    },
+    {
+     "text": "शॉट 12.1 मीटर से 0.12 xG (अपेक्षित गोल) का है।",
+     "evidence_ids": [
+      "GM06-M02.e3",
+      "GM06-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 12.1 metres.",
+     "back_translation": "The shot is 12.1 m to 0.12 xG (expected round)."
+    },
+    {
+     "text": "रेडमियर एफ़सी की अब जीत की संभावना 75 प्रतिशत है, जो पहले 38 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M02.e13",
+      "GM06-M02.e14"
+     ],
+     "en_text": "Redmere FC now has a 75 per cent chance of winning, up from 38 per cent.",
+     "back_translation": "Redmere FC now has a 75 percent chance of winning, up from 38 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M02",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Omar Dunando marcó para Redmere FC en el minuto 10, poniendo el marcador 1-0.",
+     "evidence_ids": [
+      "GM06-M02.e1",
+      "GM06-M02.e2",
+      "GM06-M02.e11",
+      "GM06-M02.e10"
+     ],
+     "en_text": "Omar Dunando scored for Redmere FC in minute 10, making it 1-0.",
+     "back_translation": "Omar Dunando scored for Redmere FC in the 10th minute, making the score 1-0."
+    },
+    {
+     "text": "El disparo valía 0.12 xG (goles esperados) desde 12.1 metros.",
+     "evidence_ids": [
+      "GM06-M02.e3",
+      "GM06-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 12.1 metres.",
+     "back_translation": "The shot was worth 0.12 xG (expected goals) from 12.1 meters."
+    },
+    {
+     "text": "La acción tuvo 2 acciones, y el tirador estaba bajo presión: no.",
+     "evidence_ids": [
+      "GM06-M02.e9",
+      "GM06-M02.e7"
+     ],
+     "en_text": "The move had 2 actions, and the shooter was under pressure: no.",
+     "back_translation": "The action had 2 actions, and the shooter was under pressure: no."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC aumentó 36.9 pp, de 38.0 por ciento a 74.9 por ciento.",
+     "evidence_ids": [
+      "GM06-M02.e15",
+      "GM06-M02.e13",
+      "GM06-M02.e14"
+     ],
+     "en_text": "Redmere FC win probability rose by 36.9 pp, from 38.0% to 74.9%.",
+     "back_translation": "Redmere FC's probability of victory increased 36.9 pp, from 38.0 percent to 74.9 percent."
+    },
+    {
+     "text": "¿Y si el gol de Omar Dunando para Redmere FC no hubiera entrado? En 200 simulaciones, la probabilidad de ganar de Redmere FC sería aproximadamente 44 por ciento en lugar de 69 por ciento.",
+     "evidence_ids": [
+      "GM06-M02.e17",
+      "GM06-M02.e16",
+      "GM06-M02.e23"
+     ],
+     "en_text": "What if Omar Dunando's goal for Redmere FC had not gone in? Across 200 simulated rollouts, Redmere FC win chance would be about 44% instead of 69%.",
+     "back_translation": "What if Omar Dunando's goal for Redmere FC hadn't gone in? In 200 simulations, Redmere FC's chance of winning would be about 44 percent instead of 69 percent."
+    },
+    {
+     "text": "El cambio simulado es -24.5 pp, con un intervalo del 80% de -28.5 a -20.5 pp.",
+     "evidence_ids": [
+      "GM06-M02.e20",
+      "GM06-M02.e21",
+      "GM06-M02.e22"
+     ],
+     "en_text": "The simulated change is -24.5 pp, with an 80% interval from -28.5 to -20.5 pp.",
+     "back_translation": "The simulated change is -24.5 pp, with an 80% range of -28.5 to -20.5 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M02",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Omar Dunando marcó para Redmere FC en el minuto 10, poniendo el 1-0.",
+     "evidence_ids": [
+      "GM06-M02.e1",
+      "GM06-M02.e2",
+      "GM06-M02.e11",
+      "GM06-M02.e10"
+     ],
+     "en_text": "Omar Dunando scored for Redmere FC in minute 10, making it 1-0.",
+     "back_translation": "Omar Dunando scored for Redmere FC in the 10th minute, making it 1-0."
+    },
+    {
+     "text": "El disparo valía 0.12 xG (goles esperados) desde 12.1 metros.",
+     "evidence_ids": [
+      "GM06-M02.e3",
+      "GM06-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 12.1 metres.",
+     "back_translation": "The shot was worth 0.12 xG (expected goals) from 12.1 meters."
+    },
+    {
+     "text": "La probabilidad de ganar de Redmere FC saltó a 75 por ciento, 37 puntos porcentuales más.",
+     "evidence_ids": [
+      "GM06-M02.e14",
+      "GM06-M02.e15"
+     ],
+     "en_text": "Redmere FC win chance jumped to 75%, up 37 points.",
+     "back_translation": "Redmere FC's chance of winning jumped to 75 percent, up 37 percentage points."
+    },
+    {
+     "text": "Si el gol de Omar Dunando para Redmere FC no hubiera entrado, Redmere FC estaría alrededor del 44 por ciento para ganar, no 69 por ciento.",
+     "evidence_ids": [
+      "GM06-M02.e17",
+      "GM06-M02.e16"
+     ],
+     "en_text": "What if Omar Dunando's goal for Redmere FC had not gone in? Redmere FC would be about 44% to win, not 69%.",
+     "back_translation": "If Omar Dunando's goal for Redmere FC hadn't gone in, Redmere FC would be around 44 per cent to win, not 69 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M02",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Omar Dunando marcó para Redmere FC en el minuto 10, poniendo el marcador 1-0.",
+     "evidence_ids": [
+      "GM06-M02.e1",
+      "GM06-M02.e2",
+      "GM06-M02.e11",
+      "GM06-M02.e10"
+     ],
+     "en_text": "Omar Dunando scored for Redmere FC in minute 10, making it 1-0.",
+     "back_translation": "Omar Dunando scored for Redmere FC in the 10th minute, making the score 1-0."
+    },
+    {
+     "text": "El xG (goles esperados) mide la calidad de la ocasión; este fue 0.12, y cuanto más alto es, mejor es la oportunidad.",
+     "evidence_ids": [
+      "GM06-M02.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.12, and higher means a better chance.",
+     "back_translation": "The xG (expected goals) measures the quality of the chance; this was 0.12, and the higher it is, the better the chance."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC una probabilidad de victoria del 75 por ciento, comparada con 38 por ciento antes.",
+     "evidence_ids": [
+      "GM06-M02.e13",
+      "GM06-M02.e14"
+     ],
+     "en_text": "Our model now gives Redmere FC a 75% chance of winning, compared with 38% before.",
+     "back_translation": "Our model now gives Redmere FC a 75 per cent chance of victory, compared to 38 per cent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Redmere FC tendría alrededor de un 44 por ciento de probabilidad en lugar de 69 por ciento.",
+     "evidence_ids": [
+      "GM06-M02.e17",
+      "GM06-M02.e16"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Redmere FC would have about a 44% chance instead of 69%.",
+     "back_translation": "If that hadn't happened, our simulations suggest Redmere FC would have around a 44 percent chance instead of 69 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M02",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Minuto 10, Omar Dunando marca para Redmere FC y el marcador es ahora 1-0.",
+     "evidence_ids": [
+      "GM06-M02.e11",
+      "GM06-M02.e1",
+      "GM06-M02.e2",
+      "GM06-M02.e10"
+     ],
+     "en_text": "Minute 10. Omar Dunando scores for Redmere FC, and the score is now 1-0.",
+     "back_translation": "Minute 10, Omar Dunando scores for Redmere FC and the score is now 1-0."
+    },
+    {
+     "text": "El disparo vale 0.12 xG (goles esperados) desde 12.1 metros.",
+     "evidence_ids": [
+      "GM06-M02.e3",
+      "GM06-M02.e5"
+     ],
+     "en_text": "The shot was worth 0.12 xG from 12.1 metres.",
+     "back_translation": "The shot is worth 0.12 xG (expected goals) from 12.1 meters."
+    },
+    {
+     "text": "Redmere FC ahora tiene una probabilidad de victoria del 75 por ciento, frente al 38 por ciento.",
+     "evidence_ids": [
+      "GM06-M02.e13",
+      "GM06-M02.e14"
+     ],
+     "en_text": "Redmere FC now has a 75 per cent chance of winning, up from 38 per cent.",
+     "back_translation": "Redmere FC now have a 75 per cent chance of victory, up from 38 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M03",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने 14 मिनट से मैच का नियंत्रण संभाल लिया।",
+     "evidence_ids": [
+      "GM06-M03.e1",
+      "GM06-M03.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 14.",
+     "back_translation": "Redmere FC took control of the match from 14 minutes."
+    },
+    {
+     "text": "मोमेंटम सूचकांक -0.95 से -0.05 पर गया।",
+     "evidence_ids": [
+      "GM06-M03.e2",
+      "GM06-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.95 to -0.05.",
+     "back_translation": "The momentum index went from -0.95 to -0.05."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 0.1 प्रतिशत अंक कम हुई, 74.6 प्रतिशत से 74.5 प्रतिशत पर।",
+     "evidence_ids": [
+      "GM06-M03.e9",
+      "GM06-M03.e7",
+      "GM06-M03.e8"
+     ],
+     "en_text": "Redmere FC win probability fell by 0.1 pp, from 74.6% to 74.5%.",
+     "back_translation": "Redmeier FC's chances of winning decreased by 0.1 percentage points, from 74.6 percent to 74.5 percent."
+    },
+    {
+     "text": "अगर थॉर्नवेल सिटी इस बिंदु से अधिक प्रेशिंग करता तो 200 सिम्युलेशन में रेडमियर एफ़सी की जीत की संभावना लगभग 58 प्रतिशत होती, 68 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM06-M03.e11",
+      "GM06-M03.e10",
+      "GM06-M03.e17"
+     ],
+     "en_text": "What if Thornvale City had pressed harder from this point? Across 200 simulated rollouts, Redmere FC win chance would be about 58% instead of 68%.",
+     "back_translation": "If Thornwell City had been pressing more than this point, Redmere FC's chances of winning in 200 simulations would have been around 58 per cent, instead of 68 per cent."
+    },
+    {
+     "text": "सिम्युलेटेड परिवर्तन -10.0 प्रतिशत अंक है, 80% अंतराल -16.0 से -4.0 प्रतिशत अंक तक।",
+     "evidence_ids": [
+      "GM06-M03.e14",
+      "GM06-M03.e15",
+      "GM06-M03.e16"
+     ],
+     "en_text": "The simulated change is -10.0 pp, with an 80% interval from -16.0 to -4.0 pp.",
+     "back_translation": "The simulated change is -10.0 percentage points, with an 80% interval ranging from -16.0 to -4.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M03",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने 14 मिनट से मैच की बागडोर संभाल ली।",
+     "evidence_ids": [
+      "GM06-M03.e1",
+      "GM06-M03.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 14.",
+     "back_translation": "Redmeier FC took the reins of the match from 14 minutes."
+    },
+    {
+     "text": "मोमेंटम सूचकांक -0.95 से -0.05 तक आ गया।",
+     "evidence_ids": [
+      "GM06-M03.e2",
+      "GM06-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.95 to -0.05.",
+     "back_translation": "The momentum index fell from -0.95 to -0.05."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना लगभग 74 प्रतिशत पर ही बनी रही।",
+     "evidence_ids": [
+      "GM06-M03.e8",
+      "GM06-M03.e9"
+     ],
+     "en_text": "Redmere FC win chance barely moved, staying near 74%.",
+     "back_translation": "Redmere FC's chances of winning remained at around 74 percent."
+    },
+    {
+     "text": "अगर थॉर्नवेल सिटी ने इस बिंदु से ज़्यादा प्रेशिंग की होती तो रेडमियर एफ़सी की जीत की संभावना लगभग 58 प्रतिशत होती, 68 प्रतिशत नहीं।",
+     "evidence_ids": [
+      "GM06-M03.e11",
+      "GM06-M03.e10"
+     ],
+     "en_text": "What if Thornvale City had pressed harder from this point? Redmere FC would be about 58% to win, not 68%.",
+     "back_translation": "If Thornwell City had pressed more than this point, Redmere FC's chances of winning would have been around 58 per cent, not 68 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M03",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने 14 मिनट से खेल पर नियंत्रण ले लिया।",
+     "evidence_ids": [
+      "GM06-M03.e1",
+      "GM06-M03.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 14.",
+     "back_translation": "Redmere FC took control of the game with 14 minutes to go."
+    },
+    {
+     "text": "हमारे मॉडल के अनुसार अब रेडमियर एफ़सी के जीतने की संभावना 74 प्रतिशत है, जो पहले 75 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M03.e7",
+      "GM06-M03.e8"
+     ],
+     "en_text": "Our model now gives Redmere FC a 74% chance of winning, compared with 75% before.",
+     "back_translation": "According to our model, Redmeier FC now has a 74 percent chance of winning, up from 75 percent earlier."
+    },
+    {
+     "text": "अगर ऐसा नहीं हुआ होता, तो हमारे सिम्युलेशन बताते हैं कि रेडमियर एफ़सी की जीत की संभावना लगभग 58 प्रतिशत होती, 68 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM06-M03.e11",
+      "GM06-M03.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Redmere FC would have about a 58% chance instead of 68%.",
+     "back_translation": "If this had not happened, our simulations show that Redmere FC would have had a chance of winning at around 58 percent, instead of 68 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M03",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी 14 मिनट से मैच पर नियंत्रण ले रहा है।",
+     "evidence_ids": [
+      "GM06-M03.e1",
+      "GM06-M03.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 14.",
+     "back_translation": "Redmere FC have been taking control of the match for 14 minutes."
+    },
+    {
+     "text": "मोमेंटम सूचकांक -0.95 से -0.05 पर जा रहा है।",
+     "evidence_ids": [
+      "GM06-M03.e2",
+      "GM06-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.95 to -0.05.",
+     "back_translation": "The momentum index is moving from -0.95 to -0.05."
+    },
+    {
+     "text": "रेडमियर एफ़सी की अब जीतने की संभावना 74 प्रतिशत है, जो पहले 75 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M03.e7",
+      "GM06-M03.e8"
+     ],
+     "en_text": "Redmere FC now has a 74 per cent chance of winning, down from 75 per cent.",
+     "back_translation": "Redmere FC now has a 74 percent chance of winning, up from 75 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M03",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC se hizo con el control del partido desde el minuto 14.",
+     "evidence_ids": [
+      "GM06-M03.e1",
+      "GM06-M03.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 14.",
+     "back_translation": "Redmere FC took control of the game from the 14th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.95 a -0.05.",
+     "evidence_ids": [
+      "GM06-M03.e2",
+      "GM06-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.95 to -0.05.",
+     "back_translation": "The momentum index went from -0.95 to -0.05."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC cayó 0.1 pp, de 74.6 por ciento a 74.5 por ciento.",
+     "evidence_ids": [
+      "GM06-M03.e9",
+      "GM06-M03.e7",
+      "GM06-M03.e8"
+     ],
+     "en_text": "Redmere FC win probability fell by 0.1 pp, from 74.6% to 74.5%.",
+     "back_translation": "Redmere FC's chance of victory fell 0.1 pp, from 74.6 percent to 74.5 percent."
+    },
+    {
+     "text": "Si Thornvale City hubiera presionado más desde este momento, en 200 simulaciones la probabilidad de ganar de Redmere FC sería aproximadamente 58 por ciento en lugar de 68 por ciento.",
+     "evidence_ids": [
+      "GM06-M03.e11",
+      "GM06-M03.e10",
+      "GM06-M03.e17"
+     ],
+     "en_text": "What if Thornvale City had pressed harder from this point? Across 200 simulated rollouts, Redmere FC win chance would be about 58% instead of 68%.",
+     "back_translation": "If Thornvale City had pushed harder from this point on, in 200 simulations Redmere FC's chance of winning would be about 58 per cent instead of 68 per cent."
+    },
+    {
+     "text": "El cambio simulado es -10.0 pp, con un intervalo del 80% de -16.0 a -4.0 pp.",
+     "evidence_ids": [
+      "GM06-M03.e14",
+      "GM06-M03.e15",
+      "GM06-M03.e16"
+     ],
+     "en_text": "The simulated change is -10.0 pp, with an 80% interval from -16.0 to -4.0 pp.",
+     "back_translation": "The simulated change is -10.0 pp, with an 80% range of -16.0 to -4.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M03",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC se hizo con el control del partido desde el minuto 14.",
+     "evidence_ids": [
+      "GM06-M03.e1",
+      "GM06-M03.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 14.",
+     "back_translation": "Redmere FC took control of the game from the 14th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.95 a -0.05.",
+     "evidence_ids": [
+      "GM06-M03.e2",
+      "GM06-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.95 to -0.05.",
+     "back_translation": "The momentum index went from -0.95 to -0.05."
+    },
+    {
+     "text": "La probabilidad de ganar de Redmere FC apenas se movió, manteniéndose cerca del 74 por ciento.",
+     "evidence_ids": [
+      "GM06-M03.e8",
+      "GM06-M03.e9"
+     ],
+     "en_text": "Redmere FC win chance barely moved, staying near 74%.",
+     "back_translation": "Redmere FC's chance of winning barely budged, remaining close to 74 per cent."
+    },
+    {
+     "text": "Si Thornvale City hubiera presionado más desde este momento, Redmere FC estaría alrededor del 58 por ciento para ganar, no del 68 por ciento.",
+     "evidence_ids": [
+      "GM06-M03.e11",
+      "GM06-M03.e10"
+     ],
+     "en_text": "What if Thornvale City had pressed harder from this point? Redmere FC would be about 58% to win, not 68%.",
+     "back_translation": "Had Thornvale City pushed harder from this point on, Redmere FC would be around 58 per cent to win, not 68 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M03",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC tomó el control del partido desde el minuto 14.",
+     "evidence_ids": [
+      "GM06-M03.e1",
+      "GM06-M03.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 14.",
+     "back_translation": "Redmere FC took control of the match from the 14th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC una probabilidad de ganar del 74 por ciento, en comparación con el 75 por ciento antes.",
+     "evidence_ids": [
+      "GM06-M03.e7",
+      "GM06-M03.e8"
+     ],
+     "en_text": "Our model now gives Redmere FC a 74% chance of winning, compared with 75% before.",
+     "back_translation": "Our model now gives Redmere FC a 74 per cent chance of winning, compared to 75 per cent before."
+    },
+    {
+     "text": "Si eso no hubiera pasado, nuestras simulaciones sugieren que Redmere FC habría tenido aproximadamente un 58 por ciento de probabilidad en lugar del 68 por ciento.",
+     "evidence_ids": [
+      "GM06-M03.e11",
+      "GM06-M03.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Redmere FC would have about a 58% chance instead of 68%.",
+     "back_translation": "Had that not happened, our simulations suggest that Redmere FC would have had about a 58 percent chance instead of 68 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M03",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC toma el control del partido desde el minuto 14.",
+     "evidence_ids": [
+      "GM06-M03.e1",
+      "GM06-M03.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 14.",
+     "back_translation": "Redmere FC takes control of the match from the 14th minute."
+    },
+    {
+     "text": "El índice de impulso pasa de -0.95 a -0.05.",
+     "evidence_ids": [
+      "GM06-M03.e2",
+      "GM06-M03.e3"
+     ],
+     "en_text": "The momentum index went from -0.95 to -0.05.",
+     "back_translation": "The momentum index goes from -0.95 to -0.05."
+    },
+    {
+     "text": "Redmere FC ahora tiene una probabilidad de ganar del 74 por ciento, frente al 75 por ciento.",
+     "evidence_ids": [
+      "GM06-M03.e7",
+      "GM06-M03.e8"
+     ],
+     "en_text": "Redmere FC now has a 74 per cent chance of winning, down from 75 per cent.",
+     "back_translation": "Redmere FC now have a 74 per cent chance of winning, up from 75 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M04",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने खेल में 37 मिनट से नियंत्रण संभाला।",
+     "evidence_ids": [
+      "GM06-M04.e1",
+      "GM06-M04.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 37.",
+     "back_translation": "Thornwell City took control 37 minutes into the game."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.93 से 0.07 पर आ गया।",
+     "evidence_ids": [
+      "GM06-M04.e2",
+      "GM06-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.93 to 0.07.",
+     "back_translation": "The momentum index fell from 0.93 to 0.07."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 0.5 प्रतिशत अंक से घटी, 5.7 प्रतिशत से 5.2 प्रतिशत।",
+     "evidence_ids": [
+      "GM06-M04.e9",
+      "GM06-M04.e7",
+      "GM06-M04.e8"
+     ],
+     "en_text": "Thornvale City win probability fell by 0.5 pp, from 5.7% to 5.2%.",
+     "back_translation": "Thornwell City's chances of winning dropped by 0.5 percentage points, from 5.7 percent to 5.2 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M04",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने 37 मिनट से खेल का नियंत्रण संभाल लिया।",
+     "evidence_ids": [
+      "GM06-M04.e1",
+      "GM06-M04.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 37.",
+     "back_translation": "Thornwell City took control of the game on 37 minutes."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.93 से 0.07 तक गिर गया।",
+     "evidence_ids": [
+      "GM06-M04.e2",
+      "GM06-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.93 to 0.07.",
+     "back_translation": "The Momentum Index fell from 0.93 to 0.07."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना कम ही बदली और लगभग 5 प्रतिशत पर रही।",
+     "evidence_ids": [
+      "GM06-M04.e8",
+      "GM06-M04.e9"
+     ],
+     "en_text": "Thornvale City win chance barely moved, staying near 5%.",
+     "back_translation": "Thornwell City's chances of victory were little changed and stood at around 5 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M04",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी ने 37 मिनट से खेल पर नियंत्रण ले लिया।",
+     "evidence_ids": [
+      "GM06-M04.e1",
+      "GM06-M04.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 37.",
+     "back_translation": "Thornwell City took control of the game on 37 minutes."
+    },
+    {
+     "text": "हमारा मॉडल अब थॉर्नवेल सिटी को 5 प्रतिशत जीत की संभावना देता है, जबकि पहले यह 6 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M04.e7",
+      "GM06-M04.e8"
+     ],
+     "en_text": "Our model now gives Thornvale City a 5% chance of winning, compared with 6% before.",
+     "back_translation": "Our model now gives Thornwell City a 5 percent chance of winning, compared to 6 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M04",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी 37 मिनट से खेल पर नियंत्रण लेता है।",
+     "evidence_ids": [
+      "GM06-M04.e1",
+      "GM06-M04.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 37.",
+     "back_translation": "Thornwell City take control of the game from 37 minutes."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स 0.93 से 0.07 पर चला जाता है।",
+     "evidence_ids": [
+      "GM06-M04.e2",
+      "GM06-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.93 to 0.07.",
+     "back_translation": "The momentum index moves from 0.93 to 0.07."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना अब 5 प्रतिशत है, जो पहले 6 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M04.e7",
+      "GM06-M04.e8"
+     ],
+     "en_text": "Thornvale City now has a 5 per cent chance of winning, down from 6 per cent.",
+     "back_translation": "Thornwell City's chances of winning are now 5 per cent, up from 6 per cent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M04",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City tomó el control del partido desde el minuto 37.",
+     "evidence_ids": [
+      "GM06-M04.e1",
+      "GM06-M04.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 37.",
+     "back_translation": "Thornvale City took control of the game from the 37th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de 0.93 a 0.07.",
+     "evidence_ids": [
+      "GM06-M04.e2",
+      "GM06-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.93 to 0.07.",
+     "back_translation": "The momentum index went from 0.93 to 0.07."
+    },
+    {
+     "text": "La probabilidad de victoria de Thornvale City disminuyó en 0.5 pp, de 5.7 por ciento a 5.2 por ciento.",
+     "evidence_ids": [
+      "GM06-M04.e9",
+      "GM06-M04.e7",
+      "GM06-M04.e8"
+     ],
+     "en_text": "Thornvale City win probability fell by 0.5 pp, from 5.7% to 5.2%.",
+     "back_translation": "Thornvale City's probability of victory decreased by 0.5 pp, from 5.7 percent to 5.2 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M04",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City se hizo con el control del partido a partir del minuto 37.",
+     "evidence_ids": [
+      "GM06-M04.e1",
+      "GM06-M04.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 37.",
+     "back_translation": "Thornvale City took control of the game from the 37th minute."
+    },
+    {
+     "text": "El índice de impulso cayó de 0.93 a 0.07.",
+     "evidence_ids": [
+      "GM06-M04.e2",
+      "GM06-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.93 to 0.07.",
+     "back_translation": "The momentum index fell from 0.93 to 0.07."
+    },
+    {
+     "text": "La probabilidad de ganar de Thornvale City apenas se movió, manteniéndose cerca del 5 por ciento.",
+     "evidence_ids": [
+      "GM06-M04.e8",
+      "GM06-M04.e9"
+     ],
+     "en_text": "Thornvale City win chance barely moved, staying near 5%.",
+     "back_translation": "Thornvale City's probability of winning barely budged, remaining close to 5 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M04",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City tomó el control del partido desde el minuto 37.",
+     "evidence_ids": [
+      "GM06-M04.e1",
+      "GM06-M04.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 37.",
+     "back_translation": "Thornvale City took control of the game from the 37th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Thornvale City un 5 por ciento de probabilidad de ganar, frente al 6 por ciento anterior.",
+     "evidence_ids": [
+      "GM06-M04.e7",
+      "GM06-M04.e8"
+     ],
+     "en_text": "Our model now gives Thornvale City a 5% chance of winning, compared with 6% before.",
+     "back_translation": "Our model now gives Thornvale City a 5 percent chance of winning, up from 6 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M04",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Thornvale City toma el control del partido desde el minuto 37.",
+     "evidence_ids": [
+      "GM06-M04.e1",
+      "GM06-M04.e5"
+     ],
+     "en_text": "Thornvale City took control of the game from minute 37.",
+     "back_translation": "Thornvale City takes control of the match from the 37th minute."
+    },
+    {
+     "text": "El índice de impulso pasa de 0.93 a 0.07.",
+     "evidence_ids": [
+      "GM06-M04.e2",
+      "GM06-M04.e3"
+     ],
+     "en_text": "The momentum index went from 0.93 to 0.07.",
+     "back_translation": "The momentum index goes from 0.93 to 0.07."
+    },
+    {
+     "text": "Thornvale City ahora tiene un 5 por ciento de probabilidad de ganar, frente al 6 por ciento.",
+     "evidence_ids": [
+      "GM06-M04.e7",
+      "GM06-M04.e8"
+     ],
+     "en_text": "Thornvale City now has a 5 per cent chance of winning, down from 6 per cent.",
+     "back_translation": "Thornvale City now has a 5 percent chance of winning, up from 6 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M05",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "लियोन कॉररिज के पास 37वें मिनट में रेडमियर एफ़सी के लिए बड़ा मौक़ा था।",
+     "evidence_ids": [
+      "GM06-M05.e1",
+      "GM06-M05.e2",
+      "GM06-M05.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 37.",
+     "back_translation": "Leon Corridge had a big chance for Redmire FC in the 37th minute."
+    },
+    {
+     "text": "शॉट की वैल्यू 0.34 xG (अपेक्षित गोल) थी और दूरी 7.1 मीटर थी।",
+     "evidence_ids": [
+      "GM06-M05.e3",
+      "GM06-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.34 xG from 7.1 metres.",
+     "back_translation": "The shot had a value of 0.34 xG (expected rounds) and a distance of 7.1 meters."
+    },
+    {
+     "text": "यह मूव 6 एक्शन का था और शूटर पर प्रेशर नहीं था।",
+     "evidence_ids": [
+      "GM06-M05.e9",
+      "GM06-M05.e7"
+     ],
+     "en_text": "The move had 6 actions, and the shooter was under pressure: no.",
+     "back_translation": "This move was of 6 action and there was no pressure on the shooter."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 1.6 प्रतिशत अंक घटकर 73.0 प्रतिशत से 71.5 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM06-M05.e14",
+      "GM06-M05.e12",
+      "GM06-M05.e13"
+     ],
+     "en_text": "Redmere FC win probability fell by 1.6 pp, from 73.0% to 71.5%.",
+     "back_translation": "Redmere FC's chances of winning decreased by 1.6 percentage points, from 73.0 percent to 71.5 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M05",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "लियोन कॉररिज ने 37वें मिनट में रेडमियर एफ़सी के लिए बड़ा मौक़ा बनाया।",
+     "evidence_ids": [
+      "GM06-M05.e1",
+      "GM06-M05.e2",
+      "GM06-M05.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 37.",
+     "back_translation": "Leon Corridge created a big chance for Redmire FC in the 37th minute."
+    },
+    {
+     "text": "यह शॉट 0.34 xG (अपेक्षित गोल) के बराबर था और दूरी 7.1 मीटर थी।",
+     "evidence_ids": [
+      "GM06-M05.e3",
+      "GM06-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.34 xG from 7.1 metres.",
+     "back_translation": "This shot was equal to 0.34 xG (expected goals) and the distance was 7.1 meters."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 72 प्रतिशत पर आ गई, जो 2 प्रतिशत अंक कम है।",
+     "evidence_ids": [
+      "GM06-M05.e13",
+      "GM06-M05.e14"
+     ],
+     "en_text": "Redmere FC win chance dropped to 72%, down 2 points.",
+     "back_translation": "Redmeier FC's chances of winning came down to 72 percent, down 2 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M05",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "लियोन कॉररिज के पास 37वें मिनट में रेडमियर एफ़सी के लिए बड़ा मौक़ा था।",
+     "evidence_ids": [
+      "GM06-M05.e1",
+      "GM06-M05.e2",
+      "GM06-M05.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 37.",
+     "back_translation": "Leon Corridge had a big chance for Redmire FC in the 37th minute."
+    },
+    {
+     "text": "xG (अपेक्षित गोल) मौके की गुणवत्ता नापता है, यह 0.34 था और अधिक होना बेहतर मौका दर्शाता है।",
+     "evidence_ids": [
+      "GM06-M05.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.34, and higher means a better chance.",
+     "back_translation": "xG (Expected Goals) measures the quality of the chance, it was 0.34 and being higher indicates a better chance."
+    },
+    {
+     "text": "हमारा मॉडल अब रेडमियर एफ़सी को 72 प्रतिशत जीत की संभावना देता है, जबकि पहले यह 73 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M05.e12",
+      "GM06-M05.e13"
+     ],
+     "en_text": "Our model now gives Redmere FC a 72% chance of winning, compared with 73% before.",
+     "back_translation": "Our model now gives Redmere FC a 72 percent chance of winning, compared to 73 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M05",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "लियोन कॉररिज के पास मिनट 37 में रेडमियर एफ़सी के लिए बड़ा मौक़ा है।",
+     "evidence_ids": [
+      "GM06-M05.e1",
+      "GM06-M05.e2",
+      "GM06-M05.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 37.",
+     "back_translation": "Leon Corridge has a big chance for Redmere FC in minute 37."
+    },
+    {
+     "text": "शॉट की वैल्यू 0.34 xG यानी अपेक्षित गोल है और दूरी 7.1 मीटर है।",
+     "evidence_ids": [
+      "GM06-M05.e3",
+      "GM06-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.34 xG from 7.1 metres.",
+     "back_translation": "The shot has a value of 0.34 xG i.e. the expected round and a distance of 7.1 meters."
+    },
+    {
+     "text": "अब रेडमियर एफ़सी की जीत की संभावना 72 प्रतिशत है, पहले यह 73 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M05.e12",
+      "GM06-M05.e13"
+     ],
+     "en_text": "Redmere FC now has a 72 per cent chance of winning, down from 73 per cent.",
+     "back_translation": "Now Redmere FC's chances of winning are 72 percent, previously it was 73 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M05",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Leon Corridge tuvo una ocasión clara para Redmere FC en el minuto 37.",
+     "evidence_ids": [
+      "GM06-M05.e1",
+      "GM06-M05.e2",
+      "GM06-M05.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 37.",
+     "back_translation": "Leon Corridge had a clear chance for Redmere FC in the 37th minute."
+    },
+    {
+     "text": "El disparo tenía un valor de 0.34 xG (goles esperados) desde 7.1 metros.",
+     "evidence_ids": [
+      "GM06-M05.e3",
+      "GM06-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.34 xG from 7.1 metres.",
+     "back_translation": "The shot had a value of 0.34 xG (expected goals) from 7.1 meters."
+    },
+    {
+     "text": "La jugada tuvo 6 acciones y el tirador no estaba bajo presión.",
+     "evidence_ids": [
+      "GM06-M05.e9",
+      "GM06-M05.e7"
+     ],
+     "en_text": "The move had 6 actions, and the shooter was under pressure: no.",
+     "back_translation": "The play had 6 actions and the shooter was not under pressure."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC cayó 1.6 pp, de 73.0 por ciento a 71.5 por ciento.",
+     "evidence_ids": [
+      "GM06-M05.e14",
+      "GM06-M05.e12",
+      "GM06-M05.e13"
+     ],
+     "en_text": "Redmere FC win probability fell by 1.6 pp, from 73.0% to 71.5%.",
+     "back_translation": "Redmere FC's chance of victory fell 1.6 pp, from 73.0 percent to 71.5 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "attempt 1: s1: forbidden certainty/betting word 'guaranteed'",
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M05",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Leon Corridge tuvo una ocasión clara para Redmere FC en el minuto 37.",
+     "evidence_ids": [
+      "GM06-M05.e1",
+      "GM06-M05.e2",
+      "GM06-M05.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 37.",
+     "back_translation": "Leon Corridge had a clear chance for Redmere FC in the 37th minute."
+    },
+    {
+     "text": "El disparo valía 0.34 xG (goles esperados) desde 7.1 metros.",
+     "evidence_ids": [
+      "GM06-M05.e3",
+      "GM06-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.34 xG from 7.1 metres.",
+     "back_translation": "The shot was worth 0.34 xG (expected goals) from 7.1 meters."
+    },
+    {
+     "text": "La probabilidad de ganar de Redmere FC bajó a 72 por ciento, 2 puntos menos.",
+     "evidence_ids": [
+      "GM06-M05.e13",
+      "GM06-M05.e14"
+     ],
+     "en_text": "Redmere FC win chance dropped to 72%, down 2 points.",
+     "back_translation": "Redmere FC's chance of winning dropped to 72 percent, down 2 points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M05",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Leon Corridge tuvo una ocasión clara para Redmere FC en el minuto 37.",
+     "evidence_ids": [
+      "GM06-M05.e1",
+      "GM06-M05.e2",
+      "GM06-M05.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 37.",
+     "back_translation": "Leon Corridge had a clear chance for Redmere FC in the 37th minute."
+    },
+    {
+     "text": "El xG (goles esperados) mide la calidad de la ocasión; este fue 0.34 y cuanto más alto, mejor la ocasión.",
+     "evidence_ids": [
+      "GM06-M05.e3"
+     ],
+     "en_text": "xG measures chance quality; this one was 0.34, and higher means a better chance.",
+     "back_translation": "The xG (expected goals) measures the quality of the chance; this was 0.34 and the higher, the better the chance."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC una probabilidad de ganar de 72 por ciento, frente a 73 por ciento antes.",
+     "evidence_ids": [
+      "GM06-M05.e12",
+      "GM06-M05.e13"
+     ],
+     "en_text": "Our model now gives Redmere FC a 72% chance of winning, compared with 73% before.",
+     "back_translation": "Our model now gives Redmere FC a 72 per cent chance of winning, up from 73 per cent before."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M05",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Leon Corridge tiene una ocasión clara para Redmere FC en el minuto 37.",
+     "evidence_ids": [
+      "GM06-M05.e1",
+      "GM06-M05.e2",
+      "GM06-M05.e10"
+     ],
+     "en_text": "Leon Corridge had a big chance for Redmere FC in minute 37.",
+     "back_translation": "Leon Corridge has a clear chance for Redmere FC in the 37th minute."
+    },
+    {
+     "text": "El disparo vale 0.34 xG (goles esperados) desde 7.1 metros.",
+     "evidence_ids": [
+      "GM06-M05.e3",
+      "GM06-M05.e5"
+     ],
+     "en_text": "The shot was worth 0.34 xG from 7.1 metres.",
+     "back_translation": "The shot is worth 0.34 xG (expected goals) from 7.1 meters."
+    },
+    {
+     "text": "Redmere FC ahora tiene una probabilidad de ganar de 72 por ciento, frente a 73 por ciento.",
+     "evidence_ids": [
+      "GM06-M05.e12",
+      "GM06-M05.e13"
+     ],
+     "en_text": "Redmere FC now has a 72 per cent chance of winning, down from 73 per cent.",
+     "back_translation": "Redmere FC now have a 72 per cent chance of winning, up from 73 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M06",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने मैच का नियंत्रण मिनट 66 से संभाल लिया।",
+     "evidence_ids": [
+      "GM06-M06.e1",
+      "GM06-M06.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 66.",
+     "back_translation": "Redmere FC took control of the match from minute 66."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.87 से 0.26 पर चला गया।",
+     "evidence_ids": [
+      "GM06-M06.e2",
+      "GM06-M06.e3"
+     ],
+     "en_text": "The momentum index went from -0.87 to 0.26.",
+     "back_translation": "The momentum index moved from -0.87 to 0.26."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 5.5 प्रतिशत अंक बढ़ी, 77.8 प्रतिशत से 83.3 प्रतिशत तक।",
+     "evidence_ids": [
+      "GM06-M06.e9",
+      "GM06-M06.e7",
+      "GM06-M06.e8"
+     ],
+     "en_text": "Redmere FC win probability rose by 5.5 pp, from 77.8% to 83.3%.",
+     "back_translation": "Redmere FC's chances of winning increased by 5.5 percentage points, from 77.8 percent to 83.3 percent."
+    },
+    {
+     "text": "अगर थॉर्नवेल सिटी ने इस बिंदु से अधिक प्रेसिंग की होती, तो 200 सिम्युलेशनों में रेडमियर एफ़सी की जीत की संभावना लगभग 74 प्रतिशत होती, 76 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM06-M06.e11",
+      "GM06-M06.e10",
+      "GM06-M06.e17"
+     ],
+     "en_text": "What if Thornvale City had pressed harder from this point? Across 200 simulated rollouts, Redmere FC win chance would be about 74% instead of 76%.",
+     "back_translation": "If Thornwell City had pressed more than this point, Redmere FC's chances of winning in 200 simulations would have been around 74 percent, instead of 76 percent."
+    },
+    {
+     "text": "सिम्युलेट किया गया परिवर्तन -2.0 प्रतिशत अंक है, 80% अंतराल -7.5 से 3.0 प्रतिशत अंक के बीच।",
+     "evidence_ids": [
+      "GM06-M06.e14",
+      "GM06-M06.e15",
+      "GM06-M06.e16"
+     ],
+     "en_text": "The simulated change is -2.0 pp, with an 80% interval from -7.5 to 3.0 pp.",
+     "back_translation": "The simulated change is -2.0 percentage points, with an 80% interval between -7.5 and 3.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M06",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने मैच की कमान मिनट 66 से संभाल ली।",
+     "evidence_ids": [
+      "GM06-M06.e1",
+      "GM06-M06.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 66.",
+     "back_translation": "Redmere FC took command of the match from minute 66."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.87 से 0.26 पर आ गया।",
+     "evidence_ids": [
+      "GM06-M06.e2",
+      "GM06-M06.e3"
+     ],
+     "en_text": "The momentum index went from -0.87 to 0.26.",
+     "back_translation": "The Momentum Index fell to 0.26 from -0.87."
+    },
+    {
+     "text": "रेडमियर एफ़सी की जीत की संभावना 83 प्रतिशत तक कूद गई, 6 प्रतिशत अंक बढ़कर।",
+     "evidence_ids": [
+      "GM06-M06.e8",
+      "GM06-M06.e9"
+     ],
+     "en_text": "Redmere FC win chance jumped to 83%, up 6 points.",
+     "back_translation": "Redmere FC's chances of winning jumped to 83 percent, up 6 percentage points."
+    },
+    {
+     "text": "अगर थॉर्नवेल सिटी ने इस बिंदु से ज्यादा प्रेसिंग की होती तो रेडमियर एफ़सी की जीत की संभावना लगभग 74 प्रतिशत होती, 76 प्रतिशत नहीं।",
+     "evidence_ids": [
+      "GM06-M06.e11",
+      "GM06-M06.e10"
+     ],
+     "en_text": "What if Thornvale City had pressed harder from this point? Redmere FC would be about 74% to win, not 76%.",
+     "back_translation": "If Thornwell City had pressed more than this point, Redmere FC's chances of winning would have been around 74 per cent, not 76 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M06",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी ने मैच का नियंत्रण मिनट 66 से ले लिया।",
+     "evidence_ids": [
+      "GM06-M06.e1",
+      "GM06-M06.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 66.",
+     "back_translation": "Redmere FC took control of the match from minute 66."
+    },
+    {
+     "text": "हमारा मॉडल अब रेडमियर एफ़सी को जीतने की 83 प्रतिशत संभावना देता है, जबकि पहले 78 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M06.e7",
+      "GM06-M06.e8"
+     ],
+     "en_text": "Our model now gives Redmere FC a 83% chance of winning, compared with 78% before.",
+     "back_translation": "Our model now gives Redmire FC an 83 percent chance of winning, compared to 78 percent previously."
+    },
+    {
+     "text": "अगर वह नहीं होता, तो हमारे सिम्युलेशन बताते हैं कि रेडमियर एफ़सी की संभावना लगभग 74 प्रतिशत होती, 76 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM06-M06.e11",
+      "GM06-M06.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Redmere FC would have about a 74% chance instead of 76%.",
+     "back_translation": "If he hadn't, our simulations show that Redmire FC would have had a probability of about 74 percent, instead of 76 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M06",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "रेडमियर एफ़सी मिनट 66 से मैच का नियंत्रण संभाल रहा है।",
+     "evidence_ids": [
+      "GM06-M06.e1",
+      "GM06-M06.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 66.",
+     "back_translation": "Redmire FC have been taking control of the match from minute 66."
+    },
+    {
+     "text": "मोमेंटम इंडेक्स -0.87 से 0.26 पर जा रहा है।",
+     "evidence_ids": [
+      "GM06-M06.e2",
+      "GM06-M06.e3"
+     ],
+     "en_text": "The momentum index went from -0.87 to 0.26.",
+     "back_translation": "The momentum index is going from -0.87 to 0.26."
+    },
+    {
+     "text": "रेडमियर एफ़सी के पास अब जीतने की 83 प्रतिशत संभावना है, जो पहले 78 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M06.e7",
+      "GM06-M06.e8"
+     ],
+     "en_text": "Redmere FC now has a 83 per cent chance of winning, up from 78 per cent.",
+     "back_translation": "Redmere FC now has an 83 percent chance of winning, up from 78 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M06",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC tomó el control del partido a partir del minuto 66.",
+     "evidence_ids": [
+      "GM06-M06.e1",
+      "GM06-M06.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 66.",
+     "back_translation": "Redmere FC took control of the match from the 66th minute."
+    },
+    {
+     "text": "El índice de impulso pasó de -0.87 a 0.26.",
+     "evidence_ids": [
+      "GM06-M06.e2",
+      "GM06-M06.e3"
+     ],
+     "en_text": "The momentum index went from -0.87 to 0.26.",
+     "back_translation": "The momentum index went from -0.87 to 0.26."
+    },
+    {
+     "text": "La probabilidad de victoria de Redmere FC aumentó 5.5 pp, de 77.8 por ciento a 83.3 por ciento.",
+     "evidence_ids": [
+      "GM06-M06.e9",
+      "GM06-M06.e7",
+      "GM06-M06.e8"
+     ],
+     "en_text": "Redmere FC win probability rose by 5.5 pp, from 77.8% to 83.3%.",
+     "back_translation": "Redmere FC's probability of victory increased 5.5 pp, from 77.8 percent to 83.3 percent."
+    },
+    {
+     "text": "Si Thornvale City hubiera presionado más desde este punto, en 200 simulaciones la probabilidad de ganar de Redmere FC sería de aproximadamente 74 por ciento en lugar de 76 por ciento.",
+     "evidence_ids": [
+      "GM06-M06.e11",
+      "GM06-M06.e10",
+      "GM06-M06.e17"
+     ],
+     "en_text": "What if Thornvale City had pressed harder from this point? Across 200 simulated rollouts, Redmere FC win chance would be about 74% instead of 76%.",
+     "back_translation": "If Thornvale City had pushed harder from this point, in 200 simulations Redmere FC's probability of winning would be about 74 per cent rather than 76 per cent."
+    },
+    {
+     "text": "El cambio simulado es de -2.0 pp, con un intervalo del 80% desde -7.5 hasta 3.0 pp.",
+     "evidence_ids": [
+      "GM06-M06.e14",
+      "GM06-M06.e15",
+      "GM06-M06.e16"
+     ],
+     "en_text": "The simulated change is -2.0 pp, with an 80% interval from -7.5 to 3.0 pp.",
+     "back_translation": "The simulated change is -2.0 pp, with an 80% range from -7.5 to 3.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M06",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC tomó el control del juego desde el minuto 66.",
+     "evidence_ids": [
+      "GM06-M06.e1",
+      "GM06-M06.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 66.",
+     "back_translation": "Redmere FC took control of the game from the 66th minute."
+    },
+    {
+     "text": "El índice de impulso subió de -0.87 a 0.26.",
+     "evidence_ids": [
+      "GM06-M06.e2",
+      "GM06-M06.e3"
+     ],
+     "en_text": "The momentum index went from -0.87 to 0.26.",
+     "back_translation": "The momentum index rose from -0.87 to 0.26."
+    },
+    {
+     "text": "La probabilidad de ganar de Redmere FC saltó a 83 por ciento, 6 puntos porcentuales más.",
+     "evidence_ids": [
+      "GM06-M06.e8",
+      "GM06-M06.e9"
+     ],
+     "en_text": "Redmere FC win chance jumped to 83%, up 6 points.",
+     "back_translation": "Redmere FC's probability of winning jumped to 83 percent, up 6 percentage points."
+    },
+    {
+     "text": "Si Thornvale City hubiera apretado más desde este punto, Redmere FC tendría alrededor de 74 por ciento de probabilidad de ganar, no 76 por ciento.",
+     "evidence_ids": [
+      "GM06-M06.e11",
+      "GM06-M06.e10"
+     ],
+     "en_text": "What if Thornvale City had pressed harder from this point? Redmere FC would be about 74% to win, not 76%.",
+     "back_translation": "Had Thornvale City pressed harder from this point, Redmere FC would have around a 74 per cent chance of winning, not 76 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M06",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC tomó el control del partido a partir del minuto 66.",
+     "evidence_ids": [
+      "GM06-M06.e1",
+      "GM06-M06.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 66.",
+     "back_translation": "Redmere FC took control of the match from the 66th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Redmere FC un 83 por ciento de probabilidad de ganar, comparado con 78 por ciento antes.",
+     "evidence_ids": [
+      "GM06-M06.e7",
+      "GM06-M06.e8"
+     ],
+     "en_text": "Our model now gives Redmere FC a 83% chance of winning, compared with 78% before.",
+     "back_translation": "Our model now gives Redmere FC an 83 percent chance of winning, compared to 78 percent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Redmere FC tendría alrededor de 74 por ciento de probabilidad en lugar de 76 por ciento.",
+     "evidence_ids": [
+      "GM06-M06.e11",
+      "GM06-M06.e10"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Redmere FC would have about a 74% chance instead of 76%.",
+     "back_translation": "If that hadn't happened, our simulations suggest Redmere FC would have around a 74 percent chance instead of 76 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M06",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "Redmere FC toma el control del partido desde el minuto 66.",
+     "evidence_ids": [
+      "GM06-M06.e1",
+      "GM06-M06.e5"
+     ],
+     "en_text": "Redmere FC took control of the game from minute 66.",
+     "back_translation": "Redmere FC takes control of the match from the 66th minute."
+    },
+    {
+     "text": "El índice de impulso pasa de -0.87 a 0.26.",
+     "evidence_ids": [
+      "GM06-M06.e2",
+      "GM06-M06.e3"
+     ],
+     "en_text": "The momentum index went from -0.87 to 0.26.",
+     "back_translation": "The momentum index goes from -0.87 to 0.26."
+    },
+    {
+     "text": "Redmere FC ahora tiene un 83 por ciento de probabilidad de ganar, frente al 78 por ciento.",
+     "evidence_ids": [
+      "GM06-M06.e7",
+      "GM06-M06.e8"
+     ],
+     "en_text": "Redmere FC now has a 83 per cent chance of winning, up from 78 per cent.",
+     "back_translation": "Redmere FC now have an 83 per cent chance of winning, up from 78 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M07",
+   "persona_key": "analyst",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "74वें मिनट से थॉर्नवेल सिटी की प्रेसिंग कमजोर हो गई।",
+     "evidence_ids": [
+      "GM06-M07.e1",
+      "GM06-M07.e8"
+     ],
+     "en_text": "The Thornvale City press faded from minute 74.",
+     "back_translation": "Thornwell City's pressing weakened from the 74th minute."
+    },
+    {
+     "text": "प्रति मिनट प्रेशर 1.4 से 0.5 हो गया।",
+     "evidence_ids": [
+      "GM06-M07.e2",
+      "GM06-M07.e3"
+     ],
+     "en_text": "Pressures per minute went from 1.4 to 0.5.",
+     "back_translation": "The pressure per minute went from 1.4 to 0.5."
+    },
+    {
+     "text": "PPDA 39.0 से 32.0 पर गया।",
+     "evidence_ids": [
+      "GM06-M07.e4",
+      "GM06-M07.e5"
+     ],
+     "en_text": "PPDA went from 39.0 to 32.0.",
+     "back_translation": "PPDA went from 39.0 to 32.0."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना 0.9 प्रतिशत अंक से घटी, जो 1.1 प्रतिशत से 0.2 प्रतिशत हो गई।",
+     "evidence_ids": [
+      "GM06-M07.e12",
+      "GM06-M07.e10",
+      "GM06-M07.e11"
+     ],
+     "en_text": "Thornvale City win probability fell by 0.9 pp, from 1.1% to 0.2%.",
+     "back_translation": "Thornwell City's chances of winning decreased by 0.9 percentage points, from 1.1 percent to 0.2 percent."
+    },
+    {
+     "text": "अगर थॉर्नवेल सिटी ने अपनी पहले जैसी तीव्रता से प्रेसिंग जारी रखी होती तो 200 सिम्युलेशन में रेडमियर एफ़सी की जीत की संभावना लगभग 76 प्रतिशत होती, 84 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM06-M07.e14",
+      "GM06-M07.e13",
+      "GM06-M07.e20"
+     ],
+     "en_text": "What if Thornvale City had kept pressing at their earlier intensity? Across 200 simulated rollouts, Redmere FC win chance would be about 76% instead of 84%.",
+     "back_translation": "If Thornwell City had continued to press at the same intensity as before, Redmere FC's chances of winning in 200 simulations would have been around 76 per cent, instead of 84 per cent."
+    },
+    {
+     "text": "सिम्युलेटेड बदलाव -9.0 प्रतिशत अंक है, 80% अंतराल -14.0 से -4.0 प्रतिशत अंक।",
+     "evidence_ids": [
+      "GM06-M07.e17",
+      "GM06-M07.e18",
+      "GM06-M07.e19"
+     ],
+     "en_text": "The simulated change is -9.0 pp, with an 80% interval from -14.0 to -4.0 pp.",
+     "back_translation": "The simulated change is -9.0 percentage points, with an 80% interval ranging from -14.0 to -4.0 percentage points."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M07",
+   "persona_key": "casual",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी की प्रेसिंग 74वें मिनट से फीकी पड़ गई।",
+     "evidence_ids": [
+      "GM06-M07.e1",
+      "GM06-M07.e8"
+     ],
+     "en_text": "The Thornvale City press faded from minute 74.",
+     "back_translation": "Thornwell City's pressing faded from the 74th minute."
+    },
+    {
+     "text": "प्रति मिनट प्रेशर 1.4 से 0.5 पर उतर गया।",
+     "evidence_ids": [
+      "GM06-M07.e2",
+      "GM06-M07.e3"
+     ],
+     "en_text": "Pressures per minute went from 1.4 to 0.5.",
+     "back_translation": "The pressure per minute dropped from 1.4 to 0.5."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की जीत की संभावना लगभग नहीं बदली और 0 प्रतिशत के पास रही।",
+     "evidence_ids": [
+      "GM06-M07.e11",
+      "GM06-M07.e12"
+     ],
+     "en_text": "Thornvale City win chance barely moved, staying near 0%.",
+     "back_translation": "Thornwell City's chances of victory almost didn't change and remained close to 0 percent."
+    },
+    {
+     "text": "अगर थॉर्नवेल सिटी ने पहले जैसी प्रेसिंग रखी होती तो रेडमियर एफ़सी की जीत की संभावना करीब 76 प्रतिशत होती, 84 प्रतिशत नहीं।",
+     "evidence_ids": [
+      "GM06-M07.e14",
+      "GM06-M07.e13"
+     ],
+     "en_text": "What if Thornvale City had kept pressing at their earlier intensity? Redmere FC would be about 76% to win, not 84%.",
+     "back_translation": "If Thornwell City had kept the same pressing as before, Redmere FC's chances of winning would have been around 76 per cent, not 84 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M07",
+   "persona_key": "beginner",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी की प्रेसिंग 74वें मिनट से कमज़ोर हो गई।",
+     "evidence_ids": [
+      "GM06-M07.e1",
+      "GM06-M07.e8"
+     ],
+     "en_text": "The Thornvale City press faded from minute 74.",
+     "back_translation": "Thornwell City's pressing was weakened from the 74th minute."
+    },
+    {
+     "text": "हमारा मॉडल अब थॉर्नवेल सिटी को जीत की 0 प्रतिशत संभावना देता है, पहले यह 1 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M07.e10",
+      "GM06-M07.e11"
+     ],
+     "en_text": "Our model now gives Thornvale City a 0% chance of winning, compared with 1% before.",
+     "back_translation": "Our model now gives Thornwell City a 0 per cent chance of winning, previously it was 1 per cent."
+    },
+    {
+     "text": "अगर ऐसा नहीं हुआ होता तो हमारे सिम्युलेशन बतातें हैं कि रेडमियर एफ़सी की जीत की संभावना लगभग 76 प्रतिशत होती, 84 प्रतिशत के बजाय।",
+     "evidence_ids": [
+      "GM06-M07.e14",
+      "GM06-M07.e13"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Redmere FC would have about a 76% chance instead of 84%.",
+     "back_translation": "If this had not happened, our simulations show that Redmere FC would have had a winning probability of about 76 percent, instead of 84 percent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M07",
+   "persona_key": "audio",
+   "lang": "hi",
+   "sentences": [
+    {
+     "text": "थॉर्नवेल सिटी की प्रेसिंग 74वें मिनट से फीकी पड़ रही है।",
+     "evidence_ids": [
+      "GM06-M07.e1",
+      "GM06-M07.e8"
+     ],
+     "en_text": "The Thornvale City press faded from minute 74.",
+     "back_translation": "Thornwell City's pressing has been fading since the 74th minute."
+    },
+    {
+     "text": "प्रति मिनट प्रेशर 1.4 से 0.5 पर आ गया है।",
+     "evidence_ids": [
+      "GM06-M07.e2",
+      "GM06-M07.e3"
+     ],
+     "en_text": "Pressures per minute went from 1.4 to 0.5.",
+     "back_translation": "The pressure per minute has come down from 1.4 to 0.5."
+    },
+    {
+     "text": "थॉर्नवेल सिटी की अब जीत की संभावना 0 प्रतिशत है, पहले यह 1 प्रतिशत थी।",
+     "evidence_ids": [
+      "GM06-M07.e10",
+      "GM06-M07.e11"
+     ],
+     "en_text": "Thornvale City now has a 0 per cent chance of winning, down from 1 per cent.",
+     "back_translation": "Thornwell City now have a 0 per cent chance of winning, previously it was 1 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M07",
+   "persona_key": "analyst",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "La presión de Thornvale City se debilitó a partir del minuto 74.",
+     "evidence_ids": [
+      "GM06-M07.e1",
+      "GM06-M07.e8"
+     ],
+     "en_text": "The Thornvale City press faded from minute 74.",
+     "back_translation": "Thornvale City's pressure weakened from the 74th minute."
+    },
+    {
+     "text": "Las presiones por minuto pasaron de 1.4 a 0.5.",
+     "evidence_ids": [
+      "GM06-M07.e2",
+      "GM06-M07.e3"
+     ],
+     "en_text": "Pressures per minute went from 1.4 to 0.5.",
+     "back_translation": "The pressures per minute went from 1.4 to 0.5."
+    },
+    {
+     "text": "El PPDA pasó de 39.0 a 32.0.",
+     "evidence_ids": [
+      "GM06-M07.e4",
+      "GM06-M07.e5"
+     ],
+     "en_text": "PPDA went from 39.0 to 32.0.",
+     "back_translation": "The PPDA went from 39.0 to 32.0."
+    },
+    {
+     "text": "La probabilidad de victoria de Thornvale City cayó 0.9 pp, de 1.1 por ciento a 0.2 por ciento.",
+     "evidence_ids": [
+      "GM06-M07.e12",
+      "GM06-M07.e10",
+      "GM06-M07.e11"
+     ],
+     "en_text": "Thornvale City win probability fell by 0.9 pp, from 1.1% to 0.2%.",
+     "back_translation": "Thornvale City's probability of victory fell 0.9 pp, from 1.1 percent to 0.2 percent."
+    },
+    {
+     "text": "¿Qué pasaría si Thornvale City hubiera mantenido la presión a su intensidad anterior? En 200 simulaciones, la probabilidad de victoria de Redmere FC sería de aproximadamente 76 por ciento en lugar de 84 por ciento.",
+     "evidence_ids": [
+      "GM06-M07.e14",
+      "GM06-M07.e13",
+      "GM06-M07.e20"
+     ],
+     "en_text": "What if Thornvale City had kept pressing at their earlier intensity? Across 200 simulated rollouts, Redmere FC win chance would be about 76% instead of 84%.",
+     "back_translation": "What if Thornvale City had kept the pressure up to its previous intensity? In 200 simulations, Redmere FC's chance of victory would be about 76 percent instead of 84 percent."
+    },
+    {
+     "text": "El cambio simulado es -9.0 pp, con un intervalo del 80% de -14.0 a -4.0 pp.",
+     "evidence_ids": [
+      "GM06-M07.e17",
+      "GM06-M07.e18",
+      "GM06-M07.e19"
+     ],
+     "en_text": "The simulated change is -9.0 pp, with an 80% interval from -14.0 to -4.0 pp.",
+     "back_translation": "The simulated change is -9.0 pp, with an 80% range of -14.0 to -4.0 pp."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M07",
+   "persona_key": "casual",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "La presión de Thornvale City empezó a desvanecerse en el minuto 74.",
+     "evidence_ids": [
+      "GM06-M07.e1",
+      "GM06-M07.e8"
+     ],
+     "en_text": "The Thornvale City press faded from minute 74.",
+     "back_translation": "Thornvale City's pressure began to fade in the 74th minute."
+    },
+    {
+     "text": "Las presiones por minuto bajaron de 1.4 a 0.5.",
+     "evidence_ids": [
+      "GM06-M07.e2",
+      "GM06-M07.e3"
+     ],
+     "en_text": "Pressures per minute went from 1.4 to 0.5.",
+     "back_translation": "Pressures per minute dropped from 1.4 to 0.5."
+    },
+    {
+     "text": "La probabilidad de victoria de Thornvale City apenas se movió, quedando cerca de 0 por ciento.",
+     "evidence_ids": [
+      "GM06-M07.e11",
+      "GM06-M07.e12"
+     ],
+     "en_text": "Thornvale City win chance barely moved, staying near 0%.",
+     "back_translation": "Thornvale City's chance of victory barely budged, remaining close to 0 percent."
+    },
+    {
+     "text": "¿Y si Thornvale City hubiera mantenido la presión a su intensidad anterior? Redmere FC tendría alrededor de 76 por ciento de probabilidad de victoria, no 84 por ciento.",
+     "evidence_ids": [
+      "GM06-M07.e14",
+      "GM06-M07.e13"
+     ],
+     "en_text": "What if Thornvale City had kept pressing at their earlier intensity? Redmere FC would be about 76% to win, not 84%.",
+     "back_translation": "What if Thornvale City had kept the pressure up to their previous intensity? Redmere FC would have around a 76 per cent chance of victory, not 84 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M07",
+   "persona_key": "beginner",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "La presión de Thornvale City bajó a partir del minuto 74.",
+     "evidence_ids": [
+      "GM06-M07.e1",
+      "GM06-M07.e8"
+     ],
+     "en_text": "The Thornvale City press faded from minute 74.",
+     "back_translation": "Thornvale City's pressure dropped from the 74th minute."
+    },
+    {
+     "text": "Nuestro modelo ahora da a Thornvale City un 0 por ciento de probabilidad de ganar, comparado con 1 por ciento antes.",
+     "evidence_ids": [
+      "GM06-M07.e10",
+      "GM06-M07.e11"
+     ],
+     "en_text": "Our model now gives Thornvale City a 0% chance of winning, compared with 1% before.",
+     "back_translation": "Our model now gives Thornvale City a 0 percent chance of winning, compared to 1 percent before."
+    },
+    {
+     "text": "Si eso no hubiera ocurrido, nuestras simulaciones sugieren que Redmere FC habría tenido alrededor de 76 por ciento de probabilidad en lugar de 84 por ciento.",
+     "evidence_ids": [
+      "GM06-M07.e14",
+      "GM06-M07.e13"
+     ],
+     "en_text": "If that had not happened, our simulations suggest Redmere FC would have about a 76% chance instead of 84%.",
+     "back_translation": "Had that not happened, our simulations suggest that Redmere FC would have had around a 76 per cent chance rather than 84 per cent."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  },
+  {
+   "moment_id": "GM06-M07",
+   "persona_key": "audio",
+   "lang": "es",
+   "sentences": [
+    {
+     "text": "La presión de Thornvale City se desvanece a partir del minuto 74.",
+     "evidence_ids": [
+      "GM06-M07.e1",
+      "GM06-M07.e8"
+     ],
+     "en_text": "The Thornvale City press faded from minute 74.",
+     "back_translation": "Thornvale City's pressure fades from the 74th minute."
+    },
+    {
+     "text": "Las presiones por minuto pasan de 1.4 a 0.5.",
+     "evidence_ids": [
+      "GM06-M07.e2",
+      "GM06-M07.e3"
+     ],
+     "en_text": "Pressures per minute went from 1.4 to 0.5.",
+     "back_translation": "The pressures per minute go from 1.4 to 0.5."
+    },
+    {
+     "text": "Thornvale City ahora tiene un 0 por ciento de probabilidad de ganar, frente al 1 por ciento anterior.",
+     "evidence_ids": [
+      "GM06-M07.e10",
+      "GM06-M07.e11"
+     ],
+     "en_text": "Thornvale City now has a 0 per cent chance of winning, down from 1 per cent.",
+     "back_translation": "Thornvale City now has a 0 percent chance of winning, up from 1 percent previously."
+    }
+   ],
+   "verified": true,
+   "verifier_notes": [
+    "llm judge skipped (offline backend); deterministic checks passed"
+   ],
+   "degraded": false
+  }
+ ],
+ "trace": {
+  "GM06-M01": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "16/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 2,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "1/1 sentences passed checks"
+    },
+    {
+     "step": 3,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 4,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM06-M02": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "17/17 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "17 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 17,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM06-M03": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM06-M04": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "11/11 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "11 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 11,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM06-M05": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "13/13 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "13 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 13,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM06-M06": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "15/15 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "15 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 15,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  },
+  "GM06-M07": {
+   "hi": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "hi",
+     "detail": "16/16 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "hi",
+     "drift": [],
+     "detail": "16 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "hi",
+     "agent_ok": 16,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ],
+   "es": [
+    {
+     "step": 1,
+     "agent": "localizer",
+     "action": "drafted",
+     "attempt": 1,
+     "backend": "foundry",
+     "lang": "es",
+     "detail": "16/16 sentences passed checks"
+    },
+    {
+     "step": 2,
+     "agent": "back_translator",
+     "action": "checked",
+     "lang": "es",
+     "drift": [],
+     "detail": "16 sentences back-translated, 0 drift notes"
+    },
+    {
+     "step": 3,
+     "agent": "localizer",
+     "action": "done",
+     "lang": "es",
+     "agent_ok": 16,
+     "translator_ok": 0,
+     "english_fallback": 0
+    }
+   ]
+  }
+ }
+}

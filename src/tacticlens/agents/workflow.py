@@ -124,7 +124,7 @@ class Localizer(Executor):
     async def localize(self, draft: Draft, ctx: WorkflowContext[Draft]) -> None:
         lang = PERSONAS[draft.persona_key].lang
         await ctx.send_message(draft.log("localizer", "passthrough", lang=lang,
-                                         detail="English source; hi/es localization arrives in M5"))
+                                         detail="verified English source; hi/es by the Localizer agent (personalize.localize)"))
 
 
 class AccessibilityDescriber(Executor):
