@@ -1,10 +1,8 @@
 # HANDOFF
-- Done: M0-M5. M5 = `src/tacticlens/personalize/`: persona engine (fav club boost, player-lock, stats_density trim, cricket analogy pack en/hi/es), glossary + hi name transliteration, Localizer agent (Foundry gpt-5-mini) -> numeral/entity checks -> Translator fallback -> Translator back-translation, Speech TTS. Report: docs/personalization.md.
-- Golden: data/golden/GMxx/localized.json (hi+es for every explanation; 1526/1526 sentences agent-passed, 0 fallback, 0 drift) + audio.json + audio/*.mp3 (audio persona, top-5 moments, en/hi/es, 90 files, ~7.5 MB).
-- Contract changes: Persona.player_lock (key gets ".lock"), Sentence.back_translation.
-- Env: new AZURE_AI_SERVICES_ENDPOINT (custom domain serves Translator `/translator/text/v3.0/...` and TTS `/tts/cognitiveservices/v1`, plain Entra bearer). AZURE_SPEECH_REGION / AZURE_TRANSLATOR_REGION removed from .env.example. Load .env manually: `set -a; . ./.env; set +a`, and put az on PATH (see M4 gotcha).
-- CLI: `python -m tacticlens.personalize [localize|speech] --live` (rebuilds golden), `report` (offline).
-- Gotcha: TTS hit one WinError 10060 timeout; `_post` now retries 3x. Live localize takes ~10 min (106 agent calls, concurrency 6).
-- Next: M6 Web Match Center (Fri 23). API must load localized.json/audio.json and call `personalize.persona.personalize()` per request.
-- Open: close issue #1 (Azure setup) and #5 (M5) on GitHub.
-- Usage (Oct 22, M5 session): weekly 40% -> 41%; session 7%.
+- Done: M0-M6. M6 = `src/tacticlens/api/app.py` (FastAPI, golden mode: cards via `personalize()`, overlays, SSE `/replay`, trace, what-if precomputed or `?live=true` (~6 s, cached in data/cache/whatif/), `POST /explain` with kill switch) + `render/overlays.py` (OverlayCue from evidence only) + `web/` (vanilla ES modules: pitch replay, lane-stacked timeline, WP chart, persona cards with English beside hi/es + back-translation + evidence chips, compare A/B, what-if chart, overlay JSON download, agent trace + kill/re-run).
+- Run: `.venv/Scripts/python.exe -m tacticlens.api` then http://127.0.0.1:8000/#GM01. Keys: Space play, arrows ±30 s, [ ] prev/next moment. `?dir=rtl` previews RTL.
+- Tests: tests/test_api.py (fast) + tests/test_web_smoke.py (Playwright desktop 1366 + mobile 390; skips if Playwright/Chromium missing). New extra: `pip install -e .[e2e] && python -m playwright install chromium`.
+- Gotcha: system `python` is 3.10 without deps; always use `.venv/Scripts/python.exe`.
+- Next: M7 cloud (Container Apps via azd, managed identity, Cosmos store, live mode). Dockerfile/CI can go to Copilot; CI must install the e2e extra to run the smoke test.
+- Open: UI strings are English only (Translator for UI strings not wired); `tone` persona field has no effect yet; close issues #1, #5 (and M6 issue) on GitHub.
+- Usage (Oct 22, M6 session): fill in from `/usage`.

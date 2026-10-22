@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TacticLens Match Center</title>
+<meta name="description" content="Synthetic football matches turned into grounded, personalized, accessible match stories.">
+<link rel="stylesheet" href="css/app.css">
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to match</a>
+<header class="topbar">
+  <div class="brand"><span class="logo" aria-hidden="true">◎</span> TacticLens <span class="sub">Match Center</span></div>
+  <label class="match-pick">Match
+    <select id="match-select" aria-label="Choose a match"></select>
+  </label>
+  <span class="badge" id="mode-badge" title="All data is synthetic and pre-generated; no live services needed">golden mode · synthetic data</span>
+</header>
+
+<main id="main">
+  <section class="stage" aria-label="Match replay">
+    <div class="scoreboard" aria-live="off">
+      <span class="team home" id="home-name">Home</span>
+      <span class="score" id="score">0 – 0</span>
+      <span class="team away" id="away-name">Away</span>
+      <span class="clock" id="clock">0'</span>
+    </div>
+    <p class="story" id="story"></p>
+
+    <div class="pitch-wrap">
+      <svg id="pitch" viewBox="-2 -2 109 72" role="img" aria-labelledby="pitch-title">
+        <title id="pitch-title">Pitch replay. The home team attacks to the right.</title>
+      </svg>
+      <div class="overlay-layer" id="overlay-layer" aria-hidden="true"></div>
+    </div>
+
+    <div class="controls" role="group" aria-label="Replay controls">
+      <button id="play" type="button" aria-keyshortcuts="Space">▶ Play</button>
+      <label>Speed
+        <select id="speed">
+          <option value="1">1×</option><option value="4">4×</option><option value="16" selected>16×</option>
+          <option value="64">64×</option><option value="256">256×</option>
+        </select>
+      </label>
+      <label class="seek">Time
+        <input id="seek" type="range" min="0" max="5900" step="10" value="0" aria-valuetext="minute 0">
+      </label>
+      <span class="last-event" id="last-event" aria-hidden="true"></span>
+    </div>
+
+    <p class="caption" id="caption" aria-live="polite" aria-atomic="true">Press play, or pick a moment on the timeline.</p>
+
+    <h2 class="h">Key moments</h2>
+    <div class="timeline" id="timeline" dir="ltr" role="list" aria-label="Key moments timeline"></div>
+
+    <h2 class="h">Win probability</h2>
+    <div class="wp" id="wp-chart" dir="ltr"></div>
+  </section>
+
+  <section class="side" aria-label="Match intelligence">
+    <div class="tabs" role="tablist" aria-label="Panels">
+      <button role="tab" id="tab-story" aria-controls="panel-story" aria-selected="true">Story</button>
+      <button role="tab" id="tab-compare" aria-controls="panel-compare" aria-selected="false" tabindex="-1">Compare</button>
+      <button role="tab" id="tab-whatif" aria-controls="panel-whatif" aria-selected="false" tabindex="-1">What if?</button>
+      <button role="tab" id="tab-overlays" aria-controls="panel-overlays" aria-selected="false" tabindex="-1">Overlays</button>
+      <button role="tab" id="tab-trace" aria-controls="panel-trace" aria-selected="false" tabindex="-1">Agent trace</button>
+    </div>
+
+    <div role="tabpanel" id="panel-story" aria-labelledby="tab-story" class="panel">
+      <form class="persona" id="persona-form" aria-label="Your persona">
+        <label>Viewer
+          <select name="mode">
+            <option value="casual">Casual fan</option><option value="analyst">Analyst</option>
+            <option value="beginner">Beginner</option><option value="audio">Audio description</option>
+          </select>
+        </label>
+        <label>Language
+          <select name="lang"><option value="en">English</option><option value="hi">हिन्दी (Hindi)</option><option value="es">Español (Spanish)</option></select>
+        </label>
+        <label>Favourite club <select name="fav_club"><option value="">None</option></select></label>
+        <label>Favourite player <select name="fav_player"><option value="">None</option></select></label>
+        <label class="check"><input type="checkbox" name="player_lock"> Player-lock</label>
+        <label class="check"><input type="checkbox" name="analogy" value="cricket"> Cricket analogies</label>
+        <label>Stats <input type="range" name="stats_density" min="0" max="2" value="1" aria-valuetext="normal"></label>
+      </form>
+      <div id="cards" class="cards" aria-live="polite"></div>
+    </div>
+
+    <div role="tabpanel" id="panel-compare" aria-labelledby="tab-compare" class="panel" hidden>
+      <p class="hint">The selected moment, explained for two viewers side by side.</p>
+      <div class="compare" id="compare"></div>
+    </div>
+
+    <div role="tabpanel" id="panel-whatif" aria-labelledby="tab-whatif" class="panel" hidden>
+      <div id="whatif"></div>
+    </div>
+
+    <div role="tabpanel" id="panel-overlays" aria-labelledby="tab-overlays" class="panel" hidden>
+      <div class="row">
+        <label class="check"><input type="checkbox" id="cues-moment" checked> Selected moment only</label>
+        <button type="button" id="cues-download">Download JSON</button>
+      </div>
+      <p class="hint">Broadcast overlay cues (OverlayCue contract) for the current persona. They also play on the pitch.</p>
+      <pre id="cues-json" class="json" tabindex="0" aria-label="Overlay cues JSON"></pre>
+    </div>
+
+    <div role="tabpanel" id="panel-trace" aria-labelledby="tab-trace" class="panel" hidden>
+      <div class="row">
+        <label class="check switch"><input type="checkbox" id="kill"> Kill the Explainer agent</label>
+        <button type="button" id="rerun">Re-run agents</button>
+      </div>
+      <p class="hint" id="trace-hint">Every handoff in the agent workflow for the selected moment and persona.</p>
+      <ol id="trace" class="trace"></ol>
+      <div id="rerun-out"></div>
+    </div>
+  </section>
+</main>
+<footer class="foot">Synthetic data and fictional clubs only. Numbers come from computed evidence; every sentence cites it.</footer>
+</body>
+</html>
