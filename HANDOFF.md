@@ -5,4 +5,4 @@
 - Gotchas: ACR Tasks blocked on the student sub (local Docker build); new Container Apps envs default to Express, which can't pull from ACR, so Bicep sets `environmentMode: 'WorkloadProfiles'`. Scale-to-zero means about 20 s cold start; set `minReplicas: 1` before judging/recording.
 - Next: M8 polish (README + architecture diagram + judging map, video, submission text). Push to GitHub (not pushed yet).
 - Open: `azd pipeline config` (creates a federated SP in the UCD tenant) not run, so deploy.yml stays skipped until then; UI strings English only; `tone` has no effect; close GitHub issues #1, #5 + M6/M7.
-- Usage (Oct 25, M7 session): start: weekly 3%, session 6%. End: check with `/usage`.
+- Usage (Oct 25, M7 session): weekly 3% -> 5%; session 6% -> 16%.
