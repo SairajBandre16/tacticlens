@@ -4,8 +4,9 @@ import { api } from './api.js';
 import { PitchView } from './pitch.js';
 import { wpChart, whatifChart } from './charts.js';
 
-const KIND = { goal: ['Goal', 'G'], big_chance: ['Big chance', 'C'], red_card: ['Red card', 'R'],
-  momentum_shift: ['Momentum shift', 'M'], press_collapse: ['Press collapse', 'P'], sub_effect: ['Substitution effect', 'S'] };
+const KIND = { goal: ['Goal', 'i-goal'], big_chance: ['Big chance', 'i-chance'], red_card: ['Red card', 'i-card'],
+  momentum_shift: ['Momentum shift', 'i-momentum'], press_collapse: ['Press collapse', 'i-press'], sub_effect: ['Substitution effect', 'i-sub'] };
+const DNA = [['press_intensity', 'Press'], ['tempo', 'Tempo'], ['directness', 'Direct'], ['width', 'Width']];
 const MODES = { casual: 'Casual fan', analyst: 'Analyst', beginner: 'Beginner', audio: 'Audio description' };
 const LANGS = { en: 'English', hi: 'हिन्दी', es: 'Español' };
 const RTL = new Set(['ar']);
@@ -33,6 +34,34 @@ function h(tag, attrs = {}, ...kids) {
   return n;
 }
 
+const SVG_NS = 'http://www.w3.org/2000/svg';
+function icon(id, cls = 'ic') {
+  const svg = document.createElementNS(SVG_NS, 'svg');
+  svg.setAttribute('class', cls);
+  svg.setAttribute('aria-hidden', 'true');
+  const use = document.createElementNS(SVG_NS, 'use');
+  use.setAttribute('href', `#${id}`);
+  svg.append(use);
+  return svg;
+}
+const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+const skeletons = (n) => Array.from({ length: n }, () => h('div', { class: 'skel', 'aria-hidden': 'true' }, h('i'), h('i'), h('i')));
+const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// Shield crest drawn from the club's id; colour follows the side (home/away), as in every chart.
+function crest(team, side) {
+  return `<svg viewBox="0 0 50 56"><defs><linearGradient id="cg-${side}" x1="0" y1="0" x2="0" y2="1">`
+    + `<stop offset="0" stop-color="var(--${side})"/><stop offset="1" stop-color="var(--${side})" stop-opacity=".55"/></linearGradient></defs>`
+    + `<path d="M25 2 46 9v17c0 14-9 23-21 28C13 49 4 40 4 26V9z" fill="url(#cg-${side})" stroke="rgba(255,255,255,.35)" stroke-width="1.2"/>`
+    + `<path d="M25 7 41 12.5V26c0 10.5-6.5 17.6-16 21.8" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="1.2"/>`
+    + `<text x="25" y="33" text-anchor="middle" font-family="Geist Mono, monospace" font-weight="600" font-size="12.5" fill="#0b1310">${esc(team.id)}</text></svg>`;
+}
+
+function dna(team, side) {
+  return DNA.map(([k, label]) => h('span', { title: `${label} ${Math.round(team.style[k] * 100)}/100` }, label,
+    h('i', { style: `--v:${team.style[k]};--team:var(--${side})` })));
+}
+
 // --- time helpers ------------------------------------------------------------------------------------------
 function minuteOf(t) {
   const ps = S.d.periods;
@@ -54,7 +83,7 @@ const kindTitle = (m) => `${Math.floor(minuteOf(m.t_start))}' ${KIND[m.kind][0]}
 
 // --- replay ------------------------------------------------------------------------------------------------
 function setPlaying(on) {
-  $('play').textContent = on ? '❚❚ Pause' : '▶ Play';
+  $('play').replaceChildren(icon(on ? 'i-pause' : 'i-play'), h('span', { text: on ? 'Pause' : 'Play' }));
   $('play').setAttribute('aria-pressed', on);
 }
 
@@ -96,16 +125,32 @@ function onEvent(e) {
   S.t = e.t;
   pitch.show(e);
   $('last-event').textContent = `${e.minute}' ${playerName(e.player_id)} · ${e.type.replace('_', ' ')}${e.outcome ? ` (${e.outcome})` : ''}`;
+  if (e.type === 'goal') goalBurst(e);
   tick();
+}
+
+function goalBurst(e) {
+  const box = $('goal-burst'), side = e.team === S.d.meta.home.id ? 'home' : 'away';
+  box.style.setProperty('--team', `var(--${side})`);
+  box.replaceChildren(h('div', {}, h('b', { text: 'Goal' }), h('span', { text: `${e.minute}' ${playerName(e.player_id)} · ${S.d.meta[side].name}` })));
+  box.classList.remove('on');
+  void box.offsetWidth;  // restart the animation
+  box.classList.add('on');
 }
 
 function tick() {
   const t = S.t, min = minuteOf(t);
   const [a, b] = scoreAt(t);
-  $('score').textContent = `${a} – ${b}`;
+  const score = `${a} – ${b}`, scoreEl = $('score');
+  if (scoreEl.textContent !== score) {
+    scoreEl.textContent = score;
+    scoreEl.classList.remove('bump'); void scoreEl.offsetWidth; scoreEl.classList.add('bump');
+  }
   $('clock').textContent = `${Math.floor(min)}'`;
+  $('clock-bar').setAttribute('width', Math.min(120, (min / Math.max(S.maxMin, 90)) * 120).toFixed(1));
   const seekEl = $('seek');
   if (document.activeElement !== seekEl) seekEl.value = t;
+  seekEl.style.setProperty('--p', `${(seekEl.value / seekEl.max) * 100}%`);
   seekEl.setAttribute('aria-valuetext', `minute ${Math.floor(min)}, score ${a} – ${b}`);
   S.chart?.setMinute(min);
   const ph = $('timeline').querySelector('.playhead');
@@ -145,11 +190,29 @@ async function loadMatch(mid) {
   stop();
   S.mid = mid;
   S.cardCache.clear();
-  S.d = await api.match(mid);
-  const { meta } = S.d;
+  $('cards').replaceChildren(...skeletons(4));
+  const d = await api.match(mid);
+  const apply = () => renderMatch(mid, d);
+  // Cross-fade between fixtures where the browser supports view transitions.
+  if (S.d && document.startViewTransition && !reducedMotion()) await document.startViewTransition(apply).updateCallbackDone;
+  else apply();
+  await refreshPersona();
+  seek(0);
+  $('caption').lang = 'en';
+  $('caption').textContent = `${d.meta.title}: ${d.meta.story} Press play, or pick a moment on the timeline.`;
+}
+
+function renderMatch(mid, d) {
+  S.d = d;
+  const { meta } = d;
   history.replaceState(null, '', `#${mid}`);
   $('home-name').textContent = meta.home.name;
   $('away-name').textContent = meta.away.name;
+  $('home-crest').innerHTML = crest(meta.home, 'home');
+  $('away-crest').innerHTML = crest(meta.away, 'away');
+  $('home-dna').replaceChildren(...dna(meta.home, 'home'));
+  $('away-dna').replaceChildren(...dna(meta.away, 'away'));
+  $('match-title').textContent = meta.title;
   $('story').textContent = meta.story;
   pitch.setHome(meta.home.id);
   S.maxMin = S.d.wp[S.d.wp.length - 1].minute;
@@ -162,10 +225,8 @@ async function loadMatch(mid) {
   });
   S.t = 0;
   S.selected = [...S.d.moments].sort((x, y) => y.importance - x.importance)[0]?.id;
-  await refreshPersona();
-  seek(0);
-  $('caption').lang = 'en';
-  $('caption').textContent = `${meta.title}: ${meta.story} Press play, or pick a moment on the timeline.`;
+  const kinds = [...new Set(S.d.moments.map((m) => m.kind))];
+  $('kind-legend').replaceChildren(...kinds.map((k) => h('span', {}, icon(KIND[k][1]), KIND[k][0])));
 }
 
 function buildTimeline() {
@@ -179,17 +240,18 @@ function buildTimeline() {
     let lane = lanes.findIndex((last) => x - last >= minGap);
     if (lane < 0) lane = lanes.length;
     lanes[lane] = x;
-    const [label, icon] = KIND[m.kind];
+    const [label, ic] = KIND[m.kind];
     const team = m.evidence.find((e) => TEAM_LABELS.includes(e.label));
     tl.append(h('button', {
-      class: `mk ${sideOf(m)}`, type: 'button', role: 'listitem', 'data-id': m.id, text: icon,
-      style: `inset-inline-start:${x}%;top:${7 + lane * 34}px`,
+      class: `mk ${sideOf(m)}`, type: 'button', role: 'listitem', 'data-id': m.id, 'data-kind': m.kind,
+      style: `inset-inline-start:${x}%;top:${9 + lane * 36}px`,
       'aria-label': `Minute ${Math.floor(minuteOf(m.t_start))}: ${label}${team ? `, ${team.value}` : ''}`,
-      title: `${kindTitle(m)}${team ? ` · ${team.value}` : ''}`,
+      'data-tip': `${kindTitle(m)}${team ? ` · ${team.value}` : ''}`,
+      'aria-current': m.id === S.selected,
       onclick: () => select(m.id, { seek: true }),
-    }));
+    }, icon(ic)));
   }
-  tl.style.height = `${10 + lanes.length * 34}px`;
+  tl.style.height = `${18 + lanes.length * 36}px`;
 }
 
 function fillPersonaOptions() {
@@ -242,11 +304,19 @@ function select(id, { seek: doSeek = false, follow = false } = {}) {
   S.rerun = null;
   for (const b of $('timeline').querySelectorAll('.mk')) b.setAttribute('aria-current', b.dataset.id === id);
   for (const c of $('cards').querySelectorAll('.card')) c.setAttribute('aria-current', c.dataset.id === id);
+  if (follow) revealCard(id);
   if (doSeek) seek(moment(id).t_start);  // opens the moment's overlay window
   if (!follow || !document.querySelector('#panel-story:not([hidden])')) {
     renderCompare(); renderWhatif(); renderTrace();
   }
   renderCues();
+}
+
+// While the replay runs, keep the active card in view inside the side panel (desktop, where it scrolls).
+function revealCard(id) {
+  const box = document.querySelector('.panels'), card = $('cards').querySelector(`.card[data-id="${id}"]`);
+  if (!card || box.scrollHeight <= box.clientHeight) return;
+  box.scrollTo({ top: card.offsetTop - box.offsetTop - 12, behavior: reducedMotion() ? 'auto' : 'smooth' });
 }
 
 // --- cards -----------------------------------------------------------------------------------------------
@@ -279,23 +349,27 @@ function sentenceEl(s, m, lang) {
 
 function cardEl(c, { watch = true } = {}) {
   const m = moment(c.moment_id);
-  const chips = [
-    c.verified ? h('span', { class: 'chip ok', text: '✓ verified' }) : h('span', { class: 'chip bad', text: 'unverified' }),
-    c.degraded ? h('span', { class: 'chip warn', text: c.lang !== (c.wanted_lang || S.persona.lang) ? 'English fallback' : 'template fallback' }) : null,
-    c.analogy ? h('span', { class: 'chip', text: 'cricket analogy' }) : null,
-    c.fav_club ? h('span', { class: 'chip', text: '★ your club' }) : null,
-    c.fav_player ? h('span', { class: 'chip', text: '★ your player' }) : null,
-  ];
-  return h('article', { class: 'card', 'data-id': c.moment_id, 'aria-current': c.moment_id === S.selected, lang: c.lang },
-    h('header', {}, h('span', { class: 't', text: kindTitle(m) }), chips,
-      watch ? h('button', { type: 'button', text: 'Watch', 'aria-label': `Watch ${kindTitle(m)}`, onclick: () => select(c.moment_id, { seek: true }) }) : null),
+  const chip = (cls, ic, text) => h('span', { class: `chip ${cls}` }, ic ? icon(ic) : null, text);
+  const chips = h('span', { class: 'chips' },
+    c.verified ? chip('ok', 'i-check', 'verified') : chip('bad', 'i-alert', 'unverified'),
+    c.degraded ? chip('warn', 'i-alert', c.lang !== (c.wanted_lang || S.persona.lang) ? 'English fallback' : 'template fallback') : null,
+    c.analogy ? chip('', null, 'cricket analogy') : null,
+    c.fav_club ? chip('', 'i-star', 'your club') : null,
+    c.fav_player ? chip('', 'i-star', 'your player') : null);
+  return h('article', { class: 'card', 'data-id': c.moment_id, 'data-side': sideOf(m), 'aria-current': c.moment_id === S.selected, lang: c.lang },
+    h('header', {}, h('span', { class: `k ${m.kind}` }, icon(KIND[m.kind][1])),
+      h('span', { class: 'min', text: `${Math.floor(minuteOf(m.t_start))}'` }), h('span', { class: 't', text: KIND[m.kind][0] }), chips,
+      watch ? h('button', { type: 'button', 'aria-label': `Watch ${kindTitle(m)}`, onclick: () => select(c.moment_id, { seek: true }) }, icon('i-play'), 'Watch') : null),
     c.sentences.map((s) => sentenceEl(s, m, c.lang)),
     c.audio ? h('audio', { controls: true, preload: 'none', src: api.audioUrl(S.mid, c.audio), 'aria-label': `Audio description, ${kindTitle(m)}` }) : null);
 }
 
 function renderCards() {
   const box = $('cards');
-  box.replaceChildren(...(S.cards.length ? S.cards.map((c) => cardEl(c)) : [h('p', { class: 'hint', text: 'No moments for this persona (player-lock keeps only your player’s moments).' })]));
+  box.replaceChildren(...(S.cards.length
+    ? S.cards.map((c, i) => { const n = cardEl(c); n.style.setProperty('--i', i); return n; })
+    : [h('div', { class: 'empty' }, h('p', { text: 'No moments for this persona.' }),
+      h('p', { class: 'hint', text: 'Player-lock keeps only your player’s moments. Pick another player or switch it off.' }))]));
 }
 
 // --- compare ---------------------------------------------------------------------------------------------
@@ -314,7 +388,7 @@ async function renderCompare() {
     const c = cards.find((x) => x.moment_id === sel);
     const pick = (name, opts) => h('select', { 'aria-label': `Viewer ${i + 1} ${name}`, onchange: (ev) => { slot[name] = ev.target.value; renderCompare(); } },
       Object.entries(opts).map(([v, t]) => h('option', { value: v, text: t, selected: slot[name] === v })));
-    return h('div', { class: 'slot' }, h('div', { class: 'row' }, pick('mode', MODES), pick('lang', LANGS)),
+    return h('div', { class: 'slot' }, h('span', { class: 'who', text: `Viewer ${'AB'[i]}` }), h('div', { class: 'row' }, pick('mode', MODES), pick('lang', LANGS)),
       c ? cardEl(c, { watch: false }) : h('p', { class: 'hint', text: 'No card for this moment.' }));
   }));
   if (sel === S.selected) box.replaceChildren(...slots);
@@ -324,13 +398,13 @@ async function renderCompare() {
 async function renderWhatif(live = false) {
   const box = $('whatif');
   const sel = S.selected, m = moment(sel);
-  box.replaceChildren(h('p', { class: 'hint', text: live ? 'Running 200 simulated rest-of-match rollouts for each scenario…' : 'Loading…' }));
+  box.replaceChildren(...(live ? [h('p', { class: 'hint', text: 'Running 200 simulated rest-of-match rollouts for each scenario…' })] : []), ...skeletons(2));
   const r = await api.whatif(S.mid, sel, live);
   if (sel !== S.selected) return;
   const head = h('h3', { text: kindTitle(m) });
   if (!r.counterfactual) {
     box.replaceChildren(head, h('p', { text: 'No what-if was precomputed for this moment.' }),
-      h('button', { type: 'button', text: 'Simulate now (200 rollouts, ~5 s)', onclick: (ev) => { ev.target.disabled = true; renderWhatif(true); } }));
+      h('button', { type: 'button', onclick: (ev) => { ev.currentTarget.disabled = true; renderWhatif(true); } }, icon('i-flask'), 'Simulate now (200 rollouts, ~5 s)'));
     return;
   }
   const cf = r.counterfactual;
@@ -350,7 +424,19 @@ async function renderWhatif(live = false) {
 function cuesShown() {
   return $('cues-moment').checked ? S.cues.filter((c) => c.payload.moment_id === S.selected) : S.cues;
 }
-function renderCues() { $('cues-json').textContent = JSON.stringify(cuesShown(), null, 2); }
+const JSON_TOKEN = /("(?:\\.|[^"\\])*")(\s*:)?|(-?\d+(?:\.\d+)?(?:e[+-]?\d+)?)|\b(true|false|null)\b/g;
+function renderCues() {  // pretty JSON with light syntax colouring
+  const box = $('cues-json'), json = JSON.stringify(cuesShown(), null, 2);
+  box.replaceChildren();
+  let last = 0;
+  for (const m of json.matchAll(JSON_TOKEN)) {
+    box.append(json.slice(last, m.index));
+    const cls = m[1] ? (m[2] ? 'k' : 's') : m[3] ? 'n' : 'b';
+    box.append(h('span', { class: cls, text: m[1] || m[3] || m[4] }), m[2] || '');
+    last = m.index + m[0].length;
+  }
+  box.append(json.slice(last));
+}
 
 $('cues-download').addEventListener('click', () => {
   const blob = new Blob([JSON.stringify(cuesShown(), null, 2)], { type: 'application/json' });
@@ -368,11 +454,12 @@ function stepClass(s) {
   return '';
 }
 
-function stepEl(s) {
+function stepEl(s, i = 0) {
   const extra = s.detail || (s.notes?.length ? s.notes.join('; ') : '')
-    || (s.stats ? Object.entries(s.stats).map(([k, v]) => `${k} ${v}`).join(', ') : '');
-  return h('li', { class: stepClass(s) }, h('span', { class: 'agent', text: s.agent.replaceAll('_', ' ') }),
-    h('span', { text: `${s.action}${s.attempt ? ` · attempt ${s.attempt}` : ''}${s.backend ? ` · ${s.backend}` : ''}` }),
+    || (s.stats ? Object.entries(s.stats).map(([k, v]) => `${k} ${v}`).join(', ') : '')
+    || (s.engine ? `engine: ${s.engine}` : '');
+  return h('li', { class: stepClass(s), style: `--i:${i}` }, h('span', { class: 'agent', text: s.agent.replaceAll('_', ' ') }),
+    h('span', { class: 'act', text: `${s.action}${s.attempt ? ` · attempt ${s.attempt}` : ''}${s.backend ? ` · ${s.backend}` : ''}` }),
     extra ? h('span', { class: 'detail', text: extra }) : null);
 }
 
@@ -383,8 +470,9 @@ async function renderTrace() {
   const r = await api.trace(S.mid, sel, mode, lang);
   if (sel !== S.selected || S.rerun) return;
   $('trace-hint').textContent = `Golden run for ${kindTitle(moment(sel))}, ${MODES[mode]} (explainer backend: ${r.backend}).`;
-  box.replaceChildren(h('li', { class: 'sep', text: 'Explain' }), ...r.explain.map(stepEl),
-    ...(lang !== 'en' && r.localize.length ? [h('li', { class: 'sep', text: `Localize (${LANGS[lang]}, ${r.localize_backend})` }), ...r.localize.map(stepEl)] : []));
+  box.replaceChildren(h('li', { class: 'sep', text: 'Explain' }), ...r.explain.map((s, i) => stepEl(s, i)),
+    ...(lang !== 'en' && r.localize.length ? [h('li', { class: 'sep', text: `Localize (${LANGS[lang]}, ${r.localize_backend})` }),
+      ...r.localize.map((s, i) => stepEl(s, r.explain.length + i))] : []));
   $('rerun-out').replaceChildren();
 }
 
@@ -396,7 +484,7 @@ $('rerun').addEventListener('click', async (ev) => {
     const r = await api.explain(S.mid, { moment_id: sel, mode: S.persona.mode, kill, live });
     S.rerun = r;
     $('trace-hint').textContent = `Live re-run for ${kindTitle(moment(sel))}, ${MODES[S.persona.mode]} (backend: ${r.backend}${kill ? ', Explainer killed' : ''}${r.stored ? `, stored in ${r.stored.store}` : ''}).`;
-    $('trace').replaceChildren(...r.trace.map(stepEl));
+    $('trace').replaceChildren(...r.trace.map((s, i) => stepEl(s, i)));
     const e = r.explanation;
     $('rerun-out').replaceChildren(h('h3', { text: 'Result' }), cardEl({ ...e, persona: e.persona_key, lang: 'en', wanted_lang: 'en', analogy: false }, { watch: false }));
   } catch (err) {
@@ -408,6 +496,13 @@ $('rerun').addEventListener('click', async (ev) => {
 
 // --- tabs, keyboard, wiring ------------------------------------------------------------------------------
 const tabs = [...document.querySelectorAll('[role="tab"]')];
+function moveInk() {  // the sliding highlight behind the selected tab
+  const t = tabs.find((x) => x.getAttribute('aria-selected') === 'true');
+  if (!t) return;
+  $('tab-ink').style.width = `${t.offsetWidth}px`;
+  $('tab-ink').style.transform = `translateX(${t.offsetLeft}px)`;
+}
+
 function openTab(tab) {
   for (const t of tabs) {
     const on = t === tab;
@@ -415,6 +510,10 @@ function openTab(tab) {
     t.tabIndex = on ? 0 : -1;
     $(t.getAttribute('aria-controls')).hidden = !on;
   }
+  moveInk();
+  const strip = tab.parentElement;  // keep the tab visible on narrow screens without scrolling the page
+  strip.scrollTo({ left: tab.offsetLeft - (strip.clientWidth - tab.offsetWidth) / 2, behavior: reducedMotion() ? 'auto' : 'smooth' });
+  document.querySelector('.panels').scrollTop = 0;
   if (tab.id !== 'tab-story') { renderCompare(); renderWhatif(); renderTrace(); }
 }
 for (const t of tabs) {
@@ -454,7 +553,7 @@ $('match-select').addEventListener('change', (e) => loadMatch(e.target.value));
 let resizeTimer;
 window.addEventListener('resize', () => {
   clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(() => { if (S.d) { buildTimeline(); select(S.selected); tick(); } }, 200);
+  resizeTimer = setTimeout(() => { moveInk(); if (S.d) { buildTimeline(); select(S.selected); tick(); } }, 200);
 });
 
 async function init() {
@@ -462,6 +561,13 @@ async function init() {
   if (params.get('dir') === 'rtl') document.documentElement.dir = 'rtl';
   const [list, health] = await Promise.all([api.matches(), api.health()]);
   $('live-wrap').hidden = !health.live;
+  if (health.live) {
+    $('mode-badge').classList.add('live');
+    $('mode-text').textContent = 'Live agents on Foundry';
+    $('mode-badge').title = 'Replays use golden data; the Agent trace tab can re-run the agents live on Microsoft Foundry';
+  }
+  moveInk();
+  document.fonts?.ready.then(moveInk);
   const sel = $('match-select');
   sel.replaceChildren(...list.map((m) => h('option', { value: m.match_id, text: `${m.title} · ${m.home} ${m.score} ${m.away}` })));
   const want = location.hash.slice(1);
@@ -471,6 +577,7 @@ async function init() {
 }
 
 init().catch((err) => {
-  $('caption').textContent = `Could not load match data (${err.message}).`;
+  $('caption').textContent = `Could not load match data (${err.message}). Check that the server is running, then reload.`;
+  $('cards').replaceChildren(h('div', { class: 'empty' }, h('p', { text: 'Match data did not load.' })));
   console.error(err);
 });
