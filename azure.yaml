@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+name: tacticlens
+resourceGroup: ${AZURE_RESOURCE_GROUP}
+infra:
+  provider: bicep
+  path: infra
+services:
+  api:
+    project: .
+    language: py
+    host: containerapp
+    docker:
+      path: ./Dockerfile
+      context: .
+      remoteBuild: false  # ACR Tasks are not allowed on Azure for Students subscriptions

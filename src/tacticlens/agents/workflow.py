@@ -16,8 +16,9 @@ from .state import MAX_ATTEMPTS, PERSONAS, Draft, EvidencePack, MatchInput, Resu
 from .templates import template_sentences
 from .verifier import FORBIDDEN_RE, REAL_RE, verify
 
-# Offline stand-in for Azure AI Content Safety (wired in M7).
+# Offline blocklist; in live mode Azure AI Content Safety runs as well (any category at or above SAFETY_MAX_SEVERITY).
 UNSAFE_RE = re.compile(r"\b(kill|hate|idiot|stupid|disgrace|damn|hell)\b", re.I)
+SAFETY_MAX_SEVERITY = 4  # 0 safe, 2 low, 4 medium, 6 high; "low" is common for tackles and red cards
 
 
 @dataclass(frozen=True)
@@ -139,17 +140,26 @@ class AccessibilityDescriber(Executor):
 
 
 class SafetyGate(Executor):
-    def __init__(self):
+    def __init__(self, safety=None):
         super().__init__(id="safety_gate")
+        self.safety = safety  # object with async analyze_text(text) -> {category: severity}, e.g. AzureRest
 
     @handler
     async def gate(self, draft: Draft, ctx: WorkflowContext[Never, Result]) -> None:
         text = " ".join(s["text"] for s in draft.sentences)
-        hit = UNSAFE_RE.search(text) or FORBIDDEN_RE.search(text) or REAL_RE.search(text)
+        m = UNSAFE_RE.search(text) or FORBIDDEN_RE.search(text) or REAL_RE.search(text)
+        hit, engine, extra = (m.group(0) if m else None), "offline blocklist", {}
+        if not hit and self.safety is not None:
+            engine = "offline blocklist + Azure AI Content Safety"
+            try:
+                extra["severity"] = sev = await self.safety.analyze_text(text)
+                hit = next((f"{c} severity {s}" for c, s in sev.items() if s >= SAFETY_MAX_SEVERITY), None)
+            except Exception as exc:  # noqa: BLE001 - service down: blocklist result stands, logged
+                extra["error"] = f"content safety unavailable: {type(exc).__name__}"
         if hit:
             draft = replace(draft, status="fallback", sentences=tuple(template_sentences(draft.pack)),
-                            notes=draft.notes + (f"safety gate blocked '{hit.group(0)}'",))
-        draft = draft.log("safety_gate", "blocked" if hit else "passed", engine="offline blocklist")
+                            notes=draft.notes + (f"safety gate blocked '{hit}'",))
+        draft = draft.log("safety_gate", "blocked" if hit else "passed", engine=engine, **extra)
         exp = Explanation(moment_id=draft.pack.moment["id"], persona_key=draft.persona_key,
                           lang=PERSONAS[draft.persona_key].lang, sentences=list(draft.sentences),
                           verified=draft.status in ("verified", "fallback"), verifier_notes=list(draft.notes),
@@ -157,10 +167,10 @@ class SafetyGate(Executor):
         await ctx.yield_output(Result(exp.model_dump(exclude_none=True), draft.trace))
 
 
-def build_workflow(backend):
+def build_workflow(backend, safety=None):
     spotter, builder = Spotter(), EvidenceBuilder()
     explainer, verifier, fallback = Explainer(backend), Verifier(backend), TemplateFallback()
-    localizer, a11y, safety = Localizer(), AccessibilityDescriber(), SafetyGate()
+    localizer, a11y, safety = Localizer(), AccessibilityDescriber(), SafetyGate(safety)
     return (WorkflowBuilder(name="tacticlens-explain", start_executor=spotter, output_from=[safety])
             .add_edge(spotter, builder)
             .add_edge(builder, explainer)
@@ -175,9 +185,9 @@ def build_workflow(backend):
 
 
 async def run_match_async(meta: dict, moments: list[dict], backend=None, personas: tuple[str, ...] = tuple(PERSONAS),
-                          top_n: int | None = None) -> tuple[list[dict], dict]:
+                          top_n: int | None = None, safety=None) -> tuple[list[dict], dict]:
     backend = backend or OfflineExplainer()
-    result = await build_workflow(backend).run(MatchInput(meta, moments, personas, top_n))
+    result = await build_workflow(backend, safety).run(MatchInput(meta, moments, personas, top_n))
     order = {p: i for i, p in enumerate(personas)}
     t_start = {m["id"]: m["t_start"] for m in moments}
     results: list[Result] = sorted(result.get_outputs(), key=lambda r: (

@@ -389,15 +389,18 @@ async function renderTrace() {
 }
 
 $('rerun').addEventListener('click', async (ev) => {
-  const btn = ev.currentTarget, kill = $('kill').checked, sel = S.selected;
+  const btn = ev.currentTarget, kill = $('kill').checked, live = !kill && $('live').checked, sel = S.selected;
   btn.disabled = true;
   try {
-    const r = await api.explain(S.mid, { moment_id: sel, mode: S.persona.mode, kill });
+    $('trace-hint').textContent = live ? 'Running the agents on Microsoft Foundry…' : 'Re-running the agents…';
+    const r = await api.explain(S.mid, { moment_id: sel, mode: S.persona.mode, kill, live });
     S.rerun = r;
-    $('trace-hint').textContent = `Live re-run for ${kindTitle(moment(sel))}, ${MODES[S.persona.mode]} (backend: ${r.backend}${kill ? ', Explainer killed' : ''}).`;
+    $('trace-hint').textContent = `Live re-run for ${kindTitle(moment(sel))}, ${MODES[S.persona.mode]} (backend: ${r.backend}${kill ? ', Explainer killed' : ''}${r.stored ? `, stored in ${r.stored.store}` : ''}).`;
     $('trace').replaceChildren(...r.trace.map(stepEl));
     const e = r.explanation;
     $('rerun-out').replaceChildren(h('h3', { text: 'Result' }), cardEl({ ...e, persona: e.persona_key, lang: 'en', wanted_lang: 'en', analogy: false }, { watch: false }));
+  } catch (err) {
+    $('trace-hint').textContent = `Re-run failed (${err.message}). The golden trace is unchanged.`;
   } finally {
     btn.disabled = false;
   }
@@ -457,7 +460,8 @@ window.addEventListener('resize', () => {
 async function init() {
   const params = new URLSearchParams(location.search);
   if (params.get('dir') === 'rtl') document.documentElement.dir = 'rtl';
-  const list = await api.matches();
+  const [list, health] = await Promise.all([api.matches(), api.health()]);
+  $('live-wrap').hidden = !health.live;
   const sel = $('match-select');
   sel.replaceChildren(...list.map((m) => h('option', { value: m.match_id, text: `${m.title} · ${m.home} ${m.score} ${m.away}` })));
   const want = location.hash.slice(1);

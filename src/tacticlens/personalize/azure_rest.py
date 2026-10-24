@@ -64,6 +64,19 @@ class AzureRest:
         path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
         return out
 
+    async def analyze_text(self, text: str) -> dict[str, int]:
+        """Content Safety text:analyze (custom domain). Returns {category: severity 0/2/4/6}."""
+        path = self.cache_dir / "safety" / f"{digest(text)}.json"
+        if path.exists():
+            return json.loads(path.read_text(encoding="utf-8"))
+        body = json.dumps({"text": text, "outputType": "FourSeverityLevels"}, ensure_ascii=False).encode()
+        raw = await asyncio.to_thread(self._post, "/contentsafety/text:analyze?api-version=2024-09-01",
+                                      body, {"Content-Type": "application/json; charset=UTF-8"})
+        out = {c["category"]: c["severity"] for c in json.loads(raw)["categoriesAnalysis"]}
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(out), encoding="utf-8")
+        return out
+
     async def speak(self, ssml: str, out_path: Path) -> Path:
         """Speech TTS REST (custom domain) to a 16 kHz mono mp3. Skips the call when out_path exists."""
         if not out_path.exists():

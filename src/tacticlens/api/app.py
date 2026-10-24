@@ -3,11 +3,18 @@
 Golden mode reads only data/golden/ and never calls Azure. Personalization and overlays run per request
 (deterministic and cheap). A what-if for a moment without a precomputed counterfactual is simulated on
 demand (~5 s, N=200 rollouts) and cached to data/cache/whatif/.
+
+Live mode (TACTICLENS_MODE=live plus AZURE_AI_PROJECT_ENDPOINT): POST /explain with live=true runs the Explainer
+and judge on Microsoft Foundry and the SafetyGate on Azure AI Content Safety, then stores the result (Cosmos DB or
+local JSON). Every GET endpoint stays golden, so the Match Center never waits on Azure.
 """
 from __future__ import annotations
 
 import asyncio
+import contextlib
 import json
+import logging
+import os
 from functools import lru_cache
 from pathlib import Path
 from typing import Literal
@@ -26,11 +33,23 @@ from ..counterfactual.rollouts import _evidence, counterfactual, spec_for
 from ..personalize.persona import index_explanations, personalize
 from ..render.overlays import render
 from ..sim.golden import GOLDEN_DIR
+from ..store import get_store
 
 ROOT = Path(__file__).resolve().parents[3]
 WEB_DIR = ROOT / "web"
 WHATIF_CACHE = ROOT / "data" / "cache" / "whatif"
 MAX_GAP_S = 1.5  # longest real-time pause between two replayed events
+MODE = os.environ.get("TACTICLENS_MODE", "golden")
+LIVE = MODE == "live" and bool(os.environ.get("AZURE_AI_PROJECT_ENDPOINT"))
+LIVE_LIMIT = int(os.environ.get("TACTICLENS_LIVE_LIMIT", "300"))  # uncached Foundry runs per process (cost guard)
+
+log = logging.getLogger("tacticlens.api")
+if os.environ.get("APPLICATIONINSIGHTS_CONNECTION_STRING"):
+    try:
+        from azure.monitor.opentelemetry import configure_azure_monitor  # optional extra: pip install .[azure]
+        configure_azure_monitor(logger_name="tacticlens")
+    except ImportError:
+        log.warning("azure-monitor-opentelemetry not installed; App Insights disabled")
 
 app = FastAPI(title="TacticLens", version="0.1.0")
 app.add_middleware(GZipMiddleware, minimum_size=1000)
@@ -53,7 +72,7 @@ def match(mid: str) -> dict:
         raise HTTPException(404, f"unknown match {mid}")
     loc = _read(mid, "localized.json", {})
     return {
-        "meta": _read(mid, "match.json"), "moments": _read(mid, "moments.json"), "events": _read(mid, "events.json"),
+        "meta": _read(mid, "match.json"), "moments": get_store().moments(mid), "events": _read(mid, "events.json"),
         "metrics": _read(mid, "metrics.json"), "audio": _read(mid, "audio.json", {}),
         "explanations": index_explanations(_read(mid, "explanations.json"), loc.get("explanations", [])),
         "trace": _read(mid, "trace.json", {}), "loc_trace": loc.get("trace", {}), "loc_backend": loc.get("backend"),
@@ -86,7 +105,8 @@ def cards_for(mid: str, persona: Persona) -> list[dict]:
 
 @app.get("/api/health")
 def health() -> dict:
-    return {"status": "ok", "mode": "golden", "matches": len(index())}
+    return {"status": "ok", "mode": "live" if LIVE else "golden", "live": LIVE, "store": get_store().name,
+            "matches": len(index())}
 
 
 @app.get("/api/matches")
@@ -182,15 +202,49 @@ class ExplainRequest(BaseModel):
     moment_id: str
     mode: Literal["analyst", "casual", "beginner", "audio"] = "casual"
     kill: bool = False
+    live: bool = False
+
+
+@lru_cache(maxsize=1)
+def live_backends():
+    """Foundry Explainer/judge and Content Safety client, built once on first live request."""
+    from ..agents.explainer import FoundryExplainer
+    from ..personalize.azure_rest import AzureRest
+
+    safety = AzureRest() if os.environ.get("AZURE_AI_SERVICES_ENDPOINT") else None
+    return FoundryExplainer(), safety
+
+
+_live_sem = asyncio.Semaphore(2)
+_live_runs = 0
 
 
 @app.post("/api/matches/{mid}/explain")
 async def explain(mid: str, req: ExplainRequest) -> dict:
-    """Re-run the agent workflow for one moment and persona (offline backend) and return its trace."""
+    """Re-run the agent workflow for one moment and persona and return its trace.
+
+    Offline backend by default; live=true uses Foundry + Content Safety (live mode only) and stores the result."""
+    global _live_runs
     d, m = match(mid), moment(mid, req.moment_id)
-    backend = KilledExplainer() if req.kill else OfflineExplainer()
-    exps, tr = await run_match_async(d["meta"], [m], backend, personas=(req.mode,))
-    return {"backend": backend.name, "explanation": exps[0], "trace": tr["moments"][m["id"]][req.mode]}
+    if req.kill:
+        backend, safety = KilledExplainer(), None
+    elif req.live:
+        if not LIVE:
+            raise HTTPException(409, "live mode is off on this server (TACTICLENS_MODE=golden)")
+        if _live_runs >= LIVE_LIMIT:
+            raise HTTPException(429, "live run limit reached for this instance; golden mode still works")
+        backend, safety = await run_in_threadpool(live_backends)
+        _live_runs += 1
+    else:
+        backend, safety = OfflineExplainer(), None
+    async with _live_sem if backend.name == "foundry" else contextlib.nullcontext():
+        exps, tr = await run_match_async(d["meta"], [m], backend, personas=(req.mode,), safety=safety)
+    trace_steps = tr["moments"][m["id"]][req.mode]
+    out = {"backend": backend.name, "explanation": exps[0], "trace": trace_steps}
+    if backend.name == "foundry":
+        out["stored"] = {"store": get_store().name,
+                         "id": await run_in_threadpool(get_store().save_explanation, mid, exps[0], trace_steps, backend.name)}
+    return out
 
 
 app.mount("/golden", StaticFiles(directory=GOLDEN_DIR), name="golden")

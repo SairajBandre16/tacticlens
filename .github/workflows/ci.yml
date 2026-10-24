@@ -11,5 +11,8 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - run: pip install -e .[dev]
+      - run: pip install -e .[dev,e2e]
+      - run: python -m playwright install --with-deps chromium
       - run: pytest -q
+      - name: Eval table matches the committed golden explanations
+        run: python -m tacticlens.agents eval && git diff --exit-code docs/evaluation.md
