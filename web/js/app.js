@@ -13,6 +13,9 @@ const RTL = new Set(['ar']);
 const DENSITY = ['light', 'normal', 'dense'];
 const MARKER_PX = 34;
 const TEAM_LABELS = ['Team', 'Team taking control', 'Pressing team'];
+// Match stats: [key, label, unit]. Possession is the share of passes, the usual proxy without tracking data.
+const STATS = [['poss', 'Possession', '%'], ['xg', 'Expected goals (xG)', ''], ['shots', 'Shots', ''], ['sot', 'On target', ''],
+  ['pacc', 'Pass accuracy', '%'], ['corners', 'Corners', ''], ['fouls', 'Fouls', ''], ['cards', 'Cards', '']];
 
 const $ = (id) => document.getElementById(id);
 const S = {
@@ -156,6 +159,65 @@ function tick() {
   const ph = $('timeline').querySelector('.playhead');
   if (ph) ph.style.insetInlineStart = `${(min / S.maxMin) * 100}%`;
   showCues(t);
+  showStats(t, min);
+}
+
+// --- match stats -------------------------------------------------------------------------------------------
+// Running totals after every event, so any replay time is one binary search away.
+function buildStats(evs) {
+  const { home, away } = S.d.meta;
+  const zero = () => ({ passes: 0, pok: 0, xg: 0, shots: 0, sot: 0, corners: 0, fouls: 0, cards: 0 });
+  const acc = { [home.id]: zero(), [away.id]: zero() };
+  const snaps = [{ t: -1, home: zero(), away: zero() }];
+  for (const e of evs) {
+    const s = acc[e.team];
+    if (!s) continue;
+    if (e.type === 'pass') { s.passes += 1; if (e.outcome === 'success') s.pok += 1; }
+    else if (e.type === 'shot') { s.shots += 1; s.xg += e.xg || 0; if (e.outcome === 'goal' || e.outcome === 'saved') s.sot += 1; }
+    else if (e.type === 'corner') s.corners += 1;
+    else if (e.type === 'foul') s.fouls += 1;
+    else if (e.type === 'card') s.cards += 1;
+    snaps.push({ t: e.t, home: { ...acc[home.id] }, away: { ...acc[away.id] } });
+  }
+  S.stats = snaps;
+  S.shownStats = '';
+  $('stats').replaceChildren(...STATS.map(([k, label]) => h('div', { class: 'st', role: 'listitem', 'data-k': k },
+    h('b', { class: 'v home' }), h('span', { class: 'lbl', text: label }), h('b', { class: 'v away' }),
+    h('span', { class: 'bar', 'aria-hidden': 'true' }, h('i', { class: 'home' }), h('i', { class: 'away' })))));
+}
+
+function statValues(s, o) {
+  const passes = s.passes + o.passes;
+  return { poss: passes ? Math.round((s.passes / passes) * 100) : 50, xg: s.xg.toFixed(2), shots: s.shots, sot: s.sot,
+    pacc: s.passes ? Math.round((s.pok / s.passes) * 100) : 0, corners: s.corners, fouls: s.fouls, cards: s.cards };
+}
+
+function showStats(t, min) {
+  if (!S.stats) return;
+  let lo = 0, hi = S.stats.length - 1;  // last snapshot at or before t
+  while (lo < hi) { const mid = (lo + hi + 1) >> 1; if (S.stats[mid].t <= t) lo = mid; else hi = mid - 1; }
+  const snap = S.stats[lo];
+  const hv = statValues(snap.home, snap.away), av = statValues(snap.away, snap.home);
+  const key = `${Math.floor(min)}|${JSON.stringify(hv)}|${JSON.stringify(av)}`;
+  if (key === S.shownStats) return;
+  S.shownStats = key;
+  $('stats-at').textContent = `Counted from the event stream up to ${Math.floor(min)}'`;
+  const { home, away } = S.d.meta;
+  for (const [k, label, unit] of STATS) {
+    const row = $('stats').querySelector(`[data-k="${k}"]`);
+    const a = Number(hv[k]), b = Number(av[k]);
+    const [vh, va] = row.querySelectorAll('.v'), [bh, ba] = row.querySelectorAll('.bar i');
+    vh.textContent = `${hv[k]}${unit}`;
+    va.textContent = `${av[k]}${unit}`;
+    // fouls and cards: fewer is better, so the "lead" highlight is for the other side
+    const better = k === 'fouls' || k === 'cards' ? -1 : 1;
+    const lead = Math.sign((a - b) * better);
+    for (const [n, on] of [[vh, lead > 0], [va, lead < 0], [bh, lead > 0], [ba, lead < 0]]) n.classList.toggle('lead', on);
+    const total = a + b;
+    bh.style.flexGrow = total ? a / total : 1;
+    ba.style.flexGrow = total ? b / total : 1;
+    row.setAttribute('aria-label', `${label}: ${home.name} ${hv[k]}${unit}, ${away.name} ${av[k]}${unit}`);
+  }
 }
 
 function showCues(t) {
@@ -191,8 +253,8 @@ async function loadMatch(mid) {
   S.mid = mid;
   S.cardCache.clear();
   $('cards').replaceChildren(...skeletons(4));
-  const d = await api.match(mid);
-  const apply = () => renderMatch(mid, d);
+  const [d, evs] = await Promise.all([api.match(mid), api.events(mid)]);
+  const apply = () => { renderMatch(mid, d); buildStats(evs); };
   // Cross-fade between fixtures where the browser supports view transitions.
   if (S.d && document.startViewTransition && !reducedMotion()) await document.startViewTransition(apply).updateCallbackDone;
   else apply();
@@ -543,6 +605,24 @@ document.addEventListener('keydown', (e) => {
   else if (e.key === ']') stepMoment(1);
   else if (e.key === '[') stepMoment(-1);
 });
+
+// How-it-works guide: each stage opens its tab or scrolls to its view, then briefly lights it up.
+const store = {
+  get: (k) => { try { return localStorage.getItem(k); } catch { return null; } },
+  set: (k, v) => { try { localStorage.setItem(k, v); } catch { /* private mode: the guide just shows again */ } },
+};
+if (store.get('tl-flow-hidden')) $('flow').hidden = true;
+$('flow-x').addEventListener('click', () => { $('flow').hidden = true; store.set('tl-flow-hidden', '1'); });
+for (const b of $('flow').querySelectorAll('[data-go]')) {
+  b.addEventListener('click', () => {
+    const target = $(b.dataset.go);
+    const tab = tabs.includes(target) ? target : null;
+    if (tab) openTab(tab);
+    const box = tab ? document.querySelector('.side') : target;
+    box.scrollIntoView({ behavior: reducedMotion() ? 'auto' : 'smooth', block: 'nearest' });
+    box.classList.remove('spotlit'); void box.offsetWidth; box.classList.add('spotlit');
+  });
+}
 
 $('play').addEventListener('click', () => (S.es ? stop() : play()));
 $('speed').addEventListener('change', () => { if (S.es) play(); });

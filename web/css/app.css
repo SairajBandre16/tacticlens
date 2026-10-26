@@ -106,9 +106,15 @@ input[type=range]:hover::-webkit-slider-thumb { transform: scale(1.15); }
   border-bottom: 1px solid var(--line); box-shadow: var(--inner);
 }
 .brand { display: flex; align-items: center; gap: 10px; }
-.logo { width: 30px; height: 30px; fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; }
-.logo .core { fill: var(--accent); stroke: none; animation: breathe 3.2s ease-in-out infinite; transform-origin: 16px 16px; }
-.brand .word { font-weight: 700; font-size: 1.12rem; letter-spacing: -.02em; }
+.logo { width: 32px; height: 32px; flex: none; filter: drop-shadow(0 6px 14px rgba(181, 232, 106, .22)); transition: transform .5s var(--spring); }
+.logo .ink { fill: none; stroke: var(--accent-ink); stroke-linecap: round; }
+.logo .node { fill: var(--accent-ink); opacity: .75; }
+.logo .ball { fill: var(--accent-ink); animation: ballpop 4s var(--spring) infinite; transform-box: fill-box; transform-origin: center; }
+.logo .glint { fill: rgba(255, 255, 255, .55); }
+.brand:hover .logo { transform: rotate(-8deg) scale(1.06); }
+.brand:hover .logo .glint { animation: glint .9s var(--ease); }
+.brand .word { font-weight: 700; font-size: 1.14rem; letter-spacing: -.03em; }
+.brand .word b { font-weight: 700; color: var(--accent); }
 .brand .sub { color: var(--muted); font-weight: 500; font-size: .9rem; padding-inline-start: 10px; border-inline-start: 1px solid var(--line-2); }
 .match-pick { display: inline-flex; gap: 10px; align-items: center; flex: 0 1 380px; min-width: 0; }
 .match-pick .lbl, .speed .lbl { font: 500 .72rem var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--dim); }
@@ -403,6 +409,50 @@ body:not([data-ready]) #pitch { animation: dim-pulse 1.6s ease-in-out infinite; 
 
 .foot { text-align: center; color: var(--dim); font-size: .78rem; padding: 18px 16px 30px; }
 
+/* --- how-it-works guide: the five pipeline stages, each jumps to where it shows ---------------------------------- */
+.flow { display: flex; align-items: center; gap: 10px 16px; max-width: 1480px; margin: var(--gap) auto 0; padding: 0 18px; }
+.flow-h { flex: none; font: 600 .68rem var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .1em; }
+.flow ol { flex: 1; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; margin: 0; padding: 0; list-style: none; counter-reset: none; }
+.flow li { position: relative; min-width: 0; }
+.flow li + li::before { /* connector between stages */
+  content: ""; position: absolute; top: 50%; inset-inline-start: -8px; width: 8px; height: 1px; background: var(--accent-line);
+}
+.flow ol button {
+  width: 100%; height: 100%; display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-rows: auto auto; column-gap: 9px; align-items: center;
+  text-align: start; padding: 8px 12px; border-radius: var(--r-sm); border: 1px solid var(--line); background: var(--surface-2); box-shadow: var(--inner);
+  transition: border-color .2s var(--ease), background-color .2s var(--ease), transform .25s var(--spring);
+  animation: rise .5s var(--ease) backwards; animation-delay: calc(var(--n, 0) * 60ms);
+}
+.flow li:nth-child(2) button { --n: 1; } .flow li:nth-child(3) button { --n: 2; } .flow li:nth-child(4) button { --n: 3; } .flow li:nth-child(5) button { --n: 4; }
+.flow ol button:hover { border-color: var(--accent-line); background: var(--surface-3); transform: translateY(-1px); }
+.flow i { grid-row: span 2; display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; font: 600 .74rem var(--mono); font-style: normal; color: var(--accent); background: var(--accent-soft); border: 1px solid var(--accent-line); }
+.flow b { font-size: .86rem; font-weight: 650; }
+.flow ol span { font-size: .74rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.flow-x { flex: none; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line); background: transparent; color: var(--dim); font-size: 1.1rem; line-height: 1; }
+.flow-x:hover { color: var(--text); border-color: var(--line-2); }
+.spotlit { animation: spotlit 1.6s var(--ease); }
+@keyframes spotlit { 0%, 100% { box-shadow: 0 0 0 0 rgba(181, 232, 106, 0); } 20% { box-shadow: 0 0 0 4px var(--accent-line); } }
+@media (max-width: 1080px) {
+  .flow { flex-wrap: wrap; }
+  .flow ol { order: 3; flex-basis: 100%; display: flex; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; }
+  .flow li { flex: 0 0 min(220px, 62vw); scroll-snap-align: start; }
+  .flow-x { margin-inline-start: auto; }
+}
+
+/* --- match stats: broadcast-style split bars, counted from events up to the replay time ---------------------------- */
+.stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 28px; padding: 12px 16px; border-radius: var(--r-md); background: var(--surface-2); border: 1px solid var(--line); box-shadow: var(--inner); }
+.st { display: grid; grid-template-columns: 3.4em minmax(0, 1fr) 3.4em; align-items: baseline; gap: 2px 8px; padding: 6px 0; }
+.st .lbl { text-align: center; font-size: .76rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.st .v { font: 600 .9rem var(--mono); font-variant-numeric: tabular-nums; color: var(--muted); transition: color .3s var(--ease); }
+.st .v.away { text-align: end; }
+.st .v.lead { color: var(--text); }
+.st .bar { grid-column: 1 / -1; display: flex; gap: 3px; height: 5px; }
+.st .bar i { display: block; height: 100%; border-radius: 3px; min-width: 3px; background: var(--team); opacity: .45; transition: flex-grow .5s var(--ease), opacity .3s var(--ease); transform-origin: var(--from) center; animation: grow .7s var(--ease) backwards; }
+.st .bar i.home { --team: var(--home); --from: right; }
+.st .bar i.away { --team: var(--away); --from: left; }
+.st .bar i.lead { opacity: 1; }
+@media (max-width: 640px) { .stats { grid-template-columns: minmax(0, 1fr); } }
+
 /* --- motion ------------------------------------------------------------------------------------------------------ */
 @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 @keyframes cue-in { from { opacity: 0; transform: translateX(-12px); clip-path: inset(0 100% 0 0); } to { opacity: 1; transform: none; clip-path: inset(0 0 0 0); } }
@@ -413,7 +463,9 @@ body:not([data-ready]) #pitch { animation: dim-pulse 1.6s ease-in-out infinite; 
 @keyframes burst { 0% { opacity: 0; transform: scale(.92); } 12% { opacity: 1; transform: scale(1); } 75% { opacity: 1; } 100% { opacity: 0; transform: scale(1.04); } }
 @keyframes sweep { to { transform: translateX(100%); } }
 @keyframes ping { 0% { box-shadow: 0 0 0 0 rgba(181, 232, 106, .55); } 70%, 100% { box-shadow: 0 0 0 8px rgba(181, 232, 106, 0); } }
-@keyframes breathe { 50% { transform: scale(.7); opacity: .7; } }
+@keyframes ballpop { 0%, 80%, 100% { transform: none; } 88% { transform: scale(1.35); } }
+@keyframes glint { from { transform: translateX(0); } to { transform: translateX(34px); } }
+@keyframes grow { from { transform: scaleX(0); } }
 @keyframes shimmer { to { background-position: -300% 0; } }
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes dim-pulse { 50% { opacity: .6; } }

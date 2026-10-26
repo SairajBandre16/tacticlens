@@ -126,7 +126,10 @@ def match_detail(mid: str) -> dict:
 
 @app.get("/api/matches/{mid}/events")
 def events(mid: str) -> list[dict]:
-    return match(mid)["events"]
+    """All events, with each shot's xG filled in from the metrics (the stats panel sums them)."""
+    d = match(mid)
+    shot_xg = d["metrics"].get("shot_xg", {})
+    return [{**e, "xg": shot_xg[e["id"]]} if e["id"] in shot_xg else e for e in d["events"]]
 
 
 @app.get("/api/matches/{mid}/replay")

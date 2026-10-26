@@ -1,3 +1,4 @@
+import pytest
 from fastapi.testclient import TestClient
 
 from tacticlens.api.app import app
@@ -16,6 +17,14 @@ def test_match_detail_has_periods_and_wp():
     d = client.get("/api/matches/GM01").json()
     assert [p["period"] for p in d["periods"]] == [1, 2]
     assert d["wp"][0]["minute"] == 0 and len(d["moments"]) == 11
+
+
+def test_events_carry_shot_xg_matching_total():
+    evs = client.get("/api/matches/GM01/events").json()
+    xg_total = client.get("/api/matches/GM01").json()["xg_total"]
+    sums = [sum(e["xg"] or 0 for e in evs if e["team"] == t) for t in ("NBU", "KES")]
+    assert all(e["xg"] is not None for e in evs if e["type"] == "shot")
+    assert sums == pytest.approx(xg_total, abs=0.01)
 
 
 def test_cards_localized_with_english_beside():

@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#0b1310">
 <meta property="og:title" content="TacticLens Match Center">
 <meta property="og:description" content="Replay a match, see why each moment mattered, and read it your way.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b1310'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23b5e86a' stroke-width='2.4'/%3E%3Cpath d='M16 3v6M16 23v6M3 16h6M23 16h6' stroke='%23b5e86a' stroke-width='2.4' stroke-linecap='round'/%3E%3Ccircle cx='16' cy='16' r='2.6' fill='%23b5e86a'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23d6f79a'/%3E%3Cstop offset='1' stop-color='%2389d16a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Cg fill='none' stroke='%230b1310' stroke-linecap='round'%3E%3Ccircle cx='14' cy='14' r='8' stroke-width='2.6'/%3E%3Cpath d='m20 20 6 6' stroke-width='3.4'/%3E%3Cpath d='M9.6 17.4 12.4 12.6l5.2-1.6' stroke-width='1.5' opacity='.75'/%3E%3C/g%3E%3Cg fill='%230b1310'%3E%3Ccircle cx='9.6' cy='17.4' r='1.4'/%3E%3Ccircle cx='12.4' cy='12.6' r='1.4'/%3E%3Ccircle cx='17.6' cy='11' r='2'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;600&display=swap">
@@ -41,14 +41,42 @@
 <a class="skip" href="#main">Skip to match</a>
 <header class="topbar">
   <div class="brand">
-    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="9" /><path d="M16 3v6M16 23v6M3 16h6M23 16h6" /><circle class="core" cx="16" cy="16" r="2.6" /></svg>
-    <span class="word">TacticLens</span><span class="sub">Match Center</span>
+    <!-- mark: a lens over the halfway line, reading a pass chain that ends at the ball -->
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+      <defs>
+        <linearGradient id="logo-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d6f79a"/><stop offset="1" stop-color="#89d16a"/></linearGradient>
+        <clipPath id="logo-lens"><circle cx="14" cy="14" r="6.7"/></clipPath>
+      </defs>
+      <rect class="tile" width="32" height="32" rx="9" fill="url(#logo-g)"/>
+      <g class="ink">
+        <circle cx="14" cy="14" r="8" stroke-width="2.6"/>
+        <path d="m20 20 6 6" stroke-width="3.4"/>
+        <path d="M14 6v16" stroke-width="1.2" opacity=".3"/>
+        <path d="M9.6 17.4 12.4 12.6l5.2-1.6" stroke-width="1.5" stroke-linejoin="round" opacity=".75"/>
+      </g>
+      <circle class="node" cx="9.6" cy="17.4" r="1.4"/><circle class="node" cx="12.4" cy="12.6" r="1.4"/>
+      <circle class="ball" cx="17.6" cy="11" r="2"/>
+      <g clip-path="url(#logo-lens)"><g transform="rotate(30 14 14)"><rect class="glint" x="-8" y="-8" width="5" height="44"/></g></g>
+    </svg>
+    <span class="word">Tactic<b>Lens</b></span><span class="sub">Match Center</span>
   </div>
   <label class="match-pick"><span class="lbl">Fixture</span>
     <select id="match-select" aria-label="Choose a match"></select>
   </label>
   <span class="badge" id="mode-badge" title="All data is synthetic and pre-generated; no live services needed"><i class="pulse" aria-hidden="true"></i><span id="mode-text">Golden replay</span><span class="dim">· synthetic data</span></span>
 </header>
+
+<nav class="flow" id="flow" aria-label="How TacticLens works">
+  <span class="flow-h">How it works</span>
+  <ol>
+    <li><button type="button" data-go="pitch-wrap"><i>1</i><b>Ingest</b><span>Events stream onto the pitch</span></button></li>
+    <li><button type="button" data-go="wp-chart"><i>2</i><b>Interpret</b><span>xG, xT, win probability</span></button></li>
+    <li><button type="button" data-go="tab-story"><i>3</i><b>Explain</b><span>Every number cites evidence</span></button></li>
+    <li><button type="button" data-go="tab-overlays"><i>4</i><b>Render</b><span>Overlay cues as JSON</span></button></li>
+    <li><button type="button" data-go="tab-compare"><i>5</i><b>Personalize</b><span>Viewer, language, audio</span></button></li>
+  </ol>
+  <button type="button" class="flow-x" id="flow-x" aria-label="Hide the how-it-works guide">×</button>
+</nav>
 
 <main id="main">
   <section class="stage" aria-label="Match replay">
@@ -69,7 +97,7 @@
     </div>
     <p class="story"><span class="kicker" id="match-title"></span><span id="story"></span></p>
 
-    <div class="pitch-wrap">
+    <div class="pitch-wrap" id="pitch-wrap">
       <svg id="pitch" viewBox="-2 -2 109 72" role="img" aria-labelledby="pitch-title">
         <title id="pitch-title">Pitch replay. The home team attacks to the right.</title>
       </svg>
@@ -94,6 +122,11 @@
     <p class="keys" aria-hidden="true"><kbd>Space</kbd> play <kbd>←</kbd><kbd>→</kbd> 30 s <kbd>[</kbd><kbd>]</kbd> moments</p>
 
     <p class="caption" id="caption" aria-live="polite" aria-atomic="true">Press play, or pick a moment on the timeline.</p>
+
+    <div class="block">
+      <div class="block-head"><h2 class="h">Match stats</h2><span class="hint-inline" id="stats-at">Counted from the event stream up to 0'</span></div>
+      <div class="stats" id="stats" role="list" aria-label="Match stats at the current replay time"></div>
+    </div>
 
     <div class="block">
       <div class="block-head"><h2 class="h">Key moments</h2><span class="legend-mini" id="kind-legend"></span></div>

@@ -24,6 +24,7 @@ export const api = {
   health: () => get('api/health'),
   matches: () => get('api/matches'),
   match: (id) => get(`api/matches/${id}`),
+  events: (id) => get(`api/matches/${id}/events`),
   cards: (id, persona) => get(`api/matches/${id}/cards`, persona),
   overlays: (id, persona) => get(`api/matches/${id}/overlays`, persona),
   trace: (id, momentId, mode, lang) => get(`api/matches/${id}/trace/${momentId}`, { mode, lang }),
