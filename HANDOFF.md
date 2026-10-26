@@ -6,6 +6,6 @@
 - Oct 26: UI pass (lens logo + favicon, how-it-works pipeline guide, live match-stats panel from /events with shot xG). Pushed to public GitHub (main in sync). Live URL NOT yet redeployed with the redesign: run `azd deploy`.
 - Oct 26 (M8): new type (Plus Jakarta Sans + Barlow Condensed), decluttered layout; README rewritten (Mermaid architecture, results, testing steps, judging map, screenshots in docs/img); docs/submission.md = form text + video script.
 - Video published: https://youtu.be/srW510kqPf0 (1:49, public); link in README + docs/submission.md. Source kept locally in demo-video/ (git-excluded).
-- Next (user): `azd up` (provision applies `minReplicas: 1`, deploy ships the new UI), check the live URL logged out, close issues #2-#9, then submit the form with docs/submission.md by Oct 27 18:00 Dublin.
+- Oct 26: `azd up` done; live URL serves the new UI, minReplicas 1 (revision --azd-1793038237 has 100% traffic). Left: close issues #2-#9, submit the form with docs/submission.md by Oct 27 18:00 Dublin.
 - Open: `azd pipeline config` (creates a federated SP in the UCD tenant) not run, so deploy.yml stays skipped until then; UI strings English only; `tone` has no effect; close GitHub issues #1, #5 + M6/M7.
 - Usage (Oct 25, M7 session): weekly 3% -> 5%; session 6% -> 16%.
