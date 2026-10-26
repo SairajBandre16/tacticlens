@@ -16,7 +16,7 @@ azd up                                        # needs Docker running locally (se
 |---|---|
 | User-assigned managed identity | AcrPull on the registry; Cognitive Services User + Azure AI User on the AI Services account; Cosmos DB Built-in Data Contributor |
 | Container Registry (Basic) | the app image |
-| Container Apps environment (workload profiles, Consumption) + app | public HTTPS ingress on port 8000, scale 0-2, readiness probe on `/api/health` |
+| Container Apps environment (workload profiles, Consumption) + app | public HTTPS ingress on port 8000, scale 1-2 (one warm replica), readiness probe on `/api/health` |
 | Cosmos DB (serverless, local auth disabled) | db `tacticlens`, containers `moments` and `explanations`, both partitioned on `/match_id` |
 | Log Analytics + Application Insights | container logs, request telemetry (`azure-monitor-opentelemetry`) |
 

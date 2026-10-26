@@ -168,7 +168,7 @@ resource api 'Microsoft.App/containerApps@2026-01-01' = {
         // the placeholder image listens on 80, so probe only our own image
         probes: empty(apiImage) ? [] : [{ type: 'Readiness', httpGet: { path: '/api/health', port: 8000 }, periodSeconds: 10 }]
       }]
-      scale: { minReplicas: 0, maxReplicas: 2 }
+      scale: { minReplicas: 1, maxReplicas: 2 }  // one warm replica through judging (no cold start)
     }
   }
 }

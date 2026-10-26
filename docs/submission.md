@@ -1,11 +1,11 @@
 # Submission kit
 
-Copy-ready text for the hackathon form, plus the demo video script. Replace each `TODO` before submitting.
+Copy-ready text for the hackathon form, plus the script the demo video was made from.
 
 ## Links
 - Repository: https://github.com/SairajBandre16/tacticlens
 - Live demo: https://ca-tacticlens-bwdo4r22di23o.ambitiousocean-8d1c2333.francecentral.azurecontainerapps.io
-- Video: TODO (YouTube or Vimeo, public or unlisted, under 2 minutes)
+- Video: https://youtu.be/srW510kqPf0 (1:49, public)
 - Categories: Grand Prize; Best Use of Microsoft Foundry; Best Multi-Agent System
 
 ## Project name and tagline
@@ -36,7 +36,7 @@ No login is needed. The first load can take about 20 seconds while the app start
 All data is synthetic, and all clubs and players are fictional.
 
 ## Video script (target 105 s, hard cap 120 s)
-Record at 1440 × 900 with the browser zoom at 100%. Before you record, set the Container App to one warm replica (`minReplicas: 1`). Use no music, or only music you own. Show no real logos.
+The published video follows this script: screen captures of the Match Center at 1920 × 1080, an Azure AI Speech voiceover (en-US-AndrewMultilingualNeural), burned-in subtitles, no music and no real logos.
 
 | Time | On screen | Voice-over |
 |---|---|---|
