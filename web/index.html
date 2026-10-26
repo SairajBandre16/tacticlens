@@ -11,7 +11,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23d6f79a'/%3E%3Cstop offset='1' stop-color='%2389d16a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Cg fill='none' stroke='%230b1310' stroke-linecap='round'%3E%3Ccircle cx='14' cy='14' r='8' stroke-width='2.6'/%3E%3Cpath d='m20 20 6 6' stroke-width='3.4'/%3E%3Cpath d='M9.6 17.4 12.4 12.6l5.2-1.6' stroke-width='1.5' opacity='.75'/%3E%3C/g%3E%3Cg fill='%230b1310'%3E%3Ccircle cx='9.6' cy='17.4' r='1.4'/%3E%3Ccircle cx='12.4' cy='12.6' r='1.4'/%3E%3Ccircle cx='17.6' cy='11' r='2'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Barlow+Condensed:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;600&display=swap">
 <link rel="stylesheet" href="css/app.css">
 <script type="module" src="js/app.js"></script>
 </head>
@@ -69,11 +69,11 @@
 <nav class="flow" id="flow" aria-label="How TacticLens works">
   <span class="flow-h">How it works</span>
   <ol>
-    <li><button type="button" data-go="pitch-wrap"><i>1</i><b>Ingest</b><span>Events stream onto the pitch</span></button></li>
-    <li><button type="button" data-go="wp-chart"><i>2</i><b>Interpret</b><span>xG, xT, win probability</span></button></li>
-    <li><button type="button" data-go="tab-story"><i>3</i><b>Explain</b><span>Every number cites evidence</span></button></li>
-    <li><button type="button" data-go="tab-overlays"><i>4</i><b>Render</b><span>Overlay cues as JSON</span></button></li>
-    <li><button type="button" data-go="tab-compare"><i>5</i><b>Personalize</b><span>Viewer, language, audio</span></button></li>
+    <li><button type="button" data-go="pitch-wrap" title="Events stream onto the pitch"><i>1</i><b>Ingest</b></button></li>
+    <li><button type="button" data-go="wp-chart" title="xG, xT, win probability"><i>2</i><b>Interpret</b></button></li>
+    <li><button type="button" data-go="tab-story" title="Every number cites evidence"><i>3</i><b>Explain</b></button></li>
+    <li><button type="button" data-go="tab-overlays" title="Overlay cues as JSON"><i>4</i><b>Render</b></button></li>
+    <li><button type="button" data-go="tab-compare" title="Viewer, language, audio"><i>5</i><b>Personalize</b></button></li>
   </ol>
   <button type="button" class="flow-x" id="flow-x" aria-label="Hide the how-it-works guide">×</button>
 </nav>
@@ -108,7 +108,7 @@
     </div>
 
     <div class="controls" role="group" aria-label="Replay controls">
-      <button id="play" class="play" type="button" aria-keyshortcuts="Space" aria-pressed="false"><svg class="ic"><use href="#i-play"/></svg><span>Play</span></button>
+      <button id="play" class="play" type="button" aria-keyshortcuts="Space" aria-pressed="false" title="Play or pause (Space)"><svg class="ic"><use href="#i-play"/></svg><span>Play</span></button>
       <label class="seek"><span class="sr">Time</span>
         <input id="seek" type="range" min="0" max="5900" step="10" value="0" aria-valuetext="minute 0">
       </label>
@@ -119,7 +119,6 @@
         </select>
       </label>
     </div>
-    <p class="keys" aria-hidden="true"><kbd>Space</kbd> play <kbd>←</kbd><kbd>→</kbd> 30 s <kbd>[</kbd><kbd>]</kbd> moments</p>
 
     <p class="caption" id="caption" aria-live="polite" aria-atomic="true">Press play, or pick a moment on the timeline.</p>
 
@@ -134,7 +133,7 @@
     </div>
 
     <div class="block">
-      <div class="block-head"><h2 class="h">Win probability</h2><span class="hint-inline">Hover to read, click to jump</span></div>
+      <div class="block-head"><h2 class="h">Win probability</h2><span class="hint-inline">Click to jump</span></div>
       <div class="wp" id="wp-chart" dir="ltr"></div>
     </div>
   </section>
@@ -161,13 +160,18 @@
         <label class="field">Language
           <select name="lang"><option value="en">English</option><option value="hi">हिन्दी (Hindi)</option><option value="es">Español (Spanish)</option></select>
         </label>
-        <label class="field">Favourite club <select name="fav_club"><option value="">None</option></select></label>
-        <label class="field">Favourite player <select name="fav_player"><option value="">None</option></select></label>
-        <label class="field range">Stats density <input type="range" name="stats_density" min="0" max="2" value="1" aria-valuetext="normal"></label>
-        <div class="toggles">
-          <label class="check switch"><input type="checkbox" name="player_lock"> Player-lock</label>
-          <label class="check switch"><input type="checkbox" name="analogy" value="cricket"> Cricket analogies</label>
-        </div>
+        <details class="more" id="more">
+          <summary>More options <span class="more-n" id="more-n"></span></summary>
+          <div class="more-grid">
+            <label class="field">Favourite club <select name="fav_club"><option value="">None</option></select></label>
+            <label class="field">Favourite player <select name="fav_player"><option value="">None</option></select></label>
+            <label class="field range">Stats density <input type="range" name="stats_density" min="0" max="2" value="1" aria-valuetext="normal"></label>
+            <div class="toggles">
+              <label class="check switch"><input type="checkbox" name="player_lock"> Player-lock</label>
+              <label class="check switch"><input type="checkbox" name="analogy" value="cricket"> Cricket analogies</label>
+            </div>
+          </div>
+        </details>
       </form>
       <div id="cards" class="cards" aria-live="polite"></div>
     </div>
@@ -203,6 +207,7 @@
     </div>
   </section>
 </main>
-<footer class="foot">Synthetic data and fictional clubs only. Numbers come from computed evidence, and every sentence cites it.</footer>
+<footer class="foot">Synthetic data and fictional clubs only. Numbers come from computed evidence, and every sentence cites it.<br>
+Keys: <kbd>Space</kbd> play · <kbd>←</kbd><kbd>→</kbd> 30 s · <kbd>[</kbd><kbd>]</kbd> previous / next moment</footer>
 </body>
 </html>

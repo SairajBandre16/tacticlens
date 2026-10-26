@@ -6,7 +6,8 @@ import { wpChart, whatifChart } from './charts.js';
 
 const KIND = { goal: ['Goal', 'i-goal'], big_chance: ['Big chance', 'i-chance'], red_card: ['Red card', 'i-card'],
   momentum_shift: ['Momentum shift', 'i-momentum'], press_collapse: ['Press collapse', 'i-press'], sub_effect: ['Substitution effect', 'i-sub'] };
-const DNA = [['press_intensity', 'Press'], ['tempo', 'Tempo'], ['directness', 'Direct'], ['width', 'Width']];
+const DNA = [['press_intensity', 'Press', 'High press', 'Low block'], ['tempo', 'Tempo', 'Quick tempo', 'Patient build-up'],
+  ['directness', 'Directness', 'Direct', 'Short passing'], ['width', 'Width', 'Wide', 'Narrow']];
 const MODES = { casual: 'Casual fan', analyst: 'Analyst', beginner: 'Beginner', audio: 'Audio description' };
 const LANGS = { en: 'English', hi: 'हिन्दी', es: 'Español' };
 const RTL = new Set(['ar']);
@@ -57,12 +58,15 @@ function crest(team, side) {
     + `<stop offset="0" stop-color="var(--${side})"/><stop offset="1" stop-color="var(--${side})" stop-opacity=".55"/></linearGradient></defs>`
     + `<path d="M25 2 46 9v17c0 14-9 23-21 28C13 49 4 40 4 26V9z" fill="url(#cg-${side})" stroke="rgba(255,255,255,.35)" stroke-width="1.2"/>`
     + `<path d="M25 7 41 12.5V26c0 10.5-6.5 17.6-16 21.8" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="1.2"/>`
-    + `<text x="25" y="33" text-anchor="middle" font-family="Geist Mono, monospace" font-weight="600" font-size="12.5" fill="#0b1310">${esc(team.id)}</text></svg>`;
+    + `<text x="25" y="33" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-weight="700" font-size="14" fill="#0b1310">${esc(team.id)}</text></svg>`;
 }
 
-function dna(team, side) {
-  return DNA.map(([k, label]) => h('span', { title: `${label} ${Math.round(team.style[k] * 100)}/100` }, label,
-    h('i', { style: `--v:${team.style[k]};--team:var(--${side})` })));
+// Team style as words: the two simulator parameters furthest from neutral; all four values in the tooltip.
+function dna(el, team) {
+  const traits = DNA.map(([k, , hi, lo]) => ({ d: team.style[k] - 0.5, t: team.style[k] >= 0.5 ? hi : lo }))
+    .sort((a, b) => Math.abs(b.d) - Math.abs(a.d)).slice(0, 2).map((x) => x.t);
+  el.textContent = traits.join(' · ');
+  el.title = DNA.map(([k, label]) => `${label} ${Math.round(team.style[k] * 100)}/100`).join(', ');
 }
 
 // --- time helpers ------------------------------------------------------------------------------------------
@@ -272,8 +276,8 @@ function renderMatch(mid, d) {
   $('away-name').textContent = meta.away.name;
   $('home-crest').innerHTML = crest(meta.home, 'home');
   $('away-crest').innerHTML = crest(meta.away, 'away');
-  $('home-dna').replaceChildren(...dna(meta.home, 'home'));
-  $('away-dna').replaceChildren(...dna(meta.away, 'away'));
+  dna($('home-dna'), meta.home);
+  dna($('away-dna'), meta.away);
   $('match-title').textContent = meta.title;
   $('story').textContent = meta.story;
   pitch.setHome(meta.home.id);
@@ -323,6 +327,7 @@ function fillPersonaOptions() {
   S.persona.fav_club = '';
   S.persona.fav_player = '';
   fillPlayers();
+  personaFromForm();
 }
 
 function fillPlayers() {
@@ -344,6 +349,10 @@ function personaFromForm() {
     analogy: f.analogy.checked ? 'cricket' : 'none', stats_density: Number(f.stats_density.value),
   });
   f.stats_density.setAttribute('aria-valuetext', DENSITY[S.persona.stats_density]);
+  // how many of the folded options differ from the defaults, shown on the "More options" summary
+  const p = S.persona;
+  const n = [p.fav_club, p.fav_player, p.player_lock, p.analogy !== 'none', p.stats_density !== 1].filter(Boolean).length;
+  $('more-n').textContent = n ? `${n} on` : '';
 }
 
 async function refreshPersona() {
