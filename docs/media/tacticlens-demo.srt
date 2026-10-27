@@ -1,0 +1,127 @@
+1
+00:00:00,500 --> 00:00:01,700
+This is TacticLens.
+
+2
+00:00:02,049 --> 00:00:05,390
+An AI match-intelligence engine on Microsoft Azure,
+
+3
+00:00:05,390 --> 00:00:09,189
+that turns football data into stories every fan can trust.
+
+4
+00:00:09,890 --> 00:00:11,679
+A scoreline doesn't explain a game.
+
+5
+00:00:12,030 --> 00:00:14,867
+And one commentary can't fit every fan:
+
+6
+00:00:14,867 --> 00:00:18,359
+analysts, casual fans, beginners, or blind fans.
+
+7
+00:00:18,710 --> 00:00:22,000
+AI can write for all of them. But AI also invents numbers.
+
+8
+00:00:22,699 --> 00:00:25,168
+TacticLens simulates fictional matches,
+
+9
+00:00:25,168 --> 00:00:29,030
+and trains its own expected-goals and win-probability models.
+
+10
+00:00:29,379 --> 00:00:32,450
+As events stream in, the score, the match stats,
+
+11
+00:00:32,450 --> 00:00:35,010
+and the win probability all update live.
+
+12
+00:00:35,710 --> 00:00:37,730
+A detector finds the moments that mattered.
+
+13
+00:00:38,079 --> 00:00:40,345
+Each one becomes broadcast overlays,
+
+14
+00:00:40,345 --> 00:00:43,429
+delivered as JSON that a graphics system can use.
+
+15
+00:00:44,130 --> 00:00:48,391
+Agents on Microsoft Foundry write the story of every moment,
+
+16
+00:00:48,391 --> 00:00:51,090
+and every sentence cites its evidence.
+
+17
+00:00:51,440 --> 00:00:54,106
+The same goal reads differently for an analyst,
+
+18
+00:00:54,106 --> 00:00:58,020
+and for a beginner in Hindi, with the English source right beside it.
+
+19
+00:00:58,719 --> 00:01:02,164
+Blind and low-vision fans get an audio description,
+
+20
+00:01:02,164 --> 00:01:03,920
+voiced by Azure AI Speech.
+
+21
+00:01:08,920 --> 00:01:10,590
+And what if that goal had never gone in?
+
+22
+00:01:10,939 --> 00:01:15,789
+The engine replays the rest of the match two hundred times with that one change,
+
+23
+00:01:15,789 --> 00:01:17,850
+and shows the shift in win chance.
+
+24
+00:01:18,549 --> 00:01:21,539
+A verifier checks every number before a fan sees it.
+
+25
+00:01:21,890 --> 00:01:24,167
+Here we switch off the Explainer agent.
+
+26
+00:01:24,167 --> 00:01:27,730
+The workflow retries, then falls back to a verified template.
+
+27
+00:01:28,079 --> 00:01:30,590
+No fan ever sees an unchecked number.
+
+28
+00:01:31,290 --> 00:01:36,171
+Under the hood: Agent Framework and Microsoft Foundry run the agents,
+
+29
+00:01:36,171 --> 00:01:41,760
+with Azure AI Content Safety, Speech, Translator, Cosmos DB and Container Apps.
+
+30
+00:01:42,459 --> 00:01:43,209
+TacticLens.
+
+31
+00:01:43,559 --> 00:01:45,969
+Every story checked. Every fan included.
+
+32
+00:01:04,320 --> 00:01:08,920
+[Audio description] Minute 88. Felix Norier scores for Northbridge United, and the score is now 3-2.
